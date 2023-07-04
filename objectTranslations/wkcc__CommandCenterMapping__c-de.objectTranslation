@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Command Center-Zuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Command Center-Zuordnungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Command Center-Zuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Command Center-Zuordnungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Command Center-Zuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Command Center-Zuordnungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Command Center-Zuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Command Center-Zuordnungen</value>
+    </caseValues>
+    <fields>
+        <help>Die Namenseigenschaft der gespeicherten ID aus dem Nachschlagetyp</help>
+        <label><!-- Mapped Value Name --></label>
+        <name>wkcc__MappedValueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapped Value --></label>
+        <name>wkcc__MappedValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Key --></label>
+        <name>wkcc__MappingKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type Id --></label>
+        <name>wkcc__MappingTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type --></label>
+        <name>wkcc__MappingType__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Zugeordnetes Feld</nameFieldLabel>
+</CustomObjectTranslation>

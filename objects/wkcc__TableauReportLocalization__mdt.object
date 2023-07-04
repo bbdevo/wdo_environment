@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>wkcc__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <description>User Language</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Language</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocalizedViewUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>URL for the location specific Tableau view</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Localized View URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__PublicTableauUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Public Tableau report URL</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Public Tableau URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>Tableau Report Localization</label>
+    <pluralLabel>Tableau Report Localizations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

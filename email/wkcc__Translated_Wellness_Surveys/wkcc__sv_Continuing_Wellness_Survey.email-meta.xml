@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-postmall för Work.com, fortgående undersökning av medarbetares hälsa</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fortgående hälsoundersökning</name>
+    <style>none</style>
+    <subject>Hälsoundersökning - Var god fyll i</subject>
+    <textOnly>För att säkerställa högsta nivå av fortsatt hälsa och säkerhet på din arbetsplats, fyll i denna undersökning för att rapportera din aktuella hälsostatus.
+
+Dina svar används endast för att avgöra om du kan fortsätta arbeta på din arbetsplats. Dessa data är konfidentiella och endast för internt bruk.
+
+Undersökningslänken är unik för dig. Vidarebefordra inte detta e-postmeddelande till andra.
+
+{{Survey}}
+
+Tack, vi uppskattar ditt stöd och samarbete.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

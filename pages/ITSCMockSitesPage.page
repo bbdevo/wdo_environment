@@ -1,0 +1,6 @@
+<apex:page >
+  <h1>ITSC - Service Mock</h1>
+  <p>
+    Home page for ITSC - Service Mock
+  </p>
+</apex:page>

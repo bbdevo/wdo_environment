@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Text</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Geben Sie den Standardinhalt für Benutzer ein, wenn sie ein neues Ticket mit Bezug zu diesem Artikel anlegen. Das Feld kann leer sein oder eine Anweisung enthalten, z. B. &quot;Beschreiben Sie Ihr Problem oder Ihre Anfrage...&quot;</help>
+        <label>Kundenvorgangs-Beschreibung</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>Sie können das Feld &quot;Kundenvorgangsthema&quot; leer lassen. In diesem Fall wird hier standardmäßig der Titel des aktuellen Artikels eingefügt.</help>
+        <label>Kundenvorgangsthema</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label>Zugehöriger Fall</label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel>Wissen</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label>Artikeldetails</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>Eigenschaften</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label>Artikeldetails</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>Eigenschaften</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zu Sozialleistungen</description>
+        <label>HR: Sozialleistungen</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zu Mitarbeiterbeziehungen</description>
+        <label>HR: Mitarbeiterbeziehungen</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Allgemeine HR-Service-Center-Artikel</description>
+        <label>HR: Allgemein</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zu Urlaub</description>
+        <label>HR: Urlaub</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zur Einarbeitung</description>
+        <label>HR: Einarbeitung</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zur Gehaltsabrechnung</description>
+        <label>HR: Gehaltsabrechnung</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Erstellen Sie einen Knowledge-Artikel für Inhalte aus dem Bereich &quot;Informationstechnologie&quot;, beispielsweise Geräte, Zugriff oder Lösungen für Anwendungsleistung.</description>
+        <label>IT-Knowledge-Artikel</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Bekannter Fehler</label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Service-Wissen</label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

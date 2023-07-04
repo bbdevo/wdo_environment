@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Badan</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Masukkan konten default untuk pengguna saat mereka mencatat tiket baru yang terkait dengan artikel ini. Bidang isian dapat kosong, atau instruksional, seperti &quot;Jelaskan masalah atau permintaan Anda...</help>
+        <label>Deskripsi Kasus</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>Anda dapat mengosongkan bidang isian Subjek Kasus dan akan menjadi default judul artikel saat ini.</help>
+        <label>Subjek Kasus</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Artikel tunjangan Pusat Layanan SDM</description>
+        <label>SDM - Tunjangan</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel hubungan karyawan Pusat Layanan SDM</description>
+        <label>SDM - Hubungan Karyawan</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel umum Pusat Layanan SDM</description>
+        <label>SDM - Umum</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel cuti Pusat Layanan SDM</description>
+        <label>SDM - Cuti</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel orientasi karyawan baru Pusat Layanan SDM</description>
+        <label>SDM - Orientasi Karyawan Baru</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel gaji Pusat Layanan SDM</description>
+        <label>SDM - Gaji</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Buat artikel pengetahuan untuk konten teknologi informasi, seperti peralatan, akses, atau solusi kinerja aplikasi</description>
+        <label>Artikel Pengetahuan TI</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Preslikava aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Preslikave aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Preslikavo aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Preslikave aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Preslikave aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Preslikav aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Preslikavi aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Preslikavam aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Preslikavo aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Preslikavami aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Preslikavi aplikacije Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Preslikavah aplikacije Command Center</value>
+    </caseValues>
+    <fields>
+        <help>Lastnost imena shranjenega ID-ja iz vrste poizvedbe za iskanje</help>
+        <label><!-- Mapped Value Name --></label>
+        <name>wkcc__MappedValueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapped Value --></label>
+        <name>wkcc__MappedValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Key --></label>
+        <name>wkcc__MappingKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type Id --></label>
+        <name>wkcc__MappingTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type --></label>
+        <name>wkcc__MappingType__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Preslikano polje</nameFieldLabel>
+</CustomObjectTranslation>

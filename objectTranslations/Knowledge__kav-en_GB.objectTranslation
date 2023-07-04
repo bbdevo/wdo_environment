@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Body</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Enter default content for users when they log a new ticket related to this article. The field can be blank, or instructional, such as “Describe your issue or request...</help>
+        <label>Case Description</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>You can leave the Case Subject field blank and it will default to the current article title.</help>
+        <label>Case Subject</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>HR Service Centre benefits articles</description>
+        <label>HR - Benefits</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR Service Centre employee relations articles</description>
+        <label>HR - Employee Relations</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>General HR Service Centre articles</description>
+        <label>HR - General</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR Service Centre leave articles</description>
+        <label>HR - Leave</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR Service Centre onboarding articles</description>
+        <label>HR - Onboarding</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR Service Centre payroll articles</description>
+        <label>HR - Payroll</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Create a knowledge article for information technology content, such as equipment, access, or application performance solutions</description>
+        <label>IT Knowledge Article</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

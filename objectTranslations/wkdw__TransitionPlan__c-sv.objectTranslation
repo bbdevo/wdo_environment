@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Övergångsplan --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- En övergångsplan --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Övergångsplanen --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Övergångsplaner --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Övergångsplaner --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Övergångsplanerna --></value>
+    </caseValues>
+    <fields>
+        <label><!-- CompletedDate --></label>
+        <name>wkdw__CompletedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>wkdw__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>wkdw__Employee__c</name>
+        <relationshipLabel><!-- Transition Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>wkdw__Manager__c</name>
+        <relationshipLabel><!-- Transition Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>wkdw__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Slutförd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Pågår</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>Inte påbörjad</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template --></label>
+        <name>wkdw__TransitionPlanTemplate__c</name>
+        <relationshipLabel><!-- Transition Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The description that employees see at the top of their transition checklist. --></help>
+        <label><!-- Welcome Text --></label>
+        <name>wkdw__WelcomeText__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Transition Plan Name --></nameFieldLabel>
+</CustomObjectTranslation>

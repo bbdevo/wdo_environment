@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- User Workspace Settings --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- User Workspace Settings --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Pinned Apps --></label>
+        <name>wkdw__PinnedApps__c</name>
+    </fields>
+    <nameFieldLabel><!-- User Workspace Settings Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

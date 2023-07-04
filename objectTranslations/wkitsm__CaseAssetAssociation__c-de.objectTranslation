@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Case Asset Association --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Asset Id --></label>
+        <name>wkitsm__AssetId__c</name>
+        <relationshipLabel><!-- Case Asset Associations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch Id --></label>
+        <name>wkitsm__BatchId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Id --></label>
+        <name>wkitsm__CaseId__c</name>
+        <relationshipLabel><!-- Case Asset Associations --></relationshipLabel>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- CaseAssetAssociation Name --></nameFieldLabel>
+</CustomObjectTranslation>

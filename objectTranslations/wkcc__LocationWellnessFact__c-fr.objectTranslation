@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fait de bien-être à l&apos;emplacement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Faits de bien-être à l&apos;emplacement</value>
+    </caseValues>
+    <fields>
+        <help>Identifiant unique de l&apos;enregistrement sous le format [&quot;Cascade&quot; + &quot;:&quot; +] &lt;ID emplacement&gt; + ‘:’ + &lt;État de bien-être&gt;. Le préfixe cascade est présent uniquement dans les enregistrements avec des valeurs d&apos;état de bien-être d&apos;un emplacement enfant.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre total d&apos;employés indépendamment de l&apos;état de bien-être.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Le niveau de l&apos;emplacement associé.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;emplacement auquel cet enregistrement de fait est associé.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque un emplacement comme nécessitant une ré-agrégation si la valeur est True, ou n’en ayant pas besoin si la valeur est False.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Le pourcentage des employés dans un état de bien-être satisfaisant à l&apos;emplacement.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre d&apos;employés dans un état de bien-être satisfaisant à l&apos;emplacement.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;état de bien-être de l&apos;employé.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

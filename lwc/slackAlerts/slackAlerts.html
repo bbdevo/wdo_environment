@@ -1,0 +1,244 @@
+<template>
+    <div class={pickerClassList}>
+
+        <!-- Error State -->
+        <template if:true={hasError}>
+            <div class="slds-scoped-notification slds-media slds-scoped-notification_light slds-theme_error" role="status">
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="utility:error" size="medium" variant="inverse"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                    <p>{errMsg}</p>
+                </div>
+            </div>
+        </template>
+        <!-- /Error State -->
+
+        <template if:true={isClassic}>
+
+            <!-- Classic Success Toast -->
+            <div class="slack-toast__classic">
+                <div class="slds-notify_container slds-is-absolute">
+                    <div class="slds-notify slds-notify_toast slds-theme_success" role="status">
+                        <span class="slds-assistive-text">success</span>
+                        <span class="slds-m-right_small slds-no-flex slds-align-top">
+                            <lightning-icon icon-name="utility:success" variant="inverse" size="small" alternative-text="Success"></lightning-icon>
+                        </span>
+                        <div class="slds-notify__content">
+                            <h2 class="slds-text-heading_small ">
+                                Successfully Updated Alerts
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Classic Success Toast -->
+
+        </template>
+
+        <template if:false={hasError}>
+
+            <!-- Loading state -->
+            <template if:true={loading}>
+                <div class="slack-spinner-container_initial">
+                    <lightning-spinner
+                        alternative-text="Loading..."
+                        class="slack-spinner"
+                    ></lightning-spinner>
+                </div>
+            </template>
+            <!-- /Loading state -->
+
+            <!-- Initialized state -->
+            <template if:false={loading}>
+                <template if:true={isSending}>
+                    <lightning-spinner
+                        alternative-text="Loading..."
+                        class="slack-spinner"
+                    ></lightning-spinner>
+                </template>
+
+                <!-- Un-Authed State -->
+                <template if:false={isUserAuthed}>
+                    <div class={notAuthedClass}>
+                        <template if:true={isExpired}>
+
+                            <!-- Inline Notification -->
+                            <div class="slds-p-horizontal_large">
+                                <div class="slds-scoped-notification slds-media slds-media_center slds-theme_warning" role="status">
+                                    <div class="slds-media__figure">
+                                        <lightning-icon icon-name="utility:warning" alternative-text="Warning" size="small"></lightning-icon>
+                                    </div>
+                                    <div class="slds-media__body">
+                                        <p>
+                                            The selected workspace is no longer connected to Salesforce. In order to use the expired workspace again, you must log back into it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Inline Notification -->
+
+                        </template>
+
+                        <c-auth
+                            onauthed={authed}
+                            new-auth="false"
+                            header="Sign in to Slack"
+                            message="Before you can start sharing your Salesforce records to Slack, you must first sign into Slack. Click the button below to get started."
+                            class="slds-col"
+                        ></c-auth>
+                    </div>
+                </template>
+                <!-- /Un-Authed State -->
+
+                <!-- New Auth State -->
+                <template if:true={newAuth}>
+                    <div class={notAuthedClass}>
+                        <c-auth
+                            onauthed={authed}
+                            onback={goBack}
+                            new-auth="true"
+                            header="Add New Slack Workspace"
+                            message="Share your Salesforce records with more of your Slack workspaces. Add a new workspace to your Salesforce org by signing in with Slack."
+                            class="slds-col"
+                        ></c-auth>
+                    </div>
+                </template>
+                <!-- /New Auth State -->
+
+                <div class={authedClass}>
+                    <template if:true={isUserAuthed}>
+                        <template if:true={modalLayout}>
+
+                            <!-- Modal Header -->
+                            <header class="slds-modal__header slds-col slds-grow-none">
+                                <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                                    Manage Slack Alerts
+                                </h2>
+                            </header>
+                            <!-- /Modal Header -->
+
+                        </template>
+
+                        <!-- Action Body -->
+                        <div class="slack-picker__content slds-col">
+                            <template if:true={isExpired}>
+
+                                <!-- Inline Notification -->
+                                <div class="slds-m-bottom_x-small">
+                                    <div class="slds-scoped-notification slds-media slds-media_center slds-theme_warning" role="status">
+                                        <div class="slds-media__figure">
+                                            <lightning-icon icon-name="utility:warning" alternative-text="Warning" size="small"></lightning-icon>
+                                        </div>
+                                        <div class="slds-media__body">
+                                            <p>
+                                                The selected workspace is no longer connected to Salesforce. In order to use the expired workspace again, you must log back into it.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Inline Notification -->
+
+                            </template>
+
+                            <div class="slds-form slds-form_stacked">
+                                <div class="slds-form-element">
+                                    <c-picklist
+                                        label="Slack Workspace"
+                                        placeholder="-- Select Slack Workspace --"
+                                        dropdown-height="6"
+                                        options={workspaceList}
+                                        value={selectedSlackAuthId}
+                                        onselect={workspaceSelect}
+                                        required
+                                    ></c-picklist>
+                                </div>
+
+                                <div class="slds-form-element">
+                                    <c-channel-search-picklist
+                                        label="Slack Channel"
+                                        placeholder="Search for channel"
+                                        dropdown-height="6"
+                                        searchable="true"
+                                        slack-auth-id={selectedSlackAuthId}
+                                        options={channelList}
+                                        onselect={channelSelect}
+                                        onfocus={channelFocus}
+                                        disabled={channelSelectDisabled}
+                                        types={channelTypes}
+                                        required
+                                        class="js-channel-picklist"
+                                    ></c-channel-search-picklist>
+                                    
+                                    <!-- Conversations with Subscriptions -->
+                                    <template if:true={existingChannelList}>
+                                        <div class="slds-text-body_small slds-text-color_weak slds-m-top_xxx-small slds-m-left_x-small slds-truncate" title="">
+                                            Conversations with alerts: <strong>{existingChannelList}</strong>
+                                        </div>
+                                    </template>
+                                    <!-- /Conversations with Subscriptions -->
+
+                                </div>
+
+                                <div class="slds-form-element slds-m-top_medium">
+                                    <div class="slds-form-element__label">
+                                        Available Alerts
+                                    </div>
+                                    <div class="slds-form-element__control">
+                                        <template if:true={subscriptions}>
+                                            <template for:each={subscriptions} for:item="subscription">
+                                                <c-alert-type
+                                                    key={subscription.label}
+                                                    record-id={recordId}
+                                                    object-api-name={objectApiName}
+                                                    subscription={subscription}
+                                                    oncheckboxchange={toggleChange}
+                                                    is-disabled={isDisabled}
+                                                    is-checked={subscription.checked}
+                                                ></c-alert-type>
+                                            </template>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Action Body -->
+
+                        <!-- Footer -->
+                        <footer class="slack-picker__footer slds-col slds-grow-none">
+                            <div class="slack-picker__button-container">
+                                <template if:true={modalLayout}>
+                                    
+                                    <!-- Cancel Button -->
+                                    <lightning-button
+                                        label="Cancel"
+                                        variant="neutral"
+                                        class="slds-button"
+                                        onclick={cancel}
+                                    ></lightning-button>
+                                    <!-- /Cancel Button -->
+
+                                </template>
+
+                                <!-- Save Button -->
+                                <lightning-button
+                                    label="Save"
+                                    variant="brand"
+                                    class="slds-button"
+                                    onclick={send}
+                                    disabled={saveDisabled}
+                                ></lightning-button>
+                                <!-- /Save Button -->
+                                
+                            </div>
+                        </footer>
+                        <!-- /Footer -->
+
+                    </template>
+                </div>
+            </template>
+            <!-- /Initialized state -->
+            
+        </template>
+    </div>
+</template>

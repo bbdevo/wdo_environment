@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>เนื้อความ</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>ป้อนเนื้อหาเริ่มต้นสำหรับผู้ใช้เมื่อบันทึกตั๋วใหม่ที่เกี่ยวข้องกับบทความนี้ ฟิลด์ว่างเปล่าได้ หรือเป็นคำแนะนำก็ได้ เช่น &quot;อธิบายปัญหาหรือคำขอของคุณ...</help>
+        <label>คำอธิบายเคส</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>ปล่อยให้ฟิลด์ชื่อเรื่องเคสว่างได้ ซึ่งจะค่าเริ่มต้นจะเป็นไปตามชื่อเรื่องบทความปัจจุบัน</help>
+        <label>ชื่อเรื่องเคส</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>บทความผลประโยชน์ของศูนย์บริการ HR</description>
+        <label>HR - สวัสดิการ</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>บทความพนักงานสัมพันธ์ของศูนย์บริการ HR</description>
+        <label>HR - พนักงานสัมพันธ์</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>บทความศูนย์บริการ HR ทั่วไป</description>
+        <label>HR - ทั่วไป</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>บทความการลาของศูนย์บริการ HR</description>
+        <label>HR - การลา</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>บทความการดูแลพนักงานใหม่ของศูนย์บริการ HR</description>
+        <label>HR - การดูแลพนักงานใหม่</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>บทความเงินเดือนของศูนย์บริการ HR</description>
+        <label>HR - เงินเดือน</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>สร้างบทความ Knowledge สำหรับเนื้อหาเกี่ยวกับเทคโนโลยีข้อมูล เช่น อุปกรณ์ สิทธิเข้าถึง หรือโซลูชันประสิทธิภาพแอปพลิเคชัน</description>
+        <label>บทความ IT Knowledge</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

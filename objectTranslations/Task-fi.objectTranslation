@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HcCarePlanTaskFields --></label>
+        <name>HealthCloudGA__HcCarePlanTaskFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HC Task List --></label>
+        <name>HealthCloudGA__HcTaskList</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Count of all events --></help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Goal this task is meant to address --></help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Problem this task is mean to address --></help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__Conditions_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Tracing Status --></label>
+        <name>HealthCloudGA__Contract_Tracing_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the automation to start. This value is required for the Flow action type. --></help>
+        <label><!-- Action API Name --></label>
+        <name>wkcc__ActionApiName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The action category.  To display the task in the Workplace Command Center Operations Feed, specify a value for this field. --></help>
+        <label><!-- Action Category --></label>
+        <name>wkcc__ActionCategory__c</name>
+    </fields>
+    <fields>
+        <help><!-- A JSON formatted string of variables. These are used for the Flow action type to specify input variables. --></help>
+        <label><!-- Action Input Variables --></label>
+        <name>wkcc__ActionInputVariables__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of action being performed by this task if it has an automated action. --></help>
+        <label><!-- Action Type --></label>
+        <name>wkcc__ActionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- An absolute or relative URL to a page or record. The URL includes any required parameters. Relative URLs are relative to the Salesforce instance. --></help>
+        <label><!-- Action URL --></label>
+        <name>wkcc__ActionUrl__c</name>
+    </fields>
+    <fields>
+        <help><!-- A reference to the Location that this Task is related to. --></help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Operations Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__TransitionPlanTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template Task Id --></label>
+        <name>wkdw__TransitionPlanTemplateTaskId__c</name>
+    </fields>
+    <fields>
+        <help><!-- In the onboarding checklist of tasks, show the name and description set on the task record instead of the name and description set on the onboarding task record. --></help>
+        <label><!-- Use Task Labels in Onboarding Checklist --></label>
+        <name>wkdw__UseTaskLabelsInChecklist__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Defer --></label>
+        <name>Defer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Defer_0 --></label>
+        <name>Defer_0</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Defer_1 --></label>
+        <name>Defer_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Defer_2 --></label>
+        <name>Defer_2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EditDescription --></label>
+        <name>EditDescription</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EditDescription_0 --></label>
+        <name>EditDescription_0</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EditDescription_1 --></label>
+        <name>EditDescription_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EditDescription_2 --></label>
+        <name>EditDescription_2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Employee Evaluation --></label>
+        <name>New_Employee_Evaluation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdatePriority --></label>
+        <name>UpdatePriority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdatePriority_0 --></label>
+        <name>UpdatePriority_0</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdatePriority_1 --></label>
+        <name>UpdatePriority_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdatePriority_2 --></label>
+        <name>UpdatePriority_2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdateStatus --></label>
+        <name>UpdateStatus</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdateStatus_0 --></label>
+        <name>UpdateStatus_0</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdateStatus_1 --></label>
+        <name>UpdateStatus_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- UpdateStatus_2 --></label>
+        <name>UpdateStatus_2</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Task related to healthcare plan --></description>
+        <label><!-- Care Plan Task --></label>
+        <name>HealthCloudGA__CarePlanTask</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Location-related operations tasks for re-opening workplaces. --></description>
+        <label><!-- Operations Task --></label>
+        <name>Operations_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tasks for Employee Contact Tracing --></description>
+        <label><!-- Employee Contact Tracing --></label>
+        <name>emptracing__Employee_ContactTracing</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- External Contact Tracing Records --></description>
+        <label><!-- External Contact Tracing --></label>
+        <name>emptracing__External_ContactTracing</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Do not use this record type --></description>
+        <label><!-- Onboarding Task DEPRECATED --></label>
+        <name>wkdw__OnboardingTask</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transition Task --></label>
+        <name>wkdw__TransitionTask</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Action API Name cannot be empty for Action Type &quot;Flow&quot; --></errorMessage>
+        <name>wkcc__ACTION_API_CANT_BE_EMPTY</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Action URL cannot be empty for Action Type &quot;URL&quot; --></errorMessage>
+        <name>wkcc__ACTION_URL_CANT_BE_EMPTY</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

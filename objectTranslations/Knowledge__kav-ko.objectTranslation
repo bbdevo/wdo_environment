@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>본문</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>이 기사와 관련된 새 티켓을 기록할 때 사용자의 기본 콘텐츠를 입력합니다. 필드는 공백이거나 &quot;문제 또는 요청 설명...&quot; 등 지침일 수 있습니다.</help>
+        <label>사례 설명</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>사례 제목 필드는 공백으로 남길 수 있으며, 그러면 현재 기사 제목으로 기본 설정됩니다.</help>
+        <label>사례 제목</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label>관련 사례</label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel>참조</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label>문서 세부 정보</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>속성</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label>문서 세부 정보</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>속성</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>HR 서비스 센터 혜택 기사</description>
+        <label>HR - 혜택</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 서비스 센터 직원 관계 기사</description>
+        <label>HR - 직원 관계</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>일반 HR 서비스 센터 기사</description>
+        <label>HR - 일반</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 서비스 센터 휴가 기사</description>
+        <label>HR - 휴가</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 서비스 센터 온보딩 기사</description>
+        <label>HR - 온보딩</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 서비스 센터 급여 기사</description>
+        <label>HR - 급여</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>장비, 액세스 또는 응용 프로그램 성능 솔루션 등 정보 기술 콘텐츠에 대한 Knowledge 기사를 작성합니다.</description>
+        <label>IT Knowledge 기사</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label>알려진 오류</label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label>서비스 지식</label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

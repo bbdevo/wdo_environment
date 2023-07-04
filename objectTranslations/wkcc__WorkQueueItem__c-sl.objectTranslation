@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Predmet čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Predmeti čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Predmet čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Predmete čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Predmeta čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Predmetov čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Predmetu čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Predmetom čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Predmetom čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Predmeti čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Predmetu čakalne vrste dela</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Predmetih čakalne vrste dela</value>
+    </caseValues>
+    <fields>
+        <label><!-- Encrypted Details --></label>
+        <name>wkcc__EncryptedDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Detail Hash --></label>
+        <name>wkcc__JobDetailHash__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Priority --></label>
+        <name>wkcc__JobPriority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status Details --></label>
+        <name>wkcc__JobStatusDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Napaka</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Novo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>wkcc__JobType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process After --></label>
+        <name>wkcc__ProcessAfter__c</name>
+    </fields>
+    <fields>
+        <label><!-- QI Status --></label>
+        <name>wkcc__QIStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- QI Worker --></label>
+        <name>wkcc__QIWorker__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Ime čakalne vrste dela</nameFieldLabel>
+</CustomObjectTranslation>

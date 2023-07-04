@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Mappage des champs d’employé vers compte personnel --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Mappages des champs d’employé vers compte personnel --></value>
+    </caseValues>
+    <fields>
+        <help>Décochez cette option si vous ne souhaitez pas que ce mappage soit utilisé lors de la création d’un enregistrement Compte personnel à partir d’un enregistrement Employé</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Nom d’API du champ Employé. Doit inclure __c s’il s’agit d’un champ personnalisé</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Nom d’API du champ Compte personnel. Doit inclure __c s’il s’agit d’un champ personnalisé ou __pc s’il s’agit d’un champ personnalisé Compte personnel</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

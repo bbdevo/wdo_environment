@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Plantilla de plan de transición --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Plantillas de planes de transición --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Si se desea el Propietario de plan, ingrese el Id. de cola.</help>
+        <label><!-- Plan Owner --></label>
+        <name>wkdw__PlanOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Type --></label>
+        <name>wkdw__TransitionType__c</name>
+        <picklistValues>
+            <masterLabel>Job Change</masterLabel>
+            <translation>Cambio de trabajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave of Absence</masterLabel>
+            <translation>Baja de ausencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation>Incorporación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion</masterLabel>
+            <translation>Ascenso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Reubicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation>Jubilación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation>Rescisión</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La descripción que el empleado ve en la parte superior de su lista de comprobación de transición.</help>
+        <label><!-- Welcome Text --></label>
+        <name>wkdw__WelcomeText__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Template Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Add Onboarding Task --></label>
+        <name>Add_Onboarding_Task</name>
+    </quickActions>
+</CustomObjectTranslation>

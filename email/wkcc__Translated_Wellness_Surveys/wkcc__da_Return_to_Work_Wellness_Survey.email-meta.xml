@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Mailskabelon til Work.com Undersøgelse af medarbejdernes velbefindende med henblik på at vende tilbage til arbejde</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Undersøgelse af velbefindende mhp. på at vende tilbage til arbejde</name>
+    <style>none</style>
+    <subject>Spørgeskema om velbefindende - Udfyld venligst</subject>
+    <textOnly>Vi er glade for at starte denne tilbagevenden til arbejdspladsen. Du bedes besvare denne undersøgelse, som vurderer din nuværende helbredssituation.
+
+Dine svar bruges udelukkende til at afgøre, om du er klar til at vende tilbage til arbejdspladsen. Hvis du afviser at oplyse dine sundhedsdata, skal du forsætte med at arbejde hjemme. Hvis du vil afvise, skal du gennemføre undersøgelsen og angive dette valg.
+
+Undersøgelseslinket er entydigt for dig. Videresend ikke denne mail til andre.
+
+{{Survey}}
+
+Tak for din support og medvirken.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

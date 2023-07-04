@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modelo de email para pesquisa de bem-estar contínuo do funcionário da Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pesquisa de bem-estar contínuo</name>
+    <style>none</style>
+    <subject>Pesquisa de bem-estar – Preencha</subject>
+    <textOnly>Para garantir o mais alto nível de saúde e segurança contínuas no seu local de trabalho, preencha esta pesquisa para relatar sua condição de saúde atual.
+
+Suas respostas serão usadas somente para determinar se você pode continuar trabalhando no seu local de trabalho. Os dados são confidenciais e somente para uso interno.
+
+O link da pesquisa é exclusivo para você. Não encaminhe este email para outras pessoas.
+
+{{Survey}}
+
+Obrigado por seu suporte e cooperação.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

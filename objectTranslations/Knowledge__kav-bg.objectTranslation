@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Основен текст</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Въведете съдържание по подразбиране за потребителите, когато регистрират нов билет, свързан с тази статия. Полето може да е празно или инструктивно, като например „Опишете своя проблем или заявка...“</help>
+        <label>Описание на случай</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>Можете да оставите полето „Тема на случай“ празно и то по подразбиране ще бъде текущото заглавие на статията.</help>
+        <label>Тема на случай</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Статии за социални придобивки за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – социални придобивки</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за връзки със служителите за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – връзки със служителите</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за общи въпроси за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – общи въпроси</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за отпуски за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – отпуски</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за интегриране в работния процес за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – интегриране в работния процес</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за ТРЗ за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – ТРЗ</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Създайте статия от Knowledge за съдържание за отдела за информационните технологии, като например решения за оборудване, достъп или решения за производителността на приложенията</description>
+        <label>Статии от Knowledge за IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

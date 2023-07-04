@@ -1,0 +1,45 @@
+<table>
+    <tr>
+        <td>
+            Case Number
+        </td>
+        <td>
+            {!Case.CaseNumber}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Status
+        </td>
+        <td>
+            {!Case.Status}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Created By
+        </td>
+        <td>
+            {!Case.CreatedBy}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Urgency
+        </td>
+        <td>
+            {!Case.wkitsm__Urgency__c}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <hr />
+            <h2>Your case was created.</h2>
+            <br />
+            <hr />
+            View case details: {!Case.Link}
+            <br />
+            Thank you.
+        </td>
+    </tr>
+</table>

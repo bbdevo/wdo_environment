@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Work.com 職場復帰に向けた従業員の健康状態アンケートのメールテンプレート</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>職場復帰に向けた健康状態に関するアンケート</name>
+    <style>none</style>
+    <subject>健康状態に関するアンケート - ご回答ください</subject>
+    <textOnly>いよいよ職場復帰に向けた準備をスタートいたします。安全性の確保に責任を持てるように、こちらのアンケートに回答して現在の健康状態についてお知らせください。
+
+いただいた回答は、職場復帰ができるかどうかの判断材料として使用され、それ以外の目的に利用されることはありません。アンケートにご協力いただけず、健康状態をお知らせいただけなかった場合は、今後も在宅勤務を継続していただく必要があります。回答を拒否される場合は、アンケートでその旨をご明示ください。
+
+アンケートへのリンクは各自でそれぞれ異なります。このメールを他の人に転送しないでください。
+
+{{Survey}}
+
+ご理解とご協力をよろしくお願いいたします。</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

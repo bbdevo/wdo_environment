@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modelo de email para pesquisa de bem-estar do funcionário e retorno ao local de trabalho da Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pesquisa de bem-estar do funcionário e retorno ao local de trabalho</name>
+    <style>none</style>
+    <subject>Pesquisa de bem-estar – Preencha</subject>
+    <textOnly>Estamos gratos pelo início do processo de retornar ao local de trabalho. Para nos ajudar a fazer isso com segurança e responsabilidade, responda a esta pesquisa, que avalia sua saúde no momento.
+
+Suas respostas serão usadas somente para determinar se você está pronto para retornar ao local de trabalho. Se você se recusar a fornecer dados de saúde, deverá continuar trabalhando remotamente. Para recusar, faça a pesquisa e indique essa opção.
+
+O link da pesquisa é exclusivo para você. Não encaminhe este email para outras pessoas.
+
+{{Survey}}
+
+Obrigado por seu suporte e cooperação.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Destinatarul de program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Destinatar program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Destinatarii de program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Destinatari program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Destinatarului de program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Destinatarului de program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Destinatariloe program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Destinatariloe program de sondaj</value>
+    </caseValues>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>wkcc__Employee__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Schedule --></label>
+        <name>wkcc__SurveySchedule__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nume destinatar program de sondaj</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Schedule Recipient needs to be selected based on Schedule Recipient Type --></errorMessage>
+        <name>wkcc__RecipientsBasedOnRecipientType</name>
+    </validationRules>
+</CustomObjectTranslation>

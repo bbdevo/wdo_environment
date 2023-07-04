@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Antall av alle hendelser</help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>Ressursfravær</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>Tjenesteavtale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help>Mål denne oppgaven er opprettet for</help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Problem denne oppgaven er opprettet for</help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Counselling</masterLabel>
+            <translation>Rådgivning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnosis</masterLabel>
+            <translation>Diagnose</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exercise</masterLabel>
+            <translation>Trening</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccination</masterLabel>
+            <translation>Vaksinasjon</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__Conditions_Status__c</name>
+        <picklistValues>
+            <masterLabel>Asymptomatic</masterLabel>
+            <translation>Symptomfri</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asymptomatic - Declined to Participate</masterLabel>
+            <translation>Symptomfri - Avslo å delta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation>Friskmeldt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluated - No Risk</masterLabel>
+            <translation>Evaluert - Ingen risiko</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic</masterLabel>
+            <translation>Med symptomer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic - Declined to Participate</masterLabel>
+            <translation>Med symptomer - Avslo å delta</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Tracing Status --></label>
+        <name>HealthCloudGA__Contract_Tracing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Fullført</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Pågår</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation>Innkommende</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation>Ikke svart</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>Avslå for å angi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>Kvinne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>Mann</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Annet</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nei</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ja</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation>Administrativ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical</masterLabel>
+            <translation>Klinisk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Annet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncategorized</masterLabel>
+            <translation>Ikke kategorisert</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative Test</masterLabel>
+            <translation>Negativ test</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>Positiv test</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Results Pending</masterLabel>
+            <translation>Venter på testresultater</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Scheduled</masterLabel>
+            <translation>Test planlagt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Recommended</masterLabel>
+            <translation>Testing anbefales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>Ukjent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>API-navnet på automatiseringen som skal starte. Denne verdien er nødvendig for handlingstypen Flyt.</help>
+        <label><!-- Action API Name --></label>
+        <name>wkcc__ActionApiName__c</name>
+    </fields>
+    <fields>
+        <help>Handlingskategorien. Angi en verdi for dette feltet for å vise oppgaven i Command Center for arbeidssted-feeden.</help>
+        <label><!-- Action Category --></label>
+        <name>wkcc__ActionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Action</masterLabel>
+            <translation>Handling</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation>Varsel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Action</masterLabel>
+            <translation>Helsehandling for ansatt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Alert</masterLabel>
+            <translation>Helsevarsel for ansatt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Information</masterLabel>
+            <translation>Helseinformasjon for ansatt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Warning</masterLabel>
+            <translation>Helseadvarsel for ansatt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation>Informasjon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Action</masterLabel>
+            <translation>Stedshandling</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Alert</masterLabel>
+            <translation>Stedsvarsel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Information</masterLabel>
+            <translation>Stedsinformasjon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Warning</masterLabel>
+            <translation>Stedsadvarsel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Advarsel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>En JSON-formatert streng med variabler. Disse brukes i Flyt-handlingstypen for å angi inndatavariabler.</help>
+        <label><!-- Action Input Variables --></label>
+        <name>wkcc__ActionInputVariables__c</name>
+    </fields>
+    <fields>
+        <help>Typen handling som utføres av denne oppgaven, hvis den har en automatisert handling.</help>
+        <label><!-- Action Type --></label>
+        <name>wkcc__ActionType__c</name>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation>Flyt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URL</masterLabel>
+            <translation>URL</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>En absolutt eller relativ URL-adresse til en side eller post. URL-adressen inkluderer eventuelle nødvendige parametere. Relative URL-adresser er relative til Salesforce-forekomsten.</help>
+        <label><!-- Action URL --></label>
+        <name>wkcc__ActionUrl__c</name>
+    </fields>
+    <fields>
+        <help>En referanse til stedet som denne oppgaven er relatert til.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Operations Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__TransitionPlanTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template Task Id --></label>
+        <name>wkdw__TransitionPlanTemplateTaskId__c</name>
+    </fields>
+    <fields>
+        <help>I sjekklisten for introduksjonsoppgaver kan du vise navnet og beskrivelsen angitt for oppgaveposten, i stedet for navnet og beskrivelsen angitt for posten for introduksjonsoppgaven.</help>
+        <label><!-- Use Task Labels in Onboarding Checklist --></label>
+        <name>wkdw__UseTaskLabelsInChecklist__c</name>
+    </fields>
+</CustomObjectTranslation>

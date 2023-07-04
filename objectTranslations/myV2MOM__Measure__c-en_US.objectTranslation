@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Assigned Current Value --></label>
+        <name>myV2MOM__Assigned_Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>myV2MOM__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion By Date --></label>
+        <name>myV2MOM__Completion_By_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion By Quarter --></label>
+        <name>myV2MOM__Completion_By_Quarter__c</name>
+        <picklistValues>
+            <masterLabel>Q1</masterLabel>
+            <translation><!-- Q1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q2</masterLabel>
+            <translation><!-- Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3</masterLabel>
+            <translation><!-- Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4</masterLabel>
+            <translation><!-- Q4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Value --></label>
+        <name>myV2MOM__Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- MeasureChatFeedId --></label>
+        <name>myV2MOM__MeasureChatFeedId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measure Team Member Count --></label>
+        <name>myV2MOM__Measure_Team_Member_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method --></label>
+        <name>myV2MOM__Method__c</name>
+        <relationshipLabel><!-- Measures --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Obstacles --></label>
+        <name>myV2MOM__Obstacles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>myV2MOM__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Q1 Completion --></label>
+        <name>myV2MOM__Q1_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q1 Target --></label>
+        <name>myV2MOM__Q1_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q1 --></label>
+        <name>myV2MOM__Q1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q2 Completion --></label>
+        <name>myV2MOM__Q2_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q2 Target --></label>
+        <name>myV2MOM__Q2_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q2 --></label>
+        <name>myV2MOM__Q2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q3 Completion --></label>
+        <name>myV2MOM__Q3_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q3 Target --></label>
+        <name>myV2MOM__Q3_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q3 --></label>
+        <name>myV2MOM__Q3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q4 Completion --></label>
+        <name>myV2MOM__Q4_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q4 Target --></label>
+        <name>myV2MOM__Q4_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q4 --></label>
+        <name>myV2MOM__Q4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split By Quarter --></label>
+        <name>myV2MOM__Split_By_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>myV2MOM__Status__c</name>
+        <picklistValues>
+            <masterLabel>Behind Schedule</masterLabel>
+            <translation><!-- Behind Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Track</masterLabel>
+            <translation><!-- On Track --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Value --></label>
+        <name>myV2MOM__Target_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Current Value --></label>
+        <name>myV2MOM__Total_Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track Progress By --></label>
+        <name>myV2MOM__Track_Progress_By__c</name>
+        <picklistValues>
+            <masterLabel>Completion Status</masterLabel>
+            <translation><!-- Completion Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Numbers Completed</masterLabel>
+            <translation><!-- Numbers Completed --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

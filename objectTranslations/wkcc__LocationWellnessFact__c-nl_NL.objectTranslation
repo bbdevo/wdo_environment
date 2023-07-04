@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Welzijnsfeit van locatie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Welzijnsfeiten van locatie</value>
+    </caseValues>
+    <fields>
+        <help>Een unieke identifier voor de record in de notatie [&quot;Trapsgewijs&quot; + &quot;:&quot; +] &lt;ID van Locatie&gt; + ‘:’ + &lt;Welzijnsstatus&gt;. De stapsgewijze prefix is enkel aanwezig in records die welzijnsstatuswaarden voor onderliggende locaties omvatten.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>De totale telling van medewerkers ongeacht de welzijnsstatus.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Het locatieniveau van de gerelateerde locatie.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>De locatie waaraan deze feitrecord is gerelateerd.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indien waar moet een locatie opnieuw worden geaggregeerd en wordt deze gemarkeerd en indien onwaar gebeurt dit niet.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Het percentage van de medewerkers van de locatie die in de welzijnsstatus zijn.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>De telling van medewerkers die de welzijnsstatus hebben.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>De welzijnsstatus voor de medewerker.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam</nameFieldLabel>
+</CustomObjectTranslation>

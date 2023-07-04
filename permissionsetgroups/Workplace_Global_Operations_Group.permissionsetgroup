@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Combines the Workplace Global Operations and Workplace Global Operations Add-On permission sets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Workplace Global Operations Group</label>
+    <permissionSets>b2wFixerApexClassPermSet</permissionSets>
+    <permissionSets>b2w_GlobalOperationsAddOn</permissionSets>
+    <permissionSets>wkcc__b2w_GlobalOperations</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

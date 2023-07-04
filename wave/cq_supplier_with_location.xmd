@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>cq_supplier_with_location</dataset>
+    <dimensions>
+        <field>cqwork__Readiness_Assessment__c</field>
+        <isDerived>false</isDerived>
+        <label>Readiness Assessment</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+</WaveXmd>

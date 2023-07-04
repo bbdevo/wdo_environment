@@ -1,0 +1,84 @@
+<!-- Strike Setup Assistant v2.0.3 -->
+<aura:component extends="c:toasts" controller="setupAssistant">
+    <!-- Configuration -->
+    <aura:attribute name="isClassic" type="Boolean" default="false"/>
+    <!-- /Configuration -->
+
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <!-- /Handlers -->
+
+    <!-- Internal -->
+    <aura:attribute name="activeWizard" type="Map" description="Active wizard object. When null, v.landing will display." access="private"/>
+    <aura:attribute name="data" type="Map" description="Data used in setup" access="private"/>
+    <aura:attribute name="landing" type="Map" description="The setupLanding component" access="private"/>
+    <aura:attribute name="loading" type="Boolean" default="true" description="Toggles the loading spinner" access="private"/>
+    <aura:attribute name="setupWizards" type="Map[]" default="[]" description="A list of setupWizards." access="private"/>
+    <!-- /Internal -->
+
+    <div class="{!'slds-scope strike-scope' + (v.isClassic ? ' strike-is-classic' : '')}">
+        <lightning:spinner class="{!if(v.loading, '', 'slds-hide')}" alternativeText="Loading..."/>
+
+        <!-- Setup Content -->
+        <div aura:id="content" class="slds-grid slds-grid_vertical">
+            <c:setupLanding aura:id="landing" companyLogo="{!$Resource.slackLogo_horizontal}">
+                <!-- [CUSTOM CODE] Landing Page Footer -->
+                <!-- Help Section -->
+                <div class="strike-help slds-box slds-m-vertical_large slds-theme_default">
+                    <!-- Header -->
+                    <div class="strike-help__header slds-theme_info">
+                        <div class="slds-grid slds-gutters_direct">
+                            <div class="slds-col">
+                                <h3 class="slds-text-heading_medium">Need help?</h3>
+                            </div>
+                            <div class="slds-col slds-no-flex">
+                                <ul class="slds-list_horizontal slds-has-dividers">
+                                    <li class="slds-list__item">
+                                        <a href="https://slack.com/help/contact">Contact Slack</a>
+                                    </li>
+                                    <li class="slds-list__item">
+                                        <a href="tel:+1-855-980-5920">+1(855)980-5920</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Header -->
+
+                    <!-- Body -->
+                    <div class="strike-help__body slds-text-body_small">
+                        <div class="slds-grid slds-wrap slds-gutters_small">
+                            <div class="slds-col slds-size_1-of-1 slds-small-size_2-of-3 slds-large-size_3-of-4 slds-text-longform">
+                                <p>Make work life simpler, more pleasant and more productive.</p>
+                                <p>Slack is the collaboration hub that brings the right people, information, and tools together to get work done. From Fortune 100 companies to corner markets, millions of people around the world use Slack to connect their teams, unify their systems, and drive their business forward.</p>
+                            </div>
+                            <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-3 slds-large-size_1-of-4">
+                                <h4 class="slds-text-heading_small">Helpful Links</h4>
+                                <ul class="slds-list_dotted slds-m-top_x-small">
+                                    <li class="slds-item">
+                                        <a href="https://get.slack.help/hc/en-us">Slack Help</a>
+                                    </li>
+                                    <li class="slds-item">
+                                        <a href="https://slack.com/about" target="_blank">About Slack</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Body -->
+                </div>
+                <!-- /Help Section -->
+            </c:setupLanding>
+
+            <!-- [CUSTOM CODE] SetupWizards and Steps -->
+            <c:setupWizard title="System Connections" description="Establish and configure the connection between Slack and Salesforce">
+                <c:sfdcAuthStep/>
+            </c:setupWizard>
+            <c:setupWizard title="Org Configuration" description="Customize how and where Slack lives in your org">
+                <c:updateLayoutsStep/>
+                <c:updateFlexiPagesStep/>
+            </c:setupWizard>
+        </div>
+        <!-- /Setup Content -->
+    </div>
+</aura:component>

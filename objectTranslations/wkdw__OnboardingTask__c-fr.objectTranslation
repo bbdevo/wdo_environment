@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Tâche du plan de transition --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Tâches du plan de transition --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>La description de la tâche affichée pour les employés dans la liste de contrôle d&apos;intégration. Si ce champ est vide, la Description de la tâche est utilisée.</help>
+        <label><!-- Display Description --></label>
+        <name>wkdw__DisplayDescription__c</name>
+    </fields>
+    <fields>
+        <help>Le nom de la tâche affiché pour les employés dans la liste de contrôle d&apos;intégration. Si ce champ est vide, le Nom de la tâche est utilisé.</help>
+        <label><!-- Display Name --></label>
+        <name>wkdw__DisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow API Name --></label>
+        <name>wkdw__FlowAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority of Onboarding Task DEPRECATED --></label>
+        <name>wkdw__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Day Offset DEPRECATED --></label>
+        <name>wkdw__StartDayOffset__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Task Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

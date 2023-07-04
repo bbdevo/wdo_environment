@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Announcement --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Employee Workspace --></label>
+        <name>wkitsm__EW</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ITSC Console --></label>
+        <name>wkitsm__ITSC</name>
+    </fieldSets>
+    <fields>
+        <help>如果开始日期和结束日期为空，或其日期范围为过去或将来，则公告无效</help>
+        <label><!-- Active --></label>
+        <name>wkitsm__Active__c</name>
+    </fields>
+    <fields>
+        <help>查看完整公告记录时显示的其他详细信息。在公告组成部分中不可见。</help>
+        <label><!-- Additional Details --></label>
+        <name>wkitsm__AdditionalDetails__c</name>
+    </fields>
+    <fields>
+        <help>公告组成部分中显示的公告详细信息。</help>
+        <label><!-- Announcement Details --></label>
+        <name>wkitsm__AnnouncementDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>wkitsm__End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Past --></label>
+        <name>wkitsm__Past__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled --></label>
+        <name>wkitsm__Scheduled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>wkitsm__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibility --></label>
+        <name>wkitsm__Visibility__c</name>
+        <picklistValues>
+            <masterLabel>Employee Workspace</masterLabel>
+            <translation>员工工作区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Workspace and ITSC Console</masterLabel>
+            <translation>员工工作区与 ITSC 控制台</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITSC Console</masterLabel>
+            <translation>ITSC 控制台</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Announcement Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Announcement of type Alert --></description>
+        <label><!-- Alert --></label>
+        <name>wkitsm__AlertAnnouncement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Announcement of type Information --></description>
+        <label><!-- Informational --></label>
+        <name>wkitsm__InformationalAnnouncement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Announcement of type Warning --></description>
+        <label><!-- Warning --></label>
+        <name>wkitsm__WarningAnnouncement</name>
+    </recordTypes>
+</CustomObjectTranslation>

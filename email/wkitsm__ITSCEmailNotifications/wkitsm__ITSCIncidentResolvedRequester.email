@@ -1,0 +1,27 @@
+<table>
+<tbody>
+<tr>
+<td><strong>Case Number: </strong>{!Case.CaseNumber}</td>
+</tr>
+<tr>
+<td><strong>Status: </strong>{!Case.Status}</td>
+</tr>
+<tr>
+<td><strong>Date/Time Resolved: </strong>{!Case.LastModifiedDate}</td>
+</tr>
+<tr>
+<td colspan="2"><hr />
+<h2>Your {!Case.RecordType} has been marked as Resolved.</h2>
+<hr />
+<p><strong>Subject: </strong>{!Case.Subject}</p>
+<p><strong>Description: </strong>{!Case.Description}</p>
+<hr />
+<p><strong>Resolution Type:</strong>{!Case.wkitsm__ResolutionType__c}</p>
+<p><strong>Resolution Details:</strong>{!Case.wkitsm__ResolutionDetails__c}</p>
+<hr />
+<p>To add a comment to this {!Case.RecordType}, please reply to this email. Your response will be added to the {!Case.RecordType}.</p>
+<p>You can also view the {!Case.RecordType} in the {!Community.Name} portal: {!Community.Url}</p>
+<hr />Thank you.</td>
+</tr>
+</tbody>
+</table>

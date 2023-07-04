@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Обединяване на здравословното състояние в местоположението</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Обединявания на здравословното състояние в местоположението</value>
+    </caseValues>
+    <fields>
+        <help>Уникален идентификатор за записа във формат &lt;ИД на местоположение&gt; + ‘:’ + &lt;Здравословно състояние&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Общият брой лица независимо от здравословното състояние.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Местоположението, към което се отнася този запис на обобщение</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Информира периодичния процес на партида, че това обобщение трябва да бъде обобщено повторно.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Процентът на лицата на местоположението, които са със здравословното състояние.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Броят лица, които са с даденото здравословно състояние.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Групата за здравословното състояние, обобщена по лица на това местоположение.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Име</nameFieldLabel>
+</CustomObjectTranslation>

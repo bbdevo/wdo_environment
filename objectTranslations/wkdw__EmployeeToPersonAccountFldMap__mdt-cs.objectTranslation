@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapováním pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Mapováním pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Mapováními pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapování pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapováních pole účtu zaměstnance k osobě --></value>
+    </caseValues>
+    <fields>
+        <help>Zrušte zaškrtnutí tohoto políčka, pokud nechcete, aby se toto mapování použilo při vytváření záznamu účtu osoby ze záznamu zaměstnance</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Název API pole zaměstnance. Je třeba zahrnout __c, pokud se jedná o vlastní pole</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Název API pole účtu osoby. Je třeba zahrnout __c, pokud se jedná o vlastní pole, nebo __pc, pokud se jedná o vlastní pole účtu osoby</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+</CustomObjectTranslation>

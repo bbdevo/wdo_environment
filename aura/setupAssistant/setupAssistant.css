@@ -1,0 +1,289 @@
+@-webkit-keyframes strike-section-completion {
+    0% {
+        transform: scale(0) rotate(10deg);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes strike-section-completion {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.THIS.slds-scope .strike-logo-container img {
+    max-width: 400px;
+    width: auto;
+    max-height: 200px;
+    height: auto;
+}
+
+.THIS.slds-scope .strike-notify {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.THIS.slds-scope .slds-picklist .slds-dropdown {
+   width: 100%;
+}
+
+.THIS.slds-scope .strike-icon-text-success {
+    color: t(colorTextSuccessInverse);
+    fill: t(colorTextSuccessInverse);
+}
+
+.THIS.slds-scope .strike-icon-text-success .slds-icon {
+    color: t(colorTextSuccessInverse);
+    fill: t(colorTextSuccessInverse);
+}
+
+.THIS.slds-scope .strike-icon-text-disabled {
+    color: t(colorTextIconDefaultDisabled);
+    fill: t(colorTextIconDefaultDisabled);
+}
+
+.THIS.slds-scope .strike-icon-text-disabled .slds-icon {
+    color: t(colorTextIconDefaultDisabled);
+    fill: t(colorTextIconDefaultDisabled);
+}
+
+.THIS.slds-scope .strike-button {
+    white-space: nowrap;
+}
+
+.THIS.slds-scope .strike-button_large {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+.THIS .strike-progress-ring_completed-container .slds-progress-ring_complete {
+    animation: strike-section-completion 250ms ease 250ms both;
+}
+
+.THIS.slds-scope .strike-help {
+    padding: 0;
+    overflow: hidden;
+}
+
+.THIS.slds-scope .strike-help__header {
+    padding: t(spacingLarge);
+}
+
+.THIS.slds-scope .strike-help__header a,
+.THIS.slds-scope .strike-help__header a:hover,
+.THIS.slds-scope .strike-help__header a:active,
+.THIS.slds-scope .strike-help__header a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.THIS.slds-scope .strike-help__header > .slds-grid {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 48em) {
+    .THIS.slds-scope .strike-help__header > .slds-grid {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+}
+
+.THIS.slds-scope .strike-help__header .slds-list_horizontal.slds-has-dividers > .slds-list__item:after {
+    background-color: white;
+}
+
+.THIS.slds-scope .strike-help__contact-info {
+    text-align: left;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+@media (min-width: 48em) {
+    .THIS.slds-scope .strike-help__contact-info {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+}
+
+.THIS.slds-scope .strike-help__contact-info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.THIS.slds-scope .strike-help__body {
+    padding: t(spacingLarge);
+}
+
+.THIS.slds-scope .strike-help__links-header {
+    margin-top: t(spacingMedium);
+}
+
+@media (min-width: 48em) {
+    .THIS.slds-scope .strike-help__links-header {
+        margin-top: 0;
+    }
+}
+
+.THIS.slds-scope .strike-help__columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.THIS.slds-scope .strike-progress {
+    pointer-events: none;
+}
+
+.THIS.slds-scope .strike-progress .slds-progress__list {
+    height: 22px;
+}
+
+.THIS.slds-scope .strike-progress li .slds-progress__marker_icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    box-sizing: content-box;
+}
+
+.THIS.slds-scope .strike-progress li .slds-progress__marker_icon .slds-button__icon {
+    width: 0.875rem;
+    height: 0.875rem;
+}
+
+.THIS .strike-setup-toast {
+    transition: all 250ms ease 0ms;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.THIS .strike-setup-toast.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.THIS.slds-scope .slds-button-group .slds-dropdown-trigger:last-child .slds-button {
+    border-radius: 0 0.25rem 0.25rem 0;
+    margin-left: -1px;
+}
+
+.THIS .strike-progress-bar .slds-progress-bar__value,
+.THIS .slds-progress-ring_complete {
+    background-color: t(colorBackgroundSuccess);
+}
+
+.THIS .slds-path__link:hover,
+.THIS .slds-path__link:active,
+.THIS .slds-path__link:focus,
+.THIS .slds-path__item,
+.THIS .slds-path__item::before {
+    text-decoration: none;
+    cursor: default;
+}
+
+.THIS.slds-scope .slds-path__guidance {
+    padding-left: .75rem;
+}
+
+/*--------- Custom Overrides ---------*/
+.THIS.slds-scope.strike-is-classic {
+    min-height: 20rem;
+}
+/*--------- Custom Overrides ---------*/
+
+/*--------- Custom Table Styles ---------*/
+.THIS .slack-spinner-container_layout-step {
+    height: calc(100vh - 390px);
+}
+
+.THIS .slack-table_layout-select .slds-table.slds-table_bordered {
+    border-bottom: 0;
+}
+
+.THIS .slack-table_layout-select .slds-table_header-fixed_container .slds-scrollable_y {
+    max-height: calc(100vh - 450px);
+    min-height: 35px;
+    border-bottom: 1px solid rgb(221, 219, 218);
+}
+
+.THIS.strike-is-classic .slack-table_layout-select .slds-table_header-fixed_container .slds-scrollable_y {
+    max-height: calc(100vh - 635px);
+}
+
+.THIS .slack-table_layout-select .slds-dropdown-trigger {
+    display: none;
+}
+
+.THIS .slack-table_layout-select .slds-th__action {
+    border-top: 1px solid rgb(221, 219, 218);
+}
+
+.THIS .slack-table_layout-select .slds-has-focus .slds-th__action {
+    box-shadow: none;
+    background-color: initial;
+}
+
+.THIS .slack-table_layout-select .slds-table tbody tr.slds-is-selected>td,
+.THIS .slack-table_layout-select .slds-table tbody tr.slds-is-selected>th,
+.THIS .slack-table_layout-select .slds-table:not(.slds-no-row-hover) tr.slds-is-selected:hover>td,
+.THIS .slack-table_layout-select .slds-table:not(.slds-no-row-hover) tr.slds-is-selected:hover>th {
+    background-color: rgb(236, 235, 234);
+}
+
+.THIS .slack-table_layout-select .slds-table th:focus,
+.THIS .slack-table_layout-select .slds-table th.slds-has-focus,
+.THIS .slack-table_layout-select .slds-table [role=gridcell]:focus,
+.THIS .slack-table_layout-select .slds-table [role=gridcell].slds-has-focus {
+    box-shadow: none;
+}
+
+.THIS .slack-table_layout-select .slds-cell-fixed {
+    background-color: rgb(250, 250, 249);
+}
+
+.THIS .slack-error-message.slds-scoped-notification p {
+    max-width: 470px;
+}
+
+.THIS .slack-error-list {
+    max-height: calc(100% - 118px);
+    min-height: 45px;   /* Display 1.5 lines of error */
+    border: 1px solid rgb(217, 219, 221);
+    border-radius: .25rem;
+    padding: .75rem 1rem .75rem 1rem;
+    margin-top: unset;
+    margin-bottom: unset;
+    white-space: pre-line;
+}
+/*--------- Custom Table Styles ---------*/

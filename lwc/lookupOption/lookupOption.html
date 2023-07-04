@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+        <span class="slds-media__figure slds-listbox__option-icon">
+            <lightning-icon icon-name={iconName} size="small"></lightning-icon>
+        </span>
+        <span class="slds-media__body">
+            <template if:true={secondaryField}>
+                <span class="slds-listbox__option-text slds-listbox__option-text_entity">{primaryFieldLabel}</span>
+                <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">{secondaryFieldLabel}</span>
+            </template>
+            <template if:false={secondaryField}>
+                <span class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small">{primaryFieldLabel}</span>
+            </template>
+        </span>
+    </div>
+</template>

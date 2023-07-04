@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>WDO Employee All-In-One Permissions</label>
+    <permissionSets>Bypass_Device_Activation</permissionSets>
+    <permissionSets>FSL_Community_Self_Service_Permissions</permissionSets>
+    <permissionSets>FSL_Resource_License</permissionSets>
+    <permissionSets>FSL_Resource_Permissions</permissionSets>
+    <permissionSets>Skip_Identity_Confirmation_at_Login</permissionSets>
+    <permissionSets>WKFSL_Command_Center_Permissions</permissionSets>
+    <permissionSets>WKFSL_Employee_Permissions</permissionSets>
+    <permissionSets>cvsh__CVS_Health_User</permissionSets>
+    <permissionSets>force__SchedulingLineAmbassadorPsl</permissionSets>
+    <permissionSets>force__SurveyCreator</permissionSets>
+    <permissionSets>force__VoiceInbound</permissionSets>
+    <permissionSets>force__VoiceMinutes</permissionSets>
+    <permissionSets>force__VoiceOutbound</permissionSets>
+    <permissionSets>force__mySalesforceCommunityMembers</permissionSets>
+    <permissionSets>wkfsl__WKFSL_Tabs_Employee</permissionSets>
+    <permissionSets>wkfsl__WKFSL_Tabs_Planner</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

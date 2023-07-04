@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Guest --></label>
+        <name>tractionguest__Guest__c</name>
+        <relationshipLabel><!-- Guest Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Host --></label>
+        <name>tractionguest__Host__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sign in Time (PST) --></label>
+        <name>tractionguest__Sign_in_Time_PST__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit Reason --></label>
+        <name>tractionguest__Visit_Reason__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- מיפוי שדות עובד לחשבון אישי --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- מיפוי שדות העובד לחשבון האישי --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- מיפויי שדות עובד לחשבון אישי --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- מיפויי שדות העובד לחשבון האישי --></value>
+    </caseValues>
+    <fields>
+        <help>הסר את הסימון של אפשרות זו אם אינך רוצה להשתמש במיפוי זה בעת יצירה של רשומת חשבון אישי מתוך רשומת עובד</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>שם ה-API של שדה העובד. צריך להכיל ‎__c‎ אם זהו שדה מותאם אישית</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>שם ה-API של שדה החשבון האישי. צריך להכיל ‎__c אם זהו שדה מותאם אישית, או ‎__pc אם זהו שדה מותאם אישית של חשבון אישי</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

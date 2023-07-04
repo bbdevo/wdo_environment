@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>myV2MOM__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>myV2MOM__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- V2MOM --></label>
+        <name>myV2MOM__V2MOM__c</name>
+        <relationshipLabel><!-- Methods --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

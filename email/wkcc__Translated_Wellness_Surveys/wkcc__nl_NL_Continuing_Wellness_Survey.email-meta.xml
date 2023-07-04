@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-mailsjabloon voor Work.com Enquête over Welzijn van werknemers op lange termijn</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enquête Welzijn op lange termijn</name>
+    <style>none</style>
+    <subject>Enquête Welzijn - Gelieve in te vullen</subject>
+    <textOnly>Gelieve deze enquête over uw huidige gezondheidsstatus in te vullen, zodat het hoogste niveau van veiligheid en gezondheid op uw werkplek kan worden gegarandeerd.
+
+Uw antwoorden worden enkel gebruikt om te bepalen of u kunt blijven werken op uw werkplek. De gegevens zijn vertrouwelijk en zijn enkel bedoeld voor intern gebruik.
+
+De enquêtekoppeling is uniek voor u. Stuur het e-mailbericht niet door.
+
+{{Survey}}
+
+Bedankt. Wij stellen uw steun en samenwerking zeer op prijs.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

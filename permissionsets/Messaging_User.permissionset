@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows a user with Service Cloud feature license to be able to send outbound single or bulk messages using Digital Experience functionality.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Messaging User</label>
+</PermissionSet>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enquêtegeschiedenis</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enquêtegeschiedenissen</value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkcc__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkcc__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>wkcc__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Mislukt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>In behandeling</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Succeeded</masterLabel>
+            <translation>Geslaagd</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Survey Schedule --></label>
+        <name>wkcc__SurveySchedule__c</name>
+        <relationshipLabel><!-- Survey Schedule History --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID van historie van enquêteplanning</nameFieldLabel>
+</CustomObjectTranslation>

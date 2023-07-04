@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Образец на план за преход --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Образци на план за преход --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Ако се желае собственик на план, въведете ИД на опашка.</help>
+        <label><!-- Plan Owner --></label>
+        <name>wkdw__PlanOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Type --></label>
+        <name>wkdw__TransitionType__c</name>
+        <picklistValues>
+            <masterLabel>Job Change</masterLabel>
+            <translation>Смяна на задача</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave of Absence</masterLabel>
+            <translation>Отпуск</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation>Регистриране</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion</masterLabel>
+            <translation>Повишение</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Преместване</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation>Пенсиониране</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation>Прекратяване</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Описанието, което виждат служителите в горната част на списъка с отметки за преход.</help>
+        <label><!-- Welcome Text --></label>
+        <name>wkdw__WelcomeText__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Template Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Add Onboarding Task --></label>
+        <name>Add_Onboarding_Task</name>
+    </quickActions>
+</CustomObjectTranslation>

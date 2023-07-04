@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agregación de bienestar de ubicación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agregaciones de bienestar de ubicaciones</value>
+    </caseValues>
+    <fields>
+        <help>Un identificador exclusivo para el registro en el formato &lt;Id. de Ubicación&gt; + ‘:’ + &lt;Estado de bienestar&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>El conteo total de los individuos independientemente del estado de bienestar.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>La ubicación con la que está relacionado este registro de agregación</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Reporta el proceso por lotes periódico al que debe reagregarse esta agregación.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje de los individuos de la ubicación que están en el estado de bienestar.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>El conteo de los individuos que tienen el estado de bienestar.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>El grupo de estado de bienestar agregado entre individuos de esta ubicación.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre</nameFieldLabel>
+</CustomObjectTranslation>

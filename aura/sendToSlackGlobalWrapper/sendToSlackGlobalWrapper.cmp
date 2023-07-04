@@ -1,0 +1,11 @@
+<aura:component controller="sendToSlack" implements="force:lightningQuickActionWithoutHeader" access="global">
+    <aura:attribute name="isGlobalAction" type="Boolean" default="{!true}" />
+
+    <div class="slack-global-action">
+        <c:sendToSlack
+            isGlobalAction="{!v.isGlobalAction}"
+            onsend="{!c.send}"
+            oncancel="{!c.cancel}"
+        />
+    </div>
+</aura:component>

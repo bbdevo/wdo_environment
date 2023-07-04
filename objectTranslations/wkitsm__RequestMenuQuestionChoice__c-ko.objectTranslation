@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Request Menu Question Choice --></value>
+    </caseValues>
+    <fields>
+        <help>질문 선택이 활성 상태인지 나타냅니다. 이를 통해 선택이 양식에 렌더링되는지 여부를 결정합니다.</help>
+        <label><!-- IsActive --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>wkitsm__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Question --></label>
+        <name>wkitsm__RequestMenuQuestion__c</name>
+        <relationshipLabel><!-- RequestMenuQuestionChoices --></relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Question Choice Name --></nameFieldLabel>
+</CustomObjectTranslation>

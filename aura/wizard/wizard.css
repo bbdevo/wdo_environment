@@ -1,0 +1,109 @@
+.THIS.strike-scope .strike-wizard {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.THIS.strike-scope.classic .strike-wizard {
+    top: initial;
+    right: initial;
+    bottom: initial;
+    left: initial;
+}
+
+.THIS.strike-scope .slds-page-header__icon .slds-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.THIS.strike-scope .strike-wizard__vertical-layout {
+    height: 100%;
+}
+
+.THIS.strike-scope .strike-wizard__header {
+    padding: t(spacingMedium) 0;
+    background-color: white;
+    border-bottom: 1px solid t(colorBorder);
+    flex: 0 0 auto;
+}
+
+@media (min-width: 48em) {
+    .THIS.strike-scope .strike-wizard__header {
+        padding: t(spacingXLarge) 0;
+    }
+}
+
+.THIS.strike-scope .strike-wizard__body {
+    padding-top: t(spacingLarge);
+    padding-bottom: t(spacingLarge);
+    flex: 1 1 100vh;
+    overflow: auto;
+}
+
+@media (min-width: 48em) {
+    .THIS.strike-scope .strike-wizard__body {
+        padding-top: t(spacingXxLarge);
+        padding-bottom: t(spacingXxLarge);
+    }
+}
+
+.THIS.strike-scope .strike-wizard__content {
+    background-color: white;
+    flex-basis: 100%;
+}
+
+.THIS.strike-scope .strike-wizard__title {
+    text-align: center;
+    padding: 0 t(spacingMedium);
+    font-size: 1.25rem;
+    margin-bottom: t(spacingSmall);
+}
+
+@media (min-width: 48em) {
+    .THIS.strike-scope .strike-wizard__title {
+        font-size: 1.75rem;
+    }
+}
+
+.THIS.strike-scope .strike-wizard__step-title {
+    font-size: 1rem;
+}
+
+@media (min-width: 48em) {
+    .THIS.strike-scope .strike-wizard__step-title {
+        font-size: 1.25rem;
+    }
+}
+
+.THIS.strike-scope .strike-wizard__step-title + .strike-wizard__step-description {
+    margin-top: -0.5rem;
+}
+
+.THIS.strike-scope .strike-wizard_path {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.THIS.strike-scope .strike-wizard_path .slds-path__link:hover,
+.THIS.strike-scope .strike-wizard_path .slds-path__link:active,
+.THIS.strike-scope .strike-wizard_path .slds-path__link:focus,
+.THIS.strike-scope .strike-wizard_path .slds-path__item,
+.THIS.strike-scope .strike-wizard_path .slds-path__item::before,
+.THIS.strike-scope .strike-wizard_path .slds-path__item::after {
+    text-decoration: none;
+    cursor: default;
+}
+
+.THIS.strike-scope .strike-wizard__footer {
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid t(colorBorder);
+    background-color: white;
+    padding: t(spacingLarge);
+    text-align: right;
+    flex: 0 0 auto;
+}

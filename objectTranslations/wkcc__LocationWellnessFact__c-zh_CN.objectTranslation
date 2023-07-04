@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>位置健康事实</value>
+    </caseValues>
+    <fields>
+        <help>记录的唯一标识符，格式为 [&quot;Cascade&quot; + &quot;:&quot; +] &lt;Location Id&gt; + ‘:’ + &lt;Wellness Status&gt;。对于包含子位置健康状况值的记录，级联前缀仅显示在其中。</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>员工的总计数（不论健康状况如何）</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>相关位置的位置级别。</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>此事实记录相关的位置。</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>如果为真，将位置标记为需要重新汇总；如果为假，将其标记为不需要重新汇总。</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>处于健康状态的位置的员工百分比。</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>处于健康状况的员工计数。</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>员工的健康状况。</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <nameFieldLabel>姓名</nameFieldLabel>
+</CustomObjectTranslation>

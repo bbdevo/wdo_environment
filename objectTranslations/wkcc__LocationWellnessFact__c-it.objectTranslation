@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fatto relativo alla buona salute nella posizione</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fatti relativi alla buona salute nella posizione</value>
+    </caseValues>
+    <fields>
+        <help>Un identificatore univoco per il record nel formato [&quot;Cascata&quot; + &quot;:&quot; +] &lt;ID posizione&gt; + ‘:’ + &lt;Stato di buona salute&gt;. Il prefisso cascata è presente solo nei record che includono i valori relativi allo stato di buona salute delle posizioni secondarie.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Il conteggio totale dei dipendenti indipendentemente dallo stato di buona salute.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Il livello posizione della posizione correlata.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>La posizione a cui è correlato questo record del fatto.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Contrassegna una posizione come Necessita di riaggregazione se vera, oppure come Non necessita di riaggregazione se falsa.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>La percentuale dei dipendenti della posizione che si trovano nello stato di buona salute.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Il conteggio dei dipendenti che presentano lo stato di buona salute.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Lo stato di buona salute del dipendente.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

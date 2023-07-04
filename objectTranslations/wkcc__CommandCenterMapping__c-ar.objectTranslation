@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>تخطيط Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>تخطيط Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>تخطيطات Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>تخطيطات Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- تخطيط Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- تخطيط Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- تخطيطات Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- تخطيطات Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- تخطيط Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- تخطيط Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- تخطيطات Command Center --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- تخطيطات Command Center --></value>
+    </caseValues>
+    <fields>
+        <help>خاصية اسم المعرِّف المخزّن من نوع البحث</help>
+        <label><!-- Mapped Value Name --></label>
+        <name>wkcc__MappedValueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapped Value --></label>
+        <name>wkcc__MappedValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Key --></label>
+        <name>wkcc__MappingKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type Id --></label>
+        <name>wkcc__MappingTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type --></label>
+        <name>wkcc__MappingType__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>الحقل المعيّن</nameFieldLabel>
+</CustomObjectTranslation>

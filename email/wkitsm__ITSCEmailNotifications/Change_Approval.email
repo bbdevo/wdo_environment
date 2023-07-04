@@ -1,0 +1,7 @@
+Change Management Assessor, 
+
+Change {!Case.Id} requires your review. Please review and either approve or reject. 
+
+Thank you! 
+
+{!Case.OwnerId}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Template Email untuk Survei Kesehatan Karyawan Berkelanjutan Work.com.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Survei Kesehatan Berkelanjutan</name>
+    <style>none</style>
+    <subject>Survei Kesehatan - Harap Diisi</subject>
+    <textOnly>Untuk memastikan tingkat kesehatan dan keselamatan tertinggi yang berkelanjutan di tempat kerja Anda, silakan mengisi survei ini untuk melaporkan status kesehatan Anda saat ini.
+
+Jawaban Anda hanya akan digunakan untuk menentukan apakah Anda dapat terus bekerja di tempat kerja Anda. Data bersifat rahasia dan hanya untuk penggunaan internal.
+
+Tautan survei unik untuk Anda. Jangan teruskan email ini ke orang lain.
+
+{{Survey}}
+
+Terima kasih, kami menghargai dukungan dan kerja sama Anda.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

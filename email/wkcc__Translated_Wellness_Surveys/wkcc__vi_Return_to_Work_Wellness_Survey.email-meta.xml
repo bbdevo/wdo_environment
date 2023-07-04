@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Mẫu Email Khảo Sát Sức Khỏe Của Nhân Viên Trở Lại Làm Việc Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Khảo Sát Sức Khỏe Để Trở Lại Làm Việc</name>
+    <style>none</style>
+    <subject>Khảo Sát Sức Khỏe - Vui Lòng Hoàn Thành</subject>
+    <textOnly>Chúng tôi thật biết ơn khi được bắt đầu quá trình quay trở lại nơi làm việc. Để giúp chúng tôi thực hiện điều này một cách an toàn và có trách nhiệm, vui lòng phản hồi khảo sát này nhằm đánh giá tình trạng sức khỏe hiện tại của bạn.
+
+Phản hồi của bạn chỉ được sử dụng để xác định liệu bạn đã sẵn sàng quay trở lại nơi làm việc chưa. Nếu bạn từ chối cung cấp dữ liệu về sức khỏe, bạn phải tiếp tục làm việc từ xa. Để từ chối, vui lòng thực hiện khảo sát và chỉ rõ lựa chọn đó.
+
+Liên kết của khảo sát chỉ dành riêng cho bạn. Không được chuyển tiếp email này cho người khác.
+
+{{Survey}}
+
+Cảm ơn bạn và chúng tôi đánh giá cao sự hỗ trợ và hợp tác của bạn.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

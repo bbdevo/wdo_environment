@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- משימה בתבנית תוכנית מעבר --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- המשימה בתבנית תוכנית המעבר --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- משימות בתבנית תוכנית מעבר --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- המשימות בתבנית תוכנית המעבר --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>יכול להיות מספר חיובי או שלילי המייצג את ההפרש בימים ביחס לתאריך הכניסה לתוקף של תוכנית המעבר</help>
+        <label><!-- Effective Date Offset --></label>
+        <name>wkdw__EffectiveDateOffset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual User --></label>
+        <name>wkdw__IndividualUser__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__OnboardingTask__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template --></label>
+        <name>wkdw__OnboardingTemplate__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>הזן את מזהה התור בשדה זה</help>
+        <label><!-- Queue --></label>
+        <name>wkdw__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Owner Type --></label>
+        <name>wkdw__TaskOwnerType__c</name>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>עובד</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation>מנהל</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Template Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

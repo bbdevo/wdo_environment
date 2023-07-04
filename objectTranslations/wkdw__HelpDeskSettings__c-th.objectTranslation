@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- การตั้งค่า Concierge --></value>
+    </caseValues>
+    <fields>
+        <help>เมื่อเลือกกล่องทำเครื่องหมายนี้ ทริกเกอร์ Apex ลูกจ้างจะไม่สร้างหรือซิงโครไนซ์เรกคอร์ดบัญชีบุคคลโดยอัตโนมัติสำหรับเรกคอร์ลูกจ้างใหม่แต่ละรายการ</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>เมื่อเลือก ทริกเกอร์เคสจะถูกปิดใช้งาน และเคสใหม่จะไม่ถูกแชร์โดยอัตโนมัติกับลูกจ้างที่เชื่อมโยง</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Șablon de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Șablonul de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Șabloane de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Șabloanele de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Șablonului de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Șablonului de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Șabloanelor de plan de tranziție --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Șabloanelor de plan de tranziție --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Dacă se dorește specificarea unui proprietar de plan, introduceți ID-ul cozii.</help>
+        <label><!-- Plan Owner --></label>
+        <name>wkdw__PlanOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Type --></label>
+        <name>wkdw__TransitionType__c</name>
+        <picklistValues>
+            <masterLabel>Job Change</masterLabel>
+            <translation>Schimbare post</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave of Absence</masterLabel>
+            <translation>Învoire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation>Inițiere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion</masterLabel>
+            <translation>Promovare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Relocare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation>Pensionare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation>Desfacerea contractului</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Descrierea pe care o văd angajații deasupra listei de tranziție.</help>
+        <label><!-- Welcome Text --></label>
+        <name>wkdw__WelcomeText__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Template Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Add Onboarding Task --></label>
+        <name>Add_Onboarding_Task</name>
+    </quickActions>
+</CustomObjectTranslation>

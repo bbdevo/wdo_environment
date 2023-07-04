@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- الKnowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- الKnowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- الKnowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- الKnowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- الKnowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- الKnowledge --></value>
+    </caseValues>
+    <fields>
+        <label>النص الأساسي</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>أدخل المحتوى الافتراضي للمستخدمين عندما يقومون بتسجيل تذكرة جديدة متعلقة بهذه المقالة. يمكن أن يكون الحقل فارغًا أو إرشاديًا، مثل &quot;صِف مشكلتك أو طلبك...</help>
+        <label>وصف الحالة</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>يمكنك ترك حقل موضوع الحالة فارغًا وسيعود افتراضيًا إلى عنوان المقالة الحالي.</help>
+        <label>موضوع الحالة</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>مقالات عن مزايا HR Service Center</description>
+        <label>الموارد البشرية - المزايا</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>مقالات عن علاقات الموظفين في HR Service Center</description>
+        <label>الموارد البشرية - علاقات الموظفين</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>مقالات عامة عن HR Service Center</description>
+        <label>الموارد البشرية - عام</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>مقالات عن الإجازة في HR Service Center</description>
+        <label>الموارد البشرية - إجازة</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>مقالات عن تهيئة الموظيفين في HR Service Center</description>
+        <label>الموارد البشرية - تهيئة الموظفين</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>مقالات عن كشف الرواتب في HR Service Center</description>
+        <label>الموارد البشرية - كشف المرتبات</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>قم بإنشاء مقالة معرفية لمحتوى تكنولوجيا المعلومات، مثل حلول المعدات أو الوصول أو أداء التطبيقات</description>
+        <label>المقالة المعرفية الخاصة بتكنولوجيا المعلومات</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

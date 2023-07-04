@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- رابط عنصر قائمة المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- رابط عنصر قائمة المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- رابط عنصر قائمة المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- رابط عنصر قائمة المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- رابط عنصر قائمة المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- رابط عنصر قائمة المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- روابط عناصر قوائم المشاريع --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Link Type --></label>
+        <name>wkdw__Type__c</name>
+        <picklistValues>
+            <masterLabel>Slack</masterLabel>
+            <translation>فترة السماح</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation>الويب</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>wkdw__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Item --></label>
+        <name>wkdw__WorkExperience__c</name>
+        <relationshipLabel><!-- Portfolio Item Links --></relationshipLabel>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

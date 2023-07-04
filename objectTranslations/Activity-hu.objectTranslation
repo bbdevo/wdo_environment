@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Az összes esemény száma</help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>Erőforrás távolléte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>Szerviztalálkozó</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help>Az a cél, amelyet ez a feladat hivatott elérni</help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Az a probléma, amelyet ez a feladat hivatott megoldani</help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Counselling</masterLabel>
+            <translation>Tanácsadás</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnosis</masterLabel>
+            <translation>Diagnózis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exercise</masterLabel>
+            <translation>Testedzés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccination</masterLabel>
+            <translation>Oltás</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__Conditions_Status__c</name>
+        <picklistValues>
+            <masterLabel>Asymptomatic</masterLabel>
+            <translation>Tünetmentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asymptomatic - Declined to Participate</masterLabel>
+            <translation>Tünetmentes – Nem vállalta a részvételt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation>Gyógyult</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluated - No Risk</masterLabel>
+            <translation>Kiértékelve – Nincs kockázat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic</masterLabel>
+            <translation>Tüneteket mutat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic - Declined to Participate</masterLabel>
+            <translation>Tüneteket mutat – Nem vállalta a részvételt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Tracing Status --></label>
+        <name>HealthCloudGA__Contract_Tracing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Befejezve</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Folyamatban</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation>Bejövő</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation>Nincs válasz</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>Nem adom meg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>Nő</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>Férfi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Egyéb</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Igen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation>Adminisztratív</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical</masterLabel>
+            <translation>Klinikai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Egyéb</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncategorized</masterLabel>
+            <translation>Nem kategorizált</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative Test</masterLabel>
+            <translation>Negatív teszt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>Pozitív teszt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Results Pending</masterLabel>
+            <translation>Teszteredmények függőben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Scheduled</masterLabel>
+            <translation>Teszt ütemezve</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Recommended</masterLabel>
+            <translation>Tesztelés javasolt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>Ismeretlen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>A indítani kívánt automatizálás API-neve. Az érték megadása kötelező a Munkamenet művelettípushoz.</help>
+        <label><!-- Action API Name --></label>
+        <name>wkcc__ActionApiName__c</name>
+    </fields>
+    <fields>
+        <help>A műveleti kategória. Ha szeretné a megjeleníteni a műveletet a Workplace Command Center műveleti hírcsatornáján, adja meg a mező értékét.</help>
+        <label><!-- Action Category --></label>
+        <name>wkcc__ActionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Action</masterLabel>
+            <translation>Művelet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation>Riasztás</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Action</masterLabel>
+            <translation>Alkalmazotti egészségiállapot-művelet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Alert</masterLabel>
+            <translation>Alkalmazotti egészségiállapot-riasztás</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Information</masterLabel>
+            <translation>Alkalmazotti egészségiállapot-információ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Warning</masterLabel>
+            <translation>Alkalmazotti egészségiállapot-figyelmeztetés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation>Információ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Action</masterLabel>
+            <translation>Helyi művelet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Alert</masterLabel>
+            <translation>Helyi riasztás</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Information</masterLabel>
+            <translation>Helyi információ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Warning</masterLabel>
+            <translation>Helyi figyelmeztetés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Figyelmeztetés</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Változók JSON-formázású karakterlánca. Ezeket a rendszer a Munkamenet művelettípushoz használja bemeneti változók megadásakor.</help>
+        <label><!-- Action Input Variables --></label>
+        <name>wkcc__ActionInputVariables__c</name>
+    </fields>
+    <fields>
+        <help>A feladat által végrehajtott művelet típusa, ha az automatikus művelettel rendelkezik.</help>
+        <label><!-- Action Type --></label>
+        <name>wkcc__ActionType__c</name>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation>Munkamenet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URL</masterLabel>
+            <translation>URL</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Egy oldal vagy rekord abszolút vagy relatív URL-címe. Az URL tartalmazza az összes kötelező paramétert. A relatív URL-ek a Salesforce-példányhoz képest relatívak.</help>
+        <label><!-- Action URL --></label>
+        <name>wkcc__ActionUrl__c</name>
+    </fields>
+    <fields>
+        <help>Hivatkozás arra a helyre, amelyhez ez a feladat kapcsolódik.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Operations Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__TransitionPlanTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template Task Id --></label>
+        <name>wkdw__TransitionPlanTemplateTaskId__c</name>
+    </fields>
+    <fields>
+        <help>A feladatok onboarding-ellenőrzőlistájában a feladatrekordban beállított név és leírás megjelenítése az onboardingfeladat-rekordban beállított név és leírás helyett.</help>
+        <label><!-- Use Task Labels in Onboarding Checklist --></label>
+        <name>wkdw__UseTaskLabelsInChecklist__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordActionDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channelConfigurations>
+        <channel>Other</channel>
+        <channelItems>
+            <action>wkitsm__Major_Incident_Action_Team_Notification</action>
+            <isMandatory>true</isMandatory>
+            <isUiRemoveHidden>false</isUiRemoveHidden>
+            <pinned>Top</pinned>
+            <position>0</position>
+            <type>Flow</type>
+        </channelItems>
+        <isAutopopEnabled>false</isAutopopEnabled>
+    </channelConfigurations>
+    <channelConfigurations>
+        <channel>Chat</channel>
+        <isAutopopEnabled>false</isAutopopEnabled>
+    </channelConfigurations>
+    <channelConfigurations>
+        <channel>Phone</channel>
+        <isAutopopEnabled>false</isAutopopEnabled>
+    </channelConfigurations>
+    <hasGuidedActions>true</hasGuidedActions>
+    <hasRecommendations>false</hasRecommendations>
+    <masterLabel>Major Incident Team Notifications</masterLabel>
+</RecordActionDeployment>

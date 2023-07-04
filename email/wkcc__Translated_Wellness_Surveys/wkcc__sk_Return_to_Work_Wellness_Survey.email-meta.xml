@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Šablóna emailu pre Work.com Prieskum o zdraví zamestnanca pri návrate do práce</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Prieskum o zdraví zamestnanca pri návrate do práce</name>
+    <style>none</style>
+    <subject>Prieskum o zdraví - prosím, vyplňte</subject>
+    <textOnly>Ďakujeme za začatie procesu návratu na pracovisko. Ak nám chcete pomôcť a urobiť to bezpečne a zodpovedne, odpovedzte na tento prieskum, ktorý hodnotí vaše súčasné zdravie.
+
+Vaše odpovede sa používajú iba na určenie, či ste pripravení sa vrátiť na svoje pracovisko. Ak odmietnete poskytnúť údaje o zdravotnom stave, musíte pokračovať v práci na diaľku. Ak chcete odmietnuť, spustite prieskum a označte túto voľbu.
+
+Odkaz na prieskum je pre vás jedinečný. Neposielajte tento e-mail ostatným.
+
+{{Survey}}
+
+Ďakujeme a vážime si vašu podporu a spoluprácu.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

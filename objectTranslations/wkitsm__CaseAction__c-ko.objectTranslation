@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- CaseAction --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Action Item --></label>
+        <name>wkitsm__ActionItem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Operation --></label>
+        <name>wkitsm__ActionOperation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Target --></label>
+        <name>wkitsm__ActionTarget__c</name>
+    </fields>
+    <fields>
+        <help>Tanium 작업은 Tanium 플랫폼을 사용하여 생성된 기본 작업입니다. 소프트웨어 배포는 Tanium 배포에서 관리하는 배포를 지칭합니다.</help>
+        <label><!-- Action Type --></label>
+        <name>wkitsm__ActionType__c</name>
+        <picklistValues>
+            <masterLabel>Process Termination</masterLabel>
+            <translation>프로세스 종료</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restart Endpoint</masterLabel>
+            <translation>엔드포인트 재시작</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Control</masterLabel>
+            <translation>서비스 제어</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Deployment</masterLabel>
+            <translation>소프트웨어 배포</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>wkitsm__Action__c</name>
+        <relationshipLabel><!-- Action --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>wkitsm__CaseId__c</name>
+        <relationshipLabel><!-- CaseActions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>wkitsm__Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Downloading --></label>
+        <name>wkitsm__Downloading__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired --></label>
+        <name>wkitsm__Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- FailedVerification --></label>
+        <name>wkitsm__FailedVerification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failed --></label>
+        <name>wkitsm__Failed__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingVerification --></label>
+        <name>wkitsm__PendingVerification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running --></label>
+        <name>wkitsm__Running__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified --></label>
+        <name>wkitsm__Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- WaitingToRetry --></label>
+        <name>wkitsm__WaitingToRetry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waiting --></label>
+        <name>wkitsm__Waiting__c</name>
+    </fields>
+    <nameFieldLabel><!-- Case Action Number --></nameFieldLabel>
+</CustomObjectTranslation>

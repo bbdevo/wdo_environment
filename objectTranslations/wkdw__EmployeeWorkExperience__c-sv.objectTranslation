@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Portföljobjekt --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Ett portföljobjekt --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Portföljobjektet --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Portföljobjekt --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Portföljobjekt --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Portföljobjekten --></value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkdw__CompletionDate__c</name>
+    </fields>
+    <fields>
+        <help>Beskriv din erfarenhet och lyft fram dina prestationer.</help>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Owner --></label>
+        <name>wkdw__IsOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ongoing --></label>
+        <name>wkdw__Ongoing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>wkdw__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkdw__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Använd radbrytningar för att avgränsa URL:erna</help>
+        <label><!-- Related URLs --></label>
+        <name>wkdw__URLs__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Enter an end date that occurs after the start date. --></errorMessage>
+        <name>wkdw__CompletionDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a URL that starts with a valid protocol such as https:// or file:///. --></errorMessage>
+        <name>wkdw__URLs</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<aura:component extensible="true">
+    <!-- Internal -->
+    <aura:attribute name="toasts" type="Aura.Component[]" description="Toast components"/>
+    <!-- /Internal -->
+
+    <!-- Handlers -->
+    <aura:handler name="showToast" event="c:event" action="{!c.showToast}" includeFacets="true" />
+    <!-- /Handlers -->
+
+    <div class="slds-notify_container">
+        {!v.toasts}
+    </div>
+
+    {!v.body}
+</aura:component>

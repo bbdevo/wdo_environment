@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Command Center-logfilen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Command Center-logfil</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Command Center-logfil</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Command Center-logfilerne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Command Center-logfiler</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Command Center-logfiler</value>
+    </caseValues>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>wkcc__ClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>wkcc__Level__c</name>
+        <picklistValues>
+            <masterLabel>DEBUG</masterLabel>
+            <translation>FEJLFIND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERROR</masterLabel>
+            <translation>FEJL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFO</masterLabel>
+            <translation>INFO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WARN</masterLabel>
+            <translation>ADVAR</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>wkcc__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object ID List --></label>
+        <name>wkcc__ObjectIdList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>wkcc__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package --></label>
+        <name>wkcc__Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- API Response --></label>
+        <name>wkcc__ResponseJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>wkcc__StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>wkcc__User__c</name>
+        <relationshipLabel><!-- Command Center Logs --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Log-id</nameFieldLabel>
+</CustomObjectTranslation>

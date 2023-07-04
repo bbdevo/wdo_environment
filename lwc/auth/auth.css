@@ -1,0 +1,15 @@
+.slack-auth {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.slack-logo-container img {
+    max-width: 260px;
+}
+
+.slack-button-container img {
+    width: 172px;
+    cursor: pointer;
+}

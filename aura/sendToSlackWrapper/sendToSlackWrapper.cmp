@@ -1,0 +1,17 @@
+<aura:component controller="sendToSlack" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSObjectName" access="global">
+    <aura:attribute name="isGlobalAction" type="Boolean" default="{!false}" />
+    <aura:attribute name="isClassic" type="Boolean" default="{!false}" />
+    <aura:attribute name="recordId" type="String" default="{!v.recordId}" />
+    <aura:attribute name="objectApiName" type="String" default="{!v.sObjectName}" />
+
+    <div class="{!'slack-quick-action' + (v.objectApiName == 'Case' ? ' slack-quick-action_case' : '') + (v.isClassic ? ' slack-is-classic' : '')}">
+        <c:sendToSlack
+            isGlobalAction="{!v.isGlobalAction}"
+            isClassic="{!v.isClassic}"
+            recordId="{!v.recordId}"
+            objectApiName="{!v.objectApiName}"
+            onsend="{!c.send}"
+            oncancel="{!c.cancel}"
+        />
+    </div>
+</aura:component>

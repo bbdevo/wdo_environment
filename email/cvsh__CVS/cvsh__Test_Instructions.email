@@ -1,0 +1,65 @@
+<body style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;background-color: #f4f4f4;color: #262c33;font-weight: 300;font-size: 0.875rem;line-height: 1.5;width: 100% !important;font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif !important;">
+    <table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" align="center" style="font-size: 0.875rem;line-height: 1.5;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;width: 100% !important;">
+        <tr>
+            <td style="border-collapse: collapse; padding:20px 0px 20px 0px;">
+                <table class="container" cellpadding="0" cellspacing="0" border="0" align="center" style="font-size: 0.875rem;line-height: 1.5;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;max-width: 640px;width: 100%;">
+                    <tr>
+                        <td valign="top" style="border-collapse: collapse;padding: 20px;">
+                            <table class="content" cellpadding="0" cellspacing="0" border="0" style="font-size: 0.875rem;line-height: 1.5;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;background: #ffffff;">
+                                <tr>
+                                    <td class="header" text-align="center" style="border-collapse: collapse;background-color: #ffffff; padding: 30px 40px 0px; text-align: center;">
+                                        <div style="display:{!if($Setup.cvsh__Setup_Settings__c.cvsh__Company_Logo_Url__c = null, 'none' , 'block')};">
+                                            <img class="logo" src="{!$Setup.cvsh__Setup_Settings__c.cvsh__Company_Logo_Url__c}" style="display:in-block; outline: none;text-decoration: none;-ms-interpolation-mode:bicubic;width:{!$Setup.cvsh__Setup_Settings__c.cvsh__Company_Logo_Width__c}px; max-width:180px;" />
+                                        </div>
+                                        <div style="display:{!if($Setup.cvsh__Setup_Settings__c.cvsh__Company_Logo_Url__c = null, 'block' , 'none')};">
+                                            <p style="font-weight: 300; font-size: 1.25rem; line-height: 1.25; margin-top:0px;">        {!Organization.Name}
+                                            </p>  
+                                        </div>
+                                        <hr style="margin: 20px 0px 0px 0px; border-top: 1px solid #e2e2e2;" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="body" style="border-collapse: collapse;padding: 30px 40px 20px; background-color: #ffffff; text-align:center; padding-bottom: 0px;">
+                                        <h1 class="text-heading align-center" style="font-weight: 700;font-size: 1.25rem;line-height: 1.25;text-align: center;">Your health is our top priority</h1>
+                                        <p>We understand there may be growing uncertainty during these times. To help maintain a healthy work environment and decrease the spread of COVID-19 in the workplace, we are sponsoring COVID-19 testing provided by CVS Health.</p>
+
+                                        <p>Based on your recent health assessment survey, you have indicated that you are experiencing symptoms or have been exposed to COVID-19. You are now eligible to schedule an appointment for COVID-19 testing. Schedule your appointment today and learn more about the testing opportunities provided to you.</p>
+
+                                        <p class="button-container align-center" style="text-align: center; margin: 2em 0;">
+                                            <a class="button" href="https://www.cvs.com/minuteclinic/covid-19-testing/university-employer-organization-testing" style="background-color:{!if($Setup.cvsh__Setup_Settings__c.cvsh__Company_Brand_Color__c != null, $Setup.cvsh__Setup_Settings__c.cvsh__Company_Brand_Color__c, '#13305c')}; border-radius: 6px;color: white !important;display:inline-block;font-size:1rem;line-height:3rem;text-align: center;text-decoration: none;text-shadow:0 2px 5px rgba(38,44,51,0.25);width:200px;-webkit-text-size-adjust:none;">Schedule Appointment</a>
+                                        </p>
+                                        <hr style="border-top: 1px solid #e2e2e2; margin: 0px 0px 20px 0px;" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="container" cellpadding="0" cellspacing="0" border="0" align="center" style="font-size: 0.875rem;line-height: 1.5;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;max-width: 640px;width: 100%;">
+                                            <tr>
+                                                <td class="" style="border-collapse: collapse;padding: 0 80px 20px;font-size: 0.65rem;text-align: center;color: #80868d;">
+                                                    <p style="margin: 0;">{!Organization.Name} <br />{!Organization.Address}</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;max-width: 640px;">
+                    <tr>
+                        <td style="border-collapse: collapse;">
+                           <p style="text-align: center; margin-bottom: 4px; margin-top: 0px; font-size: .65rem; color: #80868d;">Powered By:</p>
+                            <span>
+                                <img src="https://cvshealth.com/sites/default/files/logo.png" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: 85px; padding-right:10px" />
+                            </span>
+                            <span>
+                                <img src="https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/work/logo-tans.png" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: 85px; padding-left:10px;" />
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>

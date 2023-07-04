@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Naloga načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Naloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Naloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogo načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Naloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Naloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Naloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Nalog načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Nalog načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogi načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogam načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Nalogam načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogo načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogami načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Nalogami načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogi načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogah načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Nalogah načrta za prehod --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>Opis opravila, ki je prikazan zaposlenim na kontrolnem seznamu za uvajanje. Če je to prazno, je uporabljen opis.</help>
+        <label><!-- Display Description --></label>
+        <name>wkdw__DisplayDescription__c</name>
+    </fields>
+    <fields>
+        <help>Ime naloge, ki je prikazano zaposlenim na kontrolnem seznamu za uvajanje. Če je to polje prazno, je uporabljeno ime naloge.</help>
+        <label><!-- Display Name --></label>
+        <name>wkdw__DisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow API Name --></label>
+        <name>wkdw__FlowAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority of Onboarding Task DEPRECATED --></label>
+        <name>wkdw__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Day Offset DEPRECATED --></label>
+        <name>wkdw__StartDayOffset__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Announcement --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Employee Workspace --></label>
+        <name>wkitsm__EW</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ITSC Console --></label>
+        <name>wkitsm__ITSC</name>
+    </fieldSets>
+    <fields>
+        <help>開始日と終了日が空白であるか、日付範囲が過去または未来の日付である場合、通知はアクティブではありません。</help>
+        <label><!-- Active --></label>
+        <name>wkitsm__Active__c</name>
+    </fields>
+    <fields>
+        <help>完全な通知記録を表示すると表示される追加の詳細。通知コンポーネントには表示されません。</help>
+        <label><!-- Additional Details --></label>
+        <name>wkitsm__AdditionalDetails__c</name>
+    </fields>
+    <fields>
+        <help>通知コンポーネントに表示される通知詳細</help>
+        <label><!-- Announcement Details --></label>
+        <name>wkitsm__AnnouncementDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>wkitsm__End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Past --></label>
+        <name>wkitsm__Past__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled --></label>
+        <name>wkitsm__Scheduled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>wkitsm__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibility --></label>
+        <name>wkitsm__Visibility__c</name>
+        <picklistValues>
+            <masterLabel>Employee Workspace</masterLabel>
+            <translation><!-- Employee Workspace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Workspace and ITSC Console</masterLabel>
+            <translation>Employee WorkspaceとITSCコンソール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITSC Console</masterLabel>
+            <translation>ITSCコンソール</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Announcement Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Announcement of type Alert --></description>
+        <label><!-- Alert --></label>
+        <name>wkitsm__AlertAnnouncement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Announcement of type Information --></description>
+        <label><!-- Informational --></label>
+        <name>wkitsm__InformationalAnnouncement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Announcement of type Warning --></description>
+        <label><!-- Warning --></label>
+        <name>wkitsm__WarningAnnouncement</name>
+    </recordTypes>
+</CustomObjectTranslation>

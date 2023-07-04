@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>حقيقة حول جاهزية الموقع</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>حقيقة حول جاهزية الموقع</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>أعداد الموظفين في حالة الجاهزية حسب الموقع</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>أعداد الموظفين في حالة الجاهزية حسب الموقع</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- حقيقة حول جاهزية الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- حقيقة حول جاهزية الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- أعداد الموظفين في حالة الجاهزية حسب الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- أعداد الموظفين في حالة الجاهزية حسب الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- حقيقة حول جاهزية الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- حقيقة حول جاهزية الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- أعداد الموظفين في حالة الجاهزية حسب الموقع --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- أعداد الموظفين في حالة الجاهزية حسب الموقع --></value>
+    </caseValues>
+    <fields>
+        <help>معرّف فريد للسجل بتنسيق[&quot;Cascade&quot; + &quot;:&quot; +] &lt;Location Id&gt; + ‘:’ + &lt;Wellness Status&gt;. البادئة المتسلسلة موجودة فقط في السجلات التي تتضمن قيم الحالة الصحية الخاصة بالموقع الفرعي.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>إجمالي عدد الموظفين بغض النظر عن الحالة الصحية.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>مستوى الموقع للموقع المرتبط.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>الموقع الذي يرتبط به سجل الحقائق هذا.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>يضع علامة على موقع ما بأنه يحتاج إلى إعادة تجميع إذا كان صحيحًا، أو لا يحتاج إليه إذا كان خطأ.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>النسبة المئوية لموظفي الموقع في الحالة الصحية.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>عدد الموظفين الذين يتمتعون بحالة صحية.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>الحالة الصحية للموظف.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>الاسم</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIObjectRelationConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>Account Name</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;Name&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[]}</queryText>
+        <rowOrder>1</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>Employees</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;NumberOfEmployees&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[]}</queryText>
+        <rowOrder>2</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <contextObject>Account</contextObject>
+    <indirectObjectContextField>ContactId</indirectObjectContextField>
+    <indirectObjectRelatedField>AccountId</indirectObjectRelatedField>
+    <indirectRelationshipObject>AccountContactRelation</indirectRelationshipObject>
+    <isActive>true</isActive>
+    <masterLabel>TestCard</masterLabel>
+    <relatedObject>Account</relatedObject>
+    <relationshipType>Indirect</relationshipType>
+</UIObjectRelationConfig>

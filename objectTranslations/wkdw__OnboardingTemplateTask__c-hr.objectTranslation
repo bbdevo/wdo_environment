@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Zadatak predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Zadaci predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Zadatak predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Zadatke predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Zadatka predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Zadataka predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Zadatku predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Zadacima predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Zadatkom predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Zadacima predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Zadatku predloška plana prijelaza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Zadacima predloška plana prijelaza --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>To može biti pozitivni ili negativni broj koji predstavlja razliku u danima u odnosu na datum stupanja na snagu plana prijelaza</help>
+        <label><!-- Effective Date Offset --></label>
+        <name>wkdw__EffectiveDateOffset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual User --></label>
+        <name>wkdw__IndividualUser__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__OnboardingTask__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template --></label>
+        <name>wkdw__OnboardingTemplate__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>U ovo polje unesite ID reda čekanja</help>
+        <label><!-- Queue --></label>
+        <name>wkdw__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Owner Type --></label>
+        <name>wkdw__TaskOwnerType__c</name>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Zaposlenik</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation>Upravitelj</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Template Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

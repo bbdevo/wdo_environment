@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הנמען בלו&quot;ז הסקר</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>נמען בלו&quot;ז סקר</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>הנמענים בלו&quot;ז הסקר</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>נמענים בלו&quot;ז סקר</value>
+    </caseValues>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>wkcc__Employee__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Schedule --></label>
+        <name>wkcc__SurveySchedule__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>שם נמען לו&quot;ז סקר</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Schedule Recipient needs to be selected based on Schedule Recipient Type --></errorMessage>
+        <name>wkcc__RecipientsBasedOnRecipientType</name>
+    </validationRules>
+</CustomObjectTranslation>

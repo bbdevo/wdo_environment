@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Agregacija zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Agregacije zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Agregaciju zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Agregacije zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Agregacije zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Agregacija zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Agregaciji zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Agregacijama zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Agregacijom zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Agregacijama zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Agregaciji zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Agregacijama zdravstvenog stanja na lokaciji</value>
+    </caseValues>
+    <fields>
+        <help>Jedinstveni identifikator za zapis u formatu &lt;Id lokacije&gt; + ‘:’ + &lt;Zdravstveno stanje&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Ukupni broj osoba neovisno o zdravstvenom stanju.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Lokacija na koju se odnosi ovaj zapis agregacije</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Informira periodični skupni postupak da je potrebno ponovno agregirati tu agregaciju.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Postotak zdravih osoba na lokaciji.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Broj osoba koje su zdrave.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Grupa zdravstvenog stanja agregirana za sve osobe na toj lokaciji.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naziv</nameFieldLabel>
+</CustomObjectTranslation>

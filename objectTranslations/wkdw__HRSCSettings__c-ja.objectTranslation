@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- HRSC 設定 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- MaxDaysCompletedTransition --></label>
+        <name>wkdw__MaxDaysCompletedTransition__c</name>
+    </fields>
+    <fields>
+        <help>オンの場合、待機中の ToDo のみがオンボーディング ToDo チェックリストが表示されます。オフの場合、すべての ToDo が表示されます。</help>
+        <label><!-- Show Only Pending Tasks --></label>
+        <name>wkdw__ShowPendingTasksOnly__c</name>
+    </fields>
+    <fields>
+        <help>日数</help>
+        <label><!-- Welcome Task Visibility Offset --></label>
+        <name>wkdw__WelcomeTaskVisibilityOffset__c</name>
+    </fields>
+</CustomObjectTranslation>

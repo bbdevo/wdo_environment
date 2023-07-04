@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The Employee Contact Tracing Settings custom metadata type allows you to configure the application and how it works</description>
+    <fields>
+        <fullName>emptracing__CareProgram_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The care program name to which an impacted employee must be enrolled</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Care Program Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__Crisis_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the crisis that the employee crisis assessment record must be associated with.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Crisis Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__Employee_ContactTracing_Task_Queue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the API name of the employee contact tracing task queue</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Employee Contact Tracing Task Queue</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__Employee_ContactTracing_Task_RecordType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the record type API name of the contact tracer&apos;s task for employees.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Employee Contact Tracing Task RecordType</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__Employee_ContactTracing_Task_Subject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the Subject of the contact tracer&apos;s task for employees.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Employee Contact Tracing Task Subject</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__Employee_PersonAccount_RecordType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the record type API name of the employee person account</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Employee Person Account Record Type</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__External_ContactTracing_Lead_RecordType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the record type API name of the external contacts. An external contact is a person outside the organization who the impacted employee has interacted with, such as a customer or vendor</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>External Contact Tracing Lead RecordType</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__External_ContactTracing_Task_Queue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the API name of the external contact tracing task work item queue. An external contact is a person outside the organization who the impacted employee has interacted with, such as a customer or vendor</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>External Contact Tracing Task Queue</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__External_ContactTracing_Task_RecordType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the record type API name of the contact tracer’s task for external contacts. An external contact is a person outside the organization who the impacted employee has interacted with, such as a customer or vendor</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>External Contact Tracing Task RecordType</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Contact Tracing Setting</label>
+    <pluralLabel>Contact Tracing Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

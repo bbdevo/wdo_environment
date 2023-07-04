@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Count of all events --></help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation><!-- Resource Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help>היעד שמשימה זו צריכה להשיג</help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>הבעיה שמשימה זו צריכה לפתור</help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Counselling</masterLabel>
+            <translation>ייעוץ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnosis</masterLabel>
+            <translation>אבחנה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exercise</masterLabel>
+            <translation>פעילות גופנית</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccination</masterLabel>
+            <translation>חיסון</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__Conditions_Status__c</name>
+        <picklistValues>
+            <masterLabel>Asymptomatic</masterLabel>
+            <translation>ללא תסמינים</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asymptomatic - Declined to Participate</masterLabel>
+            <translation>ללא תסמינים - סירב להשתתף</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation>החלים</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluated - No Risk</masterLabel>
+            <translation>הוערך - אין סיכון</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic</masterLabel>
+            <translation>עם תסמינים</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic - Declined to Participate</masterLabel>
+            <translation>עם תסמינים - סירב להשתתף</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Tracing Status --></label>
+        <name>HealthCloudGA__Contract_Tracing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>הושלם</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>בביצוע</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation>נכנסת</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation>אין תגובה</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>סירוב לציין</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>נקבה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>זכר</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>אחר</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>לא</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>כן</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation>מנהלי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical</masterLabel>
+            <translation>קליני</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>אחר</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncategorized</masterLabel>
+            <translation>ללא קטגוריה</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative Test</masterLabel>
+            <translation>בדיקה שלילית</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>בדיקה חיובית</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Results Pending</masterLabel>
+            <translation>בהמתנה לתוצאות בדיקה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Scheduled</masterLabel>
+            <translation>נקבעה בדיקה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Recommended</masterLabel>
+            <translation>מומלצת בדיקה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>לא ידוע</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>שם ה-API של הפעולה האוטומטית שתופעל. ערך זה נדרש עבור סוג הפעולה &apos;זרימה&apos;.</help>
+        <label><!-- Action API Name --></label>
+        <name>wkcc__ActionApiName__c</name>
+    </fields>
+    <fields>
+        <help>קטגוריית הפעולה. כדי להציג את המשימה בהזנת הפעולות של Command Center למקום עבודה, ציין ערך עבור שדה זה.</help>
+        <label><!-- Action Category --></label>
+        <name>wkcc__ActionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Action</masterLabel>
+            <translation>פעולה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation>התראה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Action</masterLabel>
+            <translation>פעולת בריאות עובד</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Alert</masterLabel>
+            <translation>התראת בריאות עובד</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Information</masterLabel>
+            <translation>פרטי בריאות עובד</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Warning</masterLabel>
+            <translation>אזהרת בריאות עובד</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation>מידע</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Action</masterLabel>
+            <translation>פעולת מיקום</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Alert</masterLabel>
+            <translation>התראת מיקום</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Information</masterLabel>
+            <translation>פרטי מיקום</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Warning</masterLabel>
+            <translation>אזהרת מיקום</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>אזהרה</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>מחרוזת משתנים בתבנית JSON. משמשים בסוג הפעולה &apos;זרימה&apos; לציון משתני קלט.</help>
+        <label><!-- Action Input Variables --></label>
+        <name>wkcc__ActionInputVariables__c</name>
+    </fields>
+    <fields>
+        <help>סוג הפעולה שמתבצעת על-ידי משימה זו אם היא מכילה פעולה אוטומטית.</help>
+        <label><!-- Action Type --></label>
+        <name>wkcc__ActionType__c</name>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation>זרימה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URL</masterLabel>
+            <translation>כתובת URL</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>כתובת URL מוחלטת או יחסית של דף או רשומה. כתובת ה-URL כוללת את כל הפרמטרים הנדרשים. כתובות URL יחסיות הן ביחס למופע של Salesforce.</help>
+        <label><!-- Action URL --></label>
+        <name>wkcc__ActionUrl__c</name>
+    </fields>
+    <fields>
+        <help>הפניה אל המיקום שאליו משימה זו קשורה.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Operations Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__TransitionPlanTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template Task Id --></label>
+        <name>wkdw__TransitionPlanTemplateTaskId__c</name>
+    </fields>
+    <fields>
+        <help>ברשימת משימות הקליטה, הצג את השם והתיאור שהוגדרו ברשומת המשימה במקום את השם והתיאור שהוגדרו ברשומה של משימת הקליטה.</help>
+        <label><!-- Use Task Labels in Onboarding Checklist --></label>
+        <name>wkdw__UseTaskLabelsInChecklist__c</name>
+    </fields>
+</CustomObjectTranslation>

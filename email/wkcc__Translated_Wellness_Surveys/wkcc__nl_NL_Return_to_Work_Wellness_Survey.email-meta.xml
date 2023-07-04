@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-mailsjabloon voor Work.com Enquête Welzijn werknemers Terug naar het werk</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enquête Welzijn Terug naar het werk</name>
+    <style>none</style>
+    <subject>Enquête Welzijn - Gelieve in te vullen</subject>
+    <textOnly>We zijn blij om het proces waarbij we terugkeren naar de werkplek te kunnen starten. Om dit op een veilige en verantwoordelijke manier te kunnen doen, vragen we u deze enquête, die uw huidige gezondheid beoordeelt, in te vullen.
+
+Uw antwoorden worden enkel gebruikt om te bepalen of u klaar bent om terug te keren naar uw werkplek. Als u weigert om uw gezondheidsgegevens mee te delen, bent u verplicht om te blijven werken vanop afstand. Om te weigeren, opent u de enquête en geeft u uw keuze aan.
+
+De enquêtekoppeling is uniek voor u. Stuur het e-mailbericht niet door.
+
+{{Survey}}
+
+Bedankt. Wij stellen uw steun en samenwerking zeer op prijs.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

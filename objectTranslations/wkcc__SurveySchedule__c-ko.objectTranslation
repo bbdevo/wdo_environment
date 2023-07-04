@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>설문 조사 일정</value>
+    </caseValues>
+    <fields>
+        <help>일정을 재활성화하는 과정에서 필요한 경우 시작 일자를 현재 날짜 및 시간 이후로 재설정합니다.</help>
+        <label><!-- Active --></label>
+        <name>wkcc__Active__c</name>
+    </fields>
+    <fields>
+        <help>인증이 필요한 설문 조사는 사용자 레코드와 연결되어 있는 경우와 설문 조사에 대해 정의된 이메일 주소가 있는 경우에만 개인에게 보낼 수 있습니다. 또한 수신자가 선택한 커뮤니티에 속해 있어야 합니다.</help>
+        <label><!-- Authentication Required --></label>
+        <name>wkcc__AuthenticationRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template --></label>
+        <name>wkcc__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkcc__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Sublocations --></label>
+        <name>wkcc__IncludeSublocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Role --></label>
+        <name>wkcc__IndividualRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Send Date --></label>
+        <name>wkcc__NextSendDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Type --></label>
+        <name>wkcc__RecipientType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>wkcc__ScheduleFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>매일</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Once</masterLabel>
+            <translation>1회</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>매주</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkcc__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>wkcc__Survey__c</name>
+        <relationshipLabel><!-- Survey Schedules --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>일정 이름</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- End Date needs to be on or after Start Date --></errorMessage>
+        <name>wkcc__EndDateToBeOnOrAfterStartDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the recipient type after a schedule is created. --></errorMessage>
+        <name>wkcc__RecipientTypeNotChangeable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__StartDateNeedsToBeFuture</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__UpdateStartDateToFuture</name>
+    </validationRules>
+</CustomObjectTranslation>

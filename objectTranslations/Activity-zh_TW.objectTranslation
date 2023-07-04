@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>所有事件計數</help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>資源缺勤</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>服務約會</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help>此工作預定處理的目標</help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>此工作預定處理的問題</help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Counselling</masterLabel>
+            <translation>諮詢</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnosis</masterLabel>
+            <translation>診斷</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exercise</masterLabel>
+            <translation>運動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaccination</masterLabel>
+            <translation>疫苗接種</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__Conditions_Status__c</name>
+        <picklistValues>
+            <masterLabel>Asymptomatic</masterLabel>
+            <translation>無症狀</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asymptomatic - Declined to Participate</masterLabel>
+            <translation>無症狀 - 拒絕參加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation>已治癒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluated - No Risk</masterLabel>
+            <translation>已評估 - 無風險</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic</masterLabel>
+            <translation>有症狀</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic - Declined to Participate</masterLabel>
+            <translation>有症狀 - 拒絕參加</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Tracing Status --></label>
+        <name>HealthCloudGA__Contract_Tracing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>已完成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation>即將來臨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation>無回應</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>拒絕指定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>女性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>男性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>否</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>是</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation>管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical</masterLabel>
+            <translation>臨床</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncategorized</masterLabel>
+            <translation>未分類</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative Test</masterLabel>
+            <translation>陰性測試</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>陽性測試</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Results Pending</masterLabel>
+            <translation>待處理的測試結果</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Scheduled</masterLabel>
+            <translation>排程測試</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Recommended</masterLabel>
+            <translation>建議測試</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>不明</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>要啟動的自動化 API 名稱。流程動作類型需要此值。</help>
+        <label><!-- Action API Name --></label>
+        <name>wkcc__ActionApiName__c</name>
+    </fields>
+    <fields>
+        <help>動作類別。若要顯示工作場所 Command Center 操作摘要中的任務，請指定此欄位的值。</help>
+        <label><!-- Action Category --></label>
+        <name>wkcc__ActionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Action</masterLabel>
+            <translation>動作</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation>警示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Action</masterLabel>
+            <translation>員工健康動作</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Alert</masterLabel>
+            <translation>員工健康警示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Information</masterLabel>
+            <translation>員工健康資訊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Wellness Warning</masterLabel>
+            <translation>員工健康警告</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation>資訊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Action</masterLabel>
+            <translation>位置動作</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Alert</masterLabel>
+            <translation>位置警示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Information</masterLabel>
+            <translation>地點資訊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Warning</masterLabel>
+            <translation>位置警告</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>警告</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>JSON 格式的變量字符。這些用於流程動作類型以指定輸入變數。</help>
+        <label><!-- Action Input Variables --></label>
+        <name>wkcc__ActionInputVariables__c</name>
+    </fields>
+    <fields>
+        <help>此工作執行的動作類型 (若此工作具有自動化動作)。</help>
+        <label><!-- Action Type --></label>
+        <name>wkcc__ActionType__c</name>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation>流程</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URL</masterLabel>
+            <translation>URL</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>頁面或記錄的絕對或相對 URL。該 URL 包含任何必要參數。相對 URL 相對於 Salesforce 執行個體。</help>
+        <label><!-- Action URL --></label>
+        <name>wkcc__ActionUrl__c</name>
+    </fields>
+    <fields>
+        <help>此任務相關位置的參照。</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Operations Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__TransitionPlanTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template Task Id --></label>
+        <name>wkdw__TransitionPlanTemplateTaskId__c</name>
+    </fields>
+    <fields>
+        <help>在工作的入職檢查清單中，顯示工作記錄上設定的名稱和描述，而不是入職工作記錄上設定的名稱和描述。</help>
+        <label><!-- Use Task Labels in Onboarding Checklist --></label>
+        <name>wkdw__UseTaskLabelsInChecklist__c</name>
+    </fields>
+</CustomObjectTranslation>

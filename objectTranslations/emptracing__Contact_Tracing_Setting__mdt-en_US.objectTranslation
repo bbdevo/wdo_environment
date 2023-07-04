@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Care Program Name --></label>
+        <name>emptracing__CareProgram_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crisis Name --></label>
+        <name>emptracing__Crisis_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Contact Tracing Task Queue --></label>
+        <name>emptracing__Employee_ContactTracing_Task_Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Contact Tracing Task RecordType --></label>
+        <name>emptracing__Employee_ContactTracing_Task_RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Contact Tracing Task Subject --></label>
+        <name>emptracing__Employee_ContactTracing_Task_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Person Account Record Type --></label>
+        <name>emptracing__Employee_PersonAccount_RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Contact Tracing Lead RecordType --></label>
+        <name>emptracing__External_ContactTracing_Lead_RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Contact Tracing Task Queue --></label>
+        <name>emptracing__External_ContactTracing_Task_Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Contact Tracing Task RecordType --></label>
+        <name>emptracing__External_ContactTracing_Task_RecordType__c</name>
+    </fields>
+</CustomObjectTranslation>

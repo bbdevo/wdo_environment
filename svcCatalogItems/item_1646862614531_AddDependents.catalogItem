@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SvcCatalogItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <categories>
+        <isPrimaryCategory>true</isPrimaryCategory>
+        <sortOrder>2</sortOrder>
+        <svcCatalogCategory>category_1646773475654_Benefits</svcCatalogCategory>
+    </categories>
+    <flow>item_1646862614531_AddDependents</flow>
+    <image>ServiceCatalog_Dependents</image>
+    <isFeatured>false</isFeatured>
+    <isProtected>false</isProtected>
+    <masterLabel>Add Dependents</masterLabel>
+    <status>Published</status>
+</SvcCatalogItemDef>

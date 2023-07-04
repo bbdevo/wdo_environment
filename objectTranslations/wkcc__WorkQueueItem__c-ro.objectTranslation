@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Elementul de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Element de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Elementele de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Elemente de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Elementului de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Elementului de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Elementelor de coadă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Elementelor de coadă de lucru</value>
+    </caseValues>
+    <fields>
+        <label><!-- Encrypted Details --></label>
+        <name>wkcc__EncryptedDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Detail Hash --></label>
+        <name>wkcc__JobDetailHash__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Priority --></label>
+        <name>wkcc__JobPriority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status Details --></label>
+        <name>wkcc__JobStatusDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Eroare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nou</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>wkcc__JobType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process After --></label>
+        <name>wkcc__ProcessAfter__c</name>
+    </fields>
+    <fields>
+        <label><!-- QI Status --></label>
+        <name>wkcc__QIStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- QI Worker --></label>
+        <name>wkcc__QIWorker__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nume coadă de lucru</nameFieldLabel>
+</CustomObjectTranslation>

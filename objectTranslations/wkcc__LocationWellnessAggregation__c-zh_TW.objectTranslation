@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>位置健康彙總</value>
+    </caseValues>
+    <fields>
+        <help>記錄的唯一識別碼，格式為 &lt;Location Id&gt; + ‘:’ + &lt;Wellness Status&gt;。</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>任何健康狀況的個人總人數。</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>此彙總記錄相關的位置</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>通知週期批次程序此彙總需重新彙總。</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>該位置中處於健康狀況的個人百分比。</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>處於健康狀況的個人計數。</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>健康狀況群組彙總此位置的個人。</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <nameFieldLabel>名稱</nameFieldLabel>
+</CustomObjectTranslation>

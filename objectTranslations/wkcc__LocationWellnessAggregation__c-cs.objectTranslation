@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Agregace zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Agregace zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Agregaci zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Agregace zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Agregace zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Agregací zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Agregaci zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Agregacím zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Agregací zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Agregacemi zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Agregaci zdraví lokality</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Agregacích zdraví lokality</value>
+    </caseValues>
+    <fields>
+        <help>Jedinečný identifikátor záznamu ve formátu &lt;ID umístění&gt; + ‘:’ + &lt;stav zdraví&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Celkový počet jednotlivců bez ohledu na stav blaha.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Lokalita, které se tento záznam agregace týká.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Informuje pravidelný proces, že tato agregace vyžaduje opětovnou agregaci.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Procento jednotlivců v daném umístění, kteří jsou ve stavu zdraví.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Počet jednotlivců, kteří mají daný stav zdraví.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Skupina stavu zdraví agregovaná napříč jednotlivci v této lokalitě.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Jméno</nameFieldLabel>
+</CustomObjectTranslation>

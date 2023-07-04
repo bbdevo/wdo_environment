@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>IT Agent</profile>
+        </profiles>
+        <users>
+            <user>itagent.nnjtkkn4alyr.mnx4nup4zces@evocrm.hu2023/06/6_12-53-9.demo</user>
+            <user>peter.felegyi@evocrm.hu2023/06/6_12-53-9.demo</user>
+        </users>
+    </assignments>
+    <label>IT Agent</label>
+</Skill>

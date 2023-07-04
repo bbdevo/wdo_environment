@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Employee Profile Card Secondary Region --></label>
+        <name>wkdw__Employee_Profile_Card_Secondary_Region</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Employee Profile Card Tertiary Region --></label>
+        <name>wkdw__Employee_Profile_Card_Tertiary_Region</name>
+    </fieldSets>
+    <fields>
+        <label><!-- EmployeeWellnessStatusAsOf --></label>
+        <name>EmployeeWellnessStatusAsOf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location (Related List) --></label>
+        <name>Location__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CVS Company Code --></label>
+        <name>cvsh__CVS_Company_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligible --></label>
+        <name>cvsh__Eligible__c</name>
+    </fields>
+    <fields>
+        <help>Ez a mező nem frissül, ha az egészségi állapotot manuálisan módosítják. Ha manuálisan frissíti egy felhasználó egészségi állapotát, frissítse az Egészségi állapot kezdete mezőt is.</help>
+        <label><!-- Wellness Status As Of --></label>
+        <name>wkcc__CurrentWellnessStatusAsOf__c</name>
+    </fields>
+    <fields>
+        <help>A társított személy szerepkörét tisztázza.</help>
+        <label><!-- Individual Role --></label>
+        <name>wkcc__IndividualRole__c</name>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Alkalmazott</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ready To Return --></label>
+        <name>wkcc__ReadyToReturn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Name --></label>
+        <name>wkdw__DisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Name --></label>
+        <name>wkdw__LocationName__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- New HR Case --></label>
+        <name>New_HR_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reset Onboarding --></label>
+        <name>Reset_Onboarding</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Employee&apos;s email field is required --></errorMessage>
+        <name>wkfsl__Email_field_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Employee records must have Location field populated --></errorMessage>
+        <name>wkfsl__Employee_Location_Populated</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_Survey --></label>
+        <name>wkcc__Send_Survey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_List --></label>
+        <name>wkcc__Send_Survey_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Assign_Onboarding_Tasks --></label>
+        <name>wkdw__Assign_Onboarding_Tasks</name>
+    </webLinks>
+</CustomObjectTranslation>

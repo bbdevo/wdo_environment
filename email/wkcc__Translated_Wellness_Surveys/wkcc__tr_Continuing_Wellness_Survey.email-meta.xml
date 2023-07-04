@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Work.com Devam Eden Çalışan Sağlık Anketi İçin E-posta Şablonu</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Devam Eden Sağlık Anketi</name>
+    <style>none</style>
+    <subject>Sağlık Anketi - Lütfen Doldurun</subject>
+    <textOnly>İş yerinizden sürekli en üst düzeyde sağlık ve güvenlik sağlamak için lütfen şu anki sağlık durumunuzu bildirmek için bu anketi doldurun.
+
+Yanıtlarınız yalnızca işe iş yerinizden devam edebilip edemeyeceğinizi belirlemek için kullanılır. Veriler gizlidir ve yalnızca dahili kullanım içindir.
+
+Anket bağlantısı size özeldir. Bu e-postayı başkalarına iletmeyin.
+
+{{Survey}}
+
+Teşekkür ederiz, desteğiniz ve işbirliğiniz için bizim için önemlidir.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

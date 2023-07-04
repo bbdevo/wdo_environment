@@ -1,0 +1,2 @@
+<apex:page controller="CQWK_Automated_Login" action="{!routeToReport}" >
+</apex:page>

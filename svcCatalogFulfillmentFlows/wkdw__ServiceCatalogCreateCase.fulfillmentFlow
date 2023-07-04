@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SvcCatalogFulfillmentFlow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create a case for HR Service Center</description>
+    <flow>wkdw__Service_Catalog_Create_Case_Fulfillment_Flow</flow>
+    <isProtected>false</isProtected>
+    <items>
+        <catalogInputVariable>var_sc_caseStatus</catalogInputVariable>
+        <displayType>Picklist</displayType>
+        <fieldDefinition>Status</fieldDefinition>
+        <isAdditionalQuestionsInputVariable>false</isAdditionalQuestionsInputVariable>
+        <isRequired>false</isRequired>
+        <masterLabel>Case Status</masterLabel>
+        <objectLookupDomain>Case</objectLookupDomain>
+    </items>
+    <items>
+        <catalogInputVariable>var_sc_casePriority</catalogInputVariable>
+        <displayType>Picklist</displayType>
+        <fieldDefinition>Priority</fieldDefinition>
+        <isAdditionalQuestionsInputVariable>false</isAdditionalQuestionsInputVariable>
+        <isRequired>false</isRequired>
+        <masterLabel>Case Priority</masterLabel>
+        <objectLookupDomain>Case</objectLookupDomain>
+    </items>
+    <items>
+        <catalogInputVariable>var_sc_caseRecordTypeName</catalogInputVariable>
+        <displayType>Text</displayType>
+        <isAdditionalQuestionsInputVariable>false</isAdditionalQuestionsInputVariable>
+        <isRequired>true</isRequired>
+        <masterLabel>Case Record Type Developer Name</masterLabel>
+    </items>
+    <items>
+        <catalogInputVariable>var_sc_caseOrigin</catalogInputVariable>
+        <displayType>Picklist</displayType>
+        <fieldDefinition>Origin</fieldDefinition>
+        <isAdditionalQuestionsInputVariable>false</isAdditionalQuestionsInputVariable>
+        <isRequired>false</isRequired>
+        <masterLabel>Case Origin</masterLabel>
+        <objectLookupDomain>Case</objectLookupDomain>
+    </items>
+    <items>
+        <catalogInputVariable>var_sc_caseSubject</catalogInputVariable>
+        <displayType>Text</displayType>
+        <isAdditionalQuestionsInputVariable>false</isAdditionalQuestionsInputVariable>
+        <isRequired>true</isRequired>
+        <masterLabel>Case Subject Prefix</masterLabel>
+    </items>
+    <items>
+        <catalogInputVariable>var_sc_queueId</catalogInputVariable>
+        <displayType>Text</displayType>
+        <isAdditionalQuestionsInputVariable>false</isAdditionalQuestionsInputVariable>
+        <isRequired>false</isRequired>
+        <masterLabel>Queue Developer Name</masterLabel>
+    </items>
+    <items>
+        <catalogInputVariable>AdditionalQuestions</catalogInputVariable>
+        <displayType>Text</displayType>
+        <isAdditionalQuestionsInputVariable>true</isAdditionalQuestionsInputVariable>
+        <isRequired>true</isRequired>
+        <masterLabel>Case Description</masterLabel>
+    </items>
+    <masterLabel>Service Catalog Create Case</masterLabel>
+</SvcCatalogFulfillmentFlow>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Timestamp for CMDB CI Upload --></label>
+        <name>wkitsm__CMDBCIUploadTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- The time cmdb migration last ran --></label>
+        <name>wkitsm__CmdbMigrationLastRun__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip Workflow Rules --></label>
+        <name>wkitsm__DoesSkipWorkflowRules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing CMDB CI Upload --></label>
+        <name>wkitsm__ProcessingCMDBCIUpload__c</name>
+    </fields>
+</CustomObjectTranslation>

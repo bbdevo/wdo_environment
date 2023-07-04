@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapovanie poľa zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapovania polí zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapovanie poľa zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapovania polí zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Mapovania poľa zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Mapovaní polí zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapovaniu poľa zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapovaniam polí zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Mapovaním poľa zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Mapovaniami polí zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapovaní poľa zamestnanca na osobný účet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapovaniach polí zamestnanca na osobný účet --></value>
+    </caseValues>
+    <fields>
+        <help>Zrušte označenie tohto políčka, ak nechcete, aby sa toto mapovanie použilo pri vytváraní záznamu osobného účtu zo záznamu zamestnanca</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>API názov poľa zamestnanca. Je potrebné zahrnúť __c, ak ide o vlastné pole</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>API názov poľa osobného účtu. Je potrebné zahrnúť __c, ak ide o vlastné pole, alebo __pc, ak ide o vlastné pole osobného účtu</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+</CustomObjectTranslation>

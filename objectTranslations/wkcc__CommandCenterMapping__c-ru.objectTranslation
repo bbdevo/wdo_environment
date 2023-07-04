@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Соотнесение Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Соотнесения Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Соотнесение Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Соотнесения Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Соотнесения Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Соотнесений Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Соотнесению Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Соотнесениям Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Соотнесением Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Соотнесениями Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Соотнесении Command Center</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Соотнесениях Command Center</value>
+    </caseValues>
+    <fields>
+        <help>Свойство имени сохраненного кода из типа поиска.</help>
+        <label><!-- Mapped Value Name --></label>
+        <name>wkcc__MappedValueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapped Value --></label>
+        <name>wkcc__MappedValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Key --></label>
+        <name>wkcc__MappingKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type Id --></label>
+        <name>wkcc__MappingTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping Type --></label>
+        <name>wkcc__MappingType__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Соотнесенное поле</nameFieldLabel>
+</CustomObjectTranslation>

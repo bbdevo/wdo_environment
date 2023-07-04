@@ -1,0 +1,77 @@
+<aura:component extensible="true">
+    <!-- Configuration -->
+    <aura:attribute name="backLabel" type="String" default="Back" description="Label of back button"/>
+    <aura:attribute name="cancelLabel" type="String" default="Cancel" description="Label of cancel button"/>
+    <aura:attribute name="data" type="Map" description="Main data storage. Usually represents the object you are setting up."/>
+    <aura:attribute name="description" type="String" description="A short description of the step"/>
+    <aura:attribute name="exitLabel" type="String" default="Exit" description="Second label of cancel button"/>
+    <aura:attribute name="finishLabel" type="String" default="Finish" description="Second label of next button"/>
+    <aura:attribute name="guidance" type="Aura.Component[]" description="Extra information to help the user complete this step."/>
+    <aura:attribute name="nextLabel" type="String" default="Next" description="Label of next button"/>
+    <aura:attribute name="title" type="String" description="The title of the step."/>
+    <!-- Configuration -->
+
+    <!-- Events -->
+    <aura:registerEvent name="onBack" type="c:event"/>
+    <aura:registerEvent name="onCancel" type="c:event"/>
+    <aura:registerEvent name="onNext" type="c:event"/>
+    <aura:registerEvent name="showToast" type="c:event"/>
+    <!-- /Events -->
+
+    <!-- Methods -->
+    <aura:method name="_hide" action="{!c._hide}"/>
+    <aura:method name="hide" action="{!c.hide}"/>
+    <aura:method name="init" action="{!c.init}"/>
+    <aura:method name="isDirty" action="{!c.isDirty}"/>
+    <aura:method name="_show" action="{!c._show}"/>
+    <aura:method name="show" action="{!c.show}"/>
+    <aura:method name="validate" action="{!c.validate}"/>
+    <!-- /Methods -->
+
+    <!-- Internal -->
+    <aura:attribute name="_data" type="Map" description="Backup data storage. Snapshot of data."/>
+    <aura:attribute name="hidden" type="Boolean" default="true" description="Toggles display state."/>
+    <aura:attribute name="isFirst" type="Boolean" default="false" description="true if step is first in wizard."/>
+    <aura:attribute name="isLast" type="Boolean" default="false" description="true if step is last in wizard."/>
+    <aura:attribute name="disableNext" type="Boolean" default="false" description="Disables next button"/>
+    <!-- /Internal -->
+
+    <div class="{!if(v.hidden, 'slds-hide', '')}">
+        <div class="slds-path__coach slds-grid slds-m-bottom_small">
+            <div class="{!'slds-col slds-path__keys slds-m-top_medium' + if(empty(v.guidance), ' slds-size_1-of-1', ' slds-size_3-of-5')}">
+                <div class="slds-m-bottom_small">
+                    <div class="slds-text-heading_small"><strong>{!v.title}</strong></div>
+                    <div class="slds-m-top_xx-small">{!v.description}</div>
+                </div>
+
+                {!v.body}
+
+                <div class="slds-border_top slds-p-top_small slds-m-top_small">
+                    <div class="slds-grid slds-grid_pull-padded">
+                        <div class="slds-col slds-no-flex slds-p-horizontal_small">
+                            <lightning:buttonGroup>
+                                <aura:if isTrue="{!not(v.isFirst)}">
+                                    <lightning:button label="{!v.backLabel}" onclick="{!c.clickBack}"/>
+                                </aura:if>
+
+                                <lightning:button label="{!if(v.isFirst, v.cancelLabel, v.exitLabel)}" onclick="{!c.clickCancel}" />
+                            </lightning:buttonGroup>
+                        </div>
+                        <div class="slds-col slds-p-horizontal_small slds-text-align_right">
+                            <lightning:button label="{!if(v.isLast, v.finishLabel, v.nextLabel)}" disabled="{!v.disableNext}" variant="brand" onclick="{!c.clickNext}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aura:if isTrue="{!not(empty(v.guidance))}">
+                <div class="slds-col slds-path__guidance slds-size_2-of-5 slds-border_left slds-m-top_medium">
+                    <h2 class="slds-path__coach-title">Guidance</h2>
+                    <div class="slds-path__guidance-content">
+                        {!v.guidance}
+                    </div>
+                </div>
+            </aura:if>
+        </div>
+    </div>
+</aura:component>

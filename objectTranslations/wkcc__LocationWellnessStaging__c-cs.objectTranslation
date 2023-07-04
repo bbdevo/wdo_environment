@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Fázováním lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Fázováním lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Fázováními lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Fázování lokality wellness</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Fázováních lokality wellness</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>Jedinečný identifikátor záznamu ve formátu &lt;ID umístění&gt; + ‘:’ + &lt;stav blaha&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Označuje stav tohoto umístění ke zpracování.</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>Nezpracováno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Zpracování</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Umístění, které potřebuje znovu vypočítat záznamy o faktech.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Jméno</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Full API name of the Asset field to map (example: wkitsm_OnlineStatus_c) --></help>
+        <label><!-- Asset Field --></label>
+        <name>wkitsm__AssetField__c</name>
+    </fields>
+    <fields>
+        <help><!-- Configuration Item Class field to map to the Asset field --></help>
+        <label><!-- Configuration Item Class Field --></label>
+        <name>wkitsm__ConfigurationItemClassField__c</name>
+    </fields>
+    <fields>
+        <help><!-- For a list of available classes, see the Configuration Item Class menu item in IT Service Center. --></help>
+        <label><!-- Configuration Item Class Name --></label>
+        <name>wkitsm__ConfigurationItemClassName__c</name>
+    </fields>
+</CustomObjectTranslation>

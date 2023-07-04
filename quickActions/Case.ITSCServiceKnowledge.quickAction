@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Title</field>
+        <formula>Case.Subject</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>UrlName</field>
+        <formula>SUBSTITUTE(Case.Subject, &apos; &apos;, &apos;-&apos;)</formula>
+    </fieldOverrides>
+    <label>Create Service Knowledge</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Title</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>UrlName</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Body__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <targetObject>Knowledge__kav</targetObject>
+    <targetParentField>RelatedCase__c</targetParentField>
+    <targetRecordType>Knowledge__kav.ServiceKnowledge</targetRecordType>
+    <type>Create</type>
+</QuickAction>

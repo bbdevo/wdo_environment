@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Fakt o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Fakty o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Faktu o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Faktów o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Fakt o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Fakty o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Faktowi o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Faktom o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Faktem o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Faktami o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Fakcie o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Faktach o stanie zdrowia w lokalizacji</value>
+    </caseValues>
+    <fields>
+        <help>Unikatowy identyfikator rekordu w formacie [&quot;Kaskada&quot; + &quot;:&quot; +] &lt;Identyfikator lokalizacji&gt; + ‘:’ + &lt;Status stanu zdrowia&gt;. Prefiks kaskadowy jest obecny tylko w rekordach, zawierających wartości stanu zdrowia lokalizacji podrzędnej.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Łączna liczba pracowników bez względu na stan zdrowia.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Poziom lokalizacji powiązanej lokalizacji.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>Lokalizacja z którą powiązany jest ten rekord faktu.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Zaznacza przy lokalizacji potrzebę ponownej agregacji (prawda) lub brak potrzeby ponownej agregacji (fałsz).</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Procent pracowników w stanie zdrowia w lokalizacji.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Liczba pracowników w stanie zdrowia.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Stan zdrowia pracownika.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nazwa</nameFieldLabel>
+</CustomObjectTranslation>

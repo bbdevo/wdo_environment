@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 服務台設定 --></value>
+    </caseValues>
+    <fields>
+        <help>當選取此核取方塊時，員工 Apex 觸發將不會針對每個新員工記錄自動建立或同步化個人帳戶記錄。</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>當選取時會停用個案觸發，而新的個案將不會自動與相關聯的員工共用</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Predložak e-pošte za anketu o kontinuiranom zdravlju zaposlenika platforme Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Anketa o kontinuiranom zdravlju</name>
+    <style>none</style>
+    <subject>Anketa o zdravlju – odgovorite na pitanja</subject>
+    <textOnly>U svrhu osiguranja najviše razine kontinuiranog zdravlja i sigurnosti na radnom mjestu, pozivamo vas da sudjelujete u ovoj anketi kako biste nas izvijestili o svom trenutačnom zdravstvenom stanju.
+
+Vaši odgovori koriste se samo u svrhu utvrđivanja možete li nastaviti raditi na svom radnom mjestu. Podaci su povjerljivi i služe samo za internu uporabu.
+
+Poveznica za anketu vrijedi samo za vas. Nemojte drugima prosljeđivati ovu e-poštu.
+
+{{Survey}}
+
+Hvala vam na podršci i suradnji.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

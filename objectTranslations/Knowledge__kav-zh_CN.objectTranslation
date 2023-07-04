@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>主体</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>在用户记录与本文章相关的新票证时，为他们输入默认内容。该字段可以留空，或具有指导性，例如“描述问题或请求...</help>
+        <label>个案说明</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>您可以将个案主题字段留空，并默认设置为当前文章标题。</help>
+        <label>个案主题</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label>相关案例</label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel>知识</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label>文章详细信息</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>属性</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label>文章详细信息</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>属性</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>HR 服务中心福利文章</description>
+        <label>HR - 福利</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心员工关系文章</description>
+        <label>HR - 员工关系</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>常规 HR 服务中心文章</description>
+        <label>HR - 常规</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心休假文章</description>
+        <label>HR - 休假</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心入职文章</description>
+        <label>HR - 入职</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心薪酬文章</description>
+        <label>HR - 薪酬</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>创建信息技术内容的 Knowledge 文章，例如设备、访问权限或应用程序性能解决方案</description>
+        <label>IT Knowledge 文章</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label>已知错误</label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label>服务知识</label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

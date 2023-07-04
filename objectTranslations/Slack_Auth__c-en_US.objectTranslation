@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Slack Auth</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Slack Auths</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access Token --></label>
+        <name>Access_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Most Recent --></label>
+        <name>Is_Most_Recent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Search Url Expiration Date Time --></label>
+        <name>Object_Search_Url_Expiration_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Search Url --></label>
+        <name>Object_Search_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slack User Id --></label>
+        <name>Slack_User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Slack Auths --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Workspace Id --></label>
+        <name>Workspace_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workspace --></label>
+        <name>Workspace__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,112 @@
+<table>
+    <tr>
+        <td>
+            {!Case.RecordType} Number:
+        </td>
+        <td>
+            {!Case.CaseNumber}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Status:
+        </td>
+        <td>
+            {!Case.Status}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Impact:
+        </td>
+        <td>
+            {!Case.wkitsm__Impact__c}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Urgency:
+        </td>
+        <td>
+            {!Case.wkitsm__Urgency__c}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <hr/>
+        </td>
+    <tr>
+        <td>
+            Reported By:
+        </td>
+        <td>
+            {!Case.wkitsm__ReportedBy__c}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Reported Date/Time:
+        </td>
+        <td>
+            {!Case.wkitsm__ReportedDateTime__c}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Major Incident Manager:
+        </td>
+        <td>
+            {!Case.wkitsm__MajorIncidentManager__c}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Resolved Date/Time:
+        </td>
+        <td>
+            {!Case.CloseDate}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Last Modified By:
+        </td>
+        <td>
+            {!Case.LastModifiedBy}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <hr />
+            <h4>{!Case.RecordType} Details:</h4>
+            Subject: {!Case.Subject}
+            <br />
+            Description: {!Case.Description}
+            <br />
+            Impact Details: {!Case.wkitsm__ImpactDetails__c}
+            <br />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Resolution Details:
+        </td>
+        <td>
+            {!Case.wkitsm__ResolutionDetails__c}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <hr />
+            <h4>{!Case.RecordType} Resolution:</h4>
+            Resolution Type: {!Case.wkitsm__ResolutionType__c}
+            Resolution Details: {!Case.wkitsm__ResolutionDetails__c}
+            <br />
+            <br />
+            <hr />
+            View case details: {!Case.Link}
+            <br />
+            Thank you.
+        </td>
+    </tr>
+</table>

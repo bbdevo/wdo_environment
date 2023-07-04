@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Auto Launched Flow --></label>
+        <name>wkitsm__AutoLaunchedFlow__c</name>
+    </fields>
+    <fields>
+        <help><!-- The case template to map to this request menu item. --></help>
+        <label><!-- Case Template --></label>
+        <name>wkitsm__CaseTemplate__c</name>
+        <relationshipLabel><!-- Request Menu Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>wkitsm__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkitsm__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The URL of the icon to be used for a request menu item. --></help>
+        <label><!-- Icon Url --></label>
+        <name>wkitsm__IconUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Menu Association Count --></label>
+        <name>wkitsm__RequestMenuAssociationCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requests Count --></label>
+        <name>wkitsm__RequestsCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Provider --></label>
+        <name>wkitsm__ServiceProvider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>wkitsm__Status__c</name>
+        <picklistValues>
+            <masterLabel>Add Additional Fields</masterLabel>
+            <translation><!-- Add Additional Fields --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate with Menu(s)</masterLabel>
+            <translation><!-- Associate with Menu(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Item Created</masterLabel>
+            <translation><!-- Item Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published</masterLabel>
+            <translation><!-- Published --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unpublished</masterLabel>
+            <translation><!-- Unpublished --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subcategory --></label>
+        <name>wkitsm__Subcategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>wkitsm__Version__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Select a case template before you publish the record. --></errorMessage>
+        <name>wkitsm__RequestMenuItemPublished</name>
+    </validationRules>
+</CustomObjectTranslation>

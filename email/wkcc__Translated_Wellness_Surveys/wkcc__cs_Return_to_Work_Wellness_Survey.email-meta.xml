@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Šablona e-mailu pro Průzkum blaha zaměstnance Work.com - návrat do práce</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Průzkum blaha - návrat do práce</name>
+    <style>none</style>
+    <subject>Průzkum blaha - vyplňte, prosím</subject>
+    <textOnly>Jsme vděční, že můžeme zahájit proces návratu na pracoviště. Abychom tak učinili bezpečně a zodpovědně, zodpovězte tento průzkum, jehož úkolem je zhodnocení vašeho aktuálního zdraví.
+
+Vaše odpovědi jsou použity pouze ke zjištění, zda jste připraveni k návratu na pracoviště. Pokud údaje o zdraví odmítnete uvést, budete muset i nadále pracovat na dálku. Chcete-li odmítnout odpovědět, spusťte průzkum a označte svoji volbu.
+
+Odkaz na průzkum je pro vás unikátní. Tento e-mail ostatním nepřeposílejte.
+
+{{Survey}}
+
+Děkujeme, vážíme si vaší podpory a spolupráce.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

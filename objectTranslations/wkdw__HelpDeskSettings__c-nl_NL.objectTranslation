@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Concierge-instelling --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Concierge-instellingen --></value>
+    </caseValues>
+    <fields>
+        <help>Wanneer dit selectievakje is aangevinkt, maken of synchroniseren Apex-triggers voor Medewerker niet automatisch records voor Persoonsaccounts voor elke nieuwe record Medewerker.</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>Indien geselecteerd, wordt de trigger voor Case uitgeschakeld en worden nieuwe cases niet automatisch gedeeld met de gekoppelde medewerker</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

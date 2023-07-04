@@ -1,0 +1,90 @@
+<!-- Strike Wizard v2.0.1 -->
+<aura:component extensible="true">
+    <!-- Configuration -->
+    <aura:attribute name="allowJump" type="Boolean" default="false" description="Allows user to jump to steps"/>
+    <aura:attribute name="data" type="Map" description="Main data storage. Usually represents the object you are setting up."/>
+    <aura:attribute name="header" type="Aura.Component[]" description="Header markup."/>
+    <aura:attribute name="hidden" type="Boolean" default="true" description="Toggles display state."/>
+    <aura:attribute name="isClassic" type="Boolean" default="false" description="Toggles styles for Classic"/>
+    <aura:attribute name="modal" type="Aura.Component[]" description="Custom modal"/>
+    <!-- /Configuration -->
+
+    <!-- Events -->
+    <aura:registerEvent name="onCancel" type="c:event"/>
+    <aura:registerEvent name="onComplete" type="c:event"/>
+    <aura:registerEvent name="showToast" type="c:event"/>
+    <!-- /Events -->
+
+    <!-- Methods -->
+    <aura:method name="handlePrimaryClick" action="{!c.handlePrimaryClick}"/>
+    <aura:method name="hide" action="{!c.hide}"/>
+    <aura:method name="init" action="{!c.init}"/>
+    <aura:method name="show" action="{!c.show}">
+        <aura:attribute name="index" type="Integer"/>
+    </aura:method>
+    <!-- /Methods -->
+
+    <!-- Internal -->
+    <aura:attribute name="activeStep" type="Map" description="Active step object."/>
+    <aura:attribute name="loading" type="Boolean" default="true" description="Toggles the loading spinner"/>
+    <aura:attribute name="steps" type="Map[]" default="[]" description="A list of steps."/>
+    <!-- /Internal -->
+
+    <div class="{!'strike-scope' + if(v.isClassic, ' classic', '')}">
+        <div class="{!'strike-wizard' + if(v.hidden, ' slds-hide', '') + if(v.isClassic, '', ' slds-is-absolute')}">
+            <lightning:spinner class="{!if(v.loading, '', 'slds-hide')}" alternativeText="Loading..."/>
+
+            <div class="strike-wizard__vertical-layout slds-grid_vertical slds-grid">
+                <aura:if isTrue="{!not(empty(v.header))}">
+                    <div class="slds-col slds-no-flex">
+                        {!v.header}
+                    </div>
+                </aura:if>
+                <div class="strike-wizard__content slds-col slds-scrollable">
+                    <div class="slds-container slds-container_x-large slds-container_center slds-p-around_x-large">
+                        <div class="slds-path slds-card slds-is-expanded slds-p-around_small">
+                            <!-- Path -->
+                            <aura:if isTrue="{!v.steps.length gt 1}">
+                                <div class="slds-grid slds-path__track">
+                                    <div class="slds-grid slds-path__scroller-container">
+                                        <div class="slds-path__scroller" role="application">
+                                            <div class="slds-path__scroller_inner">
+                                                <ul class="slds-path__nav" role="tablist">
+                                                    <aura:iteration items="{!v.steps}" var="step">
+                                                        <li class="{!'slds-path__item' + if(step.index == v.activeStep.index, ' slds-is-active', if(v.activeStep.index > step.index, ' slds-is-complete', ' slds-is-incomplete'))}">
+                                                            <a class="slds-path__link" role="tab" tabindex="-1" onclick="{!c.handleStepClick}" data-index="{!step.index}">
+                                                                <span class="slds-path__stage">
+                                                                    <lightning:icon iconName="utility:check" size="x-small" variant="inverse"/>
+                                                                </span>
+                                                                <span class="slds-path__title">{!step.title}</span>
+                                                            </a>
+                                                        </li>
+                                                    </aura:iteration>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aura:if>
+                            <!-- /Path -->
+
+                            <!-- Content -->
+                            <div class="slds-path__content" role="tabpanel">
+                                {!v.body}
+                            </div>
+                            <!-- /Content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {!v.modal}
+
+        <!-- Default Modal -->
+        <c:modal aura:id="modal" title="Are you sure?" onPrimaryClick="{!c._handlePrimaryClick}">
+            <p class="slds-text-align_center">Unsaved changes will be lost!</p>
+        </c:modal>
+        <!-- /Default Modal -->
+    </div>
+</aura:component>

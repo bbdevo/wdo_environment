@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Language --></label>
+        <name>wkcc__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Localized View URL --></label>
+        <name>wkcc__LocalizedViewUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public Tableau URL --></label>
+        <name>wkcc__PublicTableauUrl__c</name>
+    </fields>
+</CustomObjectTranslation>

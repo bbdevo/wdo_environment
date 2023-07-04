@@ -1,0 +1,12 @@
+.THIS.slack-quick-action:not(.slack-is-classic) {
+    margin: -1rem -2rem;
+}
+
+.THIS.slack-quick-action.slack-quick-action_case:not(.slack-is-classic) {
+    margin: 0;
+}
+
+.THIS.slack-quick-action:not(.slack-quick-action_case):not(.slack-is-classic) {
+    position: absolute;
+    width: 100%;
+}

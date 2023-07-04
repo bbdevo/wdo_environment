@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Faktummet om velbefindende for arbejdsplads</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Fakta om velbefindende for arbejdsplads</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Faktum om velbefindende for arbejdsplads</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Faktaene om velbefindende for arbejdsplads</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Fakta om velbefindende for arbejdsplads</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Fakta om velbefindende for arbejdsplads</value>
+    </caseValues>
+    <fields>
+        <help>Et entydigt id for registreringen i formatet [&quot;Overlap&quot; + &quot;:&quot; +] &lt;Placerings-id&gt; + ‘:’ + &lt;Sundhedsstatus&gt;. Overlap-præfikset findes kun i registreringer, der indeholder værdier for sundhedsstatus for underordnede placeringer.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Det samlede antal medarbejdere uanset sundhedsstatus.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Den relaterede placerings placeringsniveau.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>Den placering, som denne faktaregistrering vedrører.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Markerer en placering som havende behov for at skulle aggregeres igen, hvis sand, eller som ikke havende behov for at skulle aggregeres igen, hvis falsk.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Procentdel af placeringens medarbejdere, der er i sundhedsstatussen.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Det samlede antal medarbejdere med sundhedsstatussen.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Sundhedsstatus for medarbejderen.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Navn</nameFieldLabel>
+</CustomObjectTranslation>

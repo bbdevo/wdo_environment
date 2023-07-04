@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikava polja zaposlenega v osebni račun --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikave polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Preslikave polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavo polja zaposlenega v osebni račun --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikave polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Preslikave polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikave polja zaposlenega v osebni račun --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikav polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Preslikav polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavi polja zaposlenega v osebni račun --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavam polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Preslikavam polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavo polja zaposlenega v osebni račun --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavami polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Preslikavami polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavi polja zaposlenega v osebni račun --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Preslikavah polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Preslikavah polj zaposlenih v osebne račune --></value>
+    </caseValues>
+    <fields>
+        <help>Počistite to potrditveno polje, če ne želite uporabiti te preslikave pri ustvarjanju zapisa osebnega računa iz zapisa zaposlenega.</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Ime vmesnika API polja zaposlenega. Če je polje po meri, mora vsebovati __c.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Ime vmesnika API polja osebnega računa. Če je polje po meri, mora vsebovati __c oziroma __pc, če je polje osebnega računa po meri.</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Khoảng Thời Gian Lập Kế Hoạch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Khoảng Thời Gian Lập Kế Hoạch --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Service Territory --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Planning Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>wkfsl__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Date --></label>
+        <name>wkfsl__Trigger_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekdays --></label>
+        <name>wkfsl__Weekdays__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation>Thứ Sáu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation>Thứ Hai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation>Thứ Bảy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation>Chủ Nhật</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation>Thứ Năm</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation>Thứ Ba</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation>Thứ Tư</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- completionDate --></label>
+        <name>wkfsl__completionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- endDate --></label>
+        <name>wkfsl__endDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- startDate --></label>
+        <name>wkfsl__startDate__c</name>
+    </fields>
+    <nameFieldLabel>Tên PlannerTrigger</nameFieldLabel>
+</CustomObjectTranslation>

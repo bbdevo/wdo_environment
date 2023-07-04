@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Programação de pesquisa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Programações de pesquisa</value>
+    </caseValues>
+    <fields>
+        <help>Quando você reativa uma programação, redefina a Data de início, se necessário, para torná-la posterior à data e hora atuais.</help>
+        <label><!-- Active --></label>
+        <name>wkcc__Active__c</name>
+    </fields>
+    <fields>
+        <help>Pesquisas que requerem autenticação podem ser enviadas a indivíduos apenas se estiverem associadas a um registro de usuário e se tivermos um endereço de email definido para eles. Os destinatários também devem pertencer à comunidade selecionada.</help>
+        <label><!-- Authentication Required --></label>
+        <name>wkcc__AuthenticationRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template --></label>
+        <name>wkcc__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkcc__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Sublocations --></label>
+        <name>wkcc__IncludeSublocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Role --></label>
+        <name>wkcc__IndividualRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Send Date --></label>
+        <name>wkcc__NextSendDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Type --></label>
+        <name>wkcc__RecipientType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>wkcc__ScheduleFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>Diariamente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Once</masterLabel>
+            <translation>Uma vez</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanalmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkcc__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>wkcc__Survey__c</name>
+        <relationshipLabel><!-- Survey Schedules --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome da programação</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- End Date needs to be on or after Start Date --></errorMessage>
+        <name>wkcc__EndDateToBeOnOrAfterStartDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the recipient type after a schedule is created. --></errorMessage>
+        <name>wkcc__RecipientTypeNotChangeable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__StartDateNeedsToBeFuture</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__UpdateStartDateToFuture</name>
+    </validationRules>
+</CustomObjectTranslation>

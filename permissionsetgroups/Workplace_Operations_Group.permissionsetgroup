@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Combines the Workplace Operations and Workplace Operations Add-On permission sets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Workplace Operations Group</label>
+    <permissionSets>b2wFixerApexClassPermSet</permissionSets>
+    <permissionSets>b2w_Workplace_Operations_Addon</permissionSets>
+    <permissionSets>wkcc__b2w_Operations</permissionSets>
+    <status>Failed</status>
+</PermissionSetGroup>

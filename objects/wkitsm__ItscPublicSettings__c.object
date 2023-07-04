@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>ITSC Public Settings</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>wkitsm__CMDBCIUploadTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Timestamp for CMDB CI Upload</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>wkitsm__CmdbMigrationLastRun__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>The time cmdb migration last ran</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>wkitsm__DoesSkipWorkflowRules__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Skip running ITSC - Workflow Rules. The setting is mainly used to avoid exception thrown by apex tests due to invocation of workflow email alerts for case creation, etc.</description>
+        <externalId>false</externalId>
+        <label>Skip Workflow Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkitsm__ProcessingCMDBCIUpload__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Processing CMDB CI Upload</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>ITSC Public Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

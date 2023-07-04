@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Cuerpo</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Ingrese contenido predeterminado para usuarios cuando registren un nuevo ticket relacionado con este artículo. El campo puede estar en blanco o contener instrucciones, como “Describa su problema o solicitud...”.</help>
+        <label>Descripción de caso</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>Puede dejar el campo Asunto de caso en blanco y tomará como predeterminado el título del artículo vigente.</help>
+        <label>Asunto de caso</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label>Caso relacionado</label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel>Conocimiento</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label>Detalles del artículo</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>Propiedades</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label>Detalles del artículo</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>Propiedades</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Artículos de beneficios de Centro de servicio de RRHH</description>
+        <label>RRHH - Beneficios</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artículos de relaciones de empleados de Centro de servicio de RRHH</description>
+        <label>RRHH - Relaciones de empleados</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artículos generales de Centro de servicio de RRHH</description>
+        <label>RRHH - General</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artículos de bajas de Centro de servicio de RRHH</description>
+        <label>RRHH - Baja</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artículos de incorporaciones de Centro de servicio de RRHH</description>
+        <label>RRHH - Incorporación</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artículos de nóminas de Centro de servicio de RRHH</description>
+        <label>RRHH - Nómina</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Crea un artículo de conocimiento con contenido de tecnología de la información, como equipos, acceso o soluciones de desempeño de aplicaciones.</description>
+        <label>Artículo de conocimientos de TI</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Error conocido</label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Conocimiento del servicio</label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

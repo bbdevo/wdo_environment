@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Midlertidige tabel for placeringens sundhed</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Midlertidig tabel for placeringens sundhed</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Midlertidig tabel for placeringens sundhed</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Midlertidige tabeller for placeringens sundhed</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Midlertidige tabeller for placeringens sundhed</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Midlertidige tabeller for placeringens sundhed</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>Et entydigt id for registreringen i formatet &lt;Placerings-id&gt; + ‘:’ + &lt;Sundhedsstatus&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Angiver statussen for denne placering for behandling.</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>Ikke behandlet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Behandler</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Faser for placeringens sundhed</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn</nameFieldLabel>
+</CustomObjectTranslation>

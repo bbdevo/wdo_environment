@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <isExposed>false</isExposed>
+    <masterLabel>Avonni Data Relationship Graph</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+     <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="avatarFallbackIconName" label="avatarFallbackIconName" type="String" description="The Lightning Design System name of the icon used as a fallback when the root avatar image fails to load. Specify the name in the format 'utility:down' where 'utility' is the category, and 'down' is the specific icon to be displayed."/>
+            <property name="avatarSrc" label="avatarSrc" type="String"  description="Image URL for the avatar of the root item. If present, the avatar is displayed before the label."/>
+            <property name="expandIconName" label="expandIconName" type="String" default="utility:chevronright" description="URL for the root label link."/>
+            <property name="href" label="href" type="String" description="Root label."/>
+            <property name="label" label="label" type="String" default="Root label" description="Root label."/>
+            <property name="shrinkIconName" label="shrinkIconName" type="object[]" default="utility:chevrondown" description="Root label."/>
+            <property name="actions" label="actions" type="object[]"  description="Root label."/>
+            <property name="groupActions" label="groupActions" type="object[]"  description="Root label."/>
+            <property name="groupActionsPosition" label="groupActionsPosition" type="String" default="top" description="Root label."/>
+            <property name="groups" label="groups" type="object[]"  description="Root label."/>
+            <property name="hideItemsCount" label="hideItemsCount" type="boolean" default="false" description="Root label."/>
+            <property name="itemActions" label="itemActions" type="object[]"  description="Root label."/>
+            <property name="selectedItemName" label="selectedItemName" type="String"  description="Root label."/>
+            <property name="variant" label="variant" type="String" default="horizontal" description="Root label."/>
+        </targetConfig>
+
+    </targetConfigs>
+</LightningComponentBundle>

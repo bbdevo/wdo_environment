@@ -1,0 +1,106 @@
+<!-- Strike Lookup v2.1.0 -->
+<template>
+    <!--****************** LOOKUP BEGINS *********************-->
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="combobox-id-1">
+            <abbr if:true={required} class="slds-required" title="required">*</abbr>{label}
+        </label>
+        <div class="slds-form-element__control">
+            <div class="slds-combobox_container slds-has-selection">
+                <div class={errorState} aria-expanded="true" aria-haspopup="listbox" role="combobox">
+                    <!--********************** INPUT **************************-->
+                    <div class={inputDivClass}>
+                        <template if:false={value}>
+                            <lightning-icon icon-name="utility:search" size="x-small" class="slds-icon slds-input__icon slds-input__icon_left"
+                            alternative-text="Search"></lightning-icon>
+                        </template>
+                        <template if:true={value}>
+                            <lightning-icon icon-name={iconNameAttribute} size="small" class="slds-combobox__input-entity-icon"></lightning-icon>
+                        </template>
+                        <input if:true={value}
+                            class={inputClass}
+                            onkeyup={search}
+                            onblur={hideDropdown}
+                            onfocus={showDropdown}
+                            role="textbox"
+                            type="text"
+                            placeholder={placeholder}
+                            aria-haspopup="listbox"
+                            aria-autocomplete="list"
+                            autocomplete="off"
+                            readonly
+                            value={selectedOption}
+                            disabled={disabled}
+                            required/>
+                        <input if:false={value}
+                            class={inputClass}
+                            onkeyup={search}
+                            onblur={hideDropdown}
+                            onfocus={showDropdown}
+                            role="textbox"
+                            type="text"
+                            placeholder={placeholder}
+                            aria-haspopup="listbox"
+                            aria-autocomplete="list"
+                            autocomplete="off"
+                            disabled={disabled}
+                            value={searchTerm}
+                            required/>
+                        <lightning-button-icon class={buttonIcon} icon-name="utility:close"
+                            size="small" variant="bare" onclick={unselect}></lightning-button-icon>
+                    </div>
+                    <!--********************* LISTBOX ************************-->
+                    <template if:true={showListbox}>
+                        <div class={listboxClass} role="listbox">
+                            <template if:true={searching}>
+                                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                            </template>
+                            <template if:false={searching}>
+                                <ul class="slds-listbox slds-listbox_vertical">
+                                    <template if:true={searchMessage}>
+                                        <li role="presentation" class="slds-listbox__item">
+                                            <div class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_term"
+                                                aria-selected="true" role="option">
+                                                <span class="slds-media__figure slds-listbox__option-icon">
+                                                    <span class="slds-icon_container slds-icon-utility-search" title="Search for term: ">
+                                                        <lightning-icon icon-name="utility:search" size="x-small" alternative-text="Search"></lightning-icon>
+                                                    </span>
+                                                </span>
+                                                <span class="slds-media__body">
+                                                    <span class="slds-listbox__option-text slds-listbox__option-text_entity">{searchMessage}</span>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </template>
+                                    <template if:true={searchResults.results}>
+                                        <template for:each={searchResults.results} for:item="result" for:index="index">
+                                            <li key={result.Id} role="presentation" data-id={result.Id} class="slds-listbox__item"
+                                                onmousedown={select}>
+                                                <!-- Result child component -->
+                                                <c-lookup-option result={result} icon-name={iconName} primary-field={primaryField} secondary-field={secondaryField}></c-lookup-option>
+                                            </li>
+                                        </template>
+                                        <template if:false={searchResults.results.length}>
+                                            <li role="presentation" class="slds-listbox__item">
+                                                <div class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_term">
+                                                    {emptyStateText}
+                                                </div>
+                                            </li>
+                                        </template>
+                                    </template>
+                                </ul>
+                            </template>
+                        </div>
+                    </template>
+                    <template if:false={showListbox}>
+                        <template if:false={valid}>
+                            <div class="slds-form-element__help">
+                                {errorMessage}
+                            </div>
+                        </template>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

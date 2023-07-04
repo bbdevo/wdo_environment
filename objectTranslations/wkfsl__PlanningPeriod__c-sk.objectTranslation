@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Obdobie plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Obdobia plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Obdobie plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Obdobia plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Obdobia plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Období plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Obdobiu plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Obdobiam plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Obdobím plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Obdobiami plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Období plánovania</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Obdobiach plánovania</value>
+    </caseValues>
+    <fields>
+        <label><!-- Service Territory --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Planning Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>wkfsl__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Date --></label>
+        <name>wkfsl__Trigger_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekdays --></label>
+        <name>wkfsl__Weekdays__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation>Piatok</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation>Pondelok</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation>Sobota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation>Nedeľa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation>Štvrtok</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation>Utorok</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation>Streda</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- completionDate --></label>
+        <name>wkfsl__completionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- endDate --></label>
+        <name>wkfsl__endDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- startDate --></label>
+        <name>wkfsl__startDate__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Názov PlannerTrigger</nameFieldLabel>
+</CustomObjectTranslation>

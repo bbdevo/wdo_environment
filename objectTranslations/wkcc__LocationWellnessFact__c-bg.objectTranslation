@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Факт за здравословно състояние в местоположение</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Факти за здравословно състояние в местоположение</value>
+    </caseValues>
+    <fields>
+        <help>Уникален идентификатор за записа във формата [„каскада“ + „.“ +] &lt;ИД на местоположение&gt; + ‘:’ + &lt;здравословно състояние&gt;. Каскадният префикс присъства само в записи, които включват стойности на здравословното състояние за подопечно местоположение.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Общият брой служители независимо от здравословното състояние.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Ниво на местоположение на свързаното местоположение.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>Местоположението, към което се отнася този запис на фактите.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Маркира местоположението като нуждаещо се от повторно обобщаване, ако е true, или че не се нуждае от такова, ако е false.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Процентът на служителите на местоположението, които са със здравословното състояние.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Броят служители, които са с даденото здравословно състояние.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Здравословното състояние за служителя.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Име</nameFieldLabel>
+</CustomObjectTranslation>

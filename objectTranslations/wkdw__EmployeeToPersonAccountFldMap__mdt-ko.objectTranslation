@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 직원-개인 계정 필드 매핑 --></value>
+    </caseValues>
+    <fields>
+        <help>직원 레코드에서 개인 계정 레코드를 만들 경우 이 매핑을 사용하지 않으려면 선택 취소합니다.</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>직원 필드의 API 이름. 사용자 정의 필드인 경우 __c를 포함해야 합니다.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>개인 계정 필드의 API 이름. 사용자 정의 필드인 경우 __c를 그리고 개인 계정 사용자 정의 필드인 경우 __pc를 포함해야 합니다.</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+</CustomObjectTranslation>

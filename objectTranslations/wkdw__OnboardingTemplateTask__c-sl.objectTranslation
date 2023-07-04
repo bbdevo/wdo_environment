@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Naloga predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Naloge predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Naloge predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogo predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Naloge predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Naloge predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Naloge predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Nalog predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Nalog predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogi predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogam predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Nalogam predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogo predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogami predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Nalogami predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogi predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Nalogah predloge načrta za prehod --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Nalogah predloge načrta za prehod --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>To je lahko pozitivno ali negativno število, ki predstavlja razliko v dnevih glede na datum začetka veljavnosti načrta za prehod.</help>
+        <label><!-- Effective Date Offset --></label>
+        <name>wkdw__EffectiveDateOffset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual User --></label>
+        <name>wkdw__IndividualUser__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Task --></label>
+        <name>wkdw__OnboardingTask__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transition Plan Template --></label>
+        <name>wkdw__OnboardingTemplate__c</name>
+        <relationshipLabel><!-- Transition Plan Template Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>V to polje vnesite ID čakalne vrste</help>
+        <label><!-- Queue --></label>
+        <name>wkdw__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Owner Type --></label>
+        <name>wkdw__TaskOwnerType__c</name>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Zaposleni</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation>Vodja</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Template Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

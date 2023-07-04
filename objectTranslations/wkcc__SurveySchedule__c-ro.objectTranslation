@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Programul de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Program de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Programele de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Programe de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Programului de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Programului de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Programelor de sondaj</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Programelor de sondaj</value>
+    </caseValues>
+    <fields>
+        <help>Atunci când reactivați programul, resetați Data de început, dacă este cazul, astfel încât să fie ulterioară datei și orei curente.</help>
+        <label><!-- Active --></label>
+        <name>wkcc__Active__c</name>
+    </fields>
+    <fields>
+        <help>Chestionarele care necesită autentificare pot fi trimise numai persoanelor care au o înregistrare utilizator asociată și ale căror adrese de e-mail le cunoaștem. De asemenea, destinatarii trebuie să aparțină comunității selectate.</help>
+        <label><!-- Authentication Required --></label>
+        <name>wkcc__AuthenticationRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template --></label>
+        <name>wkcc__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkcc__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Sublocations --></label>
+        <name>wkcc__IncludeSublocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Role --></label>
+        <name>wkcc__IndividualRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Send Date --></label>
+        <name>wkcc__NextSendDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Type --></label>
+        <name>wkcc__RecipientType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>wkcc__ScheduleFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>Zilnic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Once</masterLabel>
+            <translation>O singură dată</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Săptămânal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkcc__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>wkcc__Survey__c</name>
+        <relationshipLabel><!-- Survey Schedules --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nume program</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- End Date needs to be on or after Start Date --></errorMessage>
+        <name>wkcc__EndDateToBeOnOrAfterStartDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the recipient type after a schedule is created. --></errorMessage>
+        <name>wkcc__RecipientTypeNotChangeable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__StartDateNeedsToBeFuture</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__UpdateStartDateToFuture</name>
+    </validationRules>
+</CustomObjectTranslation>

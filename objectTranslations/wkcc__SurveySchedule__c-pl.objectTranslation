@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Harmonogram ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Harmonogramy ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Harmonogram ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Harmonogramy ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Harmonogramu ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Harmonogramów ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Harmonogramowi ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Harmonogramom ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Harmonogramem ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Harmonogramami ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Harmonogramie ankiety</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Harmonogramach ankiety</value>
+    </caseValues>
+    <fields>
+        <help>Gdy ponownie aktywujesz harmonogram, jeśli to potrzebne zresetuj datę rozpoczęcia, aby była późniejsza niż bieżąca data i godzina.</help>
+        <label><!-- Active --></label>
+        <name>wkcc__Active__c</name>
+    </fields>
+    <fields>
+        <help>Ankiety wymagające uwierzytelnienia mogą być wysyłane tylko do osób, które są powiązane z rekordem użytkownika oraz pod warunkiem, że mamy określony dla nich adres e-mail. Odbiorcy muszą także należeć do wybranej społeczności.</help>
+        <label><!-- Authentication Required --></label>
+        <name>wkcc__AuthenticationRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template --></label>
+        <name>wkcc__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkcc__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Sublocations --></label>
+        <name>wkcc__IncludeSublocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Role --></label>
+        <name>wkcc__IndividualRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Send Date --></label>
+        <name>wkcc__NextSendDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Type --></label>
+        <name>wkcc__RecipientType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>wkcc__ScheduleFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>Codziennie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Once</masterLabel>
+            <translation>Raz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Co tydzień</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkcc__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>wkcc__Survey__c</name>
+        <relationshipLabel><!-- Survey Schedules --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nazwa harmonogramu</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- End Date needs to be on or after Start Date --></errorMessage>
+        <name>wkcc__EndDateToBeOnOrAfterStartDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the recipient type after a schedule is created. --></errorMessage>
+        <name>wkcc__RecipientTypeNotChangeable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__StartDateNeedsToBeFuture</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Give the schedule a start date that&apos;s in the future. --></errorMessage>
+        <name>wkcc__UpdateStartDateToFuture</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Lenke til porteføljeelement --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Lenke til porteføljeelement --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Lenken til porteføljeelementet --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Lenker til porteføljeelementer --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Lenker til porteføljeelementer --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Lenkene til porteføljeelementene --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Link Type --></label>
+        <name>wkdw__Type__c</name>
+        <picklistValues>
+            <masterLabel>Slack</masterLabel>
+            <translation>Slack</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation>Web</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>wkdw__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Item --></label>
+        <name>wkdw__WorkExperience__c</name>
+        <relationshipLabel><!-- Portfolio Item Links --></relationshipLabel>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>wkcc__DoesDelPersistentData__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When true, Workplace Command Center deletes persistently-stored logging data according to the MaxPersistentDataRows__c value.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Delete History</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__EnableLogging__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When true, Workplace Command Center performs logging functions according to the settings in CommandCtrLogSettings__mdt. The default is true.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Enable Logging</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__MaxPersistentDataRows__c</fullName>
+        <deprecated>false</deprecated>
+        <description>When greater than 0, this value determines how many rows to keep when DoesDelPersistentData__c is true.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Maximum History Rows</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Command Center Log Settings</label>
+    <pluralLabel>Command Center Log Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

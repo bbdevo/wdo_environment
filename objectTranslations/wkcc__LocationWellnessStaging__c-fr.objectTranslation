@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Organisation du bien-être à l&apos;emplacement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Organisations du bien-être à l&apos;emplacement</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>Un identifiant unique de l&apos;enregistrement sous le format &lt;ID d&apos;emplacement&gt; + ‘:’ + &lt;État de bien-être&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Indique le statut de traitement de cet emplacement.</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>Non traité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement en cours</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>L&apos;emplacement dont les enregistrements de faits doivent être recalculés.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

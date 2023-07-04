@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuration Item Class --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Configuration Item Class Fields --></label>
+        <name>wkitsm__ConfigurationItemClassFieldsJSON__c</name>
+    </fields>
+    <fields>
+        <help>CIクラスレコードの説明</help>
+        <label><!-- Description --></label>
+        <name>wkitsm__Description__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、Tanium CMDBクエリからの設定項目クラスの外部IDが保持されます</help>
+        <label><!-- TaniumCmdbId --></label>
+        <name>wkitsm__TaniumCmdbId__c</name>
+    </fields>
+    <fields>
+        <help>設定項目に対して定義されている割り当て条件</help>
+        <label><!-- Targeting Criteria --></label>
+        <name>wkitsm__TargetingCriteria__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuration Item Class --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Configuration Item Class Fields --></label>
+        <name>wkitsm__ConfigurationItemClassFieldsJSON__c</name>
+    </fields>
+    <fields>
+        <help>CI 클래스 레코드에 대한 설명</help>
+        <label><!-- Description --></label>
+        <name>wkitsm__Description__c</name>
+    </fields>
+    <fields>
+        <help>이 필드에는 Tanium CMDB 쿼리에서 오는 구성 항목 클래스의 외부 ID가 포함됩니다.</help>
+        <label><!-- TaniumCmdbId --></label>
+        <name>wkitsm__TaniumCmdbId__c</name>
+    </fields>
+    <fields>
+        <help>구성 항목에 정의된 할당 기준</help>
+        <label><!-- Targeting Criteria --></label>
+        <name>wkitsm__TargetingCriteria__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

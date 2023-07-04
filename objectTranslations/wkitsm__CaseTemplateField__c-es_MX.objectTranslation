@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Case Template Field --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Case Template Field --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Template --></label>
+        <name>wkitsm__CaseTemplateId__c</name>
+        <relationshipLabel><!-- CaseTemplateFields --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Checkbox to determine if field should be copied from original case --></help>
+        <label><!-- Copy From Original --></label>
+        <name>wkitsm__CopyFromOriginal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Field Value --></label>
+        <name>wkitsm__DefaultFieldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Value --></label>
+        <name>wkitsm__DefaultValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is required or not --></help>
+        <label><!-- Required --></label>
+        <name>wkitsm__IsRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visible --></label>
+        <name>wkitsm__IsVisible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>wkitsm__Order__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

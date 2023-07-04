@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Veldtoewijzing van Medewerker naar Persoonsaccount --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Veldtoewijzingen van Medewerker naar Persoonsaccount --></value>
+    </caseValues>
+    <fields>
+        <help>Haal het vinkje weg als u niet wenst dat deze toewijzing wordt gebruikt bij het maken van een record Persoonsaccount op basis van een record Medewerker.</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>API-naam van het veld Medewerker. Moet __c bevatten als het een aangepast veld betreft.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>API-naam van het veld Persoonsaccount. Moet __c bevatten als het een aangepast veld betreft, of __pc als het een aangepast veld van Persoonsaccount betreft.</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

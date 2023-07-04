@@ -1,0 +1,3 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+    <img class="slds-border_top slds-border_bottom slds-border_left slds-border_right" onclick="{!c.redirect}" src="/resource/ShiftComponent"></img>
+</aura:component>

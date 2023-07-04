@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>Case</contextRecordType>
+    <label>HRSC Demo Strategy</label>
+    <recommendationLoad>
+        <label>Load HRSC Recommendations</label>
+        <name>Load_HRSC_Recommendations</name>
+        <condition>
+            <field>Name</field>
+            <operator>CONTAINS</operator>
+            <value>
+                <type>TEXT</type>
+                <value>HRSC</value>
+            </value>
+        </condition>
+        <conditionLogic>or</conditionLogic>
+        <object>Recommendation</object>
+    </recommendationLoad>
+    <union>
+        <childNode>Load_HRSC_Recommendations</childNode>
+        <label>Output</label>
+        <name>Output_3a2b534fee6c4598932d6f0126bdeb9a</name>
+    </union>
+</RecommendationStrategy>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuración de Concierge --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Configuraciones de Concierge --></value>
+    </caseValues>
+    <fields>
+        <help>Cuando se selecciona esta casilla de verificación, los desencadenadores de Apex de Empleado no crean ni sincronizan registros Cuenta personal automáticamente para cada nuevo registro Empleado.</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>Cuando se selecciona, el desencadenador del Caso se desactiva y los nuevos casos no se comparten automáticamente con el empleado asociado.</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

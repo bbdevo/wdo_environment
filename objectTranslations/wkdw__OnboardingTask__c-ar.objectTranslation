@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- مهمة الخطة الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- مهمة الخطة الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- مهمة الخطة الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- مهمة الخطة الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- مهمة الخطة الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- مهمة الخطة الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- مهام الخطط الانتقالية --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>وصف المهمة الذي يراه الموظفون بقائمة مراجعة تهيئة الموظفين الجدد. في حالة تركه فارغًا، سيتم استخدام الوصف.</help>
+        <label><!-- Display Description --></label>
+        <name>wkdw__DisplayDescription__c</name>
+    </fields>
+    <fields>
+        <help>اسم المهمة الذي يراه الموظفون بقائمة مراجعة تهيئة الموظفين الجدد. في حالة تركه فارغًا، سيتم عرض اسم المهمة.</help>
+        <label><!-- Display Name --></label>
+        <name>wkdw__DisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow API Name --></label>
+        <name>wkdw__FlowAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority of Onboarding Task DEPRECATED --></label>
+        <name>wkdw__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Day Offset DEPRECATED --></label>
+        <name>wkdw__StartDayOffset__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

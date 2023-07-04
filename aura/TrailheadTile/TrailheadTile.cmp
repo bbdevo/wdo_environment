@@ -1,0 +1,173 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes" access="global">
+    
+    <aura:attribute name="headerIcon" type="String" access="global" default="standard:reward" />
+    <aura:attribute name="rank" type="String" access="global" default="Mountaineer" />
+    <aura:attribute name="points" type="Integer" access="global" default="8050" />
+    <aura:attribute name="profileURL" type="String" access="global" default="https://trailhead.salesforce.com/en/me" />
+    
+    <aura:attribute name="badgeImageURL" type="String" access="global" default="https://developer.salesforce.com/resource/images/trailhead/badges/modules/trailhead_modules_advanced_formulas.png" />
+    <aura:attribute name="badgeTitle" type="String" access="global" default="Advanced Formulas" />
+    <aura:attribute name="badgePoints" type="Integer" access="global" default="500" />
+    <aura:attribute name="badgeDesciption" type="String" access="global" default="Learn how to write clean, easy-to-understand formulas" />
+    
+    <aura:attribute name="assignedTrainingDueDate" type="String" access="global" default="07/09/2021" />
+    
+    
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container slds-icon-standard-contact" title="description of icon when needed">
+                        <lightning:icon iconName="{!v.headerIcon}" size="medium" alternativeText="Trailhead"/>
+                    </span>
+                </div>
+                <div class="slds-media__body">
+                    <h2>
+                        <span class="slds-text-heading_medium slds-card__header-link" style="font-weight:bold">Trailhead</span>
+                    </h2>
+                </div>
+            </header>
+            <div class="slds-no-flex">
+                <button class="slds-button slds-button_neutral" onclick="{!c.handleClick}">Open Trailhead</button>
+            </div>
+        </div>
+        
+        <div class="slds-grid slds-grid_vertical" >
+            <!-->First Row<!-->
+            <div class="slds-col slds-grid">
+                <!-->Rank<!-->
+                <div class="slds-col slds-size_1-of-3">
+                    <div class="slds-card__body slds-card__body_inner slds-text-heading_small">Rank</div>
+                    <!--> Image Logic <!-->
+                        <aura:if isTrue="{!v.rank == 'Scout'}">                  
+                            <img class="slds-align_absolute-center" style="width:50%" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Scout.png"/>
+                        </aura:if>                  
+                        <aura:if isTrue="{!v.rank == 'Hiker'}">
+                            <img class="slds-align_absolute-center" style="width:70%" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Hiker.png"/>
+                        </aura:if>
+                        <aura:if isTrue="{!v.rank == 'Explorer'}">
+                            <img class="slds-align_absolute-center" style="width:70%;padding-top:25px" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Explorer.png"/>
+                        </aura:if>
+                        <aura:if isTrue="{!v.rank == 'Adventurer'}">
+                            <img class="slds-p-top_medium slds-align_absolute-center" style="width:70%;padding-top:25px" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Adventurer.png"/>
+                        </aura:if>
+                        <aura:if isTrue="{!v.rank == 'Mountaineer'}">
+                            <img class="slds-align_absolute-center" style="width:70%" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Mountaineer.png"/>
+                        </aura:if>
+                        <aura:if isTrue="{!v.rank == 'Expeditioner'}">
+                            <img class="slds-p-top_large slds-align_absolute-center" style="width:70%" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Expeditioner.png"/>
+                        </aura:if>
+                        <aura:if isTrue="{!v.rank == 'Ranger'}">
+                            <img class="slds-p-top_medium slds-align_absolute-center" style="width:70%" src="https://wdo-assets.s3.amazonaws.com/trailhead-ranks/Trailhead-Rank-Ranger.png"/>
+                        </aura:if>
+                </div>
+                <!-->Points<!-->
+                <div class="slds-col slds-size_2-of-3">
+                    <div class="slds-card__body slds-card__body_inner slds-text-heading_small">Points</div>
+                    <div class="slds-p-left_small" Style="font-size:72px; color:#00835C">{!v.points}</div>
+                </div>
+                
+            </div>
+            
+            <!-->Second row<!-->           
+            <div class="slds-col slds-grid slds-grid_vertical slds-p-top_medium">
+                <div class="slds-card__body slds-card__body_inner slds-col slds-text-heading_small">Latest Badge</div>
+                <div class="slds-col slds-grid slds-card__body slds-card__body_inner">
+                    <div class="slds-media slds-media_responsive">
+                        <div class="slds-media__figure">
+                            <span class="slds-avatar slds-avatar_large">
+                                <img alt="Badge" src="{!v.badgeImageURL}" title="Badge" />
+                            </span>
+                        </div>
+                        <div class="slds-media__body slds-media_inline">
+                            <div style="color:blue">{!v.badgeDesciption}</div>
+                            <div>
+                                <span style="color:gray">Title: </span>
+                                <span>{!v.badgeTitle}</span>
+                            </div>
+                            <div>
+                                <span style="color:gray">Score: </span>
+                                <span >{!v.badgePoints} points</span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <lightning:card variant="Narrow" title="Assigned Learning" iconName="standard:education">
+            <aura:set attribute="title">
+                <span class="slds-p-right_small">Assigned Learning</span><lightning:badge label="1"/>
+            </aura:set>
+            <aura:set attribute="actions">
+                <lightning:buttonIcon aura:id="showAssignedLearnings" iconName="utility:threedots" variant="border-filled" alternativeText="Show" onclick="{!c.toggleAssignedLearnings}"/>
+                <lightning:buttonGroup aura:id="assignedLearningsDetailsActions" class="slds-hide">
+                    <lightning:buttonIcon iconName="utility:hide" variant="border-filled" alternativeText="Hide" onclick="{!c.toggleAssignedLearnings}"/>
+                    <lightning:buttonIcon iconName="utility:threedots" variant="border-filled" alternativeText="Show More"/>
+                </lightning:buttonGroup>
+            </aura:set>
+            <p aura:id="assignedLearningsDetails" class="slds-hide slds-p-horizontal_small">
+                <ul class="slds-has-dividers_bottom-space">
+                    <li class="slds-item">
+                        <lightning:tile  label="">
+                            <aura:set attribute="media">
+                                <lightning:avatar src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/advanced_formulas/6f471d553d3f3f1efaf6e25b0761cb39_badge.png" fallbackIconName="standard:person_account" alternativeText="{!v.badgeTitle}"/>
+                            </aura:set>
+                            <h3 class="slds-truncate" style="font-size: var(--lwc-fontSize3,0.8125rem);" title="Advanced Formulas">
+                                <a href="https://trailhead.salesforce.com/content/learn/modules/advanced_formulas" target="_blank">Advanced Formulas</a>
+                            </h3>
+                            <dl class="slds-list_horizontal slds-wrap">
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Description">Description:</dt>
+                                <dd class="slds-item_detail" title="Learn how to write clean, easy-to-understand formulas for complex use cases.">Learn how to write clean, easy-to-understand formulas for complex use cases.</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Type">Type:</dt>
+                                <dd class="slds-item_detail" title="Trail">Trail</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Due to">Due Date:</dt>
+                                <dd class="slds-item_detail" title="{!v.assignedTrainingDueDate}">{!v.assignedTrainingDueDate}</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Badge Points">Badge Points:</dt>
+                                <dd class="slds-item_detail slds-truncate" title="3.100">3,100</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Duratiom">Duration:</dt>
+                                <dd class="slds-item_detail slds-truncate" title="~2 hrs 55 mins">~2 hrs 55 mins</dd>
+                            </dl>
+                        </lightning:tile>
+                    </li>
+                </ul>
+            </p>
+        </lightning:card>
+        <lightning:card variant="Narrow" title="Recommended" iconName="standard:story">
+            <aura:set attribute="title">
+                <span class="slds-p-right_small">Recommended</span><lightning:badge label="1" />
+            </aura:set>
+            <aura:set attribute="actions">
+                <lightning:buttonIcon aura:id="showRecommended" iconName="utility:threedots" variant="border-filled" alternativeText="Show" onclick="{!c.toggleRecommended}"/>
+                <lightning:buttonGroup aura:id="recommendedDetailsActions" class="slds-hide">
+                    <lightning:buttonIcon iconName="utility:hide" variant="border-filled" alternativeText="Hide" onclick="{!c.toggleRecommended}"/>
+                    <lightning:buttonIcon iconName="utility:threedots" variant="border-filled" alternativeText="Show More"/>
+                </lightning:buttonGroup>
+            </aura:set>
+            <p aura:id="recommendedDetails" class="slds-hide slds-p-horizontal_small">
+                <ul class="slds-has-dividers_bottom-space">
+                    <li class="slds-item">
+                        <lightning:tile  label="">
+                            <aura:set attribute="media">
+                                <lightning:avatar src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/trails/create-a-sustainable-future/5e275d6794e7a54323ffae3899bd0e02_icon.png" fallbackIconName="standard:person_account" alternativeText="{!v.badgeTitle}"/>
+                            </aura:set>
+                            <h3 class="slds-truncate" style="font-size: var(--lwc-fontSize3,0.8125rem);" title="Create a Sustainable Future">
+                                <a href="https://trailhead.salesforce.com/en/content/learn/trails/create-a-sustainable-future"  target="_blank">Create a Sustainable Future</a>
+                            </h3>
+                            <dl class="slds-list_horizontal slds-wrap">
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Description">Description:</dt>
+                                <dd class="slds-item_detail" title="{!v.badgeDesciption}">Learn how to make a positive impact and combat the effects of climate change.</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Type">Type:</dt>
+                                <dd class="slds-item_detail" title="Trail Mix">Trail Mix</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Trail Mix Points">Trail Mix Points:</dt>
+                                <dd class="slds-item_detail slds-truncate" title="900">900</dd>
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Date Earned">Duration:</dt>
+                                <dd class="slds-item_detail slds-truncate" title="~1 hr 40 mins">~1 hr 40 mins</dd>
+                            </dl>
+                        </lightning:tile>
+                    </li>
+                </ul>
+            </p>
+        </lightning:card>
+        <footer class="slds-card__footer slds-text-link">View all Badges</footer>
+    </article>
+</aura:component>

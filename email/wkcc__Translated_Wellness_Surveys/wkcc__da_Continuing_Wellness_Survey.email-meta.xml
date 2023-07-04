@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Mailskabelon til Work.com - Løbende undersøgelse af medarbejdernes velbefindende</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Spørgeskema om velbefindende</name>
+    <style>none</style>
+    <subject>Spørgeskema om velbefindende - Udfyld venligst</subject>
+    <textOnly>Besvar dette spørgeskema for at rapportere din aktuelle helbredsstatus for sikre det højeste niveau af fortsat sundhed og sikkerhed på din arbejdsplads.
+
+Dine svar bruges udelukkende til at afgøre, om du kan fortsætte med at arbejde på din arbejdsplads. Dataene er fortrolige og kun til internt brug.
+
+Linket til spørgeskemaet er entydigt for dig. Videresend ikke denne mail til andre.
+
+{{Survey}}
+
+Tak for din support og medvirken.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

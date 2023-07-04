@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Fakt zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Fakten zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Fakt zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Fakten zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Fakts zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Fakten zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Fakt zur Standortgesundheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Fakten zur Standortgesundheit</value>
+    </caseValues>
+    <fields>
+        <help>Eine eindeutige Kennung für den Datensatz im Format [&quot;Kaskade&quot; + &quot;:&quot; +] &lt;Standort-ID&gt; + &apos;:&apos; + &lt;Gesundheitsstatus&gt;. Das Kaskadenpräfix ist nur in Datensätzen vorhanden, die Werte für den Gesundheitsstatus untergeordneter Standorte enthalten.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der Mitarbeiter unabhängig vom Gesundheitsstatus.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Die Standortebene des betreffenden Standorts.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>Der Standort, auf den sich dieser Faktendatensatz bezieht.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Markiert einen Standort, dass eine erneute Aggregation erforderlich ist, falls dies &quot;wahr&quot; ist, oder dass dies nicht erforderlich ist, falls dies &quot;falsch&quot; ist.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Der Prozentsatz der Mitarbeiter mit dem Gesundheitsstatus.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Die Anzahl der Mitarbeiter mit dem Gesundheitsstatus.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesundheitsstatus des Mitarbeiters.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

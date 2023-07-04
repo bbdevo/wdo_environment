@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>תבנית דוא&quot;ל עבור סקר בריאות עובדים לקראת חזרה לעבודה של Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>סקר בריאות עובדים לקראת חזרה לעבודה</name>
+    <style>none</style>
+    <subject>סקר בריאות - נא למלא</subject>
+    <textOnly>אנו שמחים להתחיל את תהליך החזרה למקום העבודה. כדי לעזור לנו לעשות זאת בצורה בטוחה ואחראית, אנא השב לסקר זה, המשמש להערכת המצב הבריאותי הנוכחי שלך.
+
+תשובותיך ישמשו אך ורק כדי לקבוע אם אתה מוכן לחזור למקום עבודתך. אם תסרב לספק נתוני בריאות, תצטרך להמשיך בעבודה מרחוק. כדי לסרב, השב לסקר וסמן אפשרות זו.
+
+הקישור לסקר הוא ייחודי עבורך. אין להעביר הודעה זו לאחרים.
+
+{{Survey}}
+
+תודה רבה, אנו מעריכים את התמיכה ושיתוף הפעולה.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

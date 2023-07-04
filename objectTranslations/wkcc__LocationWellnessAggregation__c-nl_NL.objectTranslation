@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Welzijnsaggregatie voor locatie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Welzijnsaggregaties voor locatie</value>
+    </caseValues>
+    <fields>
+        <help>Een unieke identifier voor de record in de notatie &lt;ID van locatie&gt; + ‘:’ + &lt;Welzijnsstatus&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>De totale telling van individuen, ongeacht welzijnsstatus.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>De locatie waaraan deze aggregatierecord is gerelateerd</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Laat het periodieke batchproces weten dat de aggregatie opnieuw moet worden uitgevoerd.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Het percentage van de individuen voor de locatie, die de welzijnsstatus hebben.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>De telling van individuen met de welzijnsstatus.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>De welzijnsstatusgroep, geaggregeerd voor personen op deze locatie.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam</nameFieldLabel>
+</CustomObjectTranslation>

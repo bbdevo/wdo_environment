@@ -1,0 +1,7 @@
+.THIS {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+.THIS:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Mottagaren av undersökningsschema</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En mottagare av undersökningsschema</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Mottagare av undersökningsschema</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Mottagarna av undersökningsschema</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Mottagare av undersökningsschema</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Mottagare av undersökningsschema</value>
+    </caseValues>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>wkcc__Employee__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Schedule --></label>
+        <name>wkcc__SurveySchedule__c</name>
+        <relationshipLabel><!-- Survey Schedule Recipients --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på mottagare av undersökningsschema</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Schedule Recipient needs to be selected based on Schedule Recipient Type --></errorMessage>
+        <name>wkcc__RecipientsBasedOnRecipientType</name>
+    </validationRules>
+</CustomObjectTranslation>

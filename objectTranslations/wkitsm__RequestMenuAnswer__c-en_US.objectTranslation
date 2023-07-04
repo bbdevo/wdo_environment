@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkitsm__AnswerText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>wkitsm__Case__c</name>
+        <relationshipLabel><!-- Request Menu Answers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Question Choice Text --></label>
+        <name>wkitsm__QuestionChoiceText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Text --></label>
+        <name>wkitsm__QuestionText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Item Question Choice --></label>
+        <name>wkitsm__RequestMenuQuestionChoice__c</name>
+        <relationshipLabel><!-- Request Menu Answers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Item Question --></label>
+        <name>wkitsm__RequestMenuQuestion__c</name>
+        <relationshipLabel><!-- Request Menu Answers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Submission --></label>
+        <name>wkitsm__RequestMenuSubmission__c</name>
+        <relationshipLabel><!-- Request Menu Submissions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

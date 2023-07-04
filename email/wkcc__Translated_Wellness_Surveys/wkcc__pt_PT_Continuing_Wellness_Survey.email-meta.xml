@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modelo de e-mail para o inquérito de continuidade do estado de saúde dos funcionários do Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Inquérito de continuidade do estado de saúde</name>
+    <style>none</style>
+    <subject>Inquérito de saúde - Preencha</subject>
+    <textOnly>Para garantir o mais alto nível de continuidade da saúde e da segurança no seu local de trabalho, responda a este inquérito sobre o seu estado de saúde atual.
+
+As suas respostas são utilizadas apenas para determinar se pode continuar a trabalhar no seu local de trabalho. Os dados são confidenciais e apenas para uso interno.
+
+A hiperligação do inquérito é exclusivamente sua. Não reencaminhe este e-mail para outras pessoas.
+
+{{Survey}}
+
+Obrigado. Agrademos o seu apoio e colaboração.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Jurnaul Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Jurnal Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Jurnalele Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Jurnale Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Jurnalului Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Jurnalului Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Jurnalelor Command Center</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Jurnalelor Command Center</value>
+    </caseValues>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>wkcc__ClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>wkcc__Level__c</name>
+        <picklistValues>
+            <masterLabel>DEBUG</masterLabel>
+            <translation>DEPANARE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERROR</masterLabel>
+            <translation>EROARE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFO</masterLabel>
+            <translation>INFO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WARN</masterLabel>
+            <translation>AVERTIZARE</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>wkcc__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object ID List --></label>
+        <name>wkcc__ObjectIdList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>wkcc__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package --></label>
+        <name>wkcc__Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- API Response --></label>
+        <name>wkcc__ResponseJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>wkcc__StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>wkcc__User__c</name>
+        <relationshipLabel><!-- Command Center Logs --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>ID jurnal</nameFieldLabel>
+</CustomObjectTranslation>

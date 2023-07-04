@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FSL__Count_of_Events__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Count of all events</description>
+        <externalId>false</externalId>
+        <formula>IF( IsTask,0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Count of all events</inlineHelpText>
+        <label>Count of Events</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Count_of_Tasks__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( IsTask,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Count of Tasks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Event_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Event Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service Appointment</fullName>
+                    <default>false</default>
+                    <label>Service Appointment</label>
+                </value>
+                <value>
+                    <fullName>Resource Absence</fullName>
+                    <default>false</default>
+                    <label>Resource Absence</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Age__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CarePlanGoal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Goal this task is meant to address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Goal this task is meant to address</inlineHelpText>
+        <label>Goal</label>
+        <referenceTo>HealthCloudGA__CarePlanGoal__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CarePlanProblem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Problem this task is mean to address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Problem this task is mean to address</inlineHelpText>
+        <label>Problem</label>
+        <referenceTo>HealthCloudGA__CarePlanProblem__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CarePlanTemplate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Care Plan Template</label>
+        <referenceTo>HealthCloudGA__CarePlanTemplate__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Diagnosis</fullName>
+                    <default>false</default>
+                    <label>Diagnosis</label>
+                </value>
+                <value>
+                    <fullName>Counselling</fullName>
+                    <default>false</default>
+                    <label>Counselling</label>
+                </value>
+                <value>
+                    <fullName>Vaccination</fullName>
+                    <default>false</default>
+                    <label>Vaccination</label>
+                </value>
+                <value>
+                    <fullName>Exercise</fullName>
+                    <default>false</default>
+                    <label>Exercise</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Conditions_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Condition Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Evaluated - No Risk</fullName>
+                    <default>false</default>
+                    <label>Evaluated - No Risk</label>
+                </value>
+                <value>
+                    <fullName>Asymptomatic</fullName>
+                    <default>false</default>
+                    <label>Asymptomatic</label>
+                </value>
+                <value>
+                    <fullName>Asymptomatic - Declined to Participate</fullName>
+                    <default>false</default>
+                    <label>Asymptomatic - Declined to Participate</label>
+                </value>
+                <value>
+                    <fullName>Symptomatic</fullName>
+                    <default>false</default>
+                    <label>Symptomatic</label>
+                </value>
+                <value>
+                    <fullName>Symptomatic - Declined to Participate</fullName>
+                    <default>false</default>
+                    <label>Symptomatic - Declined to Participate</label>
+                </value>
+                <value>
+                    <fullName>Cured</fullName>
+                    <default>false</default>
+                    <label>Cured</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Contract_Tracing_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contract Tracing Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Incoming</fullName>
+                    <default>false</default>
+                    <label>Incoming</label>
+                </value>
+                <value>
+                    <fullName>No Response</fullName>
+                    <default>false</default>
+                    <label>No Response</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Gender__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Gender</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Decline to Specify</fullName>
+                    <default>false</default>
+                    <label>Decline to Specify</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Monitored_at_Home__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Monitored at Home</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SortOrder__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sort Order</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__TaskType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>TaskType</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Uncategorized</fullName>
+                    <default>true</default>
+                    <label>Uncategorized</label>
+                </value>
+                <value>
+                    <fullName>Administrative</fullName>
+                    <default>false</default>
+                    <label>Administrative</label>
+                </value>
+                <value>
+                    <fullName>Clinical</fullName>
+                    <default>false</default>
+                    <label>Clinical</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Testing_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Testing Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Testing Recommended</fullName>
+                    <default>false</default>
+                    <label>Testing Recommended</label>
+                </value>
+                <value>
+                    <fullName>Test Scheduled</fullName>
+                    <default>false</default>
+                    <label>Test Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Test Results Pending</fullName>
+                    <default>false</default>
+                    <label>Test Results Pending</label>
+                </value>
+                <value>
+                    <fullName>Negative Test</fullName>
+                    <default>false</default>
+                    <label>Negative Test</label>
+                </value>
+                <value>
+                    <fullName>Positive Test</fullName>
+                    <default>false</default>
+                    <label>Positive Test</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>wkcc__ActionApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the automation to start.  This value is required for the Flow action type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the automation to start. This value is required for the Flow action type.</inlineHelpText>
+        <label>Action API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__ActionCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action category.  To display the task in the Workplace Command Center Operations Feed, specify a value for this field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action category.  To display the task in the Workplace Command Center Operations Feed, specify a value for this field.</inlineHelpText>
+        <label>Action Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alert</fullName>
+                    <default>false</default>
+                    <label>Alert</label>
+                </value>
+                <value>
+                    <fullName>Warning</fullName>
+                    <default>false</default>
+                    <label>Warning</label>
+                </value>
+                <value>
+                    <fullName>Information</fullName>
+                    <default>false</default>
+                    <label>Information</label>
+                </value>
+                <value>
+                    <fullName>Action</fullName>
+                    <default>false</default>
+                    <label>Action</label>
+                </value>
+                <value>
+                    <fullName>Employee Wellness Alert</fullName>
+                    <default>false</default>
+                    <label>Employee Wellness Alert</label>
+                </value>
+                <value>
+                    <fullName>Employee Wellness Warning</fullName>
+                    <default>false</default>
+                    <label>Employee Wellness Warning</label>
+                </value>
+                <value>
+                    <fullName>Employee Wellness Information</fullName>
+                    <default>false</default>
+                    <label>Employee Wellness Information</label>
+                </value>
+                <value>
+                    <fullName>Employee Wellness Action</fullName>
+                    <default>false</default>
+                    <label>Employee Wellness Action</label>
+                </value>
+                <value>
+                    <fullName>Location Alert</fullName>
+                    <default>false</default>
+                    <label>Location Alert</label>
+                </value>
+                <value>
+                    <fullName>Location Warning</fullName>
+                    <default>false</default>
+                    <label>Location Warning</label>
+                </value>
+                <value>
+                    <fullName>Location Information</fullName>
+                    <default>false</default>
+                    <label>Location Information</label>
+                </value>
+                <value>
+                    <fullName>Location Action</fullName>
+                    <default>false</default>
+                    <label>Location Action</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>wkcc__ActionInputVariables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A JSON formatted string of variables. These are used for the Flow action type to specify input variables.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A JSON formatted string of variables. These are used for the Flow action type to specify input variables.</inlineHelpText>
+        <label>Action Input Variables</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__ActionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of action being performed by this task if it has an automated action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of action being performed by this task if it has an automated action.</inlineHelpText>
+        <label>Action Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Flow</fullName>
+                    <default>false</default>
+                    <label>Flow</label>
+                </value>
+                <value>
+                    <fullName>URL</fullName>
+                    <default>false</default>
+                    <label>URL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>wkcc__ActionUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>An absolute or relative URL to a page or record. The URL includes any required parameters. Relative URLs are relative to the Salesforce instance.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>An absolute or relative URL to a page or record. The URL includes any required parameters. Relative URLs are relative to the Salesforce instance.</inlineHelpText>
+        <label>Action URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A reference to the Location that this Task is related to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A reference to the Location that this Task is related to.</inlineHelpText>
+        <label>Location</label>
+        <referenceTo>Location</referenceTo>
+        <relationshipLabel>Operations Tasks</relationshipLabel>
+        <relationshipName>OperationsTask</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>wkdw__TransitionPlanTask__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The transition plan task that this task was generated from</description>
+        <externalId>false</externalId>
+        <label>Transition Plan Task</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkdw__TransitionPlanTemplateTaskId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The SF Id of the Transition Plan Template Task that this Task was generated from</description>
+        <externalId>false</externalId>
+        <label>Transition Plan Template Task Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkdw__UseTaskLabelsInChecklist__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>In the onboarding checklist of tasks, show the name and description set on the task record instead of the name and description set on the onboarding task record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In the onboarding checklist of tasks, show the name and description set on the task record instead of the name and description set on the onboarding task record.</inlineHelpText>
+        <label>Use Task Labels in Onboarding Checklist</label>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

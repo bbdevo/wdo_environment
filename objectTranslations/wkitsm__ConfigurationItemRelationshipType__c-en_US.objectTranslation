@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Uncheck to set the relationship as Uni-Directional
+Check to set the relationship as Bi-Directional --></help>
+        <label><!-- Bi-Directional --></label>
+        <name>wkitsm__IsBiDirectional__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of source to target relationship --></help>
+        <label><!-- Source To Target Description --></label>
+        <name>wkitsm__SourceToTargetDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of target to source relationship --></help>
+        <label><!-- Target To Source Description --></label>
+        <name>wkitsm__TargetToSourceDescription__c</name>
+    </fields>
+</CustomObjectTranslation>

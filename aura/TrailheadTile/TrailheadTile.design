@@ -1,0 +1,16 @@
+<design:component >
+
+    <design:attribute name="headerIcon" label="Icon in the header" description="Default is standard:reward" />
+
+    <design:attribute name="rank" label="Trailhead Profile Rank" default="Mountaineer" datasource="Scout,Hiker,Explorer,Adventurer,Mountaineer,Expeditioner,Ranger" />
+    <design:attribute name="points" label="Trailhead Profile Points" description="Number of Points on Trailhead" />
+    <design:attribute name="profileURL" label="Trailhead Profile URL" description="The URL of the profile on Trailhead" />
+
+    <design:attribute name="badgeImageURL" label="Trailhead Badge Image URL" />
+    <design:attribute name="badgeDesciption" label="Description of the Badge"  />
+    <design:attribute name="badgeTitle" label="Trailhead Badge Title"  />
+    <design:attribute name="badgePoints" label="Points Awarded for the Badge" />
+    
+    <design:attribute name="assignedTrainingDueDate" label="Assigned Training Due Date" />
+    
+</design:component>

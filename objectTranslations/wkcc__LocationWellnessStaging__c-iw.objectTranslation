@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>המאגר הזמני של בריאות במיקום</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>מאגר זמני של בריאות במיקום</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>המאגרים הזמניים של בריאות במיקום</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>מאגרים זמניים של בריאות במיקום</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>מזהה ייחודי של הרשומה בתבנית &lt;Location Id&gt; + &apos;:&apos; + &lt;Wellness Status&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>מציין את המצב של מיקום זה לצורך עיבוד.</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>לא עובד</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>מבצע עיבוד</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>המיקום שיש לחשב מחדש את רשומות העובדות שלו.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>שם</nameFieldLabel>
+</CustomObjectTranslation>

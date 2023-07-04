@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fields>
+        <fullName>Body__c</fullName>
+        <externalId>false</externalId>
+        <label>Body</label>
+        <length>131072</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CaseDescription__c</fullName>
+        <description>Set default text for the Description field on a new ticket.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter default content for users when they log a new ticket related to this article. The field can be blank, or instructional, such as “Describe your issue or request...</inlineHelpText>
+        <label>Case Description</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CaseSubject__c</fullName>
+        <description>Set the default text for the Subject field on a new ticket. If you leave it blank, the Subject field uses the title of the current article</description>
+        <externalId>false</externalId>
+        <inlineHelpText>You can leave the Case Subject field blank and it will default to the current article title.</inlineHelpText>
+        <label>Case Subject</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RelatedCase__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Knowledge</relationshipLabel>
+        <relationshipName>Knowledge</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <label>Knowledge</label>
+    <listViews>
+        <fullName>archived_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Archived Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>draft_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Draft Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>published_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <columns>CaseSubject__c</columns>
+        <columns>CaseDescription__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Published Articles</label>
+    </listViews>
+    <pluralLabel>Knowledge</pluralLabel>
+    <recordTypes>
+        <fullName>HR_Benefits</fullName>
+        <active>true</active>
+        <description>HR Service Center benefits articles</description>
+        <label>HR - Benefits</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>HR_Employee_Relations</fullName>
+        <active>true</active>
+        <description>HR Service Center employee relations articles</description>
+        <label>HR - Employee Relations</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>HR_General</fullName>
+        <active>true</active>
+        <description>General HR Service Center articles</description>
+        <label>HR - General</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>HR_Knowledge_Article</fullName>
+        <active>false</active>
+        <description>Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training</description>
+        <label>HR Knowledge Article</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>HR_Leave</fullName>
+        <active>true</active>
+        <description>HR Service Center leave articles</description>
+        <label>HR - Leave</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>HR_Onboarding</fullName>
+        <active>true</active>
+        <description>HR Service Center onboarding articles</description>
+        <label>HR - Onboarding</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>HR_Payroll</fullName>
+        <active>true</active>
+        <description>HR Service Center payroll articles</description>
+        <label>HR - Payroll</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>IT_Knowledge_Article</fullName>
+        <active>true</active>
+        <description>Create a knowledge article for information technology content, such as equipment, access, or application performance solutions</description>
+        <label>IT Knowledge Article</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>KnowledgeArticle</fullName>
+        <active>true</active>
+        <label>Knowledge Article</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>KnownError</fullName>
+        <active>true</active>
+        <label>Known Error</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>ServiceKnowledge</fullName>
+        <active>true</active>
+        <label>Service Knowledge</label>
+    </recordTypes>
+    <searchLayouts/>
+</CustomObject>

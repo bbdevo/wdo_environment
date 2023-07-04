@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Whether or not the question choice is active. This will determine whether or not the choice is rendered on forms. --></help>
+        <label><!-- IsActive --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>wkitsm__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Question --></label>
+        <name>wkitsm__RequestMenuQuestion__c</name>
+        <relationshipLabel><!-- RequestMenuQuestionChoices --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Log --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Callouts --></label>
+        <name>wkitsm__Callouts__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time --></label>
+        <name>wkitsm__CpuTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data --></label>
+        <name>wkitsm__Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML --></label>
+        <name>wkitsm__Dml__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error ID --></label>
+        <name>wkitsm__ErrorId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Message --></label>
+        <name>wkitsm__ExceptionMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Stack Trace --></label>
+        <name>wkitsm__ExceptionStackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Type --></label>
+        <name>wkitsm__ExceptionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size --></label>
+        <name>wkitsm__HeapSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Query Rows --></label>
+        <name>wkitsm__QueryRows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>wkitsm__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running User ID --></label>
+        <name>wkitsm__RunningUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL --></label>
+        <name>wkitsm__Soql__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>wkitsm__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

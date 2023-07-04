@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkSkillRouting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isActive>true</isActive>
+    <masterLabel>Case Skill Mapping</masterLabel>
+    <relatedEntity>Case</relatedEntity>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>IT_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>IT</value>
+    </workSkillRoutingAttributes>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>HR_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>HR - General</value>
+    </workSkillRoutingAttributes>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>HR_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>HR - Payroll</value>
+    </workSkillRoutingAttributes>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>HR_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>HR - Benefits</value>
+    </workSkillRoutingAttributes>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>HR_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>HR - Employee Relations</value>
+    </workSkillRoutingAttributes>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>HR_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>HR - Leave</value>
+    </workSkillRoutingAttributes>
+    <workSkillRoutingAttributes>
+        <field>Case.wkdw__TicketCategory__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>HR_Agent</skill>
+        <skillLevel>1</skillLevel>
+        <value>HR - Onboarding</value>
+    </workSkillRoutingAttributes>
+</WorkSkillRouting>

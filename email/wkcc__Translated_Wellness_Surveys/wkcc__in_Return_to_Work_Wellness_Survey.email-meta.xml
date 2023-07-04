@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Template Email untuk Survei Kesehatan Karyawan Work.com untuk Kembali Kerja.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Survei Kesehatan untuk Kembali Kerja</name>
+    <style>none</style>
+    <subject>Survei Kesehatan - Harap Diisi</subject>
+    <textOnly>Kami bersyukur telah memulai proses kembali ke tempat kerja. Untuk membantu kami melakukannya dengan aman dan bertanggung jawab, harap mengisi survei ini yang akan mengkaji kesehatan Anda saat ini.
+
+Jawaban Anda hanya digunakan untuk menentukan apakah Anda siap untuk kembali ke tempat kerja Anda. Jika Anda menolak memberikan data kesehatan, Anda harus terus bekerja dari jarak jauh. Untuk menolaknya, silakan membuka survei dan menyatakan pilihan tersebut.
+
+Tautan survei unik untuk Anda. Jangan teruskan email ini ke orang lain.
+
+{{Survey}}
+
+Terima kasih, kami menghargai dukungan dan kerja sama Anda.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

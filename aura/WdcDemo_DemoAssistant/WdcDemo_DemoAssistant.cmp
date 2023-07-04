@@ -1,0 +1,224 @@
+<!--
+  @description       : 
+  @author            : shawn.butters
+  @group             : 
+  @last modified on  : 11-27-2020
+  @last modified by  : shawn.butters
+  Modifications Log 
+  Ver   Date         Author          Modification
+  1.0   11-05-2020   shawn.butters   Initial Version
+-->
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:utilityItem" controller="WdcDemo_DemoAssistantController" access="global" description="Work.com Demo Assistant">
+
+    <aura:attribute name="supportsPopOut" type="Boolean" default="true" />
+
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+
+    <aura:attribute name="Spinner" type="boolean" default="false"/>
+    <!--<aura:attribute name="Result" type="boolean" default="true" />-->
+    
+    <!-- SPINNER -->
+    <aura:if isTrue="{!v.Spinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+
+    <!-- BUTTONS -->
+    <div class="slds-grid slds-wrap slds-p-top_medium">
+        <div class="slds-col slds-size_1-of-1 slds-p-around_small slds-grid_vertical-align-center">
+            <span><strong>It is highly recommended that you run the following tasks immediately after signup.</strong></span>
+        </div> 
+    </div>
+    <!-- CARD CONTAINER -->
+    <div class="slds-card">
+    
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Schedule All Jobs</span>
+                <div class="slds-text-color_weak slds-text-body_small">Run this to schedule all hourly, weekly and daily jobs.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small">
+                <ui:button label="Run Task" class="slds-button slds-button_brand" press="{!c.schedAllJobs}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Data Snapshot</span>
+                <div class="slds-text-color_weak slds-text-body_small">Saves the state of your shift management data.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_brand" press="{!c.takeSnapshot}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Fix Command Center Wellness Charts</span>
+                <div class="slds-text-color_weak slds-text-body_small">Runs a job in the background to re-calculate wellness information. Use this to 'fix' the charts in Command Center.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_brand" press="{!c.fixWellness}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Fix Shift Management Charts</span>
+                <div class="slds-text-color_weak slds-text-body_small">Runs a job in the background to fix the Command Center Shift Management Guage.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_brand" press="{!c.fixShiftMetrics}"></ui:button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="slds-grid slds-wrap slds-p-top_medium">
+        <div class="slds-col slds-size_1-of-1 slds-p-around_small slds-grid_vertical-align-center">
+            <span><strong>These tasks are optional. Run them as needed.</strong></span>
+        </div> 
+    </div>
+    <!-- CARD CONTAINER -->
+    <div class="slds-card">
+        
+        <div class="slds-grid slds-wrap slds-p-top_medium">             
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small slds-grid_vertical-align-center">
+                <span>Simulate Availability</span>
+                <div class="slds-text-color_weak slds-text-body_small">Automatically staggers employee availability.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_outline-brand" press="{!c.simAvail}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">             
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small slds-grid_vertical-align-center">
+                <span>Send Shift Accept Notifications</span>
+                <div class="slds-text-color_weak slds-text-body_small">Manually pushes a shift accept/reject notification to demo employees.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_outline-brand" press="{!c.pushShiftAcceptNotifications}"></ui:button>
+            </div>
+        </div>
+       
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Push Shift Data 1 Week</span>
+                <div class="slds-text-color_weak slds-text-body_small">Push Shift Management data forward one week.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_outline-brand" press="{!c.pushShiftData1Wk}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Rewind Shift Data 1 Week</span> 
+                <div class="slds-text-color_weak slds-text-body_small">Push Shift Management data backwards one week.</div>
+
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_outline-brand" press="{!c.rewindShiftData1Wk}"></ui:button>
+            </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Re-base Shift Data</span> 
+                <div class="slds-text-color_weak slds-text-body_small">Moves all demo shift data to be relative to this week.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_outline-brand" press="{!c.rebaseShiftData}"></ui:button>
+            </div>
+        </div>
+        
+         <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Schedule Weekly Data Bouncer</span>
+                <div class="slds-text-color_weak slds-text-body_small">Weekly routine to set all Shift Management data for the following week.</div>
+
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_outline-brand" press="{!c.schedBouncer}"></ui:button>
+            </div>
+        </div>
+
+    
+    </div>
+    <!-- CARD CONTAINER -->
+    
+    <div class="slds-grid slds-wrap slds-p-top_medium">
+        <div class="slds-col slds-size_1-of-1 slds-p-around_small slds-grid_vertical-align-center">
+            <span><strong>Be careful!  These tasks turn off jobs and delete data!</strong></span>
+        </div> 
+    </div>
+    
+    <!-- DESTRUCTIVE CARD CONTAINER-->
+    
+   
+    
+    <div class="slds-card">
+        
+          <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Unschedule All Jobs</span>
+                <div class="slds-text-color_weak slds-text-body_small">Unschedule all hourly, daily and weekly demo jobs.</div>
+
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_destructive" press="{!c.unschedAllJobs}"></ui:button>
+            </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Unschedule Weekly Data Bouncer</span> 
+                <div class="slds-text-color_weak slds-text-body_small">Unschedule weekly "Data Bouncer" job.</div>
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_destructive" press="{!c.unschedBouncer}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Clear Arrival Times</span> 
+                <div class="slds-text-color_weak slds-text-body_small">Clears service appointment arrival windows on non-Dispatched appointments and 'resets' schedules after staggering. (This can take 15-20mins to complete)</div>
+                
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_destructive" press="{!c.clearStaggers}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Drop Non-Demo Data</span> 
+                <div class="slds-text-color_weak slds-text-body_small">Delete any new records you've added to Shift Management.</div>
+
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_destructive" press="{!c.dropNonDemoData}"></ui:button>
+            </div>
+        </div>
+
+        <div class="slds-grid slds-wrap slds-p-top_medium">
+            <div class="slds-col slds-size_3-of-4 slds-p-around_xx-small">
+                <span>Drop All Shift Data</span>
+                <div class="slds-text-color_weak slds-text-body_small">Delete all shifts so you can start from scratch.</div>
+
+            </div>
+            <div class="slds-col slds-size_1-of-4 slds-p-around_xx-small" >
+                <ui:button label="Run Task" class="slds-button slds-button_destructive" press="{!c.dropSMData}"></ui:button>
+            </div>
+        </div>
+    </div>
+    <!-- DESTRUCTIVE CARD CONTAINER-->
+</aura:component>

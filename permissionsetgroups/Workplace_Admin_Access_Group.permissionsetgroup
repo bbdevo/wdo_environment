@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>An admin with full access to Work.com data. Access to Command Center Settings. Can send surveys.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Workplace Admin Access Group</label>
+    <permissionSets>Workplace_Admin_Objects</permissionSets>
+    <permissionSets>Workplace_Command_Center_Access</permissionSets>
+    <permissionSets>wkcc__b2w_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

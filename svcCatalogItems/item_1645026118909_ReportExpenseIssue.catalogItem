@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SvcCatalogItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <categories>
+        <isPrimaryCategory>true</isPrimaryCategory>
+        <sortOrder>1</sortOrder>
+        <svcCatalogCategory>category_1646755351593_Payroll</svcCatalogCategory>
+    </categories>
+    <description>Start a report about an expense issue.</description>
+    <flow>item_1645026118909_ReportExpenseIssue</flow>
+    <image>ServiceCatalog_Expenses</image>
+    <isFeatured>false</isFeatured>
+    <isProtected>false</isProtected>
+    <masterLabel>Report Expense Issue</masterLabel>
+    <status>Published</status>
+</SvcCatalogItemDef>

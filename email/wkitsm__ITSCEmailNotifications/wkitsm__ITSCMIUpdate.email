@@ -1,0 +1,65 @@
+<table>
+  <tr>
+    <td>
+      Case Number
+    </td>
+    <td>
+      {!Case.CaseNumber}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Status
+    </td>
+    <td>
+      {!Case.Status}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Reported By
+    </td>
+    <td>
+      {!Case.wkitsm__ReportedBy__c}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Reported Date/Time
+    </td>
+    <td>
+      {!Case.wkitsm__ReportedDateTime__c}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Urgency
+    </td>
+    <td>
+      {!Case.wkitsm__Urgency__c}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Last Modified By
+    </td>
+    <td>
+      {!Case.LastModifiedBy}
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <hr />
+      <h4>Major Incident Details:</h4>
+      Subject: {!Case.Subject}
+      <br />
+      Description: {!Case.Description}
+      <br />
+      <br />
+      <hr />
+      View case details: {!Case.Link}
+      <br />
+      Thank you.
+    </td>
+  </tr>
+</table>

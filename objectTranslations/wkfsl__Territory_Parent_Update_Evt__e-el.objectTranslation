@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Γονικό συμβάν ενημέρωσης περιοχής --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Γονικά συμβάντα ενημέρωσης περιοχής --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Γονικό συμβάν ενημέρωσης περιοχής --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Γονικά συμβάντα ενημέρωσης περιοχής --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Γονικού συμβάντος ενημέρωσης περιοχής --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Γονικών συμβάντων ενημέρωσης περιοχής --></value>
+    </caseValues>
+    <fields>
+        <label><!-- jsonField --></label>
+        <name>wkfsl__jsonField__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <choices>
+        <name>option000</name>
+        <choiceText>Birth/Adoption/Legal Guardianship</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Birth/Adoption/Legal Guardianship</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option001</name>
+        <choiceText>Change Beneficiary</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Change Beneficiary</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option002</name>
+        <choiceText>Change HSA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Change HSA</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option003</name>
+        <choiceText>Divorce/Termination of Domestic Partnership</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Divorce/Termination of Domestic Partnership</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option004</name>
+        <choiceText>Marriage/Establishment of Domestic Partnership</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Marriage/Establishment of Domestic Partnership</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option005</name>
+        <choiceText>Return from Active Duty</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Return from Active Duty</stringValue>
+        </value>
+    </choices>
+    <formulas>
+        <name>org_base_url</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Api.Partner_Server_URL_530}, FIND(&apos;/services/&apos;, {!$Api.Partner_Server_URL_530}))</expression>
+    </formulas>
+    <label>Benefits Change Request</label>
+    <processType>ServiceCatalogItemFlow</processType>
+    <screens>
+        <name>additional_questions</name>
+        <label>Benefits Change Request Questions</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Fulfillment_Flow_Subflow</targetReference>
+        </connector>
+        <fields>
+            <name>Change_Reason</name>
+            <choiceReferences>option000</choiceReferences>
+            <choiceReferences>option001</choiceReferences>
+            <choiceReferences>option002</choiceReferences>
+            <choiceReferences>option003</choiceReferences>
+            <choiceReferences>option004</choiceReferences>
+            <choiceReferences>option005</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Change Reason</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Benefit_Event_Date</name>
+            <dataType>Date</dataType>
+            <fieldText>Benefit Event Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Additional_Comment</name>
+            <fieldText>Additional Comment</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>additional_questions</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Fulfillment_Flow_Subflow</name>
+        <label>Fulfillment Flow</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>Create_Case_by_Record_Type</flowName>
+        <inputAssignments>
+            <name>Input_Description</name>
+            <value>
+                <stringValue>Change Reason
+{!Change_Reason}
+
+Benefit Event Date
+{!Benefit_Event_Date}
+
+Additional Comment
+{!Additional_Comment}
+
+</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_RecordTypeApiName</name>
+            <value>
+                <stringValue>HR_Benefits</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Origin</name>
+            <value>
+                <stringValue>Employee Portal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Priority</name>
+            <value>
+                <stringValue>Medium</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Status</name>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Subject</name>
+            <value>
+                <stringValue>Benefits - Change Request</stringValue>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>SvcCatalogAttachedContentDocIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

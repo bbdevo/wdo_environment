@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkitsm__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Count --></label>
+        <name>wkitsm__ItemCount__c</name>
+    </fields>
+</CustomObjectTranslation>

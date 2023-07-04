@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- תרגום דוח Tableau --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- התרגום של דוח Tableau --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- תרגומי דוחות Tableau --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- התרגומים של דוחות Tableau --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Language --></label>
+        <name>wkcc__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Localized View URL --></label>
+        <name>wkcc__LocalizedViewUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public Tableau URL --></label>
+        <name>wkcc__PublicTableauUrl__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

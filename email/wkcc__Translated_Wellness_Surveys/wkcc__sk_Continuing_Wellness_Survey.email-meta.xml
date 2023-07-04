@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Šablóna emailu pre Work.com Pokračovanie prieskumu o zdraví zamestnanca</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pokračovanie prieskumu o zdraví</name>
+    <style>none</style>
+    <subject>Prieskum o zdraví - prosím, vyplňte</subject>
+    <textOnly>Ak chcete zaistiť najvyššiu úroveň zdravia a bezpečnosti na vašom pracovisku, využite tento prieskum a informujte o svojom aktuálnom zdravotnom stave.
+
+Vaše odpovede sa používajú iba na zistenie, či môžete na svojom pracovisku pokračovať v práci. Údaje sú dôverné a iba na interné použitie.
+
+Odkaz na prieskum je pre vás jedinečný. Neposielajte tento e-mail ostatným.
+
+{{Survey}}
+
+Ďakujeme a vážime si vašu podporu a spoluprácu.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

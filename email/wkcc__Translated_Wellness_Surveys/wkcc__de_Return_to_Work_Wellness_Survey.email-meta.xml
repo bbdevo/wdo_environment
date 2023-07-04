@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-Mail-Vorlage für Work.com – Umfrage für die Rückkehr an den Arbeitsplatz</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Gesundheitsumfrage für die Rückkehr an den Arbeitsplatz</name>
+    <style>none</style>
+    <subject>Gesundheitsumfrage – Bitte ausfüllen</subject>
+    <textOnly>Wir freuen uns, den Prozess zur Rückkehr an den Arbeitsplatz einleiten zu können. Um dabei sicher und verantwortungsvoll vorzugehen, bitten wir Sie, an dieser Umfrage teilzunehmen, in der Ihr aktueller Gesundheitszustand bewertet wird.
+
+Ihre Antworten dienen lediglich dazu, festzustellen, ob Sie bereit sind, an Ihren Arbeitsplatz zurückzukehren. Wenn Sie Ihre Gesundheitsdaten nicht offenlegen möchten, müssen Sie die Remote-Arbeit fortsetzen. Um die Offenlegung von Gesundheitsdaten abzulehnen, nehmen Sie an der Umfrage teil und wählen Sie die entsprechende Option aus.
+
+Der Link zur Umfrage ist nur für Sie vorgesehen. Leiten Sie diese E-Mail nicht an andere weiter.
+
+{{Survey}}
+
+Vielen Dank! Wir wissen Ihre Unterstützung und Zusammenarbeit zu schätzen.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

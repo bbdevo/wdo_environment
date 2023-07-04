@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investigation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investigations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Incident --></label>
+        <name>Date_of_Incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Status --></label>
+        <name>Investigation_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned to Field Agent</masterLabel>
+            <translation><!-- Assigned to Field Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reported By --></label>
+        <name>ReportedBy__c</name>
+        <relationshipLabel><!-- Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- What did you say in response? --></label>
+        <name>What_did_you_say_in_response__c</name>
+    </fields>
+    <fields>
+        <label><!-- What happened? --></label>
+        <name>What_happened__c</name>
+    </fields>
+    <fields>
+        <label><!-- Where did the incident happen? --></label>
+        <name>Where_did_the_incident_happen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Witness information --></label>
+        <name>Witness_information__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

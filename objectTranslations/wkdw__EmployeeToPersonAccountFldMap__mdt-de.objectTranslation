@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Zuordnung der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Zuordnungen der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Zuordnung der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Zuordnungen der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Zuordnung der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Zuordnungen der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Zuordnung der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Zuordnungen der Felder von &quot;Mitarbeiter&quot; zum Personenaccount --></value>
+    </caseValues>
+    <fields>
+        <help>Deaktivieren Sie dies, wenn diese Zuordnung beim Erstellen eines Personenaccount-Datensatzes aus einem Mitarbeiterdatensatz nicht verwendet werden soll.</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Der API-Name des Felds &quot;Mitarbeiter&quot;. Muss &quot;__c&quot; enthalten, wenn es sich um ein benutzerdefiniertes Feld handelt.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Der API-Name des Felds &quot;Personenaccount&quot;. Muss &quot;__c&quot; enthalten, wenn es sich um ein benutzerdefiniertes Feld handelt, oder &quot;__pc&quot;, wenn es sich um ein benutzerdefiniertes Feld vom Typ &quot;Personenaccount&quot; handelt.</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

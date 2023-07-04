@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Definizione categoria ticket --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Definizioni categoria ticket --></value>
+    </caseValues>
+    <fields>
+        <help>Immetti tutti i tipi di record Articolo Knowledge associati alla categoria ticket.</help>
+        <label><!-- AssociatedKnowledgeArticleTypeMapping --></label>
+        <name>wkdw__AssociatedKnowledgeArticleTypeMapping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>wkdw__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Action Name --></label>
+        <name>wkdw__QuickAction__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- We couldn&apos;t find knowledge article record types that match your values. Enter the names exactly. --></errorMessage>
+        <name>wkdw__AssociatedKnowledgeArticleTypeMapFormat</name>
+    </validationRules>
+</CustomObjectTranslation>

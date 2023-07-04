@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>HR_Benefits_Department_CBSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>HR Benefits Department CBSR</label>
+        <sharedTo>
+            <group>HR_Benefits_Specialists</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HR - Benefits</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>HR_Generalists_CBSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>HR Generalists CBSR</label>
+        <sharedTo>
+            <group>HR_Generalists</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HR - General</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>HR_Onboarding_Department_CBSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>HR Onboarding Department CBSR</label>
+        <sharedTo>
+            <group>HR_Onboarding_Specialists</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HR - Onboarding</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>HR_Payroll_Department_CBSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>HR Payroll Department CBSR</label>
+        <sharedTo>
+            <group>HR_Payroll_Specialists</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HR - Payroll</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

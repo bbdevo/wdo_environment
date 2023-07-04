@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Announcement --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Announcement --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Employee Workspace --></label>
+        <name>wkitsm__EW</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ITSC Console --></label>
+        <name>wkitsm__ITSC</name>
+    </fieldSets>
+    <fields>
+        <help>Aankondiging is niet actief als de begin- en einddatums leeg zijn, of als hun datumbereik in het verleden of in de toekomst ligt</help>
+        <label><!-- Active --></label>
+        <name>wkitsm__Active__c</name>
+    </fields>
+    <fields>
+        <help>Aanvullende gegevens weergegeven bij het bekijken van een volledig aankondigingsrecord. Niet zichtbaar in de aankondigingscomponent.</help>
+        <label><!-- Additional Details --></label>
+        <name>wkitsm__AdditionalDetails__c</name>
+    </fields>
+    <fields>
+        <help>Aankondigingsgegevens weergegeven in de aankondigingscomponent</help>
+        <label><!-- Announcement Details --></label>
+        <name>wkitsm__AnnouncementDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>wkitsm__End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Past --></label>
+        <name>wkitsm__Past__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled --></label>
+        <name>wkitsm__Scheduled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>wkitsm__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibility --></label>
+        <name>wkitsm__Visibility__c</name>
+        <picklistValues>
+            <masterLabel>Employee Workspace</masterLabel>
+            <translation>Werknemerswerkruimte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Workspace and ITSC Console</masterLabel>
+            <translation>Werknemersruimte en ITSC-console</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITSC Console</masterLabel>
+            <translation>ITSC-console</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Announcement Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Announcement of type Alert --></description>
+        <label><!-- Alert --></label>
+        <name>wkitsm__AlertAnnouncement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Announcement of type Information --></description>
+        <label><!-- Informational --></label>
+        <name>wkitsm__InformationalAnnouncement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Announcement of type Warning --></description>
+        <label><!-- Warning --></label>
+        <name>wkitsm__WarningAnnouncement</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- HRSC Settings --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- HRSC Settings --></value>
+    </caseValues>
+    <fields>
+        <label><!-- MaxDaysCompletedTransition --></label>
+        <name>wkdw__MaxDaysCompletedTransition__c</name>
+    </fields>
+    <fields>
+        <help>When selected, only pending tasks are displayed in the onboarding task checklist. When deselected, all tasks are displayed.</help>
+        <label><!-- Show Only Pending Tasks --></label>
+        <name>wkdw__ShowPendingTasksOnly__c</name>
+    </fields>
+    <fields>
+        <help>In Days</help>
+        <label><!-- Welcome Task Visibility Offset --></label>
+        <name>wkdw__WelcomeTaskVisibilityOffset__c</name>
+    </fields>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <fields>
+        <help>De naam van de klasse die de IChangeManagementRule-interface of de virtuele klasse CustomChangeManagementRule implementeert om uit te voeren voor het gedefinieerde recordtype.</help>
+        <label><!-- Class Name --></label>
+        <name>wkitsm__ClassName__c</name>
+    </fields>
+    <fields>
+        <help>De naam van de ontwikkelaar van het recordtype ChangeManagementRule__c sObject om toe te wijzen.</help>
+        <label><!-- Record Type Name --></label>
+        <name>wkitsm__RecordTypeName__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+</CustomObjectTranslation>

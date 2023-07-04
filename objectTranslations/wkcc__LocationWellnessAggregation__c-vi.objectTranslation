@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tổng Hợp Về Sức Khoẻ Theo Vị Trí</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Tổng Hợp Về Sức Khoẻ Theo Vị Trí --></value>
+    </caseValues>
+    <fields>
+        <help>Mã định danh duy nhất cho bản ghi ở định dạng &lt;Id Vị Trí&gt; + ‘:’ + &lt;Tình Trạng Sức Khỏe&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Tổng số lượng cá nhân bất kể tình trạng sức khỏe.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Vị trí mà bản ghi tập hợp này liên quan đến</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Thông báo cho việc xử lý đợt định kỳ rằng tập hợp này nên được tổng hợp lại.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Tỷ lệ phần trăm của cá nhân tại vị trí có tình trạng sức khỏe này.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Số lượng cá nhân có tình trạng sức khỏe này.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Nhóm trạng thái sức khỏe được tổng hợp giữa các cá nhân tại Vị Trí này.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <nameFieldLabel>Tên</nameFieldLabel>
+</CustomObjectTranslation>

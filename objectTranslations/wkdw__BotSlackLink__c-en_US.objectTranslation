@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Einstein Bot ID --></help>
+        <label><!-- BotId --></label>
+        <name>wkdw__BotId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Slack App ID --></help>
+        <label><!-- SlackAppId --></label>
+        <name>wkdw__SlackAppId__c</name>
+    </fields>
+</CustomObjectTranslation>

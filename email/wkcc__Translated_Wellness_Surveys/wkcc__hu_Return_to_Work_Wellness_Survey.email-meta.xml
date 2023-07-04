@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-mail-sablon a Work.com a munkába visszatérő alkalmazottak egészségi állapotát felmérő kérdőívéhez</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Munkába való visszatérési egészségiállapot-kérdőív</name>
+    <style>none</style>
+    <subject>Egészségiállapot-kérdőív – Kérjük, töltse ki</subject>
+    <textOnly>Hálásak vagyunk azért, hogy elkezdhetjük a munkahelyre való visszatérés folyamatát. Annak érdekében, hogy ezt biztonságos és felelősségteljes módon tehessük meg, kérjük, válaszoljon erre a kérdőívre, amely az Ön jelenlegi egészségi állapotát méri fel.
+
+A válaszait kizárólag annak megállapítására használjuk fel, hogy Ön készen áll-e a munkahelyre való visszatérésre. Ha elutasítja az egészségével kapcsolatos adatok megadását, a távoli munkavégzést kell tovább folytatnia. Az elutasításhoz tölts ki a kérdőívet, és válassza az erre szolgáló lehetőséget.
+
+A kérdőív-hivatkozás kimondottan Önnek szól, ne továbbítsa ezt az e-mailt másoknak.
+
+{{Survey}}
+
+Köszönjük, és értékeljük támogatását és együttműködését.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

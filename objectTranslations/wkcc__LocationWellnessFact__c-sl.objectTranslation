@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Dejstvo zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Dejstva zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Dejstvo zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Dejstva zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Dejstva zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Dejstev zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Dejstvu zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Dejstvom zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Dejstvom zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Dejstvi zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Dejstvu zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Dejstvih zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <fields>
+        <help>Enolični identifikator zapisa v obliki zapisa [&quot;Kaskada&quot; + &quot;:&quot; +] &lt;ID lokacije&gt; + ‘:’ + &lt;zdravstveno stanje&gt;. Predpona kaskade je prisotna samo pri zapisih, ki vsebujejo vrednosti zdravstvenega stanja na podrejeni lokaciji.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Skupno število zaposlenih ne glede na zdravstveno stanje.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Raven lokacije sorodne lokacije.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>Lokacije, s katero je povezan ta zapis z dejstvi.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Če je vrednost &quot;true&quot;, označi, da lokacija potrebuje ponovno združevanje, če pa je vrednost &quot;false&quot;, označi, da lokacije ne potrebuje ponovnega združevanja.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Odstotek zaposlenih na lokaciji s tem zdravstvenim stanjem.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Število zaposlenih z zdravstvenim stanjem.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Zdravstveno stanje zaposlenih.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Ime</nameFieldLabel>
+</CustomObjectTranslation>

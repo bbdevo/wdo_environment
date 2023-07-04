@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Current Value --></label>
+        <name>myV2MOM__Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- MeasureTeamChatFeedId --></label>
+        <name>myV2MOM__MeasureTeamChatFeedId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measure --></label>
+        <name>myV2MOM__Measure__c</name>
+        <relationshipLabel><!-- Measure Teams --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>myV2MOM__Member__c</name>
+        <relationshipLabel><!-- Measure Teams --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Percentage --></label>
+        <name>myV2MOM__Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>myV2MOM__Status__c</name>
+        <picklistValues>
+            <masterLabel>Behind Schedule</masterLabel>
+            <translation><!-- Behind Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Track</masterLabel>
+            <translation><!-- On Track --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Value --></label>
+        <name>myV2MOM__Target_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>myV2MOM__Type__c</name>
+        <picklistValues>
+            <masterLabel>Adopted</masterLabel>
+            <translation><!-- Adopted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

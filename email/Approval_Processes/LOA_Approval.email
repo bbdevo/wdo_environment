@@ -1,0 +1,9 @@
+Greetings. 
+
+We have done our homework and determined {!Case.Contact} is eligible for a leave of absence starting {!Case.First_Day_Away_from_Work__c} and ending {!Case.Anticipated_Work_Return_Date__c}.  
+
+Do you approve of this leave?
+
+Thank you.
+
+Human Resources Department

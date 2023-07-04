@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The Employee Person Account Field Mapping custom metadata type allows you to configure the mapping of the Employee object field to the Person Account object field.</description>
+    <fields>
+        <fullName>emptracing__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this configuration is active</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>emptracing__Employee_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Employee object field name to which the Person Account object field is mapped</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Employee Field</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__PersonAccount_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Person Account object field name to which the Employee object field name is mapped</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Person Account Field</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Employee Person Account Field Mapping</label>
+    <listViews>
+        <fullName>emptracing__All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>emptracing__Employee_Field__c</columns>
+        <columns>emptracing__PersonAccount_Field__c</columns>
+        <columns>emptracing__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Employee Person Account Field Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

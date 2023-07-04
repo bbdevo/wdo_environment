@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recent Channel</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recent Channels</value>
+    </caseValues>
+    <fields>
+        <label><!-- Channel Id --></label>
+        <name>Channel_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slack Auth --></label>
+        <name>Slack_Auth__c</name>
+        <relationshipLabel><!-- Recent Channels --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

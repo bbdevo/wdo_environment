@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear {{{Recipient.FirstName}}},<br />
+<br />
+We are pleased to let you know your issue!<br />
+<br />
+Case - {{{Case.CaseNumber}}}<br />
+Description - {{{Case.Subject}}}<br />
+<br />
+If you have any other questions, please don't hesitate to reach out to us.<br />
+<br />
+We are always looking to improve our customer service, so would you mind taking this brief survey about your experience?<br />
+<br />
+<a href="https://sdomaster.my.salesforce.com/apex/DE_CustomerSurvey">Customer Experience Survey</a><br />
+<br />
+Thank you!<br />
+<br />
+Makana Employee Service
+</body></html>

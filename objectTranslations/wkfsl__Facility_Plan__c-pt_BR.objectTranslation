@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plano de instalação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Planos de instalação</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsDemoData --></label>
+        <name>IsDemoData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability Requests Sent On --></label>
+        <name>wkfsl__AvailabilityRequestsSentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override planned occupancy --></label>
+        <name>wkfsl__Capacity_Overide__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Occupancy --></label>
+        <name>wkfsl__Capacity__c</name>
+    </fields>
+    <fields>
+        <help>Para terem turnos atribuídos, os funcionários devem enviar a disponibilidade até o prazo.</help>
+        <label><!-- Availability Due Date --></label>
+        <name>wkfsl__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Days --></label>
+        <name>wkfsl__Days_of_the_week__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation>Sexta-feira</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation>Segunda-feira</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation>Sábado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation>Domingo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation>Quinta-feira</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation>Terça-feira</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation>Quarta-feira</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkfsl__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Crie turnos no nível mais baixo da sua hierarquia de locais. Por exemplo, crie turnos para espaços, mas não andares e edifícios.</help>
+        <label><!-- Create shifts for this location --></label>
+        <name>wkfsl__Generate_Shift__c</name>
+    </fields>
+    <fields>
+        <help>Limite o número de pessoas chegando durante cada intervalo.</help>
+        <label><!-- Occupancy Per Interval --></label>
+        <name>wkfsl__Max_Number_Of_Allowed_Employees__c</name>
+    </fields>
+    <fields>
+        <help>Insira a porcentagem da lotação máxima do local permitida pelo seu plano de local de trabalho.</help>
+        <label><!-- Reduced Occupancy Percentage --></label>
+        <name>wkfsl__Percentage_Allocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Type --></label>
+        <name>wkfsl__PlanType__c</name>
+        <picklistValues>
+            <masterLabel>Managed scheduling</masterLabel>
+            <translation>Agenda gerenciada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-service scheduling</masterLabel>
+            <translation>Agenda de autoatendimento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Top Level Territory --></label>
+        <name>wkfsl__Related_Top_Level_Territory__c</name>
+        <relationshipLabel><!-- Facility Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Territory Location --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Facility Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shifts Were Generated --></label>
+        <name>wkfsl__Shifts_Were_Generated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Window End Time --></label>
+        <name>wkfsl__Stagger_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Window Start Time --></label>
+        <name>wkfsl__Stagger_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkfsl__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Insira a duração de cada slot de tempo de chegada em minutos.</help>
+        <label><!-- Arrival Interval --></label>
+        <name>wkfsl__Time_Interval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stagger Time --></label>
+        <name>wkfsl__Time_To_Stagger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timezone --></label>
+        <name>wkfsl__Timezone__c</name>
+    </fields>
+    <fields>
+        <help>Atribua diferentes tipos de turnos. Deixe em branco para o padrão.</help>
+        <label><!-- Work Type --></label>
+        <name>wkfsl__Work_Type__c</name>
+        <relationshipLabel><!-- Facility Plans --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Plano da instalação</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Enter a due date that’s before the plan start date. --></errorMessage>
+        <name>wkfsl__Completion_Date_Before_Plan_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Completion date can&apos;t be on a past date --></errorMessage>
+        <name>wkfsl__Completion_Date_Not_In_Past</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max number of allowed employees of staggering plan must be a positive number --></errorMessage>
+        <name>wkfsl__Max_allowed_employees_must_be_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Occupancy Per Interval must be above 0 --></errorMessage>
+        <name>wkfsl__Occupancy_Per_Interval_must_be_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Percentage Allocation must be between 0 to 100. --></errorMessage>
+        <name>wkfsl__Percentage_Allocation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Time interval of staggering must be a positive number --></errorMessage>
+        <name>wkfsl__Stagger_Time_Interval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To stagger arrivals, fill out all the fields. Or, delete the Staggered Arrivals values. --></errorMessage>
+        <name>wkfsl__Stagger_plan_completeness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Staggering start time can&apos;t be after end time --></errorMessage>
+        <name>wkfsl__Stagger_start_after_end</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Time Interval must be above 0 --></errorMessage>
+        <name>wkfsl__Time_Interval_must_be_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Choose another work type. This work type creates service appointments automatically, which causes duplicate shifts. --></errorMessage>
+        <name>wkfsl__Work_type_should_not_auto_create</name>
+    </validationRules>
+</CustomObjectTranslation>

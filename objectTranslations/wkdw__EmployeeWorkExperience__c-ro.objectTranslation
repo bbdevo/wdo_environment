@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Element de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Elementul de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Elemente de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Elementele de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Elementului de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Elementului de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Elementelor de portofoliu --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Elementelor de portofoliu --></value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkdw__CompletionDate__c</name>
+    </fields>
+    <fields>
+        <help>Descrieți ce experiență aveți și evidențiați realizările.</help>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Owner --></label>
+        <name>wkdw__IsOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ongoing --></label>
+        <name>wkdw__Ongoing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>wkdw__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkdw__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Separați URL-urile prin caractere de rând nou</help>
+        <label><!-- Related URLs --></label>
+        <name>wkdw__URLs__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Enter an end date that occurs after the start date. --></errorMessage>
+        <name>wkdw__CompletionDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a URL that starts with a valid protocol such as https:// or file:///. --></errorMessage>
+        <name>wkdw__URLs</name>
+    </validationRules>
+</CustomObjectTranslation>

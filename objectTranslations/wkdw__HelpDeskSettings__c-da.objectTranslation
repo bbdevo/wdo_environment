@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Concierge-indstilling --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Concierge-indstilling --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Concierge-indstillingen --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Concierge-indstillinger --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Concierge-indstillinger --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Concierge-indstillingerne --></value>
+    </caseValues>
+    <fields>
+        <help>Når dette afkrydsningsfelt er markeret, opretter eller synkroniserer medarbejder-Apex-udløsere ikke personkontoregistreringer automatisk for hver ny medarbejderregistrering.</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>Når dette er valgt, er sagsudløseren inaktiveret, og nye sager deles ikke automatisk med den tilknyttede medarbejder</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

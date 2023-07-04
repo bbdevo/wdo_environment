@@ -1,0 +1,36 @@
+<template>
+    <div class="slack-auth slds-container slds-text-align_center ">
+        <!-- Logo -->
+        <div class="slack-logo-container slds-m-top_small">
+            <img src={slackLogoUrl}/>
+        </div>
+        <!-- /Logo -->
+
+        <!-- Auth Body -->
+        <div class="slds-text-heading_small slds-m-bottom_x-small">
+            {header}
+        </div>
+        <div class="slds-text-body_default">
+            {message}
+        </div>
+        <!-- /Auth Body -->
+
+        <!-- Auth Action -->
+        <div class="slack-button-container slds-m-top_x-large">
+            <div class="slds-button">
+                <img src={slackButton} onclick={authClick}/>
+            </div>
+            <template if:true={newAuth}>
+                <div class="slds-m-top_x-small">
+                    <lightning-button
+                        label="Cancel"
+                        variant="base"
+                        class="slds-button"
+                        onclick={goBack}
+                    ></lightning-button>
+                </div>
+            </template>
+        </div>
+        <!-- /Auth Action -->
+    </div>
+</template>

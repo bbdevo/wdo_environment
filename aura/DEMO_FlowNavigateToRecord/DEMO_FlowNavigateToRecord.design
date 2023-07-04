@@ -1,0 +1,5 @@
+<design:component >
+    <design:attribute name="sObject" label="Object API Name" default="" />
+    <design:attribute name="recordId" label="Record Id" default="" description="Must be an absolute Id, typically fetched or created earlier in the flow" />
+    <design:attribute name="mode" label="View or Edit?" default="View" />
+</design:component>

@@ -1,0 +1,29 @@
+<table>
+<tbody>
+<tr>
+<td><strong>Case Number: </strong>{!Case.CaseNumber}</td>
+</tr>
+<tr>
+<td><strong>Status: </strong>{!Case.Status}</td>
+</tr>
+<tr>
+<td><strong>Date/Time Opened: </strong>{!Case.CreatedDate}</td>
+</tr>
+<tr>
+<td><strong>Created By: </strong>{!Case.CreatedBy}</td>
+</tr>
+<tr>
+<td><strong>Priority: </strong>{!Case.Priority}</td>
+</tr>
+<tr>
+<td colspan="2"><hr />
+<h2>A new {!Case.RecordType} has been created and assigned to you.</h2>
+<hr />
+<p><strong>Subject:</strong> {!Case.Subject}</p>
+<p><strong>Description:</strong> {!Case.Description}</p>
+<hr />
+<p>You can view this {!Case.RecordType} in the ITSC console: {!Case.Link}</p>
+<hr />Thank you.</td>
+</tr>
+</tbody>
+</table>

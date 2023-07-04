@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agregação de bem-estar do local</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agregações de bem-estar do local</value>
+    </caseValues>
+    <fields>
+        <help>Um identificador exclusivo para o registro no formato &lt;ID do local&gt; + ‘:’ + &lt;Status de bem-estar&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>A contagem total de indivíduos independentemente do status de bem-estar.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>O local ao qual este registro de agregação está relacionado</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Informa ao processo em lote periódico que esta agregação deve ser novamente agregada.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>O percentual de indivíduos do local que estão neste status de bem-estar.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>A contagem de indivíduos com o status de bem-estar.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>O grupo de status de bem-estar agregado aos indivíduos neste local.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Request Menu Item Submission --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Request Menu Item Submission --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>wkitsm__Case__c</name>
+        <relationshipLabel><!-- Request Menu Item Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>wkitsm__Contact__c</name>
+        <relationshipLabel><!-- Request Menu Item Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Submitted --></label>
+        <name>wkitsm__Is_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Item --></label>
+        <name>wkitsm__RequestMenuItem__c</name>
+        <relationshipLabel><!-- Request Menu Submissions --></relationshipLabel>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Request Number --></nameFieldLabel>
+</CustomObjectTranslation>

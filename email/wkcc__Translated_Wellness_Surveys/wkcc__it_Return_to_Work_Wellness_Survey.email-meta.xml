@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modello di email per il sondaggio sulla buona salute dei dipendenti per il ritorno al lavoro Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sondaggio sulla buona salute per il ritorno al lavoro</name>
+    <style>none</style>
+    <subject>Sondaggio sulla buona salute - Si prega di compilare</subject>
+    <textOnly>Siamo grati di poter iniziare le procedure per tornare sul luogo di lavoro. Per aiutarci a farlo in modo sicuro e responsabile, ti chiediamo di rispondere a questo sondaggio che valuta il tuo stato di salute attuale.
+
+Le tue risposte vengono utilizzate esclusivamente per determinare se sei pronto a tornare sul luogo di lavoro. Se rifiuti di fornire i dati relativi alla tua salute, dovrai continuare a lavorare da remoto. Per rifiutare, partecipa al sondaggio e scegli l&apos;opzione di rifiuto.
+
+Il link al sondaggio è univoco e specifico per te. Non inoltrare questa email ad altre persone.
+
+{{Survey}}
+
+Grazie per il supporto e la collaborazione.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

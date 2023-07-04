@@ -1,0 +1,13 @@
+.slack-message {
+    padding: .75rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+}
+
+.slack-message:hover {
+    background-color: rgb(243, 242, 242);
+}
+
+.slack-message__source {
+    margin-left: 46px;
+}

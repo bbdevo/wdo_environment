@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Change Management Rule --></value>
+    </caseValues>
+    <fields>
+        <help>在发生碰撞时应采取的操作。</help>
+        <label><!-- Action --></label>
+        <name>wkitsm__Action__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warn</masterLabel>
+            <translation>警告</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>在出现违规情况时显示 SLDS 图标的标签。图标标签见：https://www.lightningdesignsystem.com/icons/</help>
+        <label><!-- Icon --></label>
+        <name>wkitsm__Icon__c</name>
+    </fields>
+    <fields>
+        <help>规则是否处于活动状态。</help>
+        <label><!-- Is Active --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>用于匹配字段的可选值。</help>
+        <label><!-- Match Field Value --></label>
+        <name>wkitsm__MatchFieldValue__c</name>
+    </fields>
+    <fields>
+        <help>用于识别类似案例的“案例（变更）”字段的 API 名称。</help>
+        <label><!-- Match Field --></label>
+        <name>wkitsm__MatchField__c</name>
+    </fields>
+    <fields>
+        <help>规则允许的最大重叠变更数。</help>
+        <label><!-- Max Overlapping Changes --></label>
+        <name>wkitsm__MaxOverlappingChanges__c</name>
+    </fields>
+    <nameFieldLabel><!-- Change Management Rule Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Rule for identifying changes that occur outside of defined change windows. --></description>
+        <label><!-- Change Window Rule --></label>
+        <name>wkitsm__ChangeWindowRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes based on matching values of a field. --></description>
+        <label><!-- Field Match Overlap Rule --></label>
+        <name>wkitsm__FieldMatchOverlapRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for capturing when a change is during a defined freeze period. --></description>
+        <label><!-- Freeze Rule --></label>
+        <name>wkitsm__FreezeRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes. --></description>
+        <label><!-- Overlap Rule --></label>
+        <name>wkitsm__OverlapRule</name>
+    </recordTypes>
+</CustomObjectTranslation>

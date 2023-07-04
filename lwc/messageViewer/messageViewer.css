@@ -1,0 +1,37 @@
+.slack-logo {
+    background-color: rgb(74, 21, 75);
+}
+
+.slack-logo img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.slack-empty-state {
+    height: 100%;
+}
+
+.slack-empty-state img {
+    max-height: 120px;
+    width: auto;
+}
+
+.slack-message-list {
+    max-height: 400px;
+}
+
+.slack-message-list .slack-load-more {
+    padding: 1.5rem 1.5rem;
+}
+
+/*--------- SLDS Overrides ---------*/
+.slds-card__body {
+    margin-bottom: 0;
+}
+/*--------- SLDS Overrides ---------*/
+
+/*--------- Classic Styles ---------*/
+.slack-is-classic .slds-card__body {
+    height: 400px
+}
+/*--------- Classic Styles ---------*/

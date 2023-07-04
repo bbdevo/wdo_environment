@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Plantilla de email para la Encuesta de bienestar de vuelta al trabajo de los empleados de Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Encuesta de bienestar de vuelta al trabajo</name>
+    <style>none</style>
+    <subject>Encuesta de bienestar - Se ruega completar</subject>
+    <textOnly>Estamos agradecidos de iniciar el proceso de vuelta al lugar de trabajo. Para ayudarnos a hacerlo de forma segura y responsable, rogamos responda a esta encuesta, que evaluará su salud actual.
+
+Sus respuestas se utilizan únicamente para determinar si está listo para volver a su lugar de trabajo. Si declina proporcionar datos sanitarios, deberá seguir teletrabajando. Para declinar, realice la encuesta e indique esa elección.
+
+El vínculo de la encuesta es exclusivo para usted. No reenvíe este mensaje a otros.
+
+{{Survey}}
+
+Le agradecemos su apoyo y cooperación.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

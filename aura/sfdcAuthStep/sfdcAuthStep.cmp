@@ -1,0 +1,18 @@
+<!-- Strike Inbound Connector v2.0.2 -->
+<aura:component controller="sfdcAuthStep" extends="c:connectorStep">
+    <!-- Internal -->
+    <aura:attribute name="loading" type="Boolean" default="false" access="private"/>
+    <aura:attribute name="oauthUri" type="String" access="private"/>
+    <aura:attribute name="postMessageKey" type="String" access="private"/>
+    <!-- /Internal -->
+
+    <!-- Step Attributes -->
+    <aura:set attribute="disableNext" value="true"/>
+
+    <aura:set attribute="title" value="Connect to Slack"/>
+    <!-- <aura:set attribute="description" value="Sample Description"/> -->
+    <aura:set attribute="guidance">
+        <aura:unescapedHtml value="Click &lt;strong&gt;Authorize&lt;/strong&gt; and enter your Salesforce credentials when prompted to grant Slack access to your org. If already authenticated, click &lt;strong&gt;Reauthorize&lt;/strong&gt; anytime to update your credentials."/>
+    </aura:set>
+    <!-- /Step Attributes -->
+</aura:component>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>План установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Плани установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>План установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Плани установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Плану установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Планів установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Плану установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Планам установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Планом установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Планами установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Плані установи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Планах установи</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsDemoData --></label>
+        <name>IsDemoData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability Requests Sent On --></label>
+        <name>wkfsl__AvailabilityRequestsSentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override planned occupancy --></label>
+        <name>wkfsl__Capacity_Overide__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Occupancy --></label>
+        <name>wkfsl__Capacity__c</name>
+    </fields>
+    <fields>
+        <help>Щоб отримати призначення змін, працівники повинні надіслати доступність до дати надсилання.</help>
+        <label><!-- Availability Due Date --></label>
+        <name>wkfsl__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Days --></label>
+        <name>wkfsl__Days_of_the_week__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation>П’ятниця</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation>Понеділок</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation>Субота</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation>Неділя</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation>Четвер</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation>Вівторок</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation>Середа</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkfsl__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Створіть зміни на найнижчому рівні ієрархії вашого місцезнаходження. Наприклад, створіть зміни для місць (просторів), а не поверхів чи споруд.</help>
+        <label><!-- Create shifts for this location --></label>
+        <name>wkfsl__Generate_Shift__c</name>
+    </fields>
+    <fields>
+        <help>Обмежте кількість людей, які прибувають під час кожного проміжку часу.</help>
+        <label><!-- Occupancy Per Interval --></label>
+        <name>wkfsl__Max_Number_Of_Allowed_Employees__c</name>
+    </fields>
+    <fields>
+        <help>Введіть відсоток максимального навантаження місцезнаходження, дозволеного планом підприємства.</help>
+        <label><!-- Reduced Occupancy Percentage --></label>
+        <name>wkfsl__Percentage_Allocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Type --></label>
+        <name>wkfsl__PlanType__c</name>
+        <picklistValues>
+            <masterLabel>Managed scheduling</masterLabel>
+            <translation>Кероване планування</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-service scheduling</masterLabel>
+            <translation>Самостійне планування</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Top Level Territory --></label>
+        <name>wkfsl__Related_Top_Level_Territory__c</name>
+        <relationshipLabel><!-- Facility Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Territory Location --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Facility Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shifts Were Generated --></label>
+        <name>wkfsl__Shifts_Were_Generated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Window End Time --></label>
+        <name>wkfsl__Stagger_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Window Start Time --></label>
+        <name>wkfsl__Stagger_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkfsl__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Введіть тривалість кожного проміжку часу прибуття в хвилинах.</help>
+        <label><!-- Arrival Interval --></label>
+        <name>wkfsl__Time_Interval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stagger Time --></label>
+        <name>wkfsl__Time_To_Stagger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timezone --></label>
+        <name>wkfsl__Timezone__c</name>
+    </fields>
+    <fields>
+        <help>Призначити інший тип змін. Залишити порожнім для типу за замовчуванням.</help>
+        <label><!-- Work Type --></label>
+        <name>wkfsl__Work_Type__c</name>
+        <relationshipLabel><!-- Facility Plans --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>План установи</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Enter a due date that’s before the plan start date. --></errorMessage>
+        <name>wkfsl__Completion_Date_Before_Plan_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Completion date can&apos;t be on a past date --></errorMessage>
+        <name>wkfsl__Completion_Date_Not_In_Past</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max number of allowed employees of staggering plan must be a positive number --></errorMessage>
+        <name>wkfsl__Max_allowed_employees_must_be_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Occupancy Per Interval must be above 0 --></errorMessage>
+        <name>wkfsl__Occupancy_Per_Interval_must_be_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Percentage Allocation must be between 0 to 100. --></errorMessage>
+        <name>wkfsl__Percentage_Allocation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Time interval of staggering must be a positive number --></errorMessage>
+        <name>wkfsl__Stagger_Time_Interval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To stagger arrivals, fill out all the fields. Or, delete the Staggered Arrivals values. --></errorMessage>
+        <name>wkfsl__Stagger_plan_completeness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Staggering start time can&apos;t be after end time --></errorMessage>
+        <name>wkfsl__Stagger_start_after_end</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Time Interval must be above 0 --></errorMessage>
+        <name>wkfsl__Time_Interval_must_be_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Choose another work type. This work type creates service appointments automatically, which causes duplicate shifts. --></errorMessage>
+        <name>wkfsl__Work_type_should_not_auto_create</name>
+    </validationRules>
+</CustomObjectTranslation>

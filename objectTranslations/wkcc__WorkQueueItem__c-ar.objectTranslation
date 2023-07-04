@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>عنصر قائمة انتظار العمل</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>عنصر قائمة انتظار العمل</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>عناصر قائمة انتظار العمل</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>عناصر قائمة انتظار العمل</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- عنصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- عنصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>First</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- عناصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- عناصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- عنصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- عنصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- عناصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- عناصر قائمة انتظار العمل --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Encrypted Details --></label>
+        <name>wkcc__EncryptedDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Detail Hash --></label>
+        <name>wkcc__JobDetailHash__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Priority --></label>
+        <name>wkcc__JobPriority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status Details --></label>
+        <name>wkcc__JobStatusDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>خطأ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>جديد</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>wkcc__JobType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process After --></label>
+        <name>wkcc__ProcessAfter__c</name>
+    </fields>
+    <fields>
+        <label><!-- QI Status --></label>
+        <name>wkcc__QIStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- QI Worker --></label>
+        <name>wkcc__QIWorker__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>اسم قائمة انتظار العمل</nameFieldLabel>
+</CustomObjectTranslation>

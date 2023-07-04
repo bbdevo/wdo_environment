@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuration Item Class --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Configuration Item Class --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Configuration Item Class Fields --></label>
+        <name>wkitsm__ConfigurationItemClassFieldsJSON__c</name>
+    </fields>
+    <fields>
+        <help>Beschrijving van het CI-klasserecord</help>
+        <label><!-- Description --></label>
+        <name>wkitsm__Description__c</name>
+    </fields>
+    <fields>
+        <help>Dit veld bevat de externe id voor een configuratie-itemklasse afkomstig van de Tanium CMDB-zoekopdracht</help>
+        <label><!-- TaniumCmdbId --></label>
+        <name>wkitsm__TaniumCmdbId__c</name>
+    </fields>
+    <fields>
+        <help>Toewijzingscriteria gedefinieerd voor configuratie-items</help>
+        <label><!-- Targeting Criteria --></label>
+        <name>wkitsm__TargetingCriteria__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

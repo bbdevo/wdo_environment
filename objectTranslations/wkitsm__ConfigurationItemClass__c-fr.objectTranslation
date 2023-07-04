@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuration Item Class --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Configuration Item Class --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Configuration Item Class Fields --></label>
+        <name>wkitsm__ConfigurationItemClassFieldsJSON__c</name>
+    </fields>
+    <fields>
+        <help>Description de l’enregistrement de classe EC</help>
+        <label><!-- Description --></label>
+        <name>wkitsm__Description__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ contient l’ID externe pour une classe d’élément de configuration provenant de la requête CMDB Tanium</help>
+        <label><!-- TaniumCmdbId --></label>
+        <name>wkitsm__TaniumCmdbId__c</name>
+    </fields>
+    <fields>
+        <help>Critères d’affectation définis pour les éléments de configuration</help>
+        <label><!-- Targeting Criteria --></label>
+        <name>wkitsm__TargetingCriteria__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

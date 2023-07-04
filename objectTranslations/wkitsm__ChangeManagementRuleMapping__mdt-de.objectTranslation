@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <fields>
+        <help>Der Name der Klasse, die die IChangeManagementRule-Schnittstelle oder die virtuelle Klasse CustomChangeManagementRule implementiert, um für den definierten Datensatztyp auszuführen.</help>
+        <label><!-- Class Name --></label>
+        <name>wkitsm__ClassName__c</name>
+    </fields>
+    <fields>
+        <help>Der Name des Entwicklers des ChangeManagementRule__c sObject-Datensatztyps zur Zuordnung.</help>
+        <label><!-- Record Type Name --></label>
+        <name>wkitsm__RecordTypeName__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+</CustomObjectTranslation>

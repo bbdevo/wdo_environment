@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Szablon wiadomości email dotyczący ankiety Work.com o stanie zdrowia pracownika kontynuującego pracę</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ankieta o stanie zdrowia pracownika kontynuującego pracę</name>
+    <style>none</style>
+    <subject>Ankieta o stanie zdrowia – proszę wypełnić</subject>
+    <textOnly>Wypełnij tę krótką ankietę i określ swój bieżący stan zdrowia, by zapewnić najwyższy poziom bezpieczeństwa i higieny w miejscu pracy.
+
+Twoje odpowiedzi będą użyte wyłącznie do określenia, czy możesz kontynuować pracę w swoim miejscu pracy. Dane są poufne i tylko do użytku wewnętrznego.
+
+Link do ankiety jest unikatowy i przeznaczony tylko dla Ciebie. Nie przekazuj tej wiadomości email innym.
+
+{{Survey}}
+
+Dziękujemy za Twoje wsparcie i współpracę.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

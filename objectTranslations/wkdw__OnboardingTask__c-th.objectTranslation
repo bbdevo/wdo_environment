@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- งานแผนการเปลี่ยนผ่าน --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <help>คำอธิบายงานที่ลูกจ้างเห็นในรายการตรวจสอบการเตรียมความพร้อม ถ้าปล่อยว่าง จะใช้คำอธิบาย</help>
+        <label><!-- Display Description --></label>
+        <name>wkdw__DisplayDescription__c</name>
+    </fields>
+    <fields>
+        <help>ชื่องานที่ลูกจ้างเห็นในรายการตรวจสอบการเตรียมความพร้อม ถ้าปล่อยว่าง จะใช้ชื่องาน</help>
+        <label><!-- Display Name --></label>
+        <name>wkdw__DisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow API Name --></label>
+        <name>wkdw__FlowAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority of Onboarding Task DEPRECATED --></label>
+        <name>wkdw__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Day Offset DEPRECATED --></label>
+        <name>wkdw__StartDayOffset__c</name>
+    </fields>
+    <nameFieldLabel><!-- Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

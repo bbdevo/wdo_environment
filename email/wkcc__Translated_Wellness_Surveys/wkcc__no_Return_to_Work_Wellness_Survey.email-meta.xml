@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-postmal for Work.com Helseundersøkelse for ansatte for retur til arbeidssted</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Helseundersøkelse for retur til arbeidssted</name>
+    <style>none</style>
+    <subject>Helseundersøkelse – Fyll ut</subject>
+    <textOnly>Vi er glade for å kunne starte prosessen med å komme tilbake til arbeidsstedet. Som hjelp til å gjøre dette trygt og ansvarlig ber vi deg om å svare på denne undersøkelsen, som vurderer din nåværende helsetilstand.
+
+Svarene dine brukes kun til å avgjøre om du er klar til å vende tilbake til arbeidsstedet ditt. Hvis du avslår å oppgi informasjon om helsen din, må du fortsette å arbeide eksternt. Hvis du vil avslå, starter du undersøkelsen og angir det valget.
+
+Lenken til undersøkelsen er unik for deg. Ikke videresend denne e-postmeldingen til andre.
+
+{{Survey}}
+
+Takk. Vi setter pris på samarbeidet og støtten fra deg.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

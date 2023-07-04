@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tổng Hợp Số Liệu Quản Lý Ca</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Tổng Hợp Số Liệu Quản Lý Ca --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Planned Occupancy --></label>
+        <name>wkfsl__Allocated_Occupancy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Shifts --></label>
+        <name>wkfsl__Assigned_Shifts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available Employees --></label>
+        <name>wkfsl__Available_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculation Date --></label>
+        <name>wkfsl__Calculated_as_of__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric Date --></label>
+        <name>wkfsl__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligible Employees --></label>
+        <name>wkfsl__Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>wkfsl__Location__c</name>
+        <relationshipLabel><!-- Shift Management Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The value in this field comes from Maximum Occupancy of the Service Territory you&apos;ve chosen. --></help>
+        <label><!-- Maximum Occupancy --></label>
+        <name>wkfsl__Maximum_Occupancy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Territory --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Shift Management Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Shifts --></label>
+        <name>wkfsl__Total_Shifts__c</name>
+    </fields>
+    <nameFieldLabel>Tên Tổng Hợp Số Liệu Quản Lý Ca</nameFieldLabel>
+    <quickActions>
+        <label><!-- Set Date to Today --></label>
+        <name>Set_Date_to_Today</name>
+    </quickActions>
+</CustomObjectTranslation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>ה-Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>ה-Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>גוף</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>הזן תוכן ברירת מחדל עבור משתמשים שייפתחו קריאה חדשה הקשורה למאמר זה. השדה יכול להיות ריק או להכיל הוראות כגון &quot;תאר את הבעיה או הבקשה שלך...&quot;</help>
+        <label>תיאור מקרה</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>ניתן להשאיר את השדה &apos;נושא מקרה&apos; ריק ושם המאמר הנוכחי יופיע בו כברירת מחדל.</help>
+        <label>נושא המקרה</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא הטבות</description>
+        <label>משאבי אנוש - הטבות</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא יחסי עובדים</description>
+        <label>משאבי אנוש - יחסי עבודה</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים כלליים</description>
+        <label>משאבי אנוש - כללי</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא חופשה</description>
+        <label>משאבי אנוש - חופשות</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא קליטה</description>
+        <label>משאבי אנוש - קליטה</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא משכורת</description>
+        <label>משאבי אנוש - משכורות</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>צור מאמר Knowledge עבור תוכן בנושא טכנולוגיית מידע, כגון ציוד, גישה או פתרונות הקשורים לביצועי יישומים</description>
+        <label>מאמר Knowledge בנושא IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

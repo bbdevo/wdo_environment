@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- County --></label>
+        <name>wkcc__County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>wkcc__Region__c</name>
+        <picklistValues>
+            <masterLabel>AMER</masterLabel>
+            <translation>Северна, Централна и Южна Америка</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation>Азиатско-Тихоокеанския регион</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation>Европа, Близкия Изток и Азия</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM</masterLabel>
+            <translation>Латинска Америка</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

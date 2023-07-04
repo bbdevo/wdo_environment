@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Request Menu Question --></value>
+    </caseValues>
+    <fields>
+        <help>質問に対する保存デフォルト値。テキストとして保存されますが、ほぼあらゆる種類のデータを表すことができます。</help>
+        <label><!-- Default Value --></label>
+        <name>wkitsm__DefaultValue__c</name>
+    </fields>
+    <fields>
+        <help>選択すると、質問がアクティブになり、フォームに表示されます。</help>
+        <label><!-- Display question --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>wkitsm__IsRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visible --></label>
+        <name>wkitsm__IsVisible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Filter Field --></label>
+        <name>wkitsm__LookupFilterField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Filter Value --></label>
+        <name>wkitsm__LookupFilterValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Relates To SObject --></label>
+        <name>wkitsm__LookupRelatesToSObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Selected Record Value --></label>
+        <name>wkitsm__LookupSelectedRecordValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>wkitsm__Order__c</name>
+    </fields>
+    <fields>
+        <help>質問の表示ラベル。</help>
+        <label><!-- Question Label --></label>
+        <name>wkitsm__QuestionLabel__c</name>
+    </fields>
+    <fields>
+        <help>この質問にマッピングする依頼メニュー項目。</help>
+        <label><!-- Request Menu Item --></label>
+        <name>wkitsm__RequestMenuItem__c</name>
+        <relationshipLabel><!-- Request Menu Item Questions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>この質問に関連付けられているリッチテキスト値。</help>
+        <label><!-- Rich Text Value --></label>
+        <name>wkitsm__RichTextValue__c</name>
+    </fields>
+    <nameFieldLabel><!-- Question Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Boolean --></label>
+        <name>wkitsm__Boolean</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Date --></label>
+        <name>wkitsm__Date</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Date Time --></label>
+        <name>wkitsm__DateTime</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Free Text --></label>
+        <name>wkitsm__FreeText</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lookup --></label>
+        <name>wkitsm__Lookup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multi Select Picklist --></label>
+        <name>wkitsm__MultiSelectPicklist</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Number --></label>
+        <name>wkitsm__Number</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Picklist --></label>
+        <name>wkitsm__Picklist</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Rich Text --></label>
+        <name>wkitsm__RichText</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Short Text --></label>
+        <name>wkitsm__ShortText</name>
+    </recordTypes>
+</CustomObjectTranslation>

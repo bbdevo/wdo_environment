@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <fields>
+        <help>实施 IChangeManagementRule 界面或  CustomChangeManagementRule 虚拟类、以执行定义记录类型的的类名称。</help>
+        <label><!-- Class Name --></label>
+        <name>wkitsm__ClassName__c</name>
+    </fields>
+    <fields>
+        <help>待映射 ChangeManagementRule__c sObject 记录类型的开发者名称。</help>
+        <label><!-- Record Type Name --></label>
+        <name>wkitsm__RecordTypeName__c</name>
+    </fields>
+</CustomObjectTranslation>

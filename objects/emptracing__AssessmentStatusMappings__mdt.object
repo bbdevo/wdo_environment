@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The Assessment Status Mapping custom metadata type allows you to configure the mapping of the status between the Assessment Status and the Status Group fields</description>
+    <fields>
+        <fullName>emptracing__AssessmentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of the status field for the employee in the Crisis Assessment object</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Assessment Status</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>emptracing__EnableContactTracing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Select the checkbox to enable contract tracing</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Enable Contact Tracing</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>emptracing__StatusGroup__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of the status field for the employee in the Crisis Assessment object</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Status Group</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Assessment Status Mapping</label>
+    <pluralLabel>Assessment Status Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

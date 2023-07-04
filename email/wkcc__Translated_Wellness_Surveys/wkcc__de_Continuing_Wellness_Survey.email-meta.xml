@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>E-Mail-Vorlage für Work.com – Fortlaufende Umfrage zur Mitarbeitergesundheit</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fortlaufende Umfrage zur Mitarbeitergesundheit</name>
+    <style>none</style>
+    <subject>Gesundheitsumfrage – Bitte ausfüllen</subject>
+    <textOnly>Um das höchste Niveau an Gesundheit und Sicherheit an Ihrem Arbeitsplatz zu gewährleisten, nehmen Sie bitte an dieser Umfrage teil und berichten Sie über Ihren aktuellen Gesundheitszustand.
+
+Ihre Antworten dienen lediglich dazu, festzustellen, ob Sie weiterhin an Ihrem Arbeitsplatz arbeiten können. Die Daten sind vertraulich und nur für den internen Gebrauch bestimmt.
+
+Der Link zur Umfrage ist nur für Sie vorgesehen. Leiten Sie diese E-Mail nicht an andere weiter.
+
+{{Survey}}
+
+Vielen Dank! Wir wissen Ihre Unterstützung und Zusammenarbeit zu schätzen.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

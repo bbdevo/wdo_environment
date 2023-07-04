@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 컨시어지 설정 --></value>
+    </caseValues>
+    <fields>
+        <help>이 확인란을 선택하면 직원 Apex 트리거에서 각 새 직원 레코드에 대해 개인 계정 레코드가 자동으로 만들어지거나 동기화되지 않습니다.</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>선택하는 경우 사례 트리거가 비활성화되며 신규 사례는 관련 직원과 자동으로 공유되지 않습니다.</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Work.com 持續員工健康調查的電子郵件範本</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>持續健康調查</name>
+    <style>none</style>
+    <subject>健康調查 - 請完成</subject>
+    <textOnly>為了確保您的工作場所達到最高程度的持續健康和安全，請填寫此項調查以回報您目前的健康狀況。
+
+您的回應僅用於確認您能否繼續在工作場所工作。資料完全保密，僅供內部使用。
+
+調查連結專供您使用，切勿將此封電子郵件轉發給其他人。
+
+{{Survey}}
+
+感謝您的支持與配合。</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

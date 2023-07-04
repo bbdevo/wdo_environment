@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Δεδομένο κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Δεδομένα κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Δεδομένο κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Δεδομένα κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Δεδομένου κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <fields>
+        <help>Ένα μοναδικό αναγνωριστικό για την εγγραφή με την εξής μορφή: [&quot;Επικάλυψη&quot; + &quot;:&quot; +] &lt;Αναγνωριστικό τοποθεσίας&gt; + ‘:’ + &lt;Κατάσταση υγείας&gt;. Το πρόθημα επικάλυψης υπάρχει μόνο στις εγγραφές με τιμές κατάστασης υγείας για θυγατρικές τοποθεσίες.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Ο συνολικός αριθμός των υπαλλήλων, ανεξάρτητα από την κατάσταση της υγείας τους.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Το επίπεδο της σχετικής τοποθεσίας.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>Η τοποθεσία με την οποία σχετίζεται η συγκεκριμένη εγγραφή δεδομένων.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Επισημαίνει μια τοποθεσία με απαίτηση εκ νέου συνάθροισης, αν ορίζεται ως true, ή χωρίς απαίτηση, αν η τιμή είναι false.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Το ποσοστό των υπαλλήλων της τοποθεσίας με αυτή την κατάσταση υγείας.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Ο αριθμός των υπαλλήλων με αυτή την κατάσταση υγείας.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>Η κατάσταση υγείας του υπαλλήλου.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Όνομα</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

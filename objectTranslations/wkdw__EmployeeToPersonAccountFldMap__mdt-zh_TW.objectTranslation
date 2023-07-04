@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 員工至個人帳戶欄位對應 --></value>
+    </caseValues>
+    <fields>
+        <help>在透過員工記錄建立個人帳戶時，若您不想要使用此對應請取消選取此選項</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>員工欄位的　API 名稱。若其為自定欄位需包含「__c」</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>個人帳戶欄位的　API 名稱。若其為自定欄位需包含「__c」，或其為個人帳戶欄位則需包含「__pc」</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+</CustomObjectTranslation>

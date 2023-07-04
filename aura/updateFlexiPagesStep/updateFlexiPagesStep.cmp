@@ -1,0 +1,133 @@
+<aura:component controller="updateFlexiPagesStep" extends="c:step">
+    <aura:attribute name="isLoading" type="Boolean" default="{!true}"/>
+    <aura:attribute name="isUpdating" type="Boolean" default="{!false}"/>
+    <aura:attribute name="tableLoaded" type="Boolean"/>
+    <aura:attribute name="useLightning" type="Boolean" default="{!true}"/>
+    <aura:attribute name="useClassic" type="Boolean" default="{!false}"/>
+    <aura:attribute name="showTable" type="Boolean" default="{!false}"/>
+    <aura:attribute name="errorMessage" type="String"/>
+
+    <aura:attribute name="flexiColumns" type="Object[]" default="[]"/>
+    <aura:attribute name="layoutColumns" type="Object[]" default="[]"/>
+    <aura:attribute name="layouts" type="Object[]" default="[]"/>
+    <aura:attribute name="flexiPages" type="Object[]" default="[]"/>
+    <aura:attribute name="flexiSelectedRows" type="Object[]" default="[]"/>
+
+    <aura:attribute name="flexiSortedBy" type="String" default="Name"/>
+    <aura:attribute name="flexiSortedDirection" type="String" default="asc"/>
+    <aura:attribute name="layoutSortedBy" type="String" default="Name"/>
+    <aura:attribute name="layoutSortedDirection" type="String" default="asc"/>
+
+    <!-- Step Attributes -->
+    <!-- <aura:set attribute="disableNext" value="true"/> -->
+    <aura:set attribute="title" value="Add Slack Message Viewer Component to Pages"/>
+    <aura:set attribute="guidance">
+        <aura:unescapedHtml value="&lt;p&gt;Determine which pages the Slack Message Viewer component will be added to.&lt;/p&gt;
+        &lt;br /&gt;&lt;p&gt;First select the Salesforce environment(s) you would like to update. Depending on the selected environment, all Lightning Pages or Classic page layouts will be selected by default, so be sure to remove any that should not include the Message Viewer component. Once everything is good to go, click &lt;strong&gt;Add Component to Pages&lt;/strong&gt; to add the component to the selected pages. This may take a few moments to complete.&lt;/p&gt;
+        &lt;br /&gt;&lt;p&gt;If the Slack Message Viewer component needs to be added or removed later, you can always do so manually using Salesforce's Page Editor for Lighthning Pages or Object Manager for Classic page layouts.&lt;/p&gt;
+        &lt;br /&gt;&lt;p&gt;Once the Lightning Pages and Classic page layouts have been updated, click &lt;strong&gt;Finish&lt;/strong&gt; to complete this step.&lt;/p&gt;
+        "/>
+    </aura:set>
+    <!-- /Step Attributes -->
+
+    <div class="slds-scope slds-is-relative">
+        <!-- Step Loading State -->
+        <aura:if isTrue="{!v.isLoading}">
+            <div class="slack-spinner-container_layout-step">
+                <lightning:spinner alternativeText="Loading" size="medium"/>
+            </div>
+        </aura:if>
+        <!-- /Step Loading State -->
+
+        <div class="slds-is-relative">
+            <!-- Version Select -->
+            <div class="slds-form slds-m-bottom_medium">
+                <legend class="slds-form-element__legend slds-form-element__label">Salesforce Environment</legend>
+                <div class="slds-form-element__control slds-grid slds-gutters">
+                    <div class="slds-col slds-grow-none">
+                        <lightning:input type="checkbox" label="Lightning" name="lightning" checked="{!v.useLightning}" disabled="{!and(v.useLightning, not(v.useClassic))}"/>
+                    </div>
+                    <div class="slds-col slds-grow-none">
+                        <lightning:input type="checkbox" label="Classic" name="classic" checked="{!v.useClassic}" disabled="{!and(v.useClassic, not(v.useLightning))}"/>
+                    </div>
+                </div>
+            </div>
+            <!-- /Version Select -->
+
+            <aura:if isTrue="{!v.showTable}">
+                <!-- Table Loading State -->
+                <aura:if isTrue="{!v.isUpdating}">
+                    <lightning:spinner alternativeText="Loading" size="medium"/>
+                </aura:if>
+                <!-- /Table Loading State -->
+                <div class="{!if(v.useLightning, '', 'slds-hide')}">
+                    <div class="slds-text-heading_small slds-m-bottom_x-small">
+                        Lightning Pages
+                    </div>
+                    <lightning:datatable
+                        aura:id="flexipages"
+                        columns="{!v.flexiColumns}"
+                        data="{!v.flexiPages}"
+                        selectedRows="{!v.flexiSelectedRows}"
+                        keyField="Id"
+                        resizeColumnDisabled="{!true}"
+                        sortedBy="{!v.flexiSortedBy}"
+                        sortedDirection="{!v.flexiSortedDirection}"
+                        onsort="{!c.sortFlexis}"
+                        defaultSortDirection="desc"
+                        class="slack-table_layout-select"/>
+                    <aura:if isTrue="{!v.flexiPages.length == 0}">
+                        <div class="slds-p-around_x-large slds-text-align_center slds-text-color_weak slds-border_bottom">
+                            No Lightning pages to show
+                        </div>
+                    </aura:if>
+                </div>
+                <div class="{!if(v.useClassic, '', 'slds-hide')}">
+                    <div class="slds-text-heading_small slds-m-top_large slds-m-bottom_x-small">
+                        Page Layouts (Classic)
+                    </div>
+                    <lightning:datatable
+                        aura:id="layouts"
+                        columns="{!v.layoutColumns}"
+                        data="{!v.layouts}"
+                        selectedRows="{!v.data.selectedRows}"
+                        keyField="Id"
+                        resizeColumnDisabled="{!true}"
+                        sortedBy="{!v.layoutSortedBy}"
+                        sortedDirection="{!v.layoutSortedDirection}"
+                        onsort="{!c.sortLayouts}"
+                        defaultSortDirection="desc"
+                        class="slack-table_layout-select"/>
+                    <aura:if isTrue="{!v.layouts.length == 0}">
+                        <div class="slds-p-around_x-large slds-text-align_center slds-text-color_weak slds-border_bottom">
+                            No page layouts to show
+                        </div>
+                    </aura:if>
+                </div>
+            </aura:if>
+            <div class="slds-text-align_right slds-m-top_small slds-p-around_xxx-small">
+                <lightning:button label="Add Component to Pages" variant="neutral" onclick="{!c.addComponent}" disabled="{!or(and(not(v.useClassic), not(v.useLightning)),v.isLoading, and(v.flexiPages.length == 0, v.layouts.length == 0))}"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error Modal -->
+    <c:modal aura:id="error-modal" title="Problem Updating Layouts">
+        <aura:set attribute="footerButtons">
+            <lightning:button variant="brand" label="Okay" onclick="{!c.closeModal}"/>
+        </aura:set>
+        <div class="slack-error-message slds-scoped-notification slds-media slds-scoped-notification_light slds-theme_error" role="status">
+            <div class="slds-media__figure">
+                <lightning:icon iconName="utility:error" size="medium" variant="inverse"/>
+            </div>
+            <div class="slds-media__body">
+                <p>There was a problem adding the component to some of the selected pages. You can manually add the component to the missed Pages through the Salesforce Page Editor or the Object Manager if Classic.</p>
+            </div>
+        </div>
+        <p class="slds-m-top_medium slds-m-bottom_xxx-small">The following pages were not updated:</p>
+        <pre class="slack-error-list slds-scrollable_y">
+            {!v.errorMessage}
+        </pre>
+    </c:modal>
+    <!-- /Error Modal -->
+</aura:component>

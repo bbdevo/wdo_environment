@@ -1,0 +1,91 @@
+<aura:component>
+    <!-- Configuration -->
+    <aura:attribute name="companyLogo" type="String" description="The company logo resource file"/>
+    <aura:attribute name="continueLabel" type="String" default="Continue" description="Second label of the start button"/>
+    <aura:attribute name="startLabel" type="String" default="Get Started" description="Label of the start button"/>
+    <aura:attribute name="setupWizards" type="Object[]" default="[]" description="A list of setupWizards."/>
+    <aura:attribute name="wizardContinueLabel" type="String" default="Continue" description="Label of the wizard continue button"/>
+    <aura:attribute name="wizardEditLabel" type="String" default="Edit" description="Second label of the wizard continue button"/>
+    <!-- /Configuration -->
+
+    <!-- Events -->
+    <aura:registerEvent name="onShowWizard" type="c:event"/>
+    <!-- /Events -->
+
+    <!-- Methods -->
+    <aura:method name="hide" action="{!c.hide}"/>
+    <aura:method name="show" action="{!c.show}"/>
+    <!-- /Methods -->
+
+    <!-- Internal -->
+    <aura:attribute name="hidden" type="Boolean" default="true" description="Toggles display state" access="private"/>
+    <aura:attribute name="progress" type="Double" default="0" description="Step completion progress." access="private"/>
+    <!-- /Internal -->
+
+    <div class="{!'slds-scope slds-theme_shade' + if(v.hidden, ' slds-hide', '')}">
+        <div class="slds-container_large slds-container_center slds-m-vertical_large slds-p-horizontal_xx-large">
+            <!-- Hero -->
+            <div class="slds-p-vertical_x-large slds-text-align_center">
+                <!-- Logo -->
+                <div class="strike-logo-container slds-m-bottom_x-large">
+                    <img src="{!v.companyLogo}"/>
+                    <!-- Don't forget to add this static resource! -->
+                </div>
+                <!-- /Logo -->
+                <!-- Start Button -->
+                <div class="{!'slds-m-top_x-large' + if(1 == v.progress, ' slds-hide', '')}">
+                    <lightning:button class="slds-button slds-button_brand strike-button strike-button_large" label="{!if(0 == v.progress, v.startLabel, v.continueLabel)}" onclick="{!c.showWizard}"/>
+                </div>
+                <!-- /Start Button -->
+            </div>
+            <!-- /Hero -->
+
+            <!-- Setup Assistant -->
+            <div class="slds-card slds-card_boundary">
+                <div class="slds-p-vertical_medium slds-p-horizontal_small">
+                    <ol class="slds-setup-assistant">
+                        <aura:iteration items="{!v.setupWizards}" var="wizard" indexVar="wizardIndex">
+                            <li class="slds-setup-assistant__item">
+                                <article class="slds-setup-assistant__step">
+                                    <div class="slds-setup-assistant__step-summary">
+                                        <div class="slds-media">
+                                            <div aura:id="progress-ring-container" class="slds-media__figure">
+                                                <div class="{!'slds-progress-ring slds-progress-ring_large' + if(wizard.stepsTotal == wizard.stepsCompleted, ' slds-progress-ring_complete') + if(0 lt wizard.stepsCompleted, ' slds-progress-ring_active-step')}" >
+                                                    <div class="slds-progress-ring__content">
+                                                        <div class="{!if(wizard.stepsTotal == wizard.stepsCompleted, '', 'slds-hide')}">
+                                                            <lightning:icon iconName="utility:check" alternativeText="Complete"/>
+                                                        </div>
+                                                        <div class="{!if(wizard.stepsTotal == wizard.stepsCompleted, 'slds-hide', '')}">
+                                                            {!wizardIndex + 1}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slds-media__body slds-m-top_x-small">
+                                                <div class="slds-media">
+                                                    <div class="slds-setup-assistant__step-summary-content slds-media__body">
+                                                        <h3 class="slds-setup-assistant__step-summary-title slds-text-heading_small">{!wizard.title}</h3>
+                                                        <p>{!wizard.description}</p>
+                                                    </div>
+                                                    <div class="slds-media__figure slds-media__figure_reverse">
+                                                        <div class="{!if(0 == wizard.stepsCompleted, ' slds-hide', '')}">
+                                                            <lightning:button aura:id="wizardButton" value="{!wizard.index}" class="slds-button_outline-brand" label="{!if(wizard.stepsTotal == wizard.stepsCompleted, v.wizardEditLabel, v.wizardContinueLabel)}" onclick="{!c.showWizard}"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </aura:iteration>
+                    </ol>
+                </div>
+            </div>
+            <!-- /Setup Assistant -->
+                <!-- Body -->
+                {!v.body}
+                <!-- /Body -->
+        </div>
+    </div>
+</aura:component>

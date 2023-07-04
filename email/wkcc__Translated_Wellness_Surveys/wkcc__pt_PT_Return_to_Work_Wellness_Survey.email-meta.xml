@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modelo de e-mail para o inquérito de saúde dos funcionários para regresso ao trabalho do Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Inquérito de saúde para regresso ao trabalho</name>
+    <style>none</style>
+    <subject>Inquérito de saúde - Preencha</subject>
+    <textOnly>Estamos gratos por iniciar o processo de regresso ao local de trabalho. Para nos ajudar a fazê-lo de forma segura e responsável, responda a este inquérito, que avalia o seu estado de saúde atual.
+
+As suas respostas são utilizadas apenas para determinar se está pronto para regressar ao seu local de trabalho. Se recusar o fornecimento de dados de saúde, deverá continuar a trabalhar de forma remota. Para recusar, aceda ao inquérito e indique essa escolha.
+
+A hiperligação do inquérito é exclusivamente sua. Não reencaminhe este e-mail para outras pessoas.
+
+{{Survey}}
+
+Obrigado. Agrademos o seu apoio e colaboração.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

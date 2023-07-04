@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>emptracing__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Field --></label>
+        <name>emptracing__Employee_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Account Field --></label>
+        <name>emptracing__PersonAccount_Field__c</name>
+    </fields>
+</CustomObjectTranslation>

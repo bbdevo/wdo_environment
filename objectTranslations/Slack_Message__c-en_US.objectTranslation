@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Slack Message</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Slack Messages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Slack Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Slack Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel Id --></label>
+        <name>Channel_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Name --></label>
+        <name>Channel_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Type --></label>
+        <name>Channel_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Slack Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Content --></label>
+        <name>Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- Slack Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message Url --></label>
+        <name>Message_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Slack Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Id --></label>
+        <name>Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Id --></label>
+        <name>Team_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Stamp --></label>
+        <name>Time_Stamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Image Url --></label>
+        <name>User_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>User_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

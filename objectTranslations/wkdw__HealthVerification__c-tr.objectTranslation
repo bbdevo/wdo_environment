@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulaması --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamaları --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamam --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamalarım --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamanız --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamalarınız --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamasını --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamalarını --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamamı --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamalarımı --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamanızı --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamalarınızı --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamasının --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamalarının --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamamın --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamalarımın --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamanızın --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamalarınızın --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamasına --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamalarına --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamama --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamalarıma --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamanıza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamalarınıza --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamasından --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamalarından --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamamdan --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamalarımdan --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamanızdan --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamalarınızdan --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamasında --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value><!-- Sağlık Doğrulamalarında --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamamda --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value><!-- Sağlık Doğrulamalarımda --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamanızda --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value><!-- Sağlık Doğrulamalarınızda --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>wkdw__Case__c</name>
+        <relationshipLabel><!-- Health Verifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Declination Reason --></label>
+        <name>wkdw__DeclinationReason__c</name>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation>Örnek</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious</masterLabel>
+            <translation><!-- Religious --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Declined --></label>
+        <name>wkdw__Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>wkdw__Employee__c</name>
+        <relationshipLabel><!-- Health Verifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Health Credential Document Date --></label>
+        <name>wkdw__HealthCredentialDocumentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Credential Expiration Date --></label>
+        <name>wkdw__HealthCredentialExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Verification Status --></label>
+        <name>wkdw__Status__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Reddedildi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Verified</masterLabel>
+            <translation>Doğrulanmadı</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>Onay Bekleniyor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verified</masterLabel>
+            <translation>Doğrulandı</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Health Verification Method --></label>
+        <name>wkdw__Type__c</name>
+        <picklistValues>
+            <masterLabel>Documentation of COVID-19 Recovery</masterLabel>
+            <translation>COVID-19 İyileşme Belgeleri</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negative COVID-19 Test Results</masterLabel>
+            <translation>Negatif COVID-19 Test Sonuçları</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof of Vaccination</masterLabel>
+            <translation>Aşı Kanıtı</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Verification Date --></label>
+        <name>wkdw__VerificationDate__c</name>
+    </fields>
+    <nameFieldLabel><!-- Health Verification Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Reject --></label>
+        <name>Reject</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Verify --></label>
+        <name>Verify</name>
+    </quickActions>
+</CustomObjectTranslation>

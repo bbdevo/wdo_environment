@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modèle d&apos;e-mail de l&apos;enquête Work.com sur le maintien du bien-être des employés</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enquête sur le maintien du bien-être</name>
+    <style>none</style>
+    <subject>Enquête sur le bien-être - veuillez participer</subject>
+    <textOnly>Afin de garantir et de maintenir le niveau de santé et de sécurité le plus élevé sur votre lieu de travail, nous vous invitons à participer à cette enquête qui a pour but d&apos;informer sur votre état de santé actuel.
+
+Vos réponses seront utilisées uniquement pour déterminer si vous pouvez continuer à travailler sur votre lieu de travail. Les données sont confidentielles et réservées à un usage strictement interne.
+
+Le lien de l&apos;enquête est unique pour vous. Ne transférez cet e-mail à aucune autre personne.
+
+{{Survey}}
+
+Nous vous remercions de votre soutien et de votre coopération.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

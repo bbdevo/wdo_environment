@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- הגדרת כלי סיוע --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- הגדרת כלי הסיוע --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- הגדרות כלי סיוע --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- הגדרות כלי הסיוע --></value>
+    </caseValues>
+    <fields>
+        <help>כשתיבה זו מסומנת, גורמים מפעילים של Apex של עובדים אינם יוצרים או מסנכרנים רשומות של חשבונות אישיים באופן אוטומטי עבור כל רשומת עובד חדשה.</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>כשאפשרות זו מסומנת, הגורם המפעיל של המקרה מושבת ומקרים חדשים אינם משותפים באופן אוטומטי עם העובד המשויך אליהם</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fato de bem-estar do local</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fatos de bem-estar do local</value>
+    </caseValues>
+    <fields>
+        <help>Um identificador exclusivo para o registro no formato [&quot;Cascata&quot; + &quot;:&quot; +] &lt;ID do local&gt; + &apos;:&apos; + &lt;Status de bem-estar&gt;. O prefixo de cascata só está presente nos registros que incluem valores de status de bem-estar do local filho.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>A contagem total de funcionários independentemente do status de bem-estar.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>O nível do local do local relacionado.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>O local ao qual este registro de fato está relacionado.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marca um local que requer nova agregação como verdadeiro e um que não requer como falso.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>O percentual de funcionários do local que estão neste status de bem-estar.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Contagem de funcionários com status de bem-estar.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>O status de bem-estar para o funcionário.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

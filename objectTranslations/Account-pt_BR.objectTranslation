@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Emergency Account Fields --></label>
+        <name>FSL__Emergency_Account_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Gantt Lightbox --></label>
+        <name>FSL__Gantt_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New External Member​ --></label>
+        <name>HealthCloudGA__QuickAddIndividual</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Plano de saúde deste paciente</help>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- PatientAccounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disabled --></label>
+        <name>HealthCloudGA__Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Type --></label>
+        <name>HealthCloudGA__EnrollmentType__c</name>
+        <picklistValues>
+            <masterLabel>Dual</masterLabel>
+            <translation>Duplo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESRD</masterLabel>
+            <translation>ESRD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBDual</masterLabel>
+            <translation>FBDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonDual</masterLabel>
+            <translation>NonDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PBDual</masterLabel>
+            <translation>PBDual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Individual ID --></label>
+        <name>HealthCloudGA__IndividualId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Type --></label>
+        <name>HealthCloudGA__IndividualType__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>Grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indica se um paciente está em uma instituição.</help>
+        <label><!-- Institution --></label>
+        <name>HealthCloudGA__Institution__c</name>
+    </fields>
+    <fields>
+        <help>Indica se um paciente se encaixa nas diretrizes de baixa renda.</help>
+        <label><!-- Low Income --></label>
+        <name>HealthCloudGA__LowIncome__c</name>
+    </fields>
+    <fields>
+        <help>Indica se um paciente é elegível para o plano de saúde Medicaid.</help>
+        <label><!-- Medicaid Eligibility Status --></label>
+        <name>HealthCloudGA__MedicaidEligibilityStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <help>Novo membro ou membro existente desde o ano anterior.</help>
+        <label><!-- Medicare Enrollee --></label>
+        <name>HealthCloudGA__MedicareEnrollee__c</name>
+        <picklistValues>
+            <masterLabel>Continued</masterLabel>
+            <translation>Continuação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Enrollee</masterLabel>
+            <translation>Novo inscrito</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OREC --></label>
+        <name>HealthCloudGA__OREC__c</name>
+        <picklistValues>
+            <masterLabel>Age</masterLabel>
+            <translation>Idade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>Desativado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payer Type --></label>
+        <name>HealthCloudGA__PayerType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>HealthCloudGA__PrimaryContact__c</name>
+        <relationshipLabel><!-- Accounts (Primary Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>Identifica o sistema que criou o registro e que detém os direitos de atualização dele. O padrão é Saúde1 para registros criados manualmente.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaxId --></label>
+        <name>HealthCloudGA__TaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Asset --></label>
+        <name>wkitsm__PrimaryAsset__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Contact Encounter --></label>
+        <name>New_Contact_Encounter</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Employee Evaluation --></label>
+        <name>New_Employee_Evaluation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- For PA --></label>
+        <name>For_PA</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a business or an organization --></description>
+        <label><!-- Business --></label>
+        <name>HealthCloudGA__IndustriesBusiness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a Household --></description>
+        <label><!-- Household --></label>
+        <name>HealthCloudGA__IndustriesHousehold</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents an Individual --></description>
+        <label><!-- Individual --></label>
+        <name>HealthCloudGA__IndustriesIndividual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a Payer --></description>
+        <label><!-- Payer --></label>
+        <name>HealthCloudGA__IndustriesPayer</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The Individual record type can&apos;t be changed --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionFromIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The record type can&apos;t be changed to Individual. --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionToIndividual</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete_Records --></label>
+        <name>Mass_Delete_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

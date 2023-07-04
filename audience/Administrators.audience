@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Administrators</audienceName>
+    <container>Employee Workspace</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <profile>admin</profile>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Profile</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>bcf8004c-bb8a-46a0-99c1-c13fa74f2ecb$#$9e7e4330-15d3-481d-af69-62afa0f4995a</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Rich_Content_Editor_Component</targetValue>
+        </target>
+        <target>
+            <groupName>8b3b38a3-5b42-4ed6-b7c9-24da1bdba10b$#$bbf42a43-a9b9-47dd-b5bb-a68addf7f215</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Apps_Rich_Content_Editor_Component</targetValue>
+        </target>
+        <target>
+            <groupName>bcf8004c-bb8a-46a0-99c1-c13fa74f2ecb$#$1a88f076-841c-43c1-b75b-ea353c2e5fde</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Rich_Content_Editor_1_Component</targetValue>
+        </target>
+    </targets>
+</Audience>

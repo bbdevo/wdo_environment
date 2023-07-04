@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areGuestUsersAllowed>false</areGuestUsersAllowed>
+    <deploymentFeature>LiveAgent</deploymentFeature>
+    <deploymentType>Web</deploymentType>
+    <embeddedServiceCustomComponents>
+        <componentBundleType>LightningComponentBundle</componentBundleType>
+        <customComponent>customPrechat</customComponent>
+        <customComponentType>LA_Prechat</customComponentType>
+    </embeddedServiceCustomComponents>
+    <embeddedServiceCustomComponents>
+        <componentBundleType>LightningComponentBundle</componentBundleType>
+        <customComponent>messageRenderer</customComponent>
+        <customComponentType>LA_PlainTextChatMessage</customComponentType>
+    </embeddedServiceCustomComponents>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Waiting_WithoutQueuePos_WaitingGreeting_04I4S000000PHJO_2266136</customLabel>
+        <labelKey>LA_Waiting_WithoutQueuePos_WaitingGreeting</labelKey>
+    </embeddedServiceCustomLabels>
+    <isEnabled>true</isEnabled>
+    <masterLabel>Employee Digital Assistant Deployment</masterLabel>
+    <shouldHideAuthDialog>false</shouldHideAuthDialog>
+    <site>Employee_Workspace</site>
+</EmbeddedServiceConfig>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Change Management Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Change Management Rule --></value>
+    </caseValues>
+    <fields>
+        <help>La acción que debe tomarse en caso de colisión.</help>
+        <label><!-- Action --></label>
+        <name>wkitsm__Action__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>error</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warn</masterLabel>
+            <translation>Advertencia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Etiqueta para el icono SLDS que se mostrará cuando haya una violación. Las etiquetas de los iconos se pueden encontrar en: https://www.lightningdesignsystem.com/icons/</help>
+        <label><!-- Icon --></label>
+        <name>wkitsm__Icon__c</name>
+    </fields>
+    <fields>
+        <help>Si la regla está activa o no.</help>
+        <label><!-- Is Active --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Valores opcionales utilizados para los campos de coincidencia.</help>
+        <label><!-- Match Field Value --></label>
+        <name>wkitsm__MatchFieldValue__c</name>
+    </fields>
+    <fields>
+        <help>El campo API Nombre del caso (cambiar) que se utilizará para identificar casos similares.</help>
+        <label><!-- Match Field --></label>
+        <name>wkitsm__MatchField__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad máxima de cambios superpuestos permitidos por la regla.</help>
+        <label><!-- Max Overlapping Changes --></label>
+        <name>wkitsm__MaxOverlappingChanges__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Change Management Rule Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Rule for identifying changes that occur outside of defined change windows. --></description>
+        <label><!-- Change Window Rule --></label>
+        <name>wkitsm__ChangeWindowRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes based on matching values of a field. --></description>
+        <label><!-- Field Match Overlap Rule --></label>
+        <name>wkitsm__FieldMatchOverlapRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for capturing when a change is during a defined freeze period. --></description>
+        <label><!-- Freeze Rule --></label>
+        <name>wkitsm__FreezeRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes. --></description>
+        <label><!-- Overlap Rule --></label>
+        <name>wkitsm__OverlapRule</name>
+    </recordTypes>
+</CustomObjectTranslation>

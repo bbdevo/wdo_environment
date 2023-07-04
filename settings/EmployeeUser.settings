@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmployeeUserSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <emailEncoding>ISO-8859-1</emailEncoding>
+    <enableEmployeeAutoCreateUser>true</enableEmployeeAutoCreateUser>
+    <enableEmployeeIsSourceOfTruth>true</enableEmployeeIsSourceOfTruth>
+    <permset>WDO_AllInOne_Permissions</permset>
+    <profile>StandardAul</profile>
+    <usernameSuffix>wdo-tso.myforce.com</usernameSuffix>
+</EmployeeUserSettings>

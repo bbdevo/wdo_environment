@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Predloga e-poštnega sporočila za anketo o zdravstvenem stanju zaposlenega za vrnitev na delo v storitvi Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Anketa o zdravstvenem stanju za vrnitev na delo</name>
+    <style>none</style>
+    <subject>Anketa o zdravstvenem stanju – izpolnite</subject>
+    <textOnly>Zahvaljujemo se vam, da ste začeli postopek vračanja na delovno mesto. Izpolnite to anketo, s katero bomo ocenili vaše trenutno zdravstveno stanje, da bomo lahko ta postopek izvedli varno in odgovorno.
+
+Vaši odgovori bodo uporabljeni samo za ugotavljanje, ali ste pripravljeni na vrnitev na delovno mesto. Če ne želite navesti podatkov o zdravju, morate nadaljevati delo na daljavo. Če ne želite navesti teh podatkov, izpolnite anketo in izberite ustrezno možnost.
+
+Povezava do ankete je namenjena samo vam. Tega e-poštnega sporočila ne posredujte drugim.
+
+{{Survey}}
+
+Zahvaljujemo se vam za podporo in sodelovanje.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

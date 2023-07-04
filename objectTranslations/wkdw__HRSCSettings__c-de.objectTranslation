@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- HRSC-Einstelllung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- HRSC-Einstelllungen --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- HRSC-Einstelllung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- HRSC-Einstelllungen --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- HRSC-Einstelllung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- HRSC-Einstelllungen --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- HRSC-Einstelllung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- HRSC-Einstelllungen --></value>
+    </caseValues>
+    <fields>
+        <label><!-- MaxDaysCompletedTransition --></label>
+        <name>wkdw__MaxDaysCompletedTransition__c</name>
+    </fields>
+    <fields>
+        <help>Wenn dies ausgewählt ist, werden nur ausstehende Aufgaben in der Checkliste mit den Aufgaben für die Einarbeitung angezeigt. Wenn dies nicht ausgewählt ist, werden alle Aufgaben angezeigt.</help>
+        <label><!-- Show Only Pending Tasks --></label>
+        <name>wkdw__ShowPendingTasksOnly__c</name>
+    </fields>
+    <fields>
+        <help>In Tagen</help>
+        <label><!-- Welcome Task Visibility Offset --></label>
+        <name>wkdw__WelcomeTaskVisibilityOffset__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

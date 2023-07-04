@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Case Association --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Association Type --></label>
+        <name>wkitsm__AssociationType__c</name>
+        <picklistValues>
+            <masterLabel>blocks</masterLabel>
+            <translation>區塊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>duplicates</masterLabel>
+            <translation>重複次數</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>is blocked by</masterLabel>
+            <translation>封鎖人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>is duplicated by</masterLabel>
+            <translation>複製人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>related to</masterLabel>
+            <translation>相關於</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Id --></label>
+        <name>wkitsm__CaseId__c</name>
+        <relationshipLabel><!-- Case Associations (Case Id) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Case Id --></label>
+        <name>wkitsm__RelatedCaseId__c</name>
+        <relationshipLabel><!-- Case Associations (Related Case Id) --></relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- CaseAssociation Name --></nameFieldLabel>
+</CustomObjectTranslation>

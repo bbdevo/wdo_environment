@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Maps the record type of a ChangeManagementRule__c object to an implementation of the IChangeManagementRule or CustomCollisionRule classes.</description>
+    <fields>
+        <fullName>wkitsm__ClassName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The name of the class that implements the IChangeManagementRule interface or the CustomChangeManagementRule virtual class to execute for the defined record type.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The name of the class that implements the IChangeManagementRule interface or the CustomChangeManagementRule virtual class to execute for the defined record type.</inlineHelpText>
+        <label>Class Name</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>wkitsm__RecordTypeName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The developer name of the ChangeManagementRule__c sObject record type to map.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The developer name of the ChangeManagementRule__c sObject record type to map.</inlineHelpText>
+        <label>Record Type Name</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Change Collision Rule Mapping</label>
+    <pluralLabel>Change management Rule Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

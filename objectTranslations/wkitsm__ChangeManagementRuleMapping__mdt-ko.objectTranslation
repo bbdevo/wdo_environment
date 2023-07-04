@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Change Collision Rule Mapping --></value>
+    </caseValues>
+    <fields>
+        <help>정의된 레코드 유형에 실행할 IChangeManagementRule 인터페이스 또는 CustomChangeManagementRule 가상 클래스를 구현하는 클래스의 이름입니다.</help>
+        <label><!-- Class Name --></label>
+        <name>wkitsm__ClassName__c</name>
+    </fields>
+    <fields>
+        <help>매핑할 ChangeManagementRule__c sObject 레코드 유형의 개발자 이름입니다.</help>
+        <label><!-- Record Type Name --></label>
+        <name>wkitsm__RecordTypeName__c</name>
+    </fields>
+</CustomObjectTranslation>

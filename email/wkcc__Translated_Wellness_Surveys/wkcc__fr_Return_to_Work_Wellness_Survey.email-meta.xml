@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Modèle d&apos;e-mail de l&apos;enquête Work.com sur le bien-être des employés pour le retour au travail</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enquête sur le bien-être pour le retour au travail</name>
+    <style>none</style>
+    <subject>Enquête sur le bien-être - veuillez participer</subject>
+    <textOnly>Nous sommes reconnaissants de pouvoir lancer le processus de retour sur le lieu de travail. Pour nous aider à gérer ce processus en toute sécurité et de façon responsable, nous vous invitons à participer à cette enquête qui a pour but d&apos;évaluer votre état de santé actuel.
+    
+Vos réponses seront utilisées uniquement pour déterminer si vous êtes prêt(e) à retourner sur votre lieu de travail. Si vous refusez de partager vos données de santé, vous devez continuer à travailler à distance. Pour refuser, lancez l&apos;enquête et indiquez ce choix.
+
+Le lien de l&apos;enquête est unique pour vous. Ne transférez cet e-mail à aucune autre personne.
+
+{{Survey}}
+
+Nous vous remercions de votre soutien et de votre coopération.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

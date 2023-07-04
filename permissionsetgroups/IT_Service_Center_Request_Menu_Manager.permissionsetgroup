@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives access to IT agents to configure and manage the Request Menu in IT Service Center</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>IT Service Center Request Menu Manager</label>
+    <permissionSets>wkitsm__IT_Service_Center_Request_Menu_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

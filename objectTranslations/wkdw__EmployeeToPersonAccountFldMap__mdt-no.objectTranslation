@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Felttilordning for ansatt til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Felttilordning for ansatt til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Felttilordningen for ansatt til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Felttilordninger for ansatt til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Felttilordninger for ansatt til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Felttilordningene for ansatt til personkonto --></value>
+    </caseValues>
+    <fields>
+        <help>Opphev dette valget hvis du ikke vil at denne tilordningen skal brukes ved oppretting av en Personkonto-post fra en Ansatt-post</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>API-navn for Ansatt-felt. Må inkludere __c hvis det er et tilpasset felt.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>API-navn for Personkonto-felt. Må inkludere __c hvis det er et tilpasset felt, eller _pc hvis det er et tilpasset Personkonto-felt.</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

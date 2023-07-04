@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Šablona e-mailu pro Pokračující průzkumu blaha zaměstnance Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pokračování průzkumu blaha</name>
+    <style>none</style>
+    <subject>Průzkum blaha - vyplňte, prosím</subject>
+    <textOnly>Aby bylo možné zajistit maximální úroveň nepřetržitého zdraví a bezpečnosti na vašem pracovišti, vyplňte tento průzkum a uveďte svůj aktuální zdravotní stav.
+
+Vaše odpovědi budou použity pouze ke zjištění, zda se můžete vrátit do své práce na pracovišti. Data jsou důvěrná a slouží pouze k internímu použití.
+
+Odkaz na průzkum je pro vás unikátní. Tento e-mail ostatním nepřeposílejte.
+
+{{Survey}}
+
+Děkujeme, vážíme si vaší podpory a spolupráce.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Change Management Rule --></value>
+    </caseValues>
+    <fields>
+        <help>충돌 시 취해야 할 조치입니다.</help>
+        <label><!-- Action --></label>
+        <name>wkitsm__Action__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>오류</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warn</masterLabel>
+            <translation>경고</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>위반이 있을 때 표시될 SLDS 아이콘의 라벨입니다. 아이콘 라벨은 https://www.lightningdesignsystem.com/icons/ 에서 확인할 수 있습니다.</help>
+        <label><!-- Icon --></label>
+        <name>wkitsm__Icon__c</name>
+    </fields>
+    <fields>
+        <help>규칙의 활성 여부를 나타냅니다.</help>
+        <label><!-- Is Active --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>일치 필드에 사용되는 옵션 값입니다.</help>
+        <label><!-- Match Field Value --></label>
+        <name>wkitsm__MatchFieldValue__c</name>
+    </fields>
+    <fields>
+        <help>유사한 사례를 식별하는 데 사용할 사례의 API 이름(변경) 필드입니다.</help>
+        <label><!-- Match Field --></label>
+        <name>wkitsm__MatchField__c</name>
+    </fields>
+    <fields>
+        <help>규칙에서 허용하는 겹치는 변경의 최대 수입니다.</help>
+        <label><!-- Max Overlapping Changes --></label>
+        <name>wkitsm__MaxOverlappingChanges__c</name>
+    </fields>
+    <nameFieldLabel><!-- Change Management Rule Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Rule for identifying changes that occur outside of defined change windows. --></description>
+        <label><!-- Change Window Rule --></label>
+        <name>wkitsm__ChangeWindowRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes based on matching values of a field. --></description>
+        <label><!-- Field Match Overlap Rule --></label>
+        <name>wkitsm__FieldMatchOverlapRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for capturing when a change is during a defined freeze period. --></description>
+        <label><!-- Freeze Rule --></label>
+        <name>wkitsm__FreezeRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes. --></description>
+        <label><!-- Overlap Rule --></label>
+        <name>wkitsm__OverlapRule</name>
+    </recordTypes>
+</CustomObjectTranslation>

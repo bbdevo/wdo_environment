@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to declaratively enable/disable custom triggers.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>wkcc__IsAfterDeleteDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the after delete custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>After Delete Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsAfterInsertDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the after insert custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>After Insert Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsAfterUndeleteDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the after undelete custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>After Undelete Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsAfterUpdateDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the after update custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>After Update Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsBeforeDeleteDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the before delete custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>Before Delete Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsBeforeInsertDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the before insert custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>Before Insert Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsBeforeUpdateDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable the before update custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <label>Before Update Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__IsDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to enable/disable all custom code for the Domain trigger class in this record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to disable the trigger</inlineHelpText>
+        <label>Disabled?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Trigger Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

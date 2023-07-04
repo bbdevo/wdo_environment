@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Definição de HRSC --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Definições de HRSC --></value>
+    </caseValues>
+    <fields>
+        <label><!-- MaxDaysCompletedTransition --></label>
+        <name>wkdw__MaxDaysCompletedTransition__c</name>
+    </fields>
+    <fields>
+        <help>Se esta opção estiver selecionada, só aparecem tarefas pendentes na lista de verificação de tarefas de integração. Se não estiver selecionada, aparecem todas as tarefas.</help>
+        <label><!-- Show Only Pending Tasks --></label>
+        <name>wkdw__ShowPendingTasksOnly__c</name>
+    </fields>
+    <fields>
+        <help>Em dias</help>
+        <label><!-- Welcome Task Visibility Offset --></label>
+        <name>wkdw__WelcomeTaskVisibilityOffset__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Notificarea de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Notificare de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Notificările de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Notificări de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Notificării de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Notificării de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Notificărilor de acceptare a schimbului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Notificărilor de acceptare a schimbului</value>
+    </caseValues>
+    <fields>
+        <label><!-- Facility Plan --></label>
+        <name>wkfsl__Facility_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceResourceId --></label>
+        <name>wkfsl__ServiceResourceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserId --></label>
+        <name>wkfsl__UserId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nume EmployeeSATrigger</nameFieldLabel>
+</CustomObjectTranslation>

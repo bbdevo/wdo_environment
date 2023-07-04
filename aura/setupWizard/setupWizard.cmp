@@ -1,0 +1,40 @@
+<aura:component extends="c:wizard" controller="setupAssistant">
+    <!-- Configuration -->
+    <aura:attribute name="description" type="String" description="A short description of the wizard."/>
+    <aura:attribute name="title" type="String" description="The title of the wizard."/>
+    <!-- /Configuration -->
+
+    <!-- Internal -->
+    <aura:attribute name="modalAction" type="String" description="Action to perform on primary click of modal" access="private"/>
+    <!-- /Internal -->
+
+    <aura:set attribute="header">
+        <div class="slds-page-header slds-border_bottom">
+            <div class="slds-media slds-media_center">
+                <div class="slds-media__figure">
+                    <lightning:icon iconName="custom:custom67" class="slds-page-header__icon"/>
+                </div>
+                <div class="slds-media__body">
+                    <nav role="navigation" aria-label="Breadcrumbs">
+                        <ol class="slds-breadcrumb slds-list_horizontal slds-wrap">
+                            <li class="slds-breadcrumb__item slds-text-title_caps">
+                                <a href="javascript:void(0);" onclick="{!c.handleCancel}">Setup</a>
+                            </li>
+                        </ol>
+                    </nav>
+                    <div class="slds-page-header__name">
+                        <div class="slds-page-header__name-title">
+                            <h1 class="slds-page-header__title" title="{!v.title}">
+                                <strong>{!v.title}</strong>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aura:set>
+
+    <aura:set attribute="body">
+        {!v.body}
+    </aura:set>
+</aura:component>

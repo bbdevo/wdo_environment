@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Mẫu Email Khảo Sát Sức Khỏe Liên Tục Của Nhân Viên Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Khảo Sát Sức Khỏe Liên Tục</name>
+    <style>none</style>
+    <subject>Khảo Sát Sức Khỏe - Vui Lòng Hoàn Thành</subject>
+    <textOnly>Nhằm đảm bảo mức độ cao nhất cho sự lành mạnh và an toàn liên tục tại nơi làm việc, vui lòng thực hiện khảo sát này để báo cáo tình trạng sức khỏe hiện tại của bạn.
+
+Phản hồi của bạn chỉ được sử dụng để xác định liệu bạn có thể tiếp tục làm việc tại nơi làm việc không. Dữ liệu được giữ bí mật và chỉ dùng cho nội bộ.
+
+Liên kết của khảo sát chỉ dành riêng cho bạn. Không được chuyển tiếp email này cho người khác.
+
+{{Survey}}
+
+Cảm ơn bạn và chúng tôi đánh giá cao sự hỗ trợ và hợp tác của bạn.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowGuestPaymentsApi>false</allowGuestPaymentsApi>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardPortalPages>true</allowStandardPortalPages>
+    <allowStandardSearch>false</allowStandardSearch>
+    <browserXssProtection>true</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
+    <clickjackProtectionLevel>AllowAllFraming</clickjackProtectionLevel>
+    <contentSniffingProtection>true</contentSniffingProtection>
+    <enableAuraRequests>true</enableAuraRequests>
+    <indexPage>InMaintenance</indexPage>
+    <masterLabel>Trust Card</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
+    <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
+    <siteAdmin>peter.felegyi@evocrm.hu2023/06/6_12-53-9.demo</siteAdmin>
+    <siteGuestRecordDefaultOwner>oldadmin.9tinywq7afe2.7xswyrotwv22@evocrm.hu2023/06/6_12-53-9.demo</siteGuestRecordDefaultOwner>
+    <siteType>Visualforce</siteType>
+    <subdomain>workcomdemo0527-1753ef87483--1889058ef10</subdomain>
+    <urlPathPrefix>trustcard</urlPathPrefix>
+</CustomSite>

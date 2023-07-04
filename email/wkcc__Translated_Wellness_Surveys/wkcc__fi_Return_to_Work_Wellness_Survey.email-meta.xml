@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Work.com:in töihin paluuta ja työntekijän terveydentilaa koskevan kyselyn sähköpostimalli</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Töihin paluuta ja terveydentilaa koskeva kysely</name>
+    <style>none</style>
+    <subject>Terveydentilan kysely - Ole hyvä ja vastaa</subject>
+    <textOnly>Olemme kiitollisia siitä, että voimme aloittaa työpaikoillemme palaamisen. Vastaa tähän tämänhetkistä terveydentilaasi koskevaan kyselyyn, jotta voimme tehdä niin turvallisesti ja vastuullisesti.
+
+Vastauksiasi käytetään vain arvioimaan, oletko valmis palaamaan työpaikallesi. Jos et halua luovuttaa terveydentilaasi koskevia tietoja, sinun täytyy jatkaa etätöitä. Jos haluat kieltäytyä tietojen luovuttamisesta, vastaa kyselyyn ja valitse asiaankuuluva vaihtoehto.
+
+Saamasi kyselyn linkki on yksilöllinen. Älä välitä tätä sähköpostia muille. 
+
+{{Survey}}
+
+Kiitos, arvostamme tukeasi ja yhteistyötäsi.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

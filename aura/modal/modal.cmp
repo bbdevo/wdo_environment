@@ -1,0 +1,50 @@
+<aura:component >
+    <!-- Configuration -->
+    <aura:attribute name="footerButtons" type="Aura.Component[]"/>
+    <aura:attribute name="showClose" type="Boolean" default="true"/>
+    <aura:attribute name="showHeader" type="Boolean" default="true"/>
+    <aura:attribute name="size" type="String"/>
+    <aura:attribute name="title" type="String"/>
+    <aura:attribute name="variant" type="String"/>
+    <!-- /Configuration -->
+
+    <!-- Events -->
+    <aura:registerEvent name="onPrimaryClick" type="c:event"/>
+    <aura:registerEvent name="onSecondaryClick" type="c:event"/>
+    <!-- /Events -->
+
+    <!-- Methods -->
+    <aura:method name="hide" action="{!c.hide}"/>
+    <aura:method name="show" action="{!c.show}"/>
+    <!-- /Methods -->
+
+    <!-- Internal -->
+    <aura:attribute name="hidden" type="Boolean" default="true" access="private"/>
+    <!-- /Internal -->
+
+    <div aria-hidden="{!v.hidden}" class="{!if(v.hidden, 'slds-hide', '')}">
+        <div id="modal" aura:id="modal" role="dialog" tabindex="{!if(hidden, -1, 0)}" class="{!if(v.hidden, '', 'slds-fade-in-open') + ' slds-modal ' + if(empty(v.variant), '', 'slds-modal--prompt') + if(empty(v.size), '', ' slds-modal--' +v.size)}">
+            <div class="slds-modal__container">
+                <div class="{!'slds-modal__header' + if(empty(v.variant), '', ' slds-theme--alert-texture slds-theme--' + v.variant) + if(v.showHeader == false, ' slds-modal__header--empty', '')}">
+                    <lightning:buttonIcon onclick="{!c.clickSecondary}" iconName="utility:close" alternativeText="Close" name="Close" size="large" variant="bare" class="{!'slds-button slds-modal__close slds-button--icon-inverse ' + if(not(v.showClose), 'slds-hide')}"/>
+                    <h2 class="{!'slds-text-heading--medium' + if(v.showHeader == false, ' slds-hide', '')}">{!v.title}</h2>
+                </div>
+                <div class="slds-modal__content slds-p-around--medium">
+                    {!v.body}
+                </div>
+                <div class="{!'slds-modal__footer' + if(empty(v.variant), '', ' slds-theme--default')}">
+                    <aura:if isTrue="{!empty(v.footerButtons)}">
+                        <lightning:button label="Cancel" onclick="{!c.clickSecondary}"/>
+                        <lightning:button label="Okay" onclick="{!c.clickPrimary}" variant="brand"/>
+                    </aura:if>
+
+                    <aura:if isTrue="{!not(empty(v.footerButtons))}">
+                        {!v.footerButtons}
+                    </aura:if>
+                </div>
+            </div>
+        </div>
+
+        <div id="backdrop" aura:id="backdrop" class="{!'slds-backdrop ' + if(v.hidden, '', 'slds-backdrop--open')}"></div>
+    </div>
+</aura:component>

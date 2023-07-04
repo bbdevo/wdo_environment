@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Paramètre HRSC --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Paramètres HRSC --></value>
+    </caseValues>
+    <fields>
+        <label><!-- MaxDaysCompletedTransition --></label>
+        <name>wkdw__MaxDaysCompletedTransition__c</name>
+    </fields>
+    <fields>
+        <help>Lorsque cette option est sélectionnée, seules les tâches en attente sont affichées dans la liste de contrôle des tâches d&apos;intégration. Lorsqu&apos;elle est désélectionnée, toutes les tâches sont affichées.</help>
+        <label><!-- Show Only Pending Tasks --></label>
+        <name>wkdw__ShowPendingTasksOnly__c</name>
+    </fields>
+    <fields>
+        <help>En jours</help>
+        <label><!-- Welcome Task Visibility Offset --></label>
+        <name>wkdw__WelcomeTaskVisibilityOffset__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

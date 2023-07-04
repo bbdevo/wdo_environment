@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Impostazioni di Concierge --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Impostazioni di Concierge --></value>
+    </caseValues>
+    <fields>
+        <help>Quando questa casella di controllo è selezionata, i trigger Apex Dipendente non creano né sincronizzano automaticamente i record Account personali per ciascun nuovo record Dipendente.</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>Quando selezionata, il trigger Caso è disabilitato e i nuovi casi non vengono condivisi automaticamente con il dipendente associato</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <startsWith><!-- Vowel --></startsWith>
+</CustomObjectTranslation>

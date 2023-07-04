@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email Template for Work.com Return to Work Employee Wellness Survey</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Return to Work Wellness Survey</name>
+    <style>none</style>
+    <subject>Wellness Survey - Please Complete</subject>
+    <textOnly>We&apos;re thankful to start the process of returning to the workplace. To help us do so safely and responsibly, please respond to this survey, which assesses your current health.
+
+Your responses are used only to determine whether you&apos;re ready to return to your workplace. If you decline to provide health data, you must continue working remotely. To decline, please take the survey and indicate that choice.
+
+The survey link is unique to you. Don&apos;t forward this email to others. 
+
+{{Survey}}
+
+Thank you, and we appreciate your support and cooperation.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <fields>
+        <label>Nội dung</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Nhập nội dung mặc định cho người dùng khi họ ghi lại phiếu mới liên quan đến bài viết này. Trường có thể để trống hoặc mang tính hướng dẫn như “Mô tả sự cố hoặc yêu cầu của bạn...</help>
+        <label>Mô Tả Trường Hợp</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>Bạn có thể để trống trường Chủ Đề Trường Hợp và trường này sẽ mặc định theo tiêu đề bài viết hiện tại.</help>
+        <label>Chủ Đề Trường Hợp</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Bài viết về quyền lợi trên HR Service Center</description>
+        <label>Nhân Sự - Quyền Lợi</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bài viết về quan hệ nhân viên trên HR Service Center</description>
+        <label>Nhân Sự - Quan Hệ Nhân Viên</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bài viết chung trên HR Service Center</description>
+        <label>Nhân Sự - Thông Tin Chung</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bài viết về nghỉ phép trên HR Service Center</description>
+        <label>Nhân Sự - Nghỉ Phép</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bài viết về đào tạo nhập môn trên HR Service Center</description>
+        <label>Nhân Sự - Đào Tạo Nhập Môn</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bài viết về trả lương trên HR Service Center</description>
+        <label>Nhân Sự - Trả Lương</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Tạo nội dung bài viết Knowledge cho bộ phận công nghệ thông tin chẳng hạn như thiết bị, quyền truy cập hoặc các giải pháp về hiệu suất ứng dụng</description>
+        <label>Bài Viết Knowledge cho bộ phận CNTT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Προετοιμασία δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Προετοιμασία δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Προετοιμασία δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Προετοιμασία δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Προετοιμασίας δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Προετοιμασίας δεδομένων κατάστασης υγείας υπαλλήλων τοποθεσίας</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>Ένα μοναδικό αναγνωριστικό για την εγγραφή που έχει την εξής μορφή: &lt;Αναγνωριστικό τοποθεσίας&gt; + ‘:’ + &lt;Κατάσταση υγείας&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Υποδεικνύει την κατάσταση αυτής της τοποθεσίας σε σχέση με την επεξεργασία.</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>Δεν έχει γίνει επεξεργασία</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Υπό επεξεργασία</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Η τοποθεσία για την οποία απαιτείται εκ νέου υπολογισμός των εγγραφών δεδομένων.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Όνομα</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

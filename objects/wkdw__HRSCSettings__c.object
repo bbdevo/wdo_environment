@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This entity represents general settings for HRSC Package.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>wkdw__MaxDaysCompletedTransition__c</fullName>
+        <defaultValue>30</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The maximum number of days a completed transition plan will display on the Manager and Employee’s home page</description>
+        <externalId>false</externalId>
+        <label>MaxDaysCompletedTransition</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkdw__ShowPendingTasksOnly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Display only pending tasks in the onboarding task list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When selected, only pending tasks are displayed in the onboarding task checklist. When deselected, all tasks are displayed.</inlineHelpText>
+        <label>Show Only Pending Tasks</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkdw__WelcomeTaskVisibilityOffset__c</fullName>
+        <defaultValue>30</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Number of days after the user&apos;s last onboarding task was completed when the Welcome Task component will not be displayed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In Days</inlineHelpText>
+        <label>Welcome Task Visibility Offset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>HRSC Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,278 @@
+<template>
+    <div class={composerClassList}>
+        <input type="text" class="slack-focus-grabber">
+        
+        <!-- Error State -->
+        <template if:true={hasError}>
+            <div class="slds-scoped-notification slds-media slds-scoped-notification_light slds-theme_error" role="status">
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="utility:error" size="medium" variant="inverse"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                    <p>{errMsg}</p>
+                </div>
+            </div>
+        </template>
+        <!-- /Error State -->
+
+        <template if:true={isClassic}>
+
+            <!-- Classic Success Toast -->
+            <div class="slack-toast__classic">
+                <div class="slds-notify_container slds-is-absolute">
+                    <div class="slds-notify slds-notify_toast slds-theme_success" role="status">
+                        <span class="slds-assistive-text">success</span>
+                        <span class="slds-m-right_small slds-no-flex slds-align-top">
+                            <lightning-icon icon-name="utility:success" variant="inverse" size="small" alternative-text="Success"></lightning-icon>
+                        </span>
+                        <div class="slds-notify__content">
+                            <h2 class="slds-text-heading_small ">
+                                Successfully Sent to Slack
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Classic Success Toast -->
+
+        </template>
+
+        <template if:false={hasError}>
+
+            <!-- Loading state -->
+            <template if:true={loading}>
+                <div class="slack-spinner-container_initial">
+                    <lightning-spinner
+                        alternative-text="Loading..."
+                        class="slack-spinner"
+                    ></lightning-spinner>
+                </div>
+            </template>
+            <!-- /Loading state -->
+
+            <!-- Initialized State -->
+            <template if:false={loading}>
+
+                <!-- Sending Loading State -->
+                <template if:true={isSending}>
+                    <lightning-spinner
+                        alternative-text="Loading..."
+                        class="slack-spinner"
+                    ></lightning-spinner>
+                </template>
+                <!-- /Sending Loading State -->
+
+                <!-- Un-Authed State -->
+                <template if:false={isUserAuthed}>
+                    <div class={notAuthedClass}>
+                        <template if:true={isExpired}>
+
+                            <!-- Inline Notification -->
+                            <div class="slds-p-horizontal_large">
+                                <div class="slds-scoped-notification slds-media slds-media_center slds-theme_warning" role="status">
+                                    <div class="slds-media__figure">
+                                        <lightning-icon icon-name="utility:warning" alternative-text="Warning" size="small"></lightning-icon>
+                                    </div>
+                                    <div class="slds-media__body">
+                                        <p>
+                                            The selected workspace is no longer connected to Salesforce. In order to use the expired workspace again, you must log back into it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Inline Notification -->
+
+                        </template>
+                        <c-auth
+                            onauthed={authed}
+                            new-auth="false"
+                            header="Sign in to Slack"
+                            message="Before you can start sharing your Salesforce records to Slack, you must first sign into Slack. Click the button below to get started."
+                            class="slds-col"
+                        ></c-auth>
+                    </div>
+                </template>
+                <!-- /Un-Authed State -->
+
+                <!-- New Auth State -->
+                <template if:true={newAuth}>
+                    <div class={notAuthedClass}>
+                        <c-auth
+                            onauthed={authed}
+                            onback={goBack}
+                            new-auth="true"
+                            header="Add New Slack Workspace"
+                            message="Share your Salesforce records with more of your Slack workspaces. Add a new workspace to your Salesforce org by signing in with Slack."
+                            class="slds-col"
+                        ></c-auth>
+                    </div>
+                </template>
+                <!-- /New Auth State -->
+
+                <!-- Authed State -->
+                <div class={authedClass}>
+                    <template if:true={isUserAuthed}>
+                        <template if:false={isGlobalAction}>
+                            <template if:true={modalLayout}>
+
+                                <!-- Modal Header -->
+                                <header class="slds-modal__header slds-col slds-grow-none">
+                                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">
+                                        Send to Slack
+                                    </h2>
+                                </header>
+                                <!-- /Modal Header -->
+
+                            </template>
+                        </template>
+                        <!-- Action Body -->
+
+                        <div class="slack-composer__content slds-col">
+                            <p class="slds-text-align_center slds-m-bottom_x-small">
+                                Keep the conversation going by attaching relevant info from your Salesforce records to your Slack&nbsp;message.
+                            </p>
+                            <template if:true={isExpired}>
+
+                                <!-- Inline Notification -->
+                                <div class="slds-m-bottom_x-small">
+                                    <div class="slds-scoped-notification slds-media slds-media_center slds-theme_warning" role="status">
+                                        <div class="slds-media__figure">
+                                            <lightning-icon icon-name="utility:warning" alternative-text="Warning" size="small"></lightning-icon>
+                                        </div>
+                                        <div class="slds-media__body">
+                                            <p>
+                                                The selected workspace is no longer connected to Salesforce. In order to use the expired workspace again, you must log back into it.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Inline Notification -->
+
+                            </template>
+                            <div class="slds-form slds-form_stacked">
+
+                                <!-- Object Select -->
+                                <div class="slds-form-element">
+                                    <c-picklist
+                                        label="Salesforce Object"
+                                        placeholder="-- Select Object --"
+                                        dropdown-height="7"
+                                        options={objectSelectOptions}
+                                        value={selectedObjectName}
+                                        onselect={objectSelect}
+                                        required
+                                    ></c-picklist>
+                                </div>
+                                <!-- /Object Select -->
+
+                                <!-- Record Search -->
+                                <div class="slds-form-element">
+                                    <c-lookup
+                                        label="Salesforce Record"
+                                        threshold="1"
+                                        icon-name={recordSearchIconName}
+                                        value={selectedRecordId}
+                                        primary-field={selectedObjectNameField}
+                                        search-results={recordSearchResults}
+                                        default-results={recentlyViewed}
+                                        onsearch={searchRecords}
+                                        onchange={recordSelect}
+                                        onunselect={recordUnselect}
+                                        disabled={recordSearchDisabled}
+                                        required
+                                    ></c-lookup>
+                                </div>
+                                <!-- /Record Search -->
+
+                                <!-- Workspace Select -->
+                                <div class="slds-form-element">
+                                    <c-picklist
+                                        label="Slack Workspace"
+                                        placeholder="-- Select Slack Workspace --"
+                                        dropdown-height="6"
+                                        options={workspaceList}
+                                        value={selectedSlackAuthId}
+                                        onselect={workspaceSelect}
+                                        required
+                                    ></c-picklist>
+                                </div>
+                                <!-- /Workspace Select -->
+
+                                <!-- Channel Select -->
+                                <div class="slds-form-element">
+                                    <c-channel-search-picklist
+                                        label="Slack Channel or Person"
+                                        placeholder="Search for channel or person"
+                                        dropdown-height="6"
+                                        searchable="true"
+                                        slack-auth-id={selectedSlackAuthId}
+                                        options={channelList}
+                                        onselect={channelSelect}
+                                        onfocus={channelFocus}
+                                        oninvalidauth={invalidAuth}
+                                        disabled={channelSelectDisabled}
+                                        types={channelTypes}
+                                        required
+                                        class="js-channel-picklist"
+                                    ></c-channel-search-picklist>
+                                </div>
+                                <!-- /Channel Select -->
+
+                                <!-- Message -->
+                                <div class="slds-form-element">
+                                    <div class="slds-form-element__label">Add a message (optional)</div>
+                                    <div class="slds-form-element__control">
+                                        <textarea
+                                            name="message"
+                                            class="js-message slack-composer__message slds-textarea"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <!-- /Message -->
+
+                            </div>
+                        </div>
+                        <!-- /Action Body -->
+
+                        <!-- Footer -->
+                        <footer class="slack-composer__footer slds-col slds-grow-none">
+                            <div class="slack-composer__button-container">
+                                <template if:false={isGlobalAction}>
+                                    <template if:true={modalLayout}>
+
+                                        <!-- Cancel Button -->
+                                        <lightning-button
+                                            label="Cancel"
+                                            variant="neutral"
+                                            class="slds-button"
+                                            onclick={cancel}
+                                        ></lightning-button>
+                                        <!-- /Cancel Button -->
+
+                                    </template>
+                                </template>
+
+                                <!-- Send Button -->
+                                <lightning-button
+                                    label="Send to Slack"
+                                    variant="brand"
+                                    class="slds-button"
+                                    onclick={send}
+                                    disabled={submitButtonDisabled}
+                                ></lightning-button>
+                                <!-- /Send Button -->
+
+                            </div>
+                        </footer>
+                        <!-- /Footer -->
+
+                    </template>
+                </div>
+                <!-- /Authed State -->
+
+            </template>
+            <!-- /Initialized State -->
+
+        </template>
+    </div>
+</template>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ข้อเท็จจริงด้านสุขภาพของสถานที่ตั้ง</value>
+    </caseValues>
+    <fields>
+        <help>ตัวบ่งชี้ที่ไม่ซ้ำกันสำหรับเรกคอร์ดในรูปแบบ [&quot;Cascade&quot; + &quot;:&quot; +] &lt;Location Id&gt; + ‘:’ + &lt;Wellness Status&gt; ส่วนเสริมหน้าแบบเรียงซ้อนจะมีอยู่ในเรกคอร์ดที่มีค่าสถานะสุขภาพของสถานที่ตั้งย่อยได้เท่านั้น</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>จำนวนรวมของลูกจ้าง โดยไม่คำนึงถึงสถานะของสุขภาพ</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>ระดับตำแหน่งของสถานที่ตั้งที่เกี่ยวข้อง</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>สถานที่ตั้งที่เรกคอร์ดข้อเท็จจริงนี้เชื่อมโยงด้วย</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>ทำเครื่องหมายสถานที่ตั้งว่าต้องการการรวมใหม่ถ้าเป็นจริง หรือไม่ต้องการ ถ้าเป็นเท็จ</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>เปอร์เซ็นต์ของลูกจ้างของสถานที่ตั้งซึ่งอยู่ในสถานะของสุขภาพ</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>จำนวนของลูกจ้างที่มีสถานะของสุขภาพ</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>สถานะของสุขภาพสำหรับลูกจ้าง</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <nameFieldLabel>ชื่อ</nameFieldLabel>
+</CustomObjectTranslation>

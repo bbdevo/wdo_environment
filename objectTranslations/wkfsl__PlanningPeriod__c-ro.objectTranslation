@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Perioada de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Perioadă de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Perioadele de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Perioade de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Perioadei de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Perioadei de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Perioadelor de planificare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Perioadelor de planificare</value>
+    </caseValues>
+    <fields>
+        <label><!-- Service Territory --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Planning Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>wkfsl__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Date --></label>
+        <name>wkfsl__Trigger_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekdays --></label>
+        <name>wkfsl__Weekdays__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation>Vineri</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation>Luni</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation>Sâmbătă</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation>Duminică</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation>Joi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation>Marți</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation>Miercuri</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- completionDate --></label>
+        <name>wkfsl__completionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- endDate --></label>
+        <name>wkfsl__endDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- startDate --></label>
+        <name>wkfsl__startDate__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nume PlannerTrigger</nameFieldLabel>
+</CustomObjectTranslation>

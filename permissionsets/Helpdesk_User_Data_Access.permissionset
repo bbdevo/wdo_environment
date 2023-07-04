@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>wkdw__EmployeeToPersonAccountFldMap__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>wkdw__TicketCategoryDefinition__mdt</name>
+    </customMetadataTypeAccesses>
+    <description>Gives employees access to the Case object for logging tickets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Helpdesk User Data Access</label>
+</PermissionSet>

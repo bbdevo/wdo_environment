@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Mapeamento de campos Funcionário para conta pessoal --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Mapeamentos de campos Funcionário para conta pessoal --></value>
+    </caseValues>
+    <fields>
+        <help>Desmarque esta opção se não quiser que este mapeamento seja utilizado ao criar um registo de conta pessoal a partir de um registo de funcionário</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API do campo Funcionário. Precisa incluir __c se for um campo personalizado</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API do campo Conta pessoal. Precisa incluir __c se for um campo personalizado ou __pc se for um campo Conta pessoal personalizado</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

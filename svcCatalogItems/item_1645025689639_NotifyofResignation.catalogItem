@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SvcCatalogItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <categories>
+        <isPrimaryCategory>true</isPrimaryCategory>
+        <sortOrder>2</sortOrder>
+        <svcCatalogCategory>category_1646755141221_General</svcCatalogCategory>
+    </categories>
+    <description>Start the resignation process.</description>
+    <flow>item_1645025689639_NotifyofResignation</flow>
+    <image>Resignation1</image>
+    <isFeatured>false</isFeatured>
+    <isProtected>false</isProtected>
+    <masterLabel>Notify of Resignation</masterLabel>
+    <status>Published</status>
+</SvcCatalogItemDef>

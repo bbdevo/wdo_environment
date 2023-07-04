@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives access to IT agents to create and manage Configuration Items in IT Service Center.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>IT Service Center Config Manager</label>
+    <permissionSets>wkitsm__IT_Service_Center_Configuration_Manager</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <choices>
+        <name>option000</name>
+        <choiceText>Male</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Male</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option0001</name>
+        <choiceText>Spouse</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Spouse</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option001</name>
+        <choiceText>Female</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Female</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option0011</name>
+        <choiceText>Child</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Child</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option002</name>
+        <choiceText>I prefer not to disclose</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>I prefer not to disclose</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option0021</name>
+        <choiceText>Domestic Partner</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Domestic Partner</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>option003</name>
+        <choiceText>Domestic Partner Child</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Domestic Partner Child</stringValue>
+        </value>
+    </choices>
+    <formulas>
+        <name>org_base_url</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Api.Partner_Server_URL_530}, FIND(&apos;/services/&apos;, {!$Api.Partner_Server_URL_530}))</expression>
+    </formulas>
+    <label>Add Dependents</label>
+    <processType>ServiceCatalogItemFlow</processType>
+    <screens>
+        <name>additional_questions</name>
+        <label>Add Dependents Questions</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Fulfillment_Flow_Subflow</targetReference>
+        </connector>
+        <fields>
+            <name>Effective_Date</name>
+            <dataType>Date</dataType>
+            <fieldText>Effective Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Reason</name>
+            <fieldText>Reason</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Legal_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Legal Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Gender</name>
+            <choiceReferences>option000</choiceReferences>
+            <choiceReferences>option001</choiceReferences>
+            <choiceReferences>option002</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Gender</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Date_of_Birth</name>
+            <dataType>Date</dataType>
+            <fieldText>Date of Birth</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Place_of_Birth</name>
+            <dataType>String</dataType>
+            <fieldText>Place of Birth</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Relationship</name>
+            <choiceReferences>option0001</choiceReferences>
+            <choiceReferences>option0011</choiceReferences>
+            <choiceReferences>option0021</choiceReferences>
+            <choiceReferences>option003</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Relationship</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Primary_Address</name>
+            <fieldText>Primary Address</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Additional_Address</name>
+            <fieldText>Additional Address</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Primary_Phone</name>
+            <dataType>String</dataType>
+            <fieldText>Primary Phone</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Additional_Phone</name>
+            <dataType>String</dataType>
+            <fieldText>Additional Phone</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>SSN</name>
+            <dataType>String</dataType>
+            <fieldText>SSN</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>additional_questions</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Fulfillment_Flow_Subflow</name>
+        <label>Fulfillment Flow</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>Create_Case_by_Record_Type</flowName>
+        <inputAssignments>
+            <name>Input_Description</name>
+            <value>
+                <stringValue>Effective Date
+{!Effective_Date}
+
+Reason
+{!Reason}
+
+Legal Name
+{!Legal_Name}
+
+Gender
+{!Gender}
+
+Date of Birth
+{!Date_of_Birth}
+
+Place of Birth
+{!Place_of_Birth}
+
+Relationship
+{!Relationship}
+
+Primary Address
+{!Primary_Address}
+
+Additional Address
+{!Additional_Address}
+
+Primary Phone
+{!Primary_Phone}
+
+Additional Phone
+{!Additional_Phone}
+
+SSN
+{!SSN}
+
+</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_RecordTypeApiName</name>
+            <value>
+                <stringValue>HR_Benefits</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Origin</name>
+            <value>
+                <stringValue>Employee Portal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Priority</name>
+            <value>
+                <stringValue>Medium</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Status</name>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Input_Subject</name>
+            <value>
+                <stringValue>Benefits - Add Dependents</stringValue>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>SvcCatalogAttachedContentDocIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

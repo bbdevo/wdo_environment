@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Chat</name>
+    <queueMembers>
+        <users>
+            <user>ansha.ugoletti.fcmn5ntrvj43.5iakpynayfu1@evocrm.hu2023/06/6_12-53-9.demo</user>
+            <user>itagent.nnjtkkn4alyr.mnx4nup4zces@evocrm.hu2023/06/6_12-53-9.demo</user>
+            <user>peter.felegyi@evocrm.hu2023/06/6_12-53-9.demo</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Digital_Assistant_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

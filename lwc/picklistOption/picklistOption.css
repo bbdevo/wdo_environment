@@ -1,0 +1,34 @@
+li.slds-lookup__item-action .slds-icon {
+    margin-top: -3px;
+}
+
+.so-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.slds-listbox__option .slds-media__body{
+    margin-left: 20px;
+}
+
+.slds-listbox__option .strike-custom-icon + .slds-media__body {
+    margin-left: unset;
+}
+
+.slds-listbox__option.slds-is-selected .slds-media__body{
+    margin-left: 0;
+}
+
+.slds-listbox__option.slds-listbox__option_plain:hover {
+    background-color: transparent;
+}
+
+.slds-listbox__option.slds-listbox__option_plain.slds-has-focus,
+.slds-listbox__option.slds-listbox__option_plain.slds-has-focus:hover {
+    background-color: rgb(243, 242, 242);
+}

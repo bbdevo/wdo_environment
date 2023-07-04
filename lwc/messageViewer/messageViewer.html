@@ -1,0 +1,67 @@
+<template>
+    <div class={viewerClassList}>
+        <!-- Header -->
+        <div class="slds-card__header">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <div class="slack-logo slds-icon_container" title="account">
+                        <img src={slackIcon} onclick={toggleAvatars}/>
+                        <span class="slds-assistive-text">slack</span>
+                    </div>
+                </div>
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">Related Slack Messages</h2>
+                </div>
+            </header>
+        </div>
+        <!-- /Header -->
+
+        
+        <!-- Message List -->
+        <div class="slds-card__body">
+            <template if:false={loading}>
+
+                <!-- Empty State -->
+                <template if:true={empty}>
+                    <div class="slack-empty-state slds-grid slds-grid_vertical-align-center slds-grid_align-center">
+                        <div class="slds-col slds-illustration slds-p-around_medium">
+                            <img src={emptyStateUrl}/>
+                            <div class="slds-m-top_medium">
+                                <p class="slds-text-body_regular">No related messages to show</p>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <!-- /Empty State -->
+                <template if:false={empty}>
+                    <div class="slack-message-list slds-border_top slds-scrollable_y" onscroll={listScroll}>
+                        <!-- Messages -->
+                        <template for:each={messages} for:item="message">
+                            <c-message
+                                key={message.Id}
+                                message={message}
+                            ></c-message>
+                        </template>
+                        <!-- Messages -->
+    
+                        <!-- Load More -->
+                        <template if:true={isLoadingMore}>
+                            <div class="slack-load-more slds-text-align_center">
+                                <div class="slds-grid slds-grid_align-center slds-grid_vertical-align-center">
+                                    <div class="slds-col slds-grow-none">
+                                        <lightning-spinner alternative-text="Loading More Messages..." size="small" class="slds-spinner_inline slds-m-right_large"></lightning-spinner>
+                                    </div>
+                                    <div class="slds-col">
+                                        <span class="slds-text-color_weak">Loading...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+            </template>
+        </div>
+        <!-- /Message List -->
+
+    </div>
+</template>

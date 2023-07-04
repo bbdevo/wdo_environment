@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Work.com 出社勤務中の従業員の健康状態アンケートのメールテンプレート</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>現在の健康状態に関するアンケート</name>
+    <style>none</style>
+    <subject>健康状態に関するアンケート - ご回答ください</subject>
+    <textOnly>職場の健全性と安全性を確保するために、こちらのアンケートに回答して現在の健康状態についてお知らせください。
+
+いただいた回答は、今後も出社勤務を継続して良いかどうかの判断材料として使用され、それ以外の目的に利用されることはありません。
+
+アンケートへのリンクは各自でそれぞれ異なります。このメールを他の人に転送しないでください。
+
+{{Survey}}
+
+ご理解とご協力をよろしくお願いいたします。</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

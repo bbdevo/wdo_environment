@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Portfolio Item --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Portfolio Items --></value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>wkdw__CompletionDate__c</name>
+    </fields>
+    <fields>
+        <help>Describe your experience and highlight your accomplishments.</help>
+        <label><!-- Description --></label>
+        <name>wkdw__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Owner --></label>
+        <name>wkdw__IsOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ongoing --></label>
+        <name>wkdw__Ongoing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>wkdw__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>wkdw__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Use line breaks to separate the URLs</help>
+        <label><!-- Related URLs --></label>
+        <name>wkdw__URLs__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- Enter an end date that occurs after the start date. --></errorMessage>
+        <name>wkdw__CompletionDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a URL that starts with a valid protocol such as https:// or file:///. --></errorMessage>
+        <name>wkdw__URLs</name>
+    </validationRules>
+</CustomObjectTranslation>

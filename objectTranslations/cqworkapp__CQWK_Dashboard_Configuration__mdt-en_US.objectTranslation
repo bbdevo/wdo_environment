@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Dashboard Id --></label>
+        <name>cqworkapp__Dashboard_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filtered Report URL --></label>
+        <name>cqworkapp__Filtered_Report_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dashboard Height --></label>
+        <name>cqworkapp__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unfiltered Report URL --></label>
+        <name>cqworkapp__Unfiltered_Report_URL__c</name>
+    </fields>
+</CustomObjectTranslation>

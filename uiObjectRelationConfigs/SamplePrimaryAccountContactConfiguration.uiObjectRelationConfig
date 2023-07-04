@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIObjectRelationConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>NPI:</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;Npi&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[{&quot;destinationObjectEnumOrId&quot;:&quot;HealthcareProviderNpi&quot;,&quot;fieldEnumOrId&quot;:&quot;AccountId&quot;,&quot;traversalDirection&quot;:&quot;child&quot;}]}</queryText>
+        <rowOrder>1</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>Address:</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;ShippingAddress&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[]}</queryText>
+        <rowOrder>2</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>Phone:</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;Phone&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[]}</queryText>
+        <rowOrder>3</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>Fax:</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;Fax&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[]}</queryText>
+        <rowOrder>4</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <UIObjectRelationFieldConfigs>
+        <displayLabel>Parent Organization:</displayLabel>
+        <queryText>{&quot;fieldNode&quot;:{&quot;fieldEnumOrId&quot;:&quot;Name&quot;},&quot;startNode&quot;:{&quot;initialObject&quot;:&quot;RelatedObject&quot;},&quot;traversalNodes&quot;:[{&quot;destinationObjectEnumOrId&quot;:&quot;Account&quot;,&quot;fieldEnumOrId&quot;:&quot;ParentId&quot;,&quot;traversalDirection&quot;:&quot;parent&quot;}]}</queryText>
+        <rowOrder>5</rowOrder>
+    </UIObjectRelationFieldConfigs>
+    <contextObject>Contact</contextObject>
+    <directRelationshipField>AccountId</directRelationshipField>
+    <isActive>true</isActive>
+    <masterLabel>Sample Primary Account Configuration</masterLabel>
+    <relatedObject>Account</relatedObject>
+    <relationshipType>Direct</relationshipType>
+</UIObjectRelationConfig>

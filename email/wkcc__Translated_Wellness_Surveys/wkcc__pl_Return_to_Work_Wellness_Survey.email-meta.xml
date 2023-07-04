@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Szablon wiadomości email dotyczący ankiety Work.com o stanie zdrowia pracownika powracającego do pracy</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ankieta o stanie zdrowia pracownika powracającego do pracy – proszę wypełnić</name>
+    <style>none</style>
+    <subject>Ankieta o stanie zdrowia – proszę wypełnić</subject>
+    <textOnly>Jesteśmy szczęśliwi, że rozpoczął się proces powrotu do pracy. Wypełnij tę ankietę, która oceni bieżący stan Twojego zdrowia, aby pomóc nam przejść przez niego bezpiecznie i odpowiedzialnie.
+
+Twoje odpowiedzi będą użyte wyłącznie do określenia, czy możesz wrócić do pracy w swoim miejscu pracy. W przypadku odmowy podania informacji o swoim stanie zdrowia, jedyną możliwą formą pracy będzie praca zdalna. Jeżeli chcesz odmówić, zrób to poprzez ankietę.
+
+Link do ankiety jest unikatowy i przeznaczony tylko dla Ciebie. Nie przekazuj tej wiadomości email innym.
+
+{{Survey}}
+
+Dziękujemy za Twoje wsparcie i współpracę.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

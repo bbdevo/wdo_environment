@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>การจัดขั้นทางสุขภาพของสถานที่ตั้ง</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>ตัวบ่งชี้ที่ไม่ซ้ำกันสำหรับเรกคอร์ดในรูปแบบ&lt;Location Id&gt; + ‘:’ + &lt;Wellness Status&gt;</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>ระบุสถานะของสถานที่ตั้งนี้สำหรับการประมวลผล</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>ยังไม่ได้ประมวลผล</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>กำลังดำเนินการ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>สถานที่ตั้งที่จำเป็นต้องคำนวณเรกคอร์ดข้อเท็จจริงอีกครั้ง</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>ชื่อ</nameFieldLabel>
+</CustomObjectTranslation>

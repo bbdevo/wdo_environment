@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message Channel used for all internal eventing within b2w package.</description>
+    <isExposed>false</isExposed>
+    <lightningMessageFields>
+        <description>Type of the event</description>
+        <fieldName>EventType</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Event Source, from where event is originating from</description>
+        <fieldName>EventSource</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Specifies &quot;All&quot; or list of consumers that event is for</description>
+        <fieldName>EventConsumer</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>JSON string that will be passed with key:value pairs</description>
+        <fieldName>EventPayload</fieldName>
+    </lightningMessageFields>
+    <masterLabel>Internal Command Center Message Channel</masterLabel>
+</LightningMessageChannel>

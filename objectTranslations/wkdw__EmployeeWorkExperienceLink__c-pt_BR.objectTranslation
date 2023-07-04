@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Link do item de portfólio --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Links do item de portfólio --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Link Type --></label>
+        <name>wkdw__Type__c</name>
+        <picklistValues>
+            <masterLabel>Slack</masterLabel>
+            <translation>Slack</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation>Web</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>wkdw__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Item --></label>
+        <name>wkdw__WorkExperience__c</name>
+        <relationshipLabel><!-- Portfolio Item Links --></relationshipLabel>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

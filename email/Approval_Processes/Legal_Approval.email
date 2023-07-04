@@ -1,0 +1,13 @@
+The investigation of this Employee Relations complaint is complete and ready for Legal review and approval: 
+
+Case Number: {!Case.CaseNumber}
+Case Type: {!Case.Type}
+Case Sub-Type: {!Case.Sub_Type__c}
+Ticket Category: {!Case.wkdw__TicketCategory__c}
+Case Link: {!Case.Link}
+
+Please review and approve as soon as you can.
+
+Thank you.
+
+HR Employee Relations Team

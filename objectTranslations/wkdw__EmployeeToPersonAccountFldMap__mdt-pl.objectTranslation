@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapowanie pola konta pracownika do pola konta osobistego --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapowanie pól kont pracowników do pól kont osobistych --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapowanie pola konta pracownika do pola konta osobistego --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapowanie pól kont pracowników do pól kont osobistych --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Mapowania pola konta pracownika do pola konta osobistego --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Mapowania pól kont pracowników do pól kont osobistych --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapowaniu pola konta pracownika do pola konta osobistego --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapowaniu pól kont pracowników do pól kont osobistych --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Mapowaniem pola konta pracownika do pola konta osobistego --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Mapowaniem pól kont pracowników do pól kont osobistych --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapowaniu pola konta pracownika do pola konta osobistego --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapowaniu pól kont pracowników do pól kont osobistych --></value>
+    </caseValues>
+    <fields>
+        <help>Odznacz tę opcję, jeśli nie chcesz, aby to mapowanie było używane podczas tworzenia rekordu konta osobistego z rekordu pracownika</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Nazwa API pola pracownika. Jeśli to pole niestandardowe, powinna zawierać __c.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Nazwa API pola konta osobistego. Jeśli to pole niestandardowe powinna zawierać __c, a jeśli to pole niestandardowe konta osobistego powinna zawierać __pc</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+</CustomObjectTranslation>

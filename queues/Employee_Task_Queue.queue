@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Employee Contact Tracing Queue</name>
+    <queueMembers>
+        <users>
+            <user>admintso.uu5p8kfo7hv5.moilsy6eocx7..g517sdron41x@evocrm.hu2023/06/6_12-53-9.demo</user>
+            <user>peter.felegyi@evocrm.hu2023/06/6_12-53-9.demo</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

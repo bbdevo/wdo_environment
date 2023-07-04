@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Defines the field mapping required when creating person account records from employee records.</description>
+    <fields>
+        <fullName>wkdw__IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the mapping between this specific employee record and person account is active or not.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Uncheck this if you don&apos;t want this mapping to be used when creating a Person Account record from an Employee record</inlineHelpText>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkdw__SourceField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The employee record field that maps to the specified target field on the person account.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>API name of the Employee field. Needs to include the __c if it is a custom field</inlineHelpText>
+        <label>Source Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkdw__TargetField__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The person account field that maps to the specified source field on the employee.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>API name of the Person Account field. Needs to include the __c if it is a custom field or __pc if it is a Person Account custom field</inlineHelpText>
+        <label>Target Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Employee To Person Account Field Mapping</label>
+    <pluralLabel>Employee To Person Account Field Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

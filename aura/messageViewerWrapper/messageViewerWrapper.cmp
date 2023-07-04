@@ -1,0 +1,11 @@
+<aura:component>
+    <aura:attribute name="isClassic" type="Boolean" default="{!false}" />
+    <aura:attribute name="recordId" type="String" default="{!v.recordId}" />
+
+    <div class="slack-quick-action">
+        <c:messageViewer
+            isClassic="{!v.isClassic}"
+            recordId="{!v.recordId}"
+        ></c:messageViewer>
+    </div>
+</aura:component>

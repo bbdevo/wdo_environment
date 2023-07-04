@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Location --></label>
+        <name>tractionguest__Location__c</name>
+        <relationshipLabel><!-- Violations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Violation Date/Time --></label>
+        <name>tractionguest__Violation_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Violation Name --></label>
+        <name>tractionguest__Violation_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Violation Type --></label>
+        <name>tractionguest__Violation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Employee Violation</masterLabel>
+            <translation><!-- Employee Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Capacity Violation</masterLabel>
+            <translation><!-- Location Capacity Violation --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

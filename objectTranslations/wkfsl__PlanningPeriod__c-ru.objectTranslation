@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Период планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Периоды планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Период планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Периоды планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Периода планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Периодов планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Периоду планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Периодам планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Периодом планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Периодами планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Периоде планирования</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Периодах планирования</value>
+    </caseValues>
+    <fields>
+        <label><!-- Service Territory --></label>
+        <name>wkfsl__Service_Territory__c</name>
+        <relationshipLabel><!-- Planning Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>wkfsl__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Date --></label>
+        <name>wkfsl__Trigger_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekdays --></label>
+        <name>wkfsl__Weekdays__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation>Пятница</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation>Понедельник</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation>Суббота</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation>Воскресенье</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation>Четверг</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation>Вторник</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation>Среда</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- completionDate --></label>
+        <name>wkfsl__completionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- endDate --></label>
+        <name>wkfsl__endDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- startDate --></label>
+        <name>wkfsl__startDate__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Имя PlannerTrigger</nameFieldLabel>
+</CustomObjectTranslation>

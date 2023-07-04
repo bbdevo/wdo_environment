@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Request Menu Question Choice --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Request Menu Question Choice --></value>
+    </caseValues>
+    <fields>
+        <help>Se a opção de pergunta está ativa ou não. Isso determinará se a escolha é ou não renderizada nos formulários.</help>
+        <label><!-- IsActive --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>wkitsm__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Menu Question --></label>
+        <name>wkitsm__RequestMenuQuestion__c</name>
+        <relationshipLabel><!-- RequestMenuQuestionChoices --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Question Choice Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pemetaan Bidang Isian Account Karyawan ke Account Orang --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Pemetaan Bidang Isian Account Karyawan ke Account Orang --></value>
+    </caseValues>
+    <fields>
+        <help>Hapus centang ini jika Anda tidak ingin pemetaan ini digunakan saat membuat catatan Account Orang dari catatan Karyawan</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Nama API dari bidang isian Karyawan. Perlu mencakup __c jika berupa bidang isian ubahsuai</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Nama API dari bidang isian Account Orang. Perlu mencakup __c jika berupa bidang isian ubahsuai atau  __pc jika berupa bidang isian ubahsuai Account Orang</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SvcCatalogItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <categories>
+        <isPrimaryCategory>true</isPrimaryCategory>
+        <sortOrder>5</sortOrder>
+        <svcCatalogCategory>category_1639787742778_Software</svcCatalogCategory>
+    </categories>
+    <categories>
+        <isPrimaryCategory>false</isPrimaryCategory>
+        <sortOrder>5</sortOrder>
+        <svcCatalogCategory>category_1639787728370_NewHireEssentials</svcCatalogCategory>
+    </categories>
+    <description>Request a new software license.</description>
+    <flow>item_1645028789802_NewAdobeSoftwareLicense</flow>
+    <image>ServicecCatalog_License</image>
+    <isFeatured>false</isFeatured>
+    <isProtected>false</isProtected>
+    <masterLabel>New License Request</masterLabel>
+    <status>Published</status>
+</SvcCatalogItemDef>

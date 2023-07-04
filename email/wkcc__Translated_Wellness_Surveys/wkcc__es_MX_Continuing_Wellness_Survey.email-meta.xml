@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Plantilla de email para la Encuesta de bienestar continuado de los empleados de Work.com</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Encuesta de bienestar continuado</name>
+    <style>none</style>
+    <subject>Encuesta de bienestar - Se ruega completar</subject>
+    <textOnly>Para garantizar el más alto nivel sanitario y de seguridad continuado en su lugar de trabajo, realice esta encuesta para reportar su estado de salud actual.
+
+Sus respuestas se utilizan únicamente para determinar si puede continuar trabajando en su lugar de trabajo. Los datos son confidenciales y solo para uso interno.
+
+El vínculo de la encuesta es exclusivo para usted. No reenvíe este mensaje a otros.
+
+{{Survey}}
+
+Le agradecemos su apoyo y cooperación.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<table>
+<tbody>
+<tr>
+<td><strong>Case Number: </strong>{!Case.CaseNumber}</td>
+</tr>
+<tr>
+<td><strong>Status: </strong>{!Case.Status}</td>
+</tr>
+<tr>
+<td><strong>Owner: </strong>{!Case.OwnerFullName}</td>
+</tr>
+<tr>
+<td><strong>Planned Start Date/Time: </strong>{!Case.wkitsm__PlannedStartDateTime__c}</td>
+</tr>
+<tr>
+<td><strong>Planned End Date/Time: </strong>{!Case.wkitsm__PlannedEndDateTime__c}</td>
+</tr>
+<tr>
+<td colspan="2"><hr />
+<h2>Your approval has been requested for {!Case.RecordType} #{!Case.CaseNumber}</h2>
+<p>To approve or reject the changes, reply to this email with one of the following words in the first line: APPROVE, APPROVED, YES, NO, REJECT, or REJECTED.</p>
+<p>You can add comments on the second line of the email.</p>
+<hr />
+<p>Alternatively, you can approve this request by clicking the following link: {!ApprovalRequest.Internal_URL}</p>
+<p>You can view the full details of this {!Case.RecordType} in the ITSC console: {!Case.Link}</p>
+<hr />
+<p><strong>Subject: </strong>{!Case.Subject}</p>
+<p><strong>Description: </strong>{!Case.Description}</p>
+<hr />
+<p><strong>{!Case.RecordType} Type: </strong>{!Case.wkitsm__ChangeType__c}</p>
+<p><strong>{!Case.RecordType} Impact: </strong>{!Case.wkitsm__ChangeImpact__c}</p>
+<p><strong>{!Case.RecordType} Risk Level: </strong>{!Case.wkitsm__RiskLevel__c}</p>
+<hr />
+Thank you.</td>
+</tr>
+</tbody>
+</table>

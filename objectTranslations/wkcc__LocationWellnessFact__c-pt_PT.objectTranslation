@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Facto de bem-estar - local</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Factos de bem-estar - local</value>
+    </caseValues>
+    <fields>
+        <help>Um identificador único para o registo no formato [“Cascata&quot; + &quot;:&quot; +] &lt;ID de localização&gt; + ‘:’ + &lt;Estado de saúde&gt;. O prefixo de cascata só está presente em registos que incluem valores do estado de saúde da localização secundária.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>O número total de funcionários independentemente do estado de saúde.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>O nível da localização da localização relacionada.</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>A localização com a qual este registo de factos está relacionado.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se verdadeiro, marca uma localização como a necessitar de reagregação; se falso, marca como a não necessitar de reagregação.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>A percentagem dos funcionários da localização que estão no estado de saúde.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>O número de funcionários com estado de saúde.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>O estado de saúde do funcionário.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

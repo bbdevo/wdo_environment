@@ -1,0 +1,11 @@
+.slds-input-has-icon.slds-input-has-icon_left-right .slds-input__icon:not(button) {
+    pointer-events: initial;
+}
+
+.slds-input-has-icon .slds-input__icon {
+    margin-top: -7px;
+}
+
+.slds-dropdown {
+    min-height: 60px;
+}

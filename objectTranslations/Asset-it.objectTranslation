@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ApplicationServer Reconciliation Mapping --></label>
+        <name>wkitsm__ApplicationServer_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ApplicationServer Reconciliation Matching --></label>
+        <name>wkitsm__ApplicationServer_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Application Reconciliation Mapping --></label>
+        <name>wkitsm__Application_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Application Reconciliation Matching --></label>
+        <name>wkitsm__Application_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- BusinessProcess Reconciliation Mapping --></label>
+        <name>wkitsm__BusinessProcess_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- BusinessProcess Reconciliation Matching --></label>
+        <name>wkitsm__BusinessProcess_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- BusinessService Reconciliation Mapping --></label>
+        <name>wkitsm__BusinessService_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- BusinessService Reconciliation Matching --></label>
+        <name>wkitsm__BusinessService_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DataCenter Reconciliation Mapping --></label>
+        <name>wkitsm__DataCenter_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DataCenter Reconciliation Matching --></label>
+        <name>wkitsm__DataCenter_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Database Reconciliation Mapping --></label>
+        <name>wkitsm__Database_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Database Reconciliation Matching --></label>
+        <name>wkitsm__Database_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Endpoint Reconciliation Mapping --></label>
+        <name>wkitsm__Endpoint_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Endpoint Reconciliation Matching --></label>
+        <name>wkitsm__Endpoint_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service Reconciliation Mapping --></label>
+        <name>wkitsm__Service_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service Reconciliation Matching --></label>
+        <name>wkitsm__Service_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TaniumCustomCI Reconciliation Mapping --></label>
+        <name>wkitsm__TaniumCustomCI_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TaniumCustomCI Reconciliation Matching --></label>
+        <name>wkitsm__TaniumCustomCI_Recon_Matching</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TaniumDiscoverCI Reconciliation Mapping --></label>
+        <name>wkitsm__TaniumDiscoverCI_Recon_Mapping</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TaniumDiscoverCI Reconciliation Matching --></label>
+        <name>wkitsm__TaniumDiscoverCI_Recon_Matching</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>wkitsm__AssignedTo__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cache --></label>
+        <name>wkitsm__Cache__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chassis Type --></label>
+        <name>wkitsm__ChassisType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chipset --></label>
+        <name>wkitsm__Chipset__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComputerId --></label>
+        <name>wkitsm__ComputerId__c</name>
+    </fields>
+    <fields>
+        <help>Oggetto di ricerca in ConfigurationItemClass__c</help>
+        <label><!-- Configuration Item Class --></label>
+        <name>wkitsm__ConfigurationItemClass__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Connection Type --></label>
+        <name>wkitsm__ConnectionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>wkitsm__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Consumption % --></label>
+        <name>wkitsm__CpuConsumption__c</name>
+    </fields>
+    <fields>
+        <label><!-- DatasourceInternal --></label>
+        <name>wkitsm__DatasourceInternal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datasource --></label>
+        <name>wkitsm__Datasource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Method --></label>
+        <name>wkitsm__DiscoverMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Profile --></label>
+        <name>wkitsm__DiscoverProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disk Consumption % --></label>
+        <name>wkitsm__DiskConsumption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disk Encryption --></label>
+        <name>wkitsm__DiskEncryption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposal Date --></label>
+        <name>wkitsm__DisposalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNS Servers --></label>
+        <name>wkitsm__DnsServers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Needs to be updated --></label>
+        <name>wkitsm__DoesNeedUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domain Name --></label>
+        <name>wkitsm__DomainName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Asset --></label>
+        <name>wkitsm__DuplicateId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>wkitsm__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encryption --></label>
+        <name>wkitsm__Encryption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interface --></label>
+        <name>wkitsm__Interface__c</name>
+    </fields>
+    <fields>
+        <label><!-- IP Address --></label>
+        <name>wkitsm__IpAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Private --></label>
+        <name>wkitsm__IsPrivate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Virtual --></label>
+        <name>wkitsm__IsVirtual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Logged In User --></label>
+        <name>wkitsm__LastLoggedInUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- The time the asset was last observed --></label>
+        <name>wkitsm__LastObserved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>wkitsm__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAC Address --></label>
+        <name>wkitsm__MacAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer --></label>
+        <name>wkitsm__Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Memory Consumption % --></label>
+        <name>wkitsm__MemoryConsumption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Memory --></label>
+        <name>wkitsm__Memory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>wkitsm__Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAT IP Address --></label>
+        <name>wkitsm__NatIpAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>wkitsm__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Online Status --></label>
+        <name>wkitsm__OnlineStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Ports --></label>
+        <name>wkitsm__OpenPorts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating System --></label>
+        <name>wkitsm__OperatingSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- OS Version --></label>
+        <name>wkitsm__OsVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power --></label>
+        <name>wkitsm__Power__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU --></label>
+        <name>wkitsm__Processor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procurement Date --></label>
+        <name>wkitsm__ProcurementDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- RAM --></label>
+        <name>wkitsm__Ram__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>wkitsm__SerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Size --></label>
+        <name>wkitsm__Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Speed --></label>
+        <name>wkitsm__Speed__c</name>
+    </fields>
+    <fields>
+        <label><!-- System UUID --></label>
+        <name>wkitsm__SystemUuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaniumAssetId --></label>
+        <name>wkitsm__TaniumAssetId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is actively managed by Tanium --></label>
+        <name>wkitsm__TaniumClientActive__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo contiene l&apos;ID proveniente dalla query CMDB Tanium</help>
+        <label><!-- TaniumCmdbId --></label>
+        <name>wkitsm__TaniumCmdbId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Disk Space --></label>
+        <name>wkitsm__TotalDiskSpace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>wkitsm__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Uptime --></label>
+        <name>wkitsm__Uptime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>wkitsm__Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>wkitsm__Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>wkitsm__Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wireless Networks --></label>
+        <name>wkitsm__WirelessNetworks__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Asset Details --></label>
+        <name>Asset_Details</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Application --></description>
+        <label><!-- Application --></label>
+        <name>wkitsm__Application</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Application Server --></description>
+        <label><!-- Application Server --></label>
+        <name>wkitsm__ApplicationServer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Business Process --></description>
+        <label><!-- Business Process --></label>
+        <name>wkitsm__BusinessProcess</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Business Service --></description>
+        <label><!-- Business Service --></label>
+        <name>wkitsm__BusinessService</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Data Center --></description>
+        <label><!-- Data Center --></label>
+        <name>wkitsm__DataCenter</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Database --></description>
+        <label><!-- Database --></label>
+        <name>wkitsm__Database</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Unmanaged Endpoint --></description>
+        <label><!-- Endpoint --></label>
+        <name>wkitsm__Endpoint</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Service --></description>
+        <label><!-- Service --></label>
+        <name>wkitsm__Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tanium Custom Configuration Item --></description>
+        <label><!-- Tanium Custom CI --></label>
+        <name>wkitsm__TaniumCustomCI</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tanium CI found by Discover Scan --></description>
+        <label><!-- Tanium Discover CI --></label>
+        <name>wkitsm__TaniumDiscoverCI</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tanium Managed Configuration Item --></description>
+        <label><!-- Tanium Managed CI --></label>
+        <name>wkitsm__TaniumManagedCI</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tanium Unmanaged Configuration Item --></description>
+        <label><!-- Tanium Unmanaged CI --></label>
+        <name>wkitsm__TaniumUnmanagedCI</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Mass_Delete_Records --></label>
+        <name>Mass_Delete_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewConfigurationItem --></label>
+        <name>wkitsm__NewConfigurationItem</name>
+    </webLinks>
+</CustomObjectTranslation>

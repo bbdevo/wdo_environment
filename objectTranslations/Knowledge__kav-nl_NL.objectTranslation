@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Hoofdtekst</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Geef de standaardinhoud voor gebruikers op bij het vastleggen van een nieuw ticket dat is gerelateerd aan dit artikel. Het veld kan blanco zijn, maar ook een instructie bevatten, zoals &quot;Beschrijf uw probleem of verzoek...&quot;</help>
+        <label>Casebeschrijving</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>U kunt het veld Caseonderwerp blanco laten; in dat geval komt er standaard de titel van het huidige artikel te staan.</help>
+        <label>Caseonderwerp</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label>Gerelateerd geval</label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel>Kennis</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label>Artikelgegevens</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>Eigenschappen</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label>Artikelgegevens</label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label>Eigenschappen</label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Artikelen over voordelen in HR-servicecentrum</description>
+        <label>HR - Voordelen</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikelen over werknemersrelaties in HR-servicecentrum</description>
+        <label>HR - Werknemersrelaties</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikelen over algemene zaken in HR-servicecentrum</description>
+        <label>HR - Algemeen</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikelen over verlof in HR-servicecentrum</description>
+        <label>HR - Verlof</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikelen over onboarding in HR-servicecentrum</description>
+        <label>HR - Onboarding</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikelen over payroll in HR-servicecentrum</description>
+        <label>HR - Payroll</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Maak een Knowledge-artikel voor inhoud voor/over informatietechnologie, zoals apparatuur, toegang of oplossingen voor prestaties van toepassingen</description>
+        <label>Knowledge-artikel van IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Bekende fout</label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Servicekennis</label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+</CustomObjectTranslation>

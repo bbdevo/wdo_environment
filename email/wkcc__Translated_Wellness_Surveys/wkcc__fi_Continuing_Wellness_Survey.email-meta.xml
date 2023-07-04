@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Work.com:in työntekijöiden terveydentilan kyselyn sähköpostimalli</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Terveydentilan kysely</name>
+    <style>none</style>
+    <subject>Terveydentilan kysely - Ole hyvä ja vastaa</subject>
+    <textOnly>Vastaa tähän kyselyyn ja ilmoita tämänhetkinen terveydentilasi, jotta voimme varmistaa työpaikkasi turvallisuuden.
+
+Vastauksiasi käytetään vain sen arvioimiseen, voitko jatkaa töitä työpaikallasi. Tiedot ovat luottamuksellisia ja niitä käsitellään vain yrityksen sisällä.
+
+Saamasi kyselyn linkki on yksilöllinen. Älä välitä tätä sähköpostia muille.
+
+{{Survey}}
+
+Kiitos, arvostamme tukeasi ja yhteistyötäsi.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

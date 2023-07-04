@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Șablon de e-mail pentru Work.com Sondajul Starea sănătății în perspectiva continuării activității la locul de muncă</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sondaj Starea sănătății pt. continuarea activității la locul de muncă</name>
+    <style>none</style>
+    <subject>Chestionar despre starea sănătății – Vă rugăm să completați</subject>
+    <textOnly>Pentru a asigura cel mai ridicat nivel posibil de siguranță și sănătate la locul de muncă, vă rugăm să completați acest chestionar despre starea actuală a sănătății dvs.
+
+Răspunsurile vor fi folosite numai pentru a stabili dacă vă puteți continua activitatea la locul de muncă. Datele sunt confidențiale și sunt destinate exclusiv uzului intern.
+
+Acest link la chestionar a fost creat anume pentru dvs. Nu trimiteți acest e-mail altor persoane.
+
+{{Survey}}
+
+Vă mulțumim mult pentru ajutor și cooperare.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Priprava faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Priprave faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Pripravo faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Priprave faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Priprave faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Priprav faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Pripravi faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Pripravam faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Pripravo faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Pripravami faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Pripravi faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Pripravah faz za ugotavljanje zdravstvenega stanja na lokaciji</value>
+    </caseValues>
+    <fields>
+        <help><!-- Error messages encountered from batch class failures --></help>
+        <label><!-- Errors --></label>
+        <name>wkcc__Errors__c</name>
+    </fields>
+    <fields>
+        <help>Enolični identifikator zapisa v obliki zapisa &lt;ID lokacije&gt; + ‘:’ + &lt;zdravstveno stanje&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Prikazuje stanje te lokacije za obdelavo.</help>
+        <label><!-- Job Status --></label>
+        <name>wkcc__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Not Processed</masterLabel>
+            <translation>Ni obdelano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>V obdelavi</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Lokacija, za katero je treba znova izračunati zapise z dejstvi.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Staging --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Ime</nameFieldLabel>
+</CustomObjectTranslation>

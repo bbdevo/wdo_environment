@@ -1,0 +1,27 @@
+<template>
+    <div class="slack-message" onclick={open}>
+        <h4 class="slack-message__source slds-text-color_weak slds-m-bottom_xx-small">
+            #&thinsp;{message.Channel_Name__c}
+        </h4>
+        <div class="slds-media">
+            <div class="slds-media__figure">
+                <span class="slds-avatar">
+                    <img alt={message.User_Name__c} src={message.User_Image_Url__c} title={message.User_Name__c} />
+                </span>
+            </div>
+            <div class="slds-media__body">
+                <div class="slack-message__details slds-m-bottom_xxx-small">
+                    <span class="slack-message__user">
+                        <strong>{message.User_Name__c} </strong>
+                    </span>
+                    <span class="slack-message__timestamp slds-text-color_weak slds-text-body_small">
+                        &bull; {message.formattedTimeStamp}
+                    </span>
+                </div>
+                <div class="slack-message__content">
+                    <lightning-formatted-rich-text value={message.Content__c}></lightning-formatted-rich-text>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

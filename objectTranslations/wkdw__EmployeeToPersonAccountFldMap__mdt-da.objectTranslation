@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Felttilknytning af medarbejder til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Felttilknytning af medarbejder til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Felttilknytningen af medarbejder til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Felttilknytninger af medarbejder til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Felttilknytninger af medarbejder til personkonto --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Felttilknytningerne af medarbejder til personkonto --></value>
+    </caseValues>
+    <fields>
+        <help>Fjern markeringen af dette, hvis du ikke ønsker, at denne tilknytning bruges, når du opretter en personkontoregistrering fra en medarbejderregistrering</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>API-navn på medarbejderfelt. __c skal inkluderes, hvis det er et tilpasset felt</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>API-navn på personkontfelt. __c skal inkluderes, hvis det er et tilpasset felt, eller __pc, hvis det er et tilpasset personkontofelt</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

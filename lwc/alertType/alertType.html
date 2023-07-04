@@ -1,0 +1,28 @@
+<template>
+    <div class="slack-subscription slds-grid slds-p-around_small">
+        <!-- Subscription Label -->
+        <div class="slds-col slds-align-middle">
+            <p class="slds-text-body_default">{subscription.label}</p>
+            <template if:true={subscription.description}>
+                <p class="slds-text-body_small slds-text-color_weak">{subscription.description}</p>
+            </template>
+        </div>
+        <!-- /Subscription Label -->
+
+        <!-- Subscription Toggle -->
+        <div class="slds-col slds-grow-none">
+            <lightning-input
+                class="toggle"
+                type="toggle"
+                label={subscription.label}
+                message-toggle-active=""
+                message-toggle-inactive=""
+                variant="label-hidden"
+                onchange={toggleChange}
+                checked={isChecked}
+                disabled={isDisabled}
+            ></lightning-input>
+        </div>
+        <!-- /Subscription Toggle -->
+    </div>
+</template>

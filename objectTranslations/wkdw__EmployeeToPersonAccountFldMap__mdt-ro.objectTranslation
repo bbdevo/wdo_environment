@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapare de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Maparea de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapări de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapările de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapării de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mapării de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapărilor de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mapărilor de câmpuri Angajat - Cont de persoană --></value>
+    </caseValues>
+    <fields>
+        <help>Debifați această opțiune dacă nu doriți să se utilizeze această mapare la crearea înregistrării de cont de persoană dintr-o înregistrare Angajat</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Numele API al câmpului de Angajat. Dacă este un câmp personalizat, trebuie să conțină __c</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Numele API al câmpului de Cont de persoană. Dacă este un câmp personalizat, trebuie să conțină __c. Dacă este câmp personalizat de Cont de persoană, trebuie să conțină __pc</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

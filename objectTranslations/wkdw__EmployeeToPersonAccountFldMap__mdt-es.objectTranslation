@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Asignación de Empleado a Cuenta personal --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Asignaciones de Empleado a Cuenta personal --></value>
+    </caseValues>
+    <fields>
+        <help>Anule esta opción si no desea que se utilice esta asignación al crear un registro Cuenta personal a partir de un registro Empleado</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de API del campo Empleado. Tiene que incluir __c si es un campo personalizado.</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de API del campo Cuenta personal. Tiene que incluir __c si es un campo personalizado o __pc si es un campo personalizado Cuenta personal.</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+</CustomObjectTranslation>

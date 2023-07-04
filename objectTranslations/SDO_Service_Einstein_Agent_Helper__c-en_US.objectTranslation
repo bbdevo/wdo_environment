@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Einstein Agent Helper</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Einstein Agent Helpers</value>
+    </caseValues>
+    <fields>
+        <help><!-- This rule is active and will apply recommendations --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comparator --></label>
+        <name>Comparator__c</name>
+        <picklistValues>
+            <masterLabel>!=</masterLabel>
+            <translation><!-- != --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation><!-- ends with --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>excludes</masterLabel>
+            <translation><!-- excludes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in</masterLabel>
+            <translation><!-- in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>includes</masterLabel>
+            <translation><!-- includes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not in</masterLabel>
+            <translation><!-- not in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation><!-- starts with --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Confidence level of Einstein ranging from 1-100. The highest confidence level will be applied as best option. --></help>
+        <label><!-- Confidence --></label>
+        <name>Confidence__c</name>
+    </fields>
+    <fields>
+        <help><!-- Case field to be evaluated when created or updated. Must match the API name of the field (e.g. Name, CustomField__c, etc.). --></help>
+        <label><!-- Field --></label>
+        <name>Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Case field the recommendation will be applied to. Must match the API name of the field (e.g. Name, CustomField__c, etc.). --></help>
+        <label><!-- Recommendation Field --></label>
+        <name>Recommendation_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value of the recommendation. Checkboxes are set to true or false. --></help>
+        <label><!-- Recommendation Value --></label>
+        <name>Recommendation_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide a number between 1-100 to define the relevance score --></help>
+        <label><!-- Recommended Article Score --></label>
+        <name>Recommended_Article_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended Article --></label>
+        <name>Recommended_Article__c</name>
+        <relationshipLabel><!-- Einstein Agent Helpers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Einstein Agent Helper Layout</layout>
+        <sections>
+            <label><!-- Recommendation --></label>
+            <section>Recommendation</section>
+        </sections>
+        <sections>
+            <label><!-- Rule --></label>
+            <section>Rule</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

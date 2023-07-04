@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Hide Emergency Map --></label>
+        <name>FSL__Hide_Emergency_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal SLR HomeAddress Geolocation --></label>
+        <name>FSL__Internal_SLR_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Services To Drip Feed --></label>
+        <name>FSL__NumberOfServicesToDripFeed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use enhanced scheduling and optimization --></label>
+        <name>FSL__O2_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Cluster Min Size (Closed Pilot) --></label>
+        <name>FSL__Service_Cluster_Min_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Cluster Proximity (Closed Pilot) --></label>
+        <name>FSL__Service_Cluster_Proximity__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Jobs --></label>
+        <name>FSL__System_Jobs__c</name>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesDispatched</masterLabel>
+            <translation>BATCH_ServicesDispatched</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesInJeopardy</masterLabel>
+            <translation>BATCH_ServicesInJeopardy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChatterNotification</masterLabel>
+            <translation>ChatterNotification</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Territory Level --></label>
+        <name>FSL__TerritoryLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsDemoData --></label>
+        <name>IsDemoData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility Type --></label>
+        <name>wkfsl__Facility_Type__c</name>
+        <picklistValues>
+            <masterLabel>Building</masterLabel>
+            <translation>Épület</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus</masterLabel>
+            <translation>Kampusz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floor</masterLabel>
+            <translation>Padló</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant</masterLabel>
+            <translation>Gyár</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site</masterLabel>
+            <translation>Helyszín</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Space</masterLabel>
+            <translation>Tér</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store</masterLabel>
+            <translation>Áruház</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual</masterLabel>
+            <translation>Virtuális</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation>Raktár</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>wkfsl__Location__c</name>
+        <relationshipLabel><!-- Service Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Maximum Occupancy --></label>
+        <name>wkfsl__Maximum_Occupancy__c</name>
+    </fields>
+    <fields>
+        <help>Ha bejelöli, ezt a szolgáltatási területet a rendszer felső szintű területként kezeli létesítményterv létrehozásakor</help>
+        <label><!-- Allow facility plans --></label>
+        <name>wkfsl__Select_for_Facility_Plan__c</name>
+    </fields>
+    <layouts>
+        <layout>Service Territory Layout</layout>
+        <sections>
+            <label><!-- Work.com --></label>
+            <section>Work.com</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Maximum Occupancy must be a positive number --></errorMessage>
+        <name>wkfsl__Max_Occupancy_Must_be_Positive</name>
+    </validationRules>
+</CustomObjectTranslation>

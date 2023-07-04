@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- FY Year --></label>
+        <name>myV2MOM__FY_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Published Date --></label>
+        <name>myV2MOM__Published_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>myV2MOM__Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published</masterLabel>
+            <translation><!-- Published --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>myV2MOM__User__c</name>
+        <relationshipLabel><!-- V2MOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Values --></label>
+        <name>myV2MOM__Values__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision --></label>
+        <name>myV2MOM__Vision__c</name>
+    </fields>
+</CustomObjectTranslation>

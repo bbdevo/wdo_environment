@@ -1,0 +1,21 @@
+<template>
+    <!--<lightning-card title="Get Current User Id" icon-name="standard:user">
+        <div class="slds-m-around_medium">
+            <p>User Id: {lwcUserId} </p>
+
+            actions={actions}
+        </div>
+    </lightning-card>-->
+    <template if:true={displayGraph}>
+        <c-avonni-relationship-graph
+            label="Role Hierarchy"
+            avatar-fallback-icon-name="standard:hierarchy"
+            groups={groups}
+
+            group-actions={groupActions}
+            item-actions={itemActions}
+            variant="vertical"
+            selected-item-name="mary-james"
+        ></c-avonni-relationship-graph>
+    </template>
+</template>

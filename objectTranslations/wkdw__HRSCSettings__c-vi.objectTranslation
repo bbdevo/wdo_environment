@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Cài Đặt HRSC --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Cài Đặt HRSC --></value>
+    </caseValues>
+    <fields>
+        <label><!-- MaxDaysCompletedTransition --></label>
+        <name>wkdw__MaxDaysCompletedTransition__c</name>
+    </fields>
+    <fields>
+        <help>Khi được chọn, chỉ các nhiệm vụ đang chờ xử lý được hiển thị trong danh sách kiểm tra nhiệm vụ đào tạo nhập môn. Khi được bỏ chọn, tất cả nhiệm vụ được hiển thị.</help>
+        <label><!-- Show Only Pending Tasks --></label>
+        <name>wkdw__ShowPendingTasksOnly__c</name>
+    </fields>
+    <fields>
+        <help>Tính Bằng Ngày</help>
+        <label><!-- Welcome Task Visibility Offset --></label>
+        <name>wkdw__WelcomeTaskVisibilityOffset__c</name>
+    </fields>
+</CustomObjectTranslation>

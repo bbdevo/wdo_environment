@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 健康確認 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>wkdw__Case__c</name>
+        <relationshipLabel><!-- Health Verifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Declination Reason --></label>
+        <name>wkdw__DeclinationReason__c</name>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation>サンプル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious</masterLabel>
+            <translation><!-- Religious --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Declined --></label>
+        <name>wkdw__Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>wkdw__Employee__c</name>
+        <relationshipLabel><!-- Health Verifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Health Credential Document Date --></label>
+        <name>wkdw__HealthCredentialDocumentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Credential Expiration Date --></label>
+        <name>wkdw__HealthCredentialExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Verification Status --></label>
+        <name>wkdw__Status__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>却下済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Verified</masterLabel>
+            <translation>未確認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>承認待ち</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verified</masterLabel>
+            <translation>確認済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Health Verification Method --></label>
+        <name>wkdw__Type__c</name>
+        <picklistValues>
+            <masterLabel>Documentation of COVID-19 Recovery</masterLabel>
+            <translation>COVID-19 からの回復に関する書類</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negative COVID-19 Test Results</masterLabel>
+            <translation>COVID-19 テストの陰性結果</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof of Vaccination</masterLabel>
+            <translation>ワクチン接種の証明</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Verification Date --></label>
+        <name>wkdw__VerificationDate__c</name>
+    </fields>
+    <nameFieldLabel><!-- Health Verification Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Reject --></label>
+        <name>Reject</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Verify --></label>
+        <name>Verify</name>
+    </quickActions>
+</CustomObjectTranslation>

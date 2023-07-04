@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SvcCatalogItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <categories>
+        <isPrimaryCategory>true</isPrimaryCategory>
+        <sortOrder>2</sortOrder>
+        <svcCatalogCategory>category_1650558765996_EmployeeRelations</svcCatalogCategory>
+    </categories>
+    <flow>item_1653491826212_DisciplinaryAction</flow>
+    <image>AdobeStock_232430766</image>
+    <isFeatured>false</isFeatured>
+    <isProtected>false</isProtected>
+    <masterLabel>Disciplinary Action</masterLabel>
+    <sharedTo>
+        <group>HR_HR_Managers</group>
+    </sharedTo>
+    <status>Published</status>
+</SvcCatalogItemDef>

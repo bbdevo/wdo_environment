@@ -1,0 +1,23 @@
+<template>
+    <li role="presentation" class="slds-listbox__item" onmousedown={preventDefault} onclick={select} onmouseenter={updateFocusIndex} onmouseover={preventDefault}>
+        <div class={optionClasslist} role="option">
+            <template if:false={option.icon}>
+                <template if:true={isSelected}>
+                    <span class="slds-media__figure">
+                        <lightning-icon class="slds-listbox__icon-selected" icon-name="utility:check" size="x-small"></lightning-icon>
+                    </span>
+                </template>
+            </template>
+            <template if:true={option.icon}>
+                <span class="slds-media__figure strike-custom-icon">
+                    <lightning-icon class="slds-m-right_x-small" icon-name={option.icon} size="x-small"></lightning-icon>
+                </span>
+            </template>
+            <span class="slds-media__body">
+                <span class="slds-truncate" title={option.label}>
+                    {option.label}
+                </span>
+            </span>
+        </div>
+    </li>
+</template>

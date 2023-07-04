@@ -1,0 +1,68 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 11-05-2020
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+  Modifications Log 
+  Ver   Date         Author                               Modification
+  1.0   11-05-2020   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+-->
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:availableForFlowScreens,lightning:backgroundUtilityItem" controller="UIThemeController"
+    access="global">
+    <aura:attribute name="label" type="String" />
+    <aura:attribute name="destinationURL" type="String" default="https://salesforce.com/" />
+    <aura:attribute name="destinationType" type="String" default="standard" />
+    <aura:attribute name="targetRecordId" type="String" />
+    <aura:attribute name="navigationType" type="String" default="next"/>
+    <aura:attribute name="variantType" type="String" default="neutral" />
+    <aura:attribute name="disabledFlag" type="Boolean" default="false" />
+    <aura:attribute name="fire" type="Boolean" default="false" />
+    <aura:attribute name="label2" type="String" />
+    <aura:attribute name="destinationURL2" type="String" default="https://salesforce.com/" />
+    <aura:attribute name="destinationType2" type="String" default="standard" />
+    <aura:attribute name="targetRecordId2" type="String" />
+    <aura:attribute name="navigationType2" type="String" default="next"/>
+    <aura:attribute name="variantType2" type="String" default="neutral" />
+    <aura:attribute name="disabledFlag2" type="Boolean" default="false" />
+    <aura:attribute name="fire2" type="Boolean" default="false" />
+    <aura:attribute name="Buttons2" type="Boolean" default="false" />
+    <aura:attribute name="label3" type="String" />
+    <aura:attribute name="destinationURL3" type="String" default="https://salesforce.com/" />
+    <aura:attribute name="destinationType3" type="String" default="standard" />
+    <aura:attribute name="targetRecordId3" type="String" />
+    <aura:attribute name="navigationType3" type="String" default="next"/>
+    <aura:attribute name="variantType3" type="String" default="neutral" />
+    <aura:attribute name="disabledFlag3" type="Boolean" default="false" />
+    <aura:attribute name="fire3" type="Boolean" default="false" />
+    <aura:attribute name="Buttons3" type="Boolean" default="false" />    
+    <aura:attribute name="h_destinationURL" type="String" />
+    <aura:attribute name="h_destinationType" type="String" />
+    <aura:attribute name="h_targetRecordId" type="String" />
+    <aura:attribute name="h_navigationType" type="String" />
+
+    <aura:attribute name="Theme" type="String" />
+    <aura:attribute name="isLEX" type="Boolean" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <div class="slds-form-element">
+        <div class="container">
+            <lightning:layout>
+                <lightning:layoutItem padding="around-small">
+                    <lightning:button variant="{!v.variantType}" label="{!v.label}" disabled="{!v.disabledFlag}" onclick="{!c.handleClick}" />
+                </lightning:layoutItem>
+                <lightning:layoutItem padding="around-small">
+                    <aura:if isTrue="{!v.Buttons2}">
+                        <lightning:button variant="{!v.variantType2}" label="{!v.label2}" disabled="{!v.disabledFlag2}" onclick="{!c.handleClick2}" />
+                    </aura:if>
+                </lightning:layoutItem>
+                <lightning:layoutItem padding="around-small">
+                    <aura:if isTrue="{!v.Buttons3}">
+                        <lightning:button variant="{!v.variantType3}" label="{!v.label3}" disabled="{!v.disabledFlag3}" onclick="{!c.handleClick3}" />
+                    </aura:if>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </div>
+    </div>
+</aura:component>

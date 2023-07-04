@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label>Κυρίως τμήμα</label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <help>Εισαγάγετε το προεπιλεγμένο περιεχόμενο για χρήστες όταν καταγράφουν ένα νέο δελτίο που σχετίζεται με αυτό το άρθρο. Το πεδίο μπορεί να είναι κενό ή να περιέχει οδηγίες, όπως &quot;Περιγράψτε το ζήτημα ή το αίτημά σας...&quot;</help>
+        <label>Περιγραφή υπόθεσης</label>
+        <name>CaseDescription__c</name>
+    </fields>
+    <fields>
+        <help>Μπορείτε να αφήσετε κενό το πεδίο &quot;Θέμα υπόθεσης&quot; και θα οριστεί από προεπιλογή στον τρέχοντα τίτλο άρθρου.</help>
+        <label>Θέμα υπόθεσης</label>
+        <name>CaseSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>RelatedCase__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>ITSC - Known Error Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ITSC - Service Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Details --></label>
+            <section>Article Details</section>
+        </sections>
+        <sections>
+            <label><!-- Properties --></label>
+            <section>Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Article Visibility --></label>
+            <section>Article Visibility</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Άρθρα για παροχές στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Παροχές</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για σχέσεις υπαλλήλων στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Σχέσεις υπαλλήλων</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα γενικού περιεχομένου στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Γενικά</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a knowledge article for human resources content, such as recruitment or handling employee relations, payroll, benefits, and training --></description>
+        <label><!-- HR Knowledge Article --></label>
+        <name>HR_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για άδειες στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Άδεια</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για υποδοχή νέων μελών στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Υποδοχή νέων μελών</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για μισθοδοσία στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Μισθοδοσία</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Δημιουργήστε ένα άρθρο γνωσιακής βάσης για περιεχόμενο τεχνολογίας της πληροφορικής, όπως ο εξοπλισμό, η πρόσβαση ή οι λύσεις επιδόσεων εφαρμογής</description>
+        <label>Άρθρο του Knowledge IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knowledge Article --></label>
+        <name>KnowledgeArticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Error --></label>
+        <name>KnownError</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Knowledge --></label>
+        <name>ServiceKnowledge</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Asset --></label>
+        <name>wkitsm__AssetId__c</name>
+        <relationshipLabel><!-- CaseActionAssets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CaseAction --></label>
+        <name>wkitsm__CaseActionId__c</name>
+        <relationshipLabel><!-- CaseActionAssets --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

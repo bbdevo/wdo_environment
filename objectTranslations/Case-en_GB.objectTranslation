@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HcCareGapList --></label>
+        <name>HealthCloudGA__HcCareGapList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Concierge Ticket Details --></label>
+        <name>wkdw__Concierge_Ticket_Details</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Provide Actual End Date --></help>
+        <label><!-- Actual End Date --></label>
+        <name>Actual_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide Actual Start Date --></help>
+        <label><!-- Actual Start Date --></label>
+        <name>Actual_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anticipated Work Return Date --></label>
+        <name>Anticipated_Work_Return_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Change Request is Rejected, please review Assessor Comments field for reason --></help>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved by Legal</masterLabel>
+            <translation><!-- Approved by Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved by Manager</masterLabel>
+            <translation><!-- Approved by Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by Legal</masterLabel>
+            <translation><!-- Rejected by Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by Manager</masterLabel>
+            <translation><!-- Rejected by Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted to Legal</masterLabel>
+            <translation><!-- Submitted to Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted to Manager</masterLabel>
+            <translation><!-- Submitted to Manager --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Change Approval Status --></help>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Rejection Reason --></label>
+        <name>Change_Rejection_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Incident --></label>
+        <name>Date_of_Incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Day Away from Work --></label>
+        <name>First_Day_Away_from_Work__c</name>
+    </fields>
+    <fields>
+        <help>Date by when this care gap should be closed.</help>
+        <label><!-- Due Date --></label>
+        <name>HealthCloudGA__DueDate__c</name>
+    </fields>
+    <fields>
+        <help>Potential savings by closing this care gap.</help>
+        <label><!-- Financial Value --></label>
+        <name>HealthCloudGA__FinancialValue__c</name>
+    </fields>
+    <fields>
+        <help>Rank by which this care gap is sorted.</help>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <help>ID of the source agency&apos;s measure for this care gap.</help>
+        <label><!-- Source Agency Measure ID --></label>
+        <name>HealthCloudGA__SourceAgencyMeasureID__c</name>
+    </fields>
+    <fields>
+        <help>Version of the source agency&apos;s ID measure for this care gap.</help>
+        <label><!-- Source Agency Measure Version --></label>
+        <name>HealthCloudGA__SourceAgencyMeasureVersion__c</name>
+    </fields>
+    <fields>
+        <help>Agency that identified the care gap.</help>
+        <label><!-- Source Agency --></label>
+        <name>HealthCloudGA__SourceAgency__c</name>
+    </fields>
+    <fields>
+        <help>Record ID in the source system.</help>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemID__c</name>
+    </fields>
+    <fields>
+        <help>When last updated.</help>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Name of the system where this care gap was identified.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Documentation Received Date --></label>
+        <name>LOA_Documentation_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Documentation Sent Date --></label>
+        <name>LOA_Documentation_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Documents Received from Employee --></label>
+        <name>LOA_Documents_Received_from_Employee__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Documents Sent to Employee --></label>
+        <name>LOA_Documents_Sent_to_Employee__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Eligibility Verified --></label>
+        <name>LOA_Eligibility_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Reason --></label>
+        <name>LOA_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bereavement</masterLabel>
+            <translation><!-- Bereavement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonding / Adoption / Childbirth</masterLabel>
+            <translation><!-- Bonding / Adoption / Childbirth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extended vacation</masterLabel>
+            <translation><!-- Extended vacation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family or personal leave</masterLabel>
+            <translation><!-- Family or personal leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long-term disability</masterLabel>
+            <translation><!-- Long-term disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military leave</masterLabel>
+            <translation><!-- Military leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ongoing education.</masterLabel>
+            <translation><!-- Ongoing education. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sabbatical</masterLabel>
+            <translation><!-- Sabbatical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short-term disability</masterLabel>
+            <translation><!-- Short-term disability --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Letter Created Date --></label>
+        <name>Letter_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- On Behalf Of --></label>
+        <name>On_Behalf_Of__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub-Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Relations - Complaint</masterLabel>
+            <translation><!-- Employee Relations - Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Relations - Disciplinary Action</masterLabel>
+            <translation><!-- Employee Relations - Disciplinary Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Relations - Wage Issues</masterLabel>
+            <translation><!-- Employee Relations - Wage Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Relations - Workspace Safety</masterLabel>
+            <translation><!-- Employee Relations - Workspace Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Inquiry</masterLabel>
+            <translation><!-- HR Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Transaction - Place Employee on Leave of Absence</masterLabel>
+            <translation><!-- HR Transaction - Place Employee on Leave of Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuition Reimbursement</masterLabel>
+            <translation><!-- Tuition Reimbursement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- demoRecommendations --></label>
+        <name>demoRecommendations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Category --></label>
+        <name>wkdw__TicketCategory__c</name>
+        <picklistValues>
+            <masterLabel>HR - Benefits</masterLabel>
+            <translation><!-- HR - Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Employee Performance</masterLabel>
+            <translation><!-- HR - Employee Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Employee Relations</masterLabel>
+            <translation><!-- HR - Employee Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - General</masterLabel>
+            <translation><!-- HR - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Leave</masterLabel>
+            <translation><!-- HR - Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Onboarding</masterLabel>
+            <translation><!-- HR - Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Payroll</masterLabel>
+            <translation><!-- HR - Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>IT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incident</masterLabel>
+            <translation><!-- Incident --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The outage and effort to backout this change. --></help>
+        <label><!-- Backout Time --></label>
+        <name>wkitsm__BackoutTime__c</name>
+        <picklistValues>
+            <masterLabel>Less Than 1 Hour Outage with Minimal Reversal Time</masterLabel>
+            <translation><!-- Less Than 1 Hour Outage with Minimal Reversal Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More Than 1 Hour Outage with Significant Reversal Time</masterLabel>
+            <translation><!-- More Than 1 Hour Outage with Significant Reversal Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Backout Option</masterLabel>
+            <translation><!-- No Backout Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Outage and Less Than 1 Hour</masterLabel>
+            <translation><!-- No Outage and Less Than 1 Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Outage and More Than 1 Hour</masterLabel>
+            <translation><!-- No Outage and More Than 1 Hour --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Benefits --></label>
+        <name>wkitsm__Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Risks --></label>
+        <name>wkitsm__BusinessRisks__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAB Note --></label>
+        <name>wkitsm__CabNote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>wkitsm__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Description --></label>
+        <name>wkitsm__ChangeDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Effort --></label>
+        <name>wkitsm__ChangeEffort__c</name>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation><!-- Major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Significant</masterLabel>
+            <translation><!-- Significant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Impact --></label>
+        <name>wkitsm__ChangeImpact__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Owner --></label>
+        <name>wkitsm__ChangeOwner__c</name>
+        <relationshipLabel><!-- Cases (Change Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Plan --></label>
+        <name>wkitsm__ChangePlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Type --></label>
+        <name>wkitsm__ChangeType__c</name>
+        <picklistValues>
+            <masterLabel>Emergency</masterLabel>
+            <translation><!-- Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deployment Plan --></label>
+        <name>wkitsm__DeploymentPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diagnostics --></label>
+        <name>wkitsm__Diagnostics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>wkitsm__DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Reason --></label>
+        <name>wkitsm__EscalationReason__c</name>
+    </fields>
+    <fields>
+        <help><!-- The expected service outage resulting from this change. --></help>
+        <label><!-- Expected Outage --></label>
+        <name>wkitsm__ExpectedOutage__c</name>
+        <picklistValues>
+            <masterLabel>2 to 3 Hours</masterLabel>
+            <translation><!-- 2 to 3 Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 to 5 Hours</masterLabel>
+            <translation><!-- 3 to 5 Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less Than 2 Hours</masterLabel>
+            <translation><!-- Less Than 2 Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More Than 5 Hours</masterLabel>
+            <translation><!-- More Than 5 Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Outage</masterLabel>
+            <translation><!-- No Outage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Financial Risk --></label>
+        <name>wkitsm__FinancialRisk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact Details --></label>
+        <name>wkitsm__ImpactDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact --></label>
+        <name>wkitsm__Impact__c</name>
+        <picklistValues>
+            <masterLabel>Business Unit</masterLabel>
+            <translation><!-- Business Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company</masterLabel>
+            <translation><!-- Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department</masterLabel>
+            <translation><!-- Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Known Error --></label>
+        <name>wkitsm__KnownError__c</name>
+    </fields>
+    <fields>
+        <help><!-- The level of testing completed for the submitted change. --></help>
+        <label><!-- Level of Testing --></label>
+        <name>wkitsm__LevelOfTesting__c</name>
+        <picklistValues>
+            <masterLabel>Unit Test</masterLabel>
+            <translation><!-- Unit Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Test and QA</masterLabel>
+            <translation><!-- Unit Test and QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Test, QA, and UAT</masterLabel>
+            <translation><!-- Unit Test, QA, and UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Major Incident Manager --></label>
+        <name>wkitsm__MajorIncidentManager__c</name>
+        <relationshipLabel><!-- Cases (Major Incident Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Major Incident --></label>
+        <name>wkitsm__MajorIncident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Management Assessments --></label>
+        <name>wkitsm__ManagementAssessments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable the option to select a value for the Priority field. When disabled, the Priority value is calculated based on the values of the Impact and Urgency fields. --></help>
+        <label><!-- Manual priority --></label>
+        <name>wkitsm__ManualPriority__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of teams needed to execute a change. --></help>
+        <label><!-- Number of Teams --></label>
+        <name>wkitsm__NumberOfTeams__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5+</masterLabel>
+            <translation><!-- 5+ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Open Task Count --></label>
+        <name>wkitsm__OpenTaskCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned End Date Time --></label>
+        <name>wkitsm__PlannedEndDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Start Date Time --></label>
+        <name>wkitsm__PlannedStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Queue --></label>
+        <name>wkitsm__PreviousQueue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Configuration Item --></label>
+        <name>wkitsm__PrimaryCI__c</name>
+        <relationshipLabel><!-- Cases with this as Primary CI --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Previous experience with success of change. --></help>
+        <label><!-- Prior Experience --></label>
+        <name>wkitsm__PriorExperience__c</name>
+        <picklistValues>
+            <masterLabel>No Experience</masterLabel>
+            <translation><!-- No Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Successful</masterLabel>
+            <translation><!-- Successful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Successful with Issues</masterLabel>
+            <translation><!-- Successful with Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsuccessful After Issues</masterLabel>
+            <translation><!-- Unsuccessful After Issues --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Problem Manager --></label>
+        <name>wkitsm__ProblemManager__c</name>
+        <relationshipLabel><!-- Cases (Problem Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Problem Source --></label>
+        <name>wkitsm__ProblemSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported By --></label>
+        <name>wkitsm__ReportedBy__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reported Date Time --></label>
+        <name>wkitsm__ReportedDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Details --></label>
+        <name>wkitsm__ResolutionDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Type --></label>
+        <name>wkitsm__ResolutionType__c</name>
+        <picklistValues>
+            <masterLabel>Information Shared</masterLabel>
+            <translation><!-- Information Shared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Known Error</masterLabel>
+            <translation><!-- Known Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Found</masterLabel>
+            <translation><!-- Resolution Found --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Error</masterLabel>
+            <translation><!-- User Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workaround Accepted</masterLabel>
+            <translation><!-- Workaround Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workaround Declined</masterLabel>
+            <translation><!-- Workaround Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources --></label>
+        <name>wkitsm__Resources__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Details --></label>
+        <name>wkitsm__RiskDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Level --></label>
+        <name>wkitsm__RiskLevel__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Risk Mitigation --></label>
+        <name>wkitsm__RiskMitigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Score --></label>
+        <name>wkitsm__RiskScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollback Plan --></label>
+        <name>wkitsm__RollbackPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>wkitsm__RootCause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>wkitsm__Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Provider --></label>
+        <name>wkitsm__ServiceProvider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>wkitsm__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcategory --></label>
+        <name>wkitsm__Subcategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Details --></label>
+        <name>wkitsm__SubmissionDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Symptoms --></label>
+        <name>wkitsm__Symptoms__c</name>
+    </fields>
+    <fields>
+        <label><!-- TeamNotifiedTime --></label>
+        <name>wkitsm__TeamNotifiedTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Risk --></label>
+        <name>wkitsm__TechnicalRisk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Plan --></label>
+        <name>wkitsm__TestPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>wkitsm__Urgency__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workaround Details --></label>
+        <name>wkitsm__WorkaroundDetails__c</name>
+    </fields>
+    <layouts>
+        <layout>HR - Leave Request</layout>
+        <sections>
+            <label><!-- LOA Information --></label>
+            <section>LOA Information</section>
+        </sections>
+        <sections>
+            <label><!-- LOA Process --></label>
+            <section>LOA Process</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Idea Case Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Known Error --></label>
+        <name>Create_Known_Error</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Demo_HR_Case_Update_Summary_View --></label>
+        <name>Demo_HR_Case_Update_Summary_View</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Service Knowledge --></label>
+        <name>ITSCServiceKnowledge</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- IT Case Summary --></label>
+        <name>IT_Case_Summary</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Swarm --></label>
+        <name>Swarm</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Defines a care gap for an individual --></description>
+        <label><!-- CareGap --></label>
+        <name>HealthCloudGA__CareGap</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Defines a care plan for an individual and their care team --></description>
+        <label><!-- CarePlan --></label>
+        <name>HealthCloudGA__CarePlan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Idea Cases created from Experience Builder Idea Box --></description>
+        <label><!-- Idea --></label>
+        <name>Idea</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Request assistance with non-tech office equipment and kitchen supplies. --></description>
+        <label><!-- Workplace Services --></label>
+        <name>Workplace_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HR - Benefits --></label>
+        <name>wkdw__HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HR - Employee Relations --></label>
+        <name>wkdw__HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HR - General --></label>
+        <name>wkdw__HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HR - Leave --></label>
+        <name>wkdw__HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HR - Onboarding --></label>
+        <name>wkdw__HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HR - Payroll --></label>
+        <name>wkdw__HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tickets related to the operation of your company&apos;s technology environment. Use this record type to fix issues and resolve user requests related to technology, such as equipment problems, access requests, or application performance. --></description>
+        <label><!-- IT --></label>
+        <name>wkdw__IT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a request for a change on a recurring or trending problem or incident. --></description>
+        <label><!-- Change --></label>
+        <name>wkitsm__Change</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Log a ticket for a loss or disruption of operations, services, or functions. --></description>
+        <label><!-- Incident --></label>
+        <name>wkitsm__Incident</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Log a ticket for a major loss or disruption of operations, services, or functions. --></description>
+        <label><!-- Major Incident --></label>
+        <name>wkitsm__MajorIncident</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Correlate tickets around incidents that are related to a failure in the IT infrastructure. --></description>
+        <label><!-- Problem --></label>
+        <name>wkitsm__Problem</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Log a service request for support, delivery, information, advice, or documentation. Requests are not related to failures in the IT infrastructure. --></description>
+        <label><!-- Request --></label>
+        <name>wkitsm__Request</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- All changes require a lead time of at least 7 days. --></errorMessage>
+        <name>ITSCLeadTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Description is required. --></errorMessage>
+        <name>wkitsm__Case_Description_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subject is required. --></errorMessage>
+        <name>wkitsm__Case_Subject_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot edit a case that is in &apos;Closed&apos; state. --></errorMessage>
+        <name>wkitsm__Case_Update_Closed_Rejected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To move this Change case to &apos;Approved&apos; state, you must submit it for approval. --></errorMessage>
+        <name>wkitsm__ChangeStatusApproved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot edit a case when it is in &apos;Submitted for Approval&apos; state. --></errorMessage>
+        <name>wkitsm__ChangedLocked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Planned start time cannot be after planned end time. --></errorMessage>
+        <name>wkitsm__ITSCStartDateNotAfterEndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To close the case, first move the case to &apos;Resolved&apos; state. --></errorMessage>
+        <name>wkitsm__Status_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot reopen a closed incident. Open a new incident. --></errorMessage>
+        <name>wkitsm__Status_ReOpen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select the resolution type and details. --></errorMessage>
+        <name>wkitsm__Status_Resolved</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Apply_Care_Plan_Templates --></label>
+        <name>HealthCloudGA__Apply_Care_Plan_Templates</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete_Records --></label>
+        <name>Mass_Delete_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

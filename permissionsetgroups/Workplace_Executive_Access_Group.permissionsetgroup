@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View all Work.com records that are owned by or shared with them. View and edit employee records that are owned by or shared with them.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Workplace Executive Access Group</label>
+    <permissionSets>Workplace_Command_Center_Access</permissionSets>
+    <permissionSets>Workplace_Executive_Objects</permissionSets>
+    <permissionSets>wkcc__b2w_OperationsExecutive</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

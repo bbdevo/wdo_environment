@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used by ComplianceQuest to store the mapping between Location and CQ Locations. --></help>
+        <label><!-- CQ Location --></label>
+        <name>cqworkapp__CQ_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpenDate db days --></label>
+        <name>db_days_OpenDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- wkcc_StatusLastUpdated__c db days --></label>
+        <name>db_days_wkcc_StatusLastUpdated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Occupation --></label>
+        <name>tractionguest__Current_Occupation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum capacity onsite.  This will change during covid re-opening. --></help>
+        <label><!-- Max Capacity --></label>
+        <name>tractionguest__Max_Capacity__c</name>
+    </fields>
+    <fields>
+        <help>To je lokacija 2. ravni v hierarhiji za podrejene lokacije, ki se uporablja za zbiranje zdravstvenih stanj. To polje ostane prazno za korenske lokacije.</help>
+        <label><!-- Level 2 Location --></label>
+        <name>wkcc__Level2LocationId__c</name>
+    </fields>
+    <fields>
+        <help>Hierarhija lokacij od korenske lokacije do te lokacije v obliki zapisa &lt;ID 1. ravni&gt;:&lt;ID 2. ravni&gt;:&lt;ID 3. ravni&gt;.</help>
+        <label><!-- Location Path --></label>
+        <name>wkcc__LocationPath__c</name>
+    </fields>
+    <fields>
+        <help>Datum zadnje spremembe stanja</help>
+        <label><!-- Status Last Updated --></label>
+        <name>wkcc__StatusLastUpdated__c</name>
+    </fields>
+    <fields>
+        <help>Trenutno stanje lokacije</help>
+        <label><!-- Status --></label>
+        <name>wkcc__Status__c</name>
+        <picklistValues>
+            <masterLabel>Hard Close</masterLabel>
+            <translation>Popolnoma zaprto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Odprto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced Capacity</masterLabel>
+            <translation><!-- Reduced Capacity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soft Close</masterLabel>
+            <translation>Delno zaprto</translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Location name is limited to 40 characters --></errorMessage>
+        <name>wkcc__LimitNameLength</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Location name must be lower or equal to 40 characters. --></errorMessage>
+        <name>wkfsl__Location_name_maximum_40</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Location must have timezone field populated --></errorMessage>
+        <name>wkfsl__Timezone_Required_Field</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_Survey --></label>
+        <name>wkcc__Send_Survey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_List --></label>
+        <name>wkcc__Send_Survey_List</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives access to employees and requesters to create Incidents and Requests.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>IT Service Center Employee Requester</label>
+    <permissionSets>IT_Service_Center_Knowledge</permissionSets>
+    <permissionSets>IT_Service_Center_Standard_Field_Access</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center_Request_Menu_Requester</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center_Requester</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

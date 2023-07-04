@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Settings for the Workplace Command Center application.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>wkcc__EmployeeIndividualSyncDisabled__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If not disabled, then updates to an Employee are automatically synced to the related individual.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If not disabled, then updates to an Employee are automatically synced to the related individual.</inlineHelpText>
+        <label>Employee Individual Sync Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocationWellnessBatchSize__c</fullName>
+        <defaultValue>200</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of elements to process in one batch run for Location Wellness Status aggregation. This value must be between 1 and 200 or it will be ignored. The default is 200. Lower this value if the batch process encounters governor limit errors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of elements to process in one batch run for Location Wellness Status aggregation. This value must be between 1 and 200 or it will be ignored. The default is 200. Lower this value if the batch process encounters governor limit errors.</inlineHelpText>
+        <label>Location Wellness Batch Size</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocationWellnessFactBatchSize__c</fullName>
+        <defaultValue>200</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of elements to process in one batch run for Location Wellness Fact aggregation. This value must be between 1 and 200 or it will be ignored. The default is 200. Lower this value if the batch process encounters governor limit errors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of elements to process in one batch run for Location Wellness Fact aggregation. This value must be between 1 and 200 or it will be ignored. The default is 200. Lower this value if the batch process encounters governor limit errors.</inlineHelpText>
+        <label>Location Wellness Fact Batch Size</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocationWellnessFactScheduleMins__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of minutes used for scheduling the next run of the batch that processes the location wellness fact records. This number must be between 0 and 1440 or it will be ignored. The default is 1.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of minutes used for scheduling the next run of the batch that processes the location wellness fact records. This number must be between 0 and 1440 or it will be ignored. The default is 1.</inlineHelpText>
+        <label>Location Wellness Fact Batch Schedule Mn</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocationWellnessScheduleMins__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of minutes used for scheduling the next run of the batch that processes the location wellness records. This number must be between 0 and 1440 or it will be ignored. The default is 1.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of minutes used for scheduling the next run of the batch that processes the location wellness records. This number must be between 0 and 1440 or it will be ignored. The default is 1.</inlineHelpText>
+        <label>Location Wellness Batch Schedule Mins</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocationWellnessStagingBatchSize__c</fullName>
+        <defaultValue>200</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Deprecated. Use LocationWellnessBatchSize__c. The wellness staging record batch size used when processing the records for the location. This value must be between 1 and 200 or it will be ignored. The default is 200. Lower this value if the batch process encounters governor limit errors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The wellness staging record batch size used when processing the records for the location. This value must be between 1 and 200 or it will be ignored. The default is 200. Lower this value if the batch process encounters governor limit errors.</inlineHelpText>
+        <label>Location Wellness Staging Batch Size</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__LocationWellnessStagingScheduleMins__c</fullName>
+        <defaultValue>5</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Deprecated. Use LocationWellnessScheduleMins__c. The number of minutes used for scheduling the next run of the batch that processes the location wellness staging records. This number must be between 0 and 1440 or it will be ignored. The default is 5.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of minutes used for scheduling the next run of the batch that processes the location wellness staging records. This number must be between 0 and 1440 or it will be ignored. The default is 5.</inlineHelpText>
+        <label>Location Wellness Staging Schedule Mins</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkcc__SendSurveyBatchSize__c</fullName>
+        <defaultValue>1000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The batch size used when sending surveys.  This value must be between 1 and 5000 or it will be ignored.  The default is 1000.  Lower this value if the batch process encounters governor limits.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The batch size used when sending surveys.  This value must be between 1 and 5000 or it will be ignored.  The default is 200.  Lower this value if the batch process encounters governor limits.</inlineHelpText>
+        <label>Send Survey Batch Size</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

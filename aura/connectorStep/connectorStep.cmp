@@ -1,0 +1,41 @@
+<!-- Strike Connector v2.0.0 -->
+<aura:component extensible="true" extends="c:step">
+    <!-- Internal -->
+    <aura:set attribute="disableNext" value="true"/>
+    <aura:attribute name="isComplete" type="Boolean" default="false"/>
+    <aura:attribute name="loading" type="Boolean" default="false"/>
+    <!-- /Internal -->
+
+    <!-- Methods -->
+    <aura:method name="_authorize" action="{!c.authorize}"/>
+    <!-- /Methods -->
+
+    <lightning:spinner class="{!if(v.loading, '', 'slds-hide')}" alternativeText="Loading..."/>
+
+    <div class="slds-container slds-container_medium slds-container_center">
+        <div class="{!'slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_' + (v.isComplete ? 'success' : 'offline')}" role="alert">
+            <span class="slds-assistive-text">{!(v.isComplete ? 'success' : 'offline')}</span>
+            <span>
+                <lightning:icon class="slds-m-right_x-small" iconName="{!'utility:' + (v.isComplete ? 'success' : 'offline')}" size="small" variant="inverse" alternativeText="{!v.isComplete ? 'success' : 'offline'}" title="{!v.isComplete ? 'success' : 'offline'}"/>
+            </span>
+            <h2>
+                <aura:if isTrue="{!not(v.isComplete)}">
+                    Not Connected
+                </aura:if>
+                <aura:if isTrue="{!v.isComplete}">
+                    Connected
+                </aura:if>
+            </h2>
+        </div>
+
+        <aura:if isTrue="{!not(empty(v.body))}">
+            <div class="slds-m-top_x-small">
+                {!v.body}
+            </div>
+        </aura:if>
+
+        <div class="slds-text-align_right slds-p-top_small">
+            <lightning:button label="{!v.isComplete ? 'Reauthorize' : 'Authorize'}" onclick="{!c._authorize}" disabled="{!v.loading}" title="{!v.isComplete ? 'Reauthorize' : 'Authorize'}" variant="neutral"/>
+        </div>
+    </div>
+</aura:component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Definiție de categorie de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Definiția de categorie de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Definiții de categorii de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Definițiile de categorii de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Definiției de categorie de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Definiției de categorie de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Definițiilor de categorii de tichete --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Definițiilor de categorii de tichete --></value>
+    </caseValues>
+    <fields>
+        <help>Introduceți toate tipurile de înregistrări Articol Knowledge asociate cu categoria de tichete.</help>
+        <label><!-- AssociatedKnowledgeArticleTypeMapping --></label>
+        <name>wkdw__AssociatedKnowledgeArticleTypeMapping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>wkdw__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Action Name --></label>
+        <name>wkdw__QuickAction__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <validationRules>
+        <errorMessage><!-- We couldn&apos;t find knowledge article record types that match your values. Enter the names exactly. --></errorMessage>
+        <name>wkdw__AssociatedKnowledgeArticleTypeMapFormat</name>
+    </validationRules>
+</CustomObjectTranslation>

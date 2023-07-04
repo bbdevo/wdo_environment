@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>TaskRay Unassigned</name>
+    <queueMembers>
+        <users>
+            <user>oldadmin.9tinywq7afe2.7xswyrotwv22@evocrm.hu2023/06/6_12-53-9.demo</user>
+            <user>hamilton.*davis.or3arn7oeqkw.64ftxnyxp6rh@evocrm.hu2023/06/6_12-53-9.demo</user>
+            <user>peter.felegyi@evocrm.hu2023/06/6_12-53-9.demo</user>
+        </users>
+    </queueMembers>
+</Queue>

@@ -1,0 +1,139 @@
+.slack-spinner-container_initial {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+}
+
+.slack-picker__footer {
+    border-top: 2px solid rgb(221, 219, 218);
+    padding: .75rem 1rem;
+    background-color: rgb(243, 242, 242);
+    text-align: right;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.slack-picklist_empty > .slds-form-element{
+    margin-bottom: 20px;
+}
+
+.slack-picker_authed,
+.slack-picker_not-authed {
+    height: 100%;
+}
+
+/*--------- Quick Action Specific Styles ---------*/
+.slack-picker_quick-action:not(.slack-picker_case) {
+    height: 540px; 
+    max-height: calc(100vh - 96px); /* Subtracting Padding of slds-modal__container when window height causes container padding to affect modal height */
+}
+
+.slack-picker_quick-action .slack-picker__content {
+    padding: 1rem;
+}
+
+.slack-picker_quick-action:not(.slack-picker_case) .slack-picker__content {
+    -webkit-overflow-scrolling: touch;
+    max-height: 100%;
+    overflow: hidden;
+    overflow-y: auto; 
+}
+
+.slack-picker_quick-action .slack-picker__footer {
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+/*------ Case Specific Styles ------*/
+.slack-picker_quick-action.slack-picker_case:not(.slack-is-classic) {
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.slack-picker_case .slack-spinner-container_initial {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+}
+
+.slack-picker_quick-action.slack-picker_case .slds-spinner_container.slack-spinner {
+    z-index: 1;
+}
+
+.slack-picker_quick-action.slack-picker_case:not(.slack-is-classic) .slack-picker__content {
+    padding: 0;
+}
+
+.slack-picker_quick-action.slack-picker_case:not(.slack-is-classic) .slack-picker__footer {
+    position: relative;
+    padding: 0;
+    padding-bottom: 1rem;
+    margin-bottom: -1rem;
+    box-shadow: none;
+    background-color: unset;
+    border: none;
+}
+
+.slack-picker_quick-action.slack-picker_case:not(.slack-is-classic) .slack-picker__footer::before,
+.slack-picker_quick-action.slack-picker_case:not(.slack-is-classic) .slack-picker_not-authed::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.slack-picker_quick-action.slack-picker_case:not(.slack-is-classic) .slack-picker_not-authed::before {
+    bottom: -1rem;
+}
+/*------ Case Specific Styles ------*/
+/*--------- Quick Action Specific Styles ---------*/
+
+/*--------- Salesforce Classic Overrides ---------*/
+.slack-is-classic.slack-picker_quick-action:not(.slack-picker_case) {
+    height: unset; 
+    max-height: unset;
+    min-height: 20rem;
+}
+
+.slack-is-classic.slack-picker_quick-action .slack-picker__content {
+    -webkit-overflow-scrolling: touch;
+    max-height: unset;
+    overflow: unset;
+    overflow-y: unset;
+}
+
+.slack-is-classic .slack-picker__content {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slack-is-classic .slack-picker__footer .slack-picker__button-container {
+    width: calc(80% + .75rem);
+    max-width: calc(800px - .75rem);
+    text-align: right;
+    padding-right: .75rem;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.slack-toast__classic .slds-notify_container {
+    pointer-events: none;
+    opacity: 0;
+    transform: rotateX(90deg);
+    transform-origin: 50% 15%;
+    transition: all .2s ease-in-out;
+}
+
+.slack-toast__classic .slds-notify_container > * {
+    pointer-events: auto;
+}
+
+.slack-toast__classic .slds-notify_container.show {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+/*--------- Salesforce Classic Overrides ---------*/

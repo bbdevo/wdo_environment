@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agrégation de bien-être à l&apos;emplacement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agrégations de bien-être à l&apos;emplacement</value>
+    </caseValues>
+    <fields>
+        <help>Un identifiant unique de l&apos;enregistrement sous le format &lt;ID d&apos;emplacement&gt; + ‘:’ + &lt;État de bien-être&gt;.</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre total d&apos;individus indépendamment de l&apos;état de bien-être.</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;emplacement auquel cet enregistrement d’agrégation est associé.</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Aggregations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Informe le processus par lots périodique que cette agrégation doit être ré-agrégée.</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>Le pourcentage des individus dans un état de bien-être satisfaisant à l&apos;emplacement.</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre d&apos;individus dans un état de bien-être satisfaisant à l&apos;emplacement.</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusIndividualCount__c</name>
+    </fields>
+    <fields>
+        <help>Le groupe d’état de bien-être agrégé parmi les individus de cet emplacement.</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

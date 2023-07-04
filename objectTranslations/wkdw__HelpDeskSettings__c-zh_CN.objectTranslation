@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 助手设置 --></value>
+    </caseValues>
+    <fields>
+        <help>在选中此复选框时，员工 Apex 触发器不会为每个新员工记录自动创建或同步个人客户记录。</help>
+        <label><!-- Employee Person Account Sync Disabled --></label>
+        <name>wkdw__IsPersonAccountSyncDisabled__c</name>
+    </fields>
+    <fields>
+        <help>在选择时，个案触发器将禁用，新个案不会自动与关联员工共享</help>
+        <label><!-- Case Sharing Disabled --></label>
+        <name>wkdw__isCaseSharingDisabled__c</name>
+    </fields>
+</CustomObjectTranslation>

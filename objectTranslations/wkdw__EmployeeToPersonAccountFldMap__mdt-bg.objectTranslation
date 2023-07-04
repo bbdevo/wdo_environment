@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Съпоставяне на полета от служител към личен профил --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Съпоставяния на полета от служител към личен профил --></value>
+    </caseValues>
+    <fields>
+        <help>Премахнете избора на това, ако не искате това съпоставяне да се използва при създаване на запис на личен профил от запис на служител</help>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Име на API на полето на служителя. Трябва да включва __c, ако е поле по избор</help>
+        <label><!-- Source Field Name --></label>
+        <name>wkdw__SourceField__c</name>
+    </fields>
+    <fields>
+        <help>Име на API на полето на личния профил. Трябва да включва __c, ако е поле по избор, или __pc, ако е поле по избор на личен профил</help>
+        <label><!-- Target Field Name --></label>
+        <name>wkdw__TargetField__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+</CustomObjectTranslation>

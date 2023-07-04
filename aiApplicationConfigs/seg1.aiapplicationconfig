@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIApplicationConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>seg1</aiApplicationDeveloperName>
+    <applicationId>0PpDn000000xXYu</applicationId>
+    <developerName>seg1</developerName>
+    <insightReasonEnabled>false</insightReasonEnabled>
+    <masterLabel>seg1</masterLabel>
+    <rank>1</rank>
+    <scoringMode>OnDemand</scoringMode>
+</AIApplicationConfig>

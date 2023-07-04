@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The action that should be taken in the event of collision. --></help>
+        <label><!-- Action --></label>
+        <name>wkitsm__Action__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warn</masterLabel>
+            <translation><!-- Warn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Label for the SLDS icon to be displayed when there is a violation. Icon labels can be found at: https://www.lightningdesignsystem.com/icons/ --></help>
+        <label><!-- Icon --></label>
+        <name>wkitsm__Icon__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether or not the rule is active. --></help>
+        <label><!-- Is Active --></label>
+        <name>wkitsm__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional values used for match fields. --></help>
+        <label><!-- Match Field Value --></label>
+        <name>wkitsm__MatchFieldValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API Name of the Case (Change) field to use for identifying similar cases. --></help>
+        <label><!-- Match Field --></label>
+        <name>wkitsm__MatchField__c</name>
+    </fields>
+    <fields>
+        <help><!-- The maximum number of overlapping changes allowed by the rule. --></help>
+        <label><!-- Max Overlapping Changes --></label>
+        <name>wkitsm__MaxOverlappingChanges__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Rule for identifying changes that occur outside of defined change windows. --></description>
+        <label><!-- Change Window Rule --></label>
+        <name>wkitsm__ChangeWindowRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes based on matching values of a field. --></description>
+        <label><!-- Field Match Overlap Rule --></label>
+        <name>wkitsm__FieldMatchOverlapRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for capturing when a change is during a defined freeze period. --></description>
+        <label><!-- Freeze Rule --></label>
+        <name>wkitsm__FreezeRule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rule for identifying overlaps with other changes. --></description>
+        <label><!-- Overlap Rule --></label>
+        <name>wkitsm__OverlapRule</name>
+    </recordTypes>
+</CustomObjectTranslation>

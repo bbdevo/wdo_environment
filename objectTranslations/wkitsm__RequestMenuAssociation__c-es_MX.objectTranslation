@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Request Menu Association --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Request Menu Association --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Request Menu Item --></label>
+        <name>wkitsm__RequestMenuItem__c</name>
+        <relationshipLabel><!-- RequestMenuAssociations (Request Menu Item) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Menu --></label>
+        <name>wkitsm__RequestMenu__c</name>
+        <relationshipLabel><!-- RequestMenuAssociations (Request Menus) --></relationshipLabel>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Association Number --></nameFieldLabel>
+</CustomObjectTranslation>

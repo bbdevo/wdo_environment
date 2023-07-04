@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>IsDemoData__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsDemoData</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__AvailabilityRequestsSentDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that availability requests were sent to employees for this facility plan.</description>
+        <externalId>false</externalId>
+        <label>Availability Requests Sent On</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Capacity_Overide__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Override planned occupancy</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Capacity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Planned Occupancy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Completion_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The due date for employees to submit their availability.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To be assigned shifts, employees must submit availability by the due date.</inlineHelpText>
+        <label>Availability Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Days_of_the_week__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Work Days</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sunday</fullName>
+                    <default>false</default>
+                    <label>Sunday</label>
+                </value>
+                <value>
+                    <fullName>Monday</fullName>
+                    <default>true</default>
+                    <label>Monday</label>
+                </value>
+                <value>
+                    <fullName>Tuesday</fullName>
+                    <default>false</default>
+                    <label>Tuesday</label>
+                </value>
+                <value>
+                    <fullName>Wednesday</fullName>
+                    <default>false</default>
+                    <label>Wednesday</label>
+                </value>
+                <value>
+                    <fullName>Thursday</fullName>
+                    <default>false</default>
+                    <label>Thursday</label>
+                </value>
+                <value>
+                    <fullName>Friday</fullName>
+                    <default>false</default>
+                    <label>Friday</label>
+                </value>
+                <value>
+                    <fullName>Saturday</fullName>
+                    <default>false</default>
+                    <label>Saturday</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>wkfsl__End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Generate_Shift__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Create shifts at the lowest level of your location hierarchy. For example, create shifts for spaces but not floors and buildings.</inlineHelpText>
+        <label>Create shifts for this location</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Max_Number_Of_Allowed_Employees__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Limit the number of people arriving during each time interval.</inlineHelpText>
+        <label>Occupancy Per Interval</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Percentage_Allocation__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the percentage of the location’s maximum occupancy that your workplace plan allows.</inlineHelpText>
+        <label>Reduced Occupancy Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__PlanType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Plan Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Managed scheduling</fullName>
+                    <default>true</default>
+                    <label>Managed scheduling</label>
+                </value>
+                <value>
+                    <fullName>Self-service scheduling</fullName>
+                    <default>false</default>
+                    <label>Self-service scheduling</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Related_Top_Level_Territory__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Top Level Territory</label>
+        <referenceTo>ServiceTerritory</referenceTo>
+        <relationshipLabel>Facility Plans</relationshipLabel>
+        <relationshipName>Related_Territories</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Service_Territory__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Service Territory Location</label>
+        <referenceTo>ServiceTerritory</referenceTo>
+        <relationshipLabel>Facility Plans</relationshipLabel>
+        <relationshipName>Facility_Plans</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Shifts_Were_Generated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shifts Were Generated</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Stagger_End_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Arrival Window End Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Stagger_Start_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Arrival Window Start Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Time_Interval__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the length of each arrival time slot in minutes.</inlineHelpText>
+        <label>Arrival Interval</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Time_To_Stagger__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Stagger Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Timezone__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Timezone</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wkfsl__Work_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Work type allows you to set different type of shifts to assign to your employees.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Assign different type of shifts. Leave blank for default.</inlineHelpText>
+        <label>Work Type</label>
+        <referenceTo>WorkType</referenceTo>
+        <relationshipLabel>Facility Plans</relationshipLabel>
+        <relationshipName>Facility_Plans</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Facility Plan</label>
+    <listViews>
+        <fullName>wkfsl__All</fullName>
+        <columns>NAME</columns>
+        <columns>wkfsl__Time_Interval__c</columns>
+        <columns>wkfsl__Generate_Shift__c</columns>
+        <columns>wkfsl__Stagger_End_Time__c</columns>
+        <columns>wkfsl__Stagger_Start_Time__c</columns>
+        <columns>wkfsl__End_Date__c</columns>
+        <columns>wkfsl__Percentage_Allocation__c</columns>
+        <columns>wkfsl__Service_Territory__c</columns>
+        <columns>wkfsl__Shifts_Were_Generated__c</columns>
+        <columns>wkfsl__Time_To_Stagger__c</columns>
+        <columns>wkfsl__Start_Date__c</columns>
+        <columns>wkfsl__Timezone__c</columns>
+        <columns>wkfsl__Days_of_the_week__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>FP-{000000}</displayFormat>
+        <label>Facility Plan</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Facility Plans</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>wkfsl__Completion_Date_Before_Plan_Start</fullName>
+        <active>false</active>
+        <description>Validates that the availability request due date is before the facility plan’s start date.</description>
+        <errorConditionFormula>wkfsl__Start_Date__c  &lt;=  wkfsl__Completion_Date__c</errorConditionFormula>
+        <errorDisplayField>wkfsl__Completion_Date__c</errorDisplayField>
+        <errorMessage>Enter a due date that’s before the plan start date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Completion_Date_Not_In_Past</fullName>
+        <active>false</active>
+        <description>Enter a due date later than today.</description>
+        <errorConditionFormula>TODAY() &gt; wkfsl__Completion_Date__c</errorConditionFormula>
+        <errorDisplayField>wkfsl__Completion_Date__c</errorDisplayField>
+        <errorMessage>Completion date can&apos;t be on a past date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Max_allowed_employees_must_be_positive</fullName>
+        <active>true</active>
+        <errorConditionFormula>wkfsl__Max_Number_Of_Allowed_Employees__c &lt; 0</errorConditionFormula>
+        <errorMessage>Max number of allowed employees of staggering plan must be a positive number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Occupancy_Per_Interval_must_be_positive</fullName>
+        <active>true</active>
+        <description>Occupancy Per Interval must be positive or blank</description>
+        <errorConditionFormula>NOT(ISBLANK(wkfsl__Max_Number_Of_Allowed_Employees__c))  &amp;&amp; wkfsl__Max_Number_Of_Allowed_Employees__c  = 0</errorConditionFormula>
+        <errorMessage>The Occupancy Per Interval must be above 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Percentage_Allocation</fullName>
+        <active>true</active>
+        <description>Percentage_Allocation__c must be between 0 to 100</description>
+        <errorConditionFormula>OR(
+   wkfsl__Percentage_Allocation__c &gt; 1.0,
+   wkfsl__Percentage_Allocation__c &lt; 0.0
+)</errorConditionFormula>
+        <errorMessage>Percentage Allocation must be between 0 to 100.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Stagger_Time_Interval</fullName>
+        <active>true</active>
+        <description>Stagger Time Interval must be positive</description>
+        <errorConditionFormula>wkfsl__Time_Interval__c  &lt; 0</errorConditionFormula>
+        <errorMessage>Time interval of staggering must be a positive number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Stagger_plan_completeness</fullName>
+        <active>true</active>
+        <errorConditionFormula>((ISNULL(wkfsl__Max_Number_Of_Allowed_Employees__c) || ISNULL(wkfsl__Stagger_Start_Time__c) || ISNULL(wkfsl__Stagger_End_Time__c) || ISNULL(wkfsl__Time_Interval__c)))  &amp;&amp; (NOT(ISNULL(wkfsl__Max_Number_Of_Allowed_Employees__c)) || NOT(ISNULL(wkfsl__Stagger_Start_Time__c)) || NOT(ISNULL(wkfsl__Stagger_End_Time__c)) || NOT(ISNULL(wkfsl__Time_Interval__c)))</errorConditionFormula>
+        <errorMessage>To stagger arrivals, fill out all the fields. Or, delete the Staggered Arrivals values.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Stagger_start_after_end</fullName>
+        <active>true</active>
+        <description>Staggering start time can&apos;t be after end time</description>
+        <errorConditionFormula>wkfsl__Stagger_End_Time__c  &lt;=  wkfsl__Stagger_Start_Time__c</errorConditionFormula>
+        <errorMessage>Staggering start time can&apos;t be after end time</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Time_Interval_must_be_positive</fullName>
+        <active>true</active>
+        <description>Time Interval must be positive or blank</description>
+        <errorConditionFormula>NOT(ISBLANK(wkfsl__Time_Interval__c))  &amp;&amp; wkfsl__Time_Interval__c  = 0</errorConditionFormula>
+        <errorMessage>Time Interval must be above 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>wkfsl__Work_type_should_not_auto_create</fullName>
+        <active>true</active>
+        <description>Linked work type should not include auto creation of services as this done by executing the facility plan. Otherwise we will end up in duplicated data.</description>
+        <errorConditionFormula>NOT(ISBLANK(wkfsl__Work_Type__c)) &amp;&amp;  wkfsl__Work_Type__r.ShouldAutoCreateSvcAppt  = true</errorConditionFormula>
+        <errorDisplayField>wkfsl__Work_Type__c</errorDisplayField>
+        <errorMessage>Choose another work type. This work type creates service appointments automatically, which causes duplicate shifts.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

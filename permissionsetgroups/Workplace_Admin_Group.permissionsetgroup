@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Combines the Workplace Admin and Workplace Admin Add-On permission sets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Workplace Admin Group</label>
+    <permissionSets>b2wFixerApexClassPermSet</permissionSets>
+    <permissionSets>b2w_AdminAddOn</permissionSets>
+    <permissionSets>wkcc__b2w_Admin</permissionSets>
+    <status>Failed</status>
+</PermissionSetGroup>

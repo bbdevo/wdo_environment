@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives admin access within IT Service Center, including service settings.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>IT Service Center Admin</label>
+    <permissionSets>IT_Service_Center_Knowledge</permissionSets>
+    <permissionSets>IT_Service_Center_Standard_Field_Access</permissionSets>
+    <permissionSets>wkitsm__AnnouncementsAdmin</permissionSets>
+    <permissionSets>wkitsm__ChangeCalendarAdmin</permissionSets>
+    <permissionSets>wkitsm__ChangeCalendarBasic</permissionSets>
+    <permissionSets>wkitsm__ChangeCalendarWrite</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center_App_User</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center_Case_Record_Type_Access</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center_Configuration_Manager</permissionSets>
+    <permissionSets>wkitsm__IT_Service_Center_Request_Menu_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

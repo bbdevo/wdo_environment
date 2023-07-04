@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>wkdw__IsPersonAccountSyncDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Stop the synchronization of Person Accounts in Employee Apex triggers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When this checkbox is selected, Employee Apex triggers do not create or synchronize Person Accounts records automatically for each new Employee record.</inlineHelpText>
+        <label>Employee Person Account Sync Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wkdw__isCaseSharingDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Disables the Case trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When selected, the Case trigger is disabled and new cases aren’t automatically shared with the associated employee</inlineHelpText>
+        <label>Case Sharing Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Concierge Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

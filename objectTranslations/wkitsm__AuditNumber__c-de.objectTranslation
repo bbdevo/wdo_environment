@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Number --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>wkitsm__CaseId__c</name>
+        <relationshipLabel><!-- Audit Number --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeType__c --></label>
+        <name>wkitsm__ChangeTypeId__c</name>
+        <relationshipLabel><!-- Change Type --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IncidentType__c --></label>
+        <name>wkitsm__IncidentTypeId__c</name>
+        <relationshipLabel><!-- Incident Type --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MajorIncidentType__c --></label>
+        <name>wkitsm__MajorIncidentTypeId__c</name>
+        <relationshipLabel><!-- Major Incident Type --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>wkitsm__Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProblemType__c --></label>
+        <name>wkitsm__ProblemTypeId__c</name>
+        <relationshipLabel><!-- Problem Type --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RequestType__c --></label>
+        <name>wkitsm__RequestTypeId__c</name>
+        <relationshipLabel><!-- Request Type --></relationshipLabel>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Case Record Type Name --></nameFieldLabel>
+</CustomObjectTranslation>

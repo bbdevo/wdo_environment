@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ロケーションウェルネスファクト</value>
+    </caseValues>
+    <fields>
+        <help>[&quot;カスケード&quot; + &quot;:&quot; +] &lt;ロケーション Id&gt; + ‘:’ + &lt;健康状況&gt; 形式のレコードの一意 ID。カスケードプレフィックスが存在するのは、子ロケーション健康状況値が含まれるレコードのみです。</help>
+        <label><!-- External Id --></label>
+        <name>wkcc__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>健康状況を考慮しない従業員総数</help>
+        <label><!-- Location Individual Count --></label>
+        <name>wkcc__LocationEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>関連するロケーションのロケーションレベル。</help>
+        <label><!-- Location Level --></label>
+        <name>wkcc__LocationLevel__c</name>
+    </fields>
+    <fields>
+        <help>このファクトレコードが関連するロケーション。</help>
+        <label><!-- Location --></label>
+        <name>wkcc__Location__c</name>
+        <relationshipLabel><!-- Location Wellness Facts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>true の場合は再集計が必要としてロケーションをマークし、false の場合は不要としてマークします。</help>
+        <label><!-- Needs Reaggregation --></label>
+        <name>wkcc__NeedsReaggregation__c</name>
+    </fields>
+    <fields>
+        <help>健康状況に含まれるロケーションの従業員の比率。</help>
+        <label><!-- Wellness % --></label>
+        <name>wkcc__WellnessPercent__c</name>
+    </fields>
+    <fields>
+        <help>健康状況の登録がある従業員の数</help>
+        <label><!-- Wellness Status Individual Count --></label>
+        <name>wkcc__WellnessStatusEmployeeCount__c</name>
+    </fields>
+    <fields>
+        <help>従業員の健康状況</help>
+        <label><!-- Wellness Status --></label>
+        <name>wkcc__WellnessStatus__c</name>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

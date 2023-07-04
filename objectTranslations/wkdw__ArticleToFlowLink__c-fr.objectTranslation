@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Lien Article vers flux --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Liens Article vers flux --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Article Number --></label>
+        <name>wkdw__ArticleNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow API Name --></label>
+        <name>wkdw__FlowAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>wkdw__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>wkdw__Label__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Article To Flow Link Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

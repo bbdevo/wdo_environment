@@ -1,0 +1,129 @@
+<!--
+  @description       :
+  @author            : shawn.butters
+  @group             :
+  @last modified on  : 07-15-2021
+  @last modified by  : shawn.butters
+  Modifications Log
+  Ver   Date         Author          Modification
+  1.0   07-12-2021   shawn.butters   Initial Version
+-->
+<template>
+
+    <lightning-card variant="Narrow"  icon-name="standard:employee" title="Human Resources" type="media">
+        <div slot="actions">
+            <lightning-button-icon if:false={showDetails} icon-name="utility:threedots" title="Show Details" onclick={toggleShowDetails}></lightning-button-icon>
+            <lightning-button-menu if:true={showDetails} alternative-text="Show menu" menu-alignment="right" onselect={hdlShowDetails}>
+                <lightning-menu-subheader label="Requests"></lightning-menu-subheader>
+                <lightning-menu-item prefix-icon-name="utility:resource_absence" label="Vacation"></lightning-menu-item>
+                <lightning-menu-item prefix-icon-name="utility:block_visitor" label="Special Leave"></lightning-menu-item>
+                <lightning-menu-item prefix-icon-name="utility:classic_interface" label="Parental Leave" value="parentalLeave"></lightning-menu-item>
+                <lightning-menu-item prefix-icon-name="utility:currency" label="Pay Slip"></lightning-menu-item>
+                <lightning-menu-subheader label="Payroll"></lightning-menu-subheader>
+                <lightning-menu-item prefix-icon-name="utility:travel_and_places" label="New Travel Expense" value="newTravelExpense" ></lightning-menu-item>
+                <lightning-menu-subheader label="Details"></lightning-menu-subheader>
+                <lightning-menu-item prefix-icon-name="utility:hide" label="Hide" value="hide" ></lightning-menu-item>
+            </lightning-button-menu>
+        </div>
+
+        <ul if:true={showDetails} class="slds-var-p-horizontal_medium slds-has-dividers_bottom-space">
+            <li class="slds-item">
+                <lightning-tile label="Vacation" type="media">
+                    <lightning-icon slot="media" icon-name="standard:household" alternative-text="Vacation" title="Vacation"></lightning-icon>
+                    <dl class="slds-list_horizontal slds-wrap">
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Year to Date">To Date:</dt>
+                        <dd class="slds-item_detail" title={toDateTitle}>
+                            <ul class="slds-list_horizontal slds-has-dividers_right">
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:warranty_term" variant="warning" size="x-small" alternative-text={entitledY2DTitle} title={entitledY2DTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{entitledY2D}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:check" variant="error" size="x-small" alternative-text={takenY2DTitle} title={takenY2DTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{takenY2D}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:topic2" variant="success" size="xx-small" alternative-text={leftY2DTitle} title={leftY2DTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{leftY2D}</span>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Floating Holiday">Floating Holiday:</dt>
+                        <dd class="slds-item_detail" title={specialTitle}>
+                            <ul class="slds-list_horizontal slds-has-dividers_right">
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:warranty_term" variant="warning" size="x-small" alternative-text={entitledSpecialTitle} title={entitledSpecialTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{entitledSpecial}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:check" variant="error" size="x-small" alternative-text={takenSpecialTitle} title={takenSpecialTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{takenSpecial}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:topic2" variant="success" size="xx-small" alternative-text={leftSpecialTitle} title={leftSpecialTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{leftSpecial}</span>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Remaing LY">Remaing:</dt>
+                        <dd class="slds-item_detail slds-truncate" title={lyTitle}>
+                            <ul class="slds-list_horizontal slds-has-dividers_right">
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:warranty_term" variant="warning" size="x-small" alternative-text={entitledLYTitle} title={entitledLYTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{entitledLY}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:check" variant="error" size="x-small" alternative-text={takenLYTitle} title={takenLYTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{takenLY}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:close" variant="error" size="x-small" alternative-text={expiredLYTitle} title={expiredLYTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{expiredLY}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:topic2" variant="success" size="xx-small" alternative-text={leftLYTitle} title={leftLYTitle}></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{leftLY}</span>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Next Vacation">
+                            <lightning-icon icon-name="utility:emoji" variant="success" size="x-small" alternative-text="It's near" title="It's near"></lightning-icon>
+                            <span class="slds-var-p-left_xx-small">Vacation</span>
+                        </dt>
+                        <dd class="slds-item_detail" title={nextVacationDateTitle}>
+                            <ul class="slds-list_horizontal slds-has-dividers_right">
+                                <li class="slds-item">
+                                    <lightning-icon icon-name="utility:date_input" size="x-small" alternative-text="Date" title="Date"></lightning-icon>
+                                    <span class="slds-var-p-left_x-small">{nextVacationDate}</span>
+                                </li>
+                                <li class="slds-item">
+                                    <span>{nextVacationDuratuion}</span>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </lightning-tile>
+            </li>
+            <li class="slds-item">
+                <lightning-tile label="Payroll" type="media">
+                    <lightning-icon slot="media" icon-name="standard:currency" alternative-text="Payroll" title="Payroll"></lightning-icon>
+                    <dl class="slds-list_horizontal slds-wrap">
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Next Cycle">Next Cycle:</dt>
+                        <dd class="slds-item_detail" title={payrollNextCycle}>{payrollNextCycle}</dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Open Expenses">Open Expenses:</dt>
+                        <dd class="slds-item_detail" title={payrollOpenExpensesTitle}>
+                            <ul class="slds-list_horizontal slds-has-dividers_right slds-truncate">
+                                <li class="slds-item">
+                                    <lightning-formatted-number value={payrollOpenExpensesAmount} format-style="currency" currency-code="USD"></lightning-formatted-number>
+                                </li>
+                                <li class="slds-item">
+                                    {payrollOpenExpensesDueToTitle}
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </lightning-tile>
+            </li>
+        </ul>
+    </lightning-card>
+</template>

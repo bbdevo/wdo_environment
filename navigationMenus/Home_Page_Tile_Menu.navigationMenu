@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Enhanced Employee Workspace</container>
+    <containerType>Network</containerType>
+    <label>Home Page Tile Menu</label>
+    <navigationMenuItem>
+        <label>Onboarding</label>
+        <menuItemBranding>
+            <tileImage>Concierge_Covid19</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/employee-transitions</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>My Groups</label>
+        <menuItemBranding>
+            <tileImage>Concierge_Careers</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/apps</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Makana Career Planning</label>
+        <menuItemBranding>
+            <tileImage>Concierge_Employee_Parks</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/my-career-planning</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Support &amp; FAQs</label>
+        <menuItemBranding>
+            <tileImage>Concierge_TechSupport</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/apps</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>text/csv</contentType>
+    <description>This CSV contains everything you need to import new service appointments.  Just change the ServiceTerritoryID to one in your org, and the ParentID to the &quot;Work.com&quot; Asset record, then import through Workbench.</description>
+</StaticResource>
